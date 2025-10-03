@@ -1,5 +1,6 @@
 type: item
 name: Alluminum
+description: A charged, light and soft metal. It's directly extracted from bauxitic ground rather than being mined from surface ore deposits. Used in building, unit production, as ammunition for turrets and also as an ingredient in making advanced materials.
 flammability: 0
 explosiveness: 0
 radioactivity: 0
@@ -10,3 +11,4 @@ color: ADC6B8FF
 research: 02a-04-liquid-slag
 
 hiddenOnPlanets: [serpulo, erekir]
+
