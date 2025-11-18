@@ -25,6 +25,9 @@ drag: 0.1
 rotateSpeed: 1.5
 itemCapacity: 0
 outlineColor: 13151AFF
+immunities: [
+  burning
+] 
 research: {
   parent: 03j-07-crab-assembler
   objectives: [
@@ -43,6 +46,9 @@ weapons: [
     name: bonfire-weapon
     bullet: {
       type: BulletType
+      status: burning
+      statusDuration: 240
+      makeFire: true
       width: 0
       height: 0
       speed: 0
