@@ -1,5 +1,5 @@
 name: Bonfire
-description: A heavy kamikaze unit that creates a huge explosion and leaves behind a large amount of fire.
+description: A heavy unit capable of generating large explosions that leave behind large amounts of fire.
 type: legs
 legCount: 6
 lockLegBase: true
@@ -37,39 +37,19 @@ weapons: [
     y: 0
     mirror: false
     rotate: false
-    reload: 45
-    shootSound: shoot-small-flame
+    reload: 360
+    shootSound: explosionbig
+    shootEffect: massiveExplosion
     name: bonfire-weapon
-    shootStatusDuration: 45
     bullet: {
-      pierceArmor: true
-      type: MissileBulletType
-      width: 7
-      height: 9
-      homingPower: 0.05
-      homingDelay: 30
-      homingRange: 120
-      speed: 4
-      lifetime: 60
-      hitEffect: blastExplosion
-      despawnHit: true
-      damage: 22.75
-      splashDamage: 20
-      splashDamageRadius: 20
-      fragBullets: 1
-      fragBullet: {
-        type: MissileBulletType
-        pierceArmor: true
-        width: 0
-        height: 0
-        speed: 0
-        lifetime: 0
-        hitEffect: blastExplosion
-        despawnHit: true
-        damage: 0
-        status: shocked
-        lightning: 2
-        lightningDamage: 2
+      type: BulletType
+      width: 0
+      height: 0
+      speed: 0
+      lifetime: 1
+      splashDamage: 500
+      splashDamageRadius: 80
+      
       }
     }
   }
