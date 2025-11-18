@@ -29,6 +29,9 @@ hitSize: 10
 drag: 0.1
 itemCapacity: 0
 outlineColor: 13151AFF
+immunities: [
+  burning
+]
 
 
 research: 03j-02-crab-fabricator
