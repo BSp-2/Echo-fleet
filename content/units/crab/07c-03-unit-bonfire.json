@@ -1,0 +1,76 @@
+name: Bonfire
+description: A heavy kamikaze unit that creates a huge explosion and leaves behind a large amount of fire.
+type: legs
+legCount: 6
+lockLegBase: true
+legExtension: -3
+legBaseOffset: 3
+legLength: 22
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.2
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+groundLayer: 60
+health: 
+armor: 8
+allowLegStep: true
+speed: 1.2
+hitSize: 20
+drag: 0.1
+rotateSpeed: 1.5
+itemCapacity: 0
+outlineColor: 13151AFF
+research: {
+  parent: 03j-07-crab-assembler
+  objectives: [
+    01a-06-item-europium
+  ]
+}
+weapons: [
+  {
+    x: 0
+    y: 0
+    mirror: false
+    rotate: false
+    reload: 45
+    shootSound: shoot-small-flame
+    name: bonfire-weapon
+    shootStatusDuration: 45
+    bullet: {
+      pierceArmor: true
+      type: MissileBulletType
+      width: 7
+      height: 9
+      homingPower: 0.05
+      homingDelay: 30
+      homingRange: 120
+      speed: 4
+      lifetime: 60
+      hitEffect: blastExplosion
+      despawnHit: true
+      damage: 22.75
+      splashDamage: 20
+      splashDamageRadius: 20
+      fragBullets: 1
+      fragBullet: {
+        type: MissileBulletType
+        pierceArmor: true
+        width: 0
+        height: 0
+        speed: 0
+        lifetime: 0
+        hitEffect: blastExplosion
+        despawnHit: true
+        damage: 0
+        status: shocked
+        lightning: 2
+        lightningDamage: 2
+      }
+    }
+  }
+]
