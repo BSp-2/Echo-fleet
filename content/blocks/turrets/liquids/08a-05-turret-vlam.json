@@ -2,7 +2,7 @@ type: ItemTurret
 name: Vlam
 description: Rapidly fires volleys of burning crude oil in one direction. Can not rotate. Capable of starting fires, recommended to use with fire extinguishing turrets.
 health: 1800
-shootSound: bolt
+shootSound: missile
 size: 3
 reload: 6
 inaccuracy: 10
@@ -64,15 +64,15 @@ ammoTypes: {
     frontColor: FFD37FFF
     backColor: EEAA77FF
     trailColor: EEAA77FF
-    pierce: false
-    damage: 80
+    pierce: true
+    damage: 120
     hitEffect: none
     despawnEffect: none
 	fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false
-      splashDamage: 20
+      splashDamage: 60
       splashDamageRadius: 8
       splashDamagePierce: true
       hitSound: dullExplosion
