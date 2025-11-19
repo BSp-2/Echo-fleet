@@ -78,7 +78,6 @@ ammoTypes: {
       incendChance: 0.8
       incendAmount: 6
       incendSpread: 8
-      }
     }
   } 
 }
