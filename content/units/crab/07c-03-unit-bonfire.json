@@ -42,7 +42,7 @@ weapons: [
   shoot: {
     firstShotDelay: 120
   }
-  chargeSound: 
+  chargeSound: bonfire-charge
   chargeEffect: {
     type: MultiEffect
     lifetime: 110
