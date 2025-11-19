@@ -69,7 +69,7 @@ weapons: [
       sizeFrom: 5
       sizeTo: 0
       } 
-		] 
+    ] 
     name: bonfire-weapon
     bullet: {
       type: BulletType
