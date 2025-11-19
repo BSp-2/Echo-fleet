@@ -50,7 +50,7 @@ consumes: {
 ammoTypes: {
   01a-03-item-soft-coal: {
     bullet: {
-      type: MissileBulletType
+      type: ArtilleryBulletType
       homingPower: 0.008
       speed: 2
       lifetime: 100
@@ -69,7 +69,7 @@ ammoTypes: {
       despawnEffect: none
 	  fragBullets: 1
       fragBullet: {
-        type: ExplosionBulletType
+        type: BulletType
         killShooter: false
         splashDamage: 20
         splashDamageRadius: 8
