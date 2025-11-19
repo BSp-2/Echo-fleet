@@ -37,6 +37,7 @@ research: {
 }
 weapons: [
   {
+	shake: 3
     x: 0
     y: 0
     shootCone: 180
@@ -68,6 +69,7 @@ weapons: [
         colorTo: 44444400
         sizeFrom: 4
         sizeTo: 10
+	    followParent: false
         }
         {
         type: ParticleEffect
@@ -80,6 +82,7 @@ weapons: [
         colorTo: FFD3700
         sizeFrom: 8
         sizeTo: 0
+	    followParent: false
      	} 
 	    {
         type: ParticleEffect
@@ -88,10 +91,11 @@ weapons: [
         lifetime: 120
         interp: pow5Out
         cone: 360
-        colorFrom: D4816BFF
-        colorTo: D4816B00
+        colorFrom: EEAA77FF
+        colorTo: EEAA7700
         sizeFrom: 10
         sizeTo: 0
+	    followParent: false
         }
 	    {
   	    type: WaveEffect
@@ -101,6 +105,7 @@ weapons: [
 	    lifetime: 40
 	    colorFrom: BBBBBBFF
 	    colorTo: BBBBBB00
+	    followParent: false
      	} 
 	    {
   	    type: WaveEffect
@@ -110,6 +115,7 @@ weapons: [
 	    lifetime: 60
 	    colorFrom: BBBBBBFF
 	    colorTo: BBBBBB00
+	    followParent: falsei 
      	}  
       ] 
     }
