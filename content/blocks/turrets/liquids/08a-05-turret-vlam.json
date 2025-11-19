@@ -1,0 +1,65 @@
+type: LiquidTurret
+name: Vlam
+description: Rapidly fires volleys of burning crude oil in one direction. Capable of starting fires, recommended to use with fire extinguishing turrets.
+health: 1800
+size: 3
+reload: 3
+inaccuracy: 5
+hasLiquids: true
+hasPower: true
+liquidCapacity: 30
+researchCostMultiplier: 0.5
+outlineColor: 13151AFF
+recoil: 0.5
+category: turret
+
+
+research: {
+   parent: 08a-04-turret-cleanse
+   objectives: [
+      02a-01-liquid-crude-oil
+   ]
+}
+researchCost: [
+  01a-01-item-scrap/1260
+  01a-02-item-copper/1140
+  02a-04-item-alluminum/960
+  01a-05-item-cupride/360
+]
+
+
+range: 200
+requirements: [
+  01a-01-item-scrap/420
+  01a-02-item-copper/380
+  01a-04-item-alluminum/320
+  01a-05-item-cupride/120
+]
+
+
+shoot: {
+  type: ShootAlternate
+  spread: 8
+  shotDelay: 1
+}
+ammoTypes: {
+  02a-01-liquid-crude-oil: {
+    despawnEffect: none
+    hitEffect: none
+    type: LiquidBulletType
+    liquid: 02a-04-liquid-slag
+    speed: 2.6666666666666
+    lifetime: 75
+    damage: 5
+    layer: 98
+    despawnSound: splash
+    hitSound: splash
+    incin
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: blehhhhious-
+}
+squareSprite: false
