@@ -1,5 +1,7 @@
 name: Bonfire
 description: A heavy unit capable of generating large explosions that leave behind large amounts of fire. It is suggested you get rid of them as soon as possible because they can ignore your defences.
+
+
 type: legs
 autoDropBombs: true
 legCount: 6
@@ -26,15 +28,21 @@ drag: 0.18
 rotateSpeed: 1.5
 itemCapacity: 0
 outlineColor: 13151AFF
+
+
 immunities: [
   burning
 ] 
+
+
 research: {
   parent: 03j-07-crab-assembler
   objectives: [
     01a-06-item-europium
   ]
 }
+
+
 weapons: [
   {
   shootStatus: slow
