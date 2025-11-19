@@ -119,10 +119,10 @@ weapons: [
           lifetime: 90
           sizeFrom: 24
           sizeTo: 1
-          strokeFrom: 0
+          strokeFrom: 0.3
           strokeTo: 3
           followParent: true
-		  color: EEAA77AA
+		  color: EEAA77FF
       	  }
         ]
       }
