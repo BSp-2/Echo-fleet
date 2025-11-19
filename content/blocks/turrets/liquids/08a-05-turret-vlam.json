@@ -11,6 +11,7 @@ liquidCapacity: 30
 researchCostMultiplier: 0.5
 outlineColor: 13151AFF
 recoil: 0.5
+shootCone: 30
 category: turret
 
 
@@ -37,6 +38,9 @@ requirements: [
 ]
 
 
+consumes: [
+   power: 3
+]
 shoot: {
   type: ShootAlternate
   spread: 8
@@ -54,7 +58,9 @@ ammoTypes: {
     layer: 98
     despawnSound: splash
     hitSound: splash
-    incin
+    incendChance: 0.8
+    incendAmount: 5
+    incendSpread: 8
   }
 }
 
