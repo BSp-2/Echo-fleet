@@ -51,6 +51,7 @@ ammoTypes: {
   01a-03-item-soft-coal: {
 	ammoMultiplier: 10
     type: MissileBulletType
+	shootSound: bolt
     homingPower: 0.03
     speed: 4
     lifetime: 50
