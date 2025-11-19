@@ -150,9 +150,9 @@ weapons: [
           splashDamagePierce: true
           hitSound: dullExplosion
           despawnSound: dullExplosion
-          incendChance: 0.8
-          incendAmount: 6
-          incendSpread: 8
+          incendChance: 0.75
+          incendAmount: 18
+          incendSpread: 24
         }
 	  }
     }
