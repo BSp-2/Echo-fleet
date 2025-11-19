@@ -65,19 +65,19 @@ weapons: [
         interp: pow3Out
         cone: 360
         colorFrom: 888888FF
-        colorTo: 22222200
-        sizeFrom: 3
-        sizeTo: 6
+        colorTo: 44444400
+        sizeFrom: 4
+        sizeTo: 10
         }
         {
         type: ParticleEffect
         particles: 48
         length: 80
         lifetime: 90
-        interp: circleOut
+        interp: pow10Out
         cone: 360
         colorFrom: FFD37FFF
-        colorTo: D4816B60
+        colorTo: FFD3700
         sizeFrom: 8
         sizeTo: 3
         }  
