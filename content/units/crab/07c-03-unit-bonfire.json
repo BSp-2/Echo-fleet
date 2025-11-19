@@ -20,8 +20,8 @@ health: 1800
 armor: 6
 allowLegStep: true
 speed: 1.333333333333333
-hitSize: 20
-drag: 0.1
+hitSize: 18
+drag: 0.18
 rotateSpeed: 1.5
 itemCapacity: 0
 outlineColor: 13151AFF
@@ -39,12 +39,12 @@ weapons: [
     x: 0
     y: 0
     rangeOverride: 40
-    shootcone: 180
+    shootCone: 180
     mirror: false
     rotate: false
     reload: 360
     shootSound: explosionbig
-    shootEffect: [
+    shootEffects: [
       {
       type: ParticleEffect
       particles: 72
