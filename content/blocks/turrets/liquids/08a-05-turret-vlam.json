@@ -2,7 +2,7 @@ type: ItemTurret
 name: Vlam
 description: Rapidly fires volleys of burning crude oil in one direction. Capable of starting fires, recommended to use with fire extinguishing turrets.
 health: 1800
-size: 2
+size: 3
 reload: 3
 inaccuracy: 5
 hasLiquids: true
@@ -49,36 +49,35 @@ consumes: {
 }
 ammoTypes: {
   01a-03-item-soft-coal: {
-    bullet: {
-      type: ArtilleryBulletType
-      homingPower: 0.008
-      speed: 2
-      lifetime: 100
-      weaveScale: 3
-      weaveMag: 3
-      width: 6
-      height: 8
-      trailLength: 4
-      trailWidth: 1
-      frontColor: FFD37FFF
-      backColor: EEAA77FF
-      trailColor: EEAA77FF
-      pierce: false
-      damage: 20
-      hitEffect: none
-      despawnEffect: none
-	  fragBullets: 1
-      fragBullet: {
-        type: BulletType
-        killShooter: false
-        splashDamage: 20
-        splashDamageRadius: 8
-        splashDamagePierce: true
-        hitSound: dullExplosion
-        despawnSound: dullExplosion
-        incendChance: 0.75
-        incendAmount: 18
-        incendSpread: 24
+    type: MissileBulletType
+    homingPower: 0.008
+    speed: 2
+    lifetime: 100
+    weaveScale: 3
+    weaveMag: 3
+    width: 6
+    height: 8
+    trailLength: 4
+    trailWidth: 1
+    frontColor: FFD37FFF
+    backColor: EEAA77FF
+    trailColor: EEAA77FF
+    pierce: false
+    damage: 120
+    hitEffect: none
+    despawnEffect: none
+	fragBullets: 1
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 20
+      splashDamageRadius: 8
+      splashDamagePierce: true
+      hitSound: dullExplosion
+      despawnSound: dullExplosion
+      incendChance: 0.8
+      incendAmount: 6
+      incendSpread: 8
       }
     }
   } 
