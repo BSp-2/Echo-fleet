@@ -37,6 +37,80 @@ research: {
 }
 weapons: [
   {
+	chargeEffect: {
+    type: MultiEffect
+    lifetime: 110
+    effects: [
+      {
+      type: ParticleEffect
+      particles: 12
+      length: -16
+      baseLength: 16
+      colorFrom: FFD37FFF
+      colorTo: FFD37F00
+      sizeFrom: 3
+		  cone: 360
+      sizeTo: 1
+      lifetime: 60
+      interp: pow2In
+      sizeInterp: pow2
+      followParent: true
+      rotWithParent: false
+      }
+      {
+      type: ParticleEffect
+      particles: 18
+      length: -24
+      baseLength: 24
+      colorFrom: EEAA77FF
+      colorTo: EEAA7700
+      sizeFrom: 5
+      cone: 360
+      sizeTo: 1
+      lifetime: 90
+      interp: pow3In
+      sizeInterp: pow2
+      followParent: true
+      rotWithParent: false
+      }
+      {  
+      type: WaveEffect
+      sides: 3
+      lifetime: 90
+      sizeFrom: 16
+      sizeTo: 1
+      strokeFrom: 2
+      strokeTo: 0.3
+      followParent: true
+      }
+      {  
+      type: WaveEffect
+      sides: 4
+      lifetime: 120
+      strokeFrom: 2
+      strokeTo: 0.3
+      sizeFrom: 1
+      sizeTo: 13
+      followParent: true
+      }
+      {
+      type: ParticleEffect
+      particles: 12
+      length: -8
+      baseLength: 8
+      colorFrom: DDAA88FF
+      colorTo: DDAA8800
+      sizeFrom: 0
+      cone: 360
+      sizeTo: 3
+      lifetime: 110
+      interp: pow2Out
+      sizeInterp: pow2Out
+      followParent: true
+      rotWithParent: false
+      }
+    ]
+  }
 	shake: 3
     x: 0
     y: 0
