@@ -73,11 +73,11 @@ weapons: [
     		  baseLength: 16
           colorFrom: FFD37F80
           colorTo: FFD37FFF
-          sizeFrom: 6
+          sizeFrom: 5
 		      cone: 360
           sizeTo: 0
-          lifetime: 120
-          interp: pow5In
+          lifetime: 95
+          interp: pow3In
           sizeInterp: pow2
           followParent: true
           rotWithParent: false
@@ -89,11 +89,11 @@ weapons: [
           baseLength: 24
           colorFrom: EEAA7780
           colorTo: EEAA77FF
-          sizeFrom: 8
+          sizeFrom: 6
           cone: 360
           sizeTo: 0
-          lifetime: 120
-          interp: pow5In
+          lifetime: 100
+          interp: pow3In
           sizeInterp: pow2
           followParent: true
           rotWithParent: false
@@ -108,8 +108,8 @@ weapons: [
           sizeFrom: 4
           cone: 360
           sizeTo: 0
-          lifetime: 120
-          interp: pow5In
+          lifetime: 90
+          interp: pow2In
           sizeInterp: pow2Out
           followParent: true
           rotWithParent: false
