@@ -19,7 +19,7 @@ requirements: [
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: spiroct
+    unit: 07c-03-unit-bonfire
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/4
     echo-fleet-crab-heels/2
@@ -54,5 +54,6 @@ areaSize: 7
 
 
 research: 03j-05-b-crab-refabricator
+
 
 
