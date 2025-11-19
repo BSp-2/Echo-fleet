@@ -51,7 +51,7 @@ ammoTypes: {
   01a-03-item-soft-coal: {
 	ammoMultiplier: 10
     type: MissileBulletType
-    homingPower: 0.03
+    homingPower: 0.02
     speed: 4
     lifetime: 50
     weaveScale: 3
