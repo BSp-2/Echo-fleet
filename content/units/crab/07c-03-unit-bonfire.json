@@ -37,7 +37,13 @@ research: {
 }
 weapons: [
   {
-	chargeEffect: {
+  shootStatus: slow
+  shootStatusDuration: 120
+  shoot: {
+    firstShotDelay: 120
+  }
+  chargeSound: 
+  chargeEffect: {
     type: MultiEffect
     lifetime: 110
     effects: [
