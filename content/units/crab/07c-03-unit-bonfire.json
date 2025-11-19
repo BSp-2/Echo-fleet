@@ -71,7 +71,7 @@ weapons: [
   			  particles: 12
     		  length: -16
     		  baseLength: 16
-          colorFrom: FFD37F00
+          colorFrom: FFD37F80
           colorTo: FFD37FFF
           sizeFrom: 6
 		      cone: 360
@@ -87,7 +87,7 @@ weapons: [
           particles: 18
           length: -24
           baseLength: 24
-          colorFrom: EEAA7700
+          colorFrom: EEAA7780
           colorTo: EEAA77FF
           sizeFrom: 8
           cone: 360
@@ -103,7 +103,7 @@ weapons: [
           particles: 12
           length: -8
           baseLength: 8
-          colorFrom: DDAA8800
+          colorFrom: DDAA8880
           colorTo: DDAA88FF
           sizeFrom: 4
           cone: 360
