@@ -44,18 +44,6 @@ weapons: [
     rotate: false
     reload: 360
     shootSound: explosionbig
-    shootEffect: {
-      type: ParticleEffect
-      particles: 72
-      length: 100
-      lifetime: 240
-      interp: pow2Out
-      cone: 360
-      colorFrom: 888888FF
-      colorTo: 22222200
-      sizeFrom: 3
-      sizeTo: 6
-  	}
     name: bonfire-weapon
     bullet: {
       type: BulletType
@@ -68,18 +56,32 @@ weapons: [
       lifetime: 1
       splashDamage: 220
       splashDamageRadius: 80
-      smokeEffect: {
-      type: ParticleEffect
-      particles: 48
-      length: 80
-      lifetime: 90
-      interp: circleOut
-      cone: 360
-      colorFrom: FFD37FFF
-      colorTo: D4816B60
-      sizeFrom: 5
-      sizeTo: 0
-      }  
+      shootEffect: [
+        {
+        type: ParticleEffect
+        particles: 72
+        length: 100
+        lifetime: 240
+        interp: pow3Out
+        cone: 360
+        colorFrom: 888888FF
+        colorTo: 22222200
+        sizeFrom: 3
+        sizeTo: 6
+        }
+        {
+        type: ParticleEffect
+        particles: 48
+        length: 80
+        lifetime: 90
+        interp: circleOut
+        cone: 360
+        colorFrom: FFD37FFF
+        colorTo: D4816B60
+        sizeFrom: 8
+        sizeTo: 3
+        }  
+			] 
     }
   }
 ]
