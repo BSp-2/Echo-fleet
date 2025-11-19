@@ -64,7 +64,7 @@ weapons: [
       splashDamageRadius: 80
 	 	  chargeEffect: {
 		    type: MultiEffect
-		    lifetime: 110
+		    lifetime: 120
 	      effects: [
 					{
   		    type: ParticleEffect
@@ -76,7 +76,7 @@ weapons: [
           sizeFrom: 6
 		      cone: 360
           sizeTo: 0
-          lifetime: 80
+          lifetime: 120
           interp: pow5In
           sizeInterp: pow2
           followParent: true
@@ -92,7 +92,7 @@ weapons: [
           sizeFrom: 8
           cone: 360
           sizeTo: 0
-          lifetime: 80
+          lifetime: 120
           interp: pow5In
           sizeInterp: pow2
           followParent: true
@@ -108,7 +108,7 @@ weapons: [
           sizeFrom: 4
           cone: 360
           sizeTo: 0
-          lifetime: 80
+          lifetime: 120
           interp: pow5In
           sizeInterp: pow2Out
           followParent: true
