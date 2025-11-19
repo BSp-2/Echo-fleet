@@ -101,7 +101,7 @@ weapons: [
           cone: 360
           sizeTo: 0
           lifetime: 100
-          interp: seingIn
+          interp: swingIn
           sizeInterp: linear
           followParent: true
           rotWithParent: false
