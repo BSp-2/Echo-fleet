@@ -114,6 +114,16 @@ weapons: [
           followParent: true
           rotWithParent: false
           }
+	      {  
+          type: WaveEffect
+          lifetime: 90
+          sizeFrom: 24
+          sizeTo: 1
+          strokeFrom: 0
+          strokeTo: 3
+          followParent: true
+		  color: EEAA77AA
+      	  }
         ]
       }
       shootEffect: [
