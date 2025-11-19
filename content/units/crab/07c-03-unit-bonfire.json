@@ -72,15 +72,27 @@ weapons: [
         {
         type: ParticleEffect
         particles: 48
-        length: 80
+        length: 120
         lifetime: 90
-        interp: pow10Out
+        interp: pow5Out
         cone: 360
         colorFrom: FFD37FFF
         colorTo: FFD3700
         sizeFrom: 8
         sizeTo: 0
-        }  
+     	} 
+	    {
+        type: ParticleEffect
+        particles: 64
+        length: 120
+        lifetime: 120
+        interp: pow5Out
+        cone: 360
+        colorFrom: D4816BFF
+        colorTo: D4816B00
+        sizeFrom: 10
+        sizeTo: 0
+        }
 	    {
   	    type: WaveEffect
 	    sizeFrom: 0
