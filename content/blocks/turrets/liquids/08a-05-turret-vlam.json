@@ -45,7 +45,7 @@ consumes: {
    power: 3
    liquids: [
       02a-01-liquid-crude-oil/0.2
-} 
+	] 
 ammoTypes: {
   01a-03-item-soft-coal: {
     bullet: {
