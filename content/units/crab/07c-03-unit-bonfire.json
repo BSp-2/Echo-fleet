@@ -4,7 +4,7 @@ type: legs
 legCount: 6
 lockLegBase: true
 legExtension: -3
-legBaseOffset: 3
+legBaseOffset: 2
 legLength: 22
 legMaxLength: 1.1
 legMinLength: 0.2
@@ -38,11 +38,14 @@ weapons: [
   {
     x: 0
     y: 0
+    rangeOverride: 40
     mirror: false
     rotate: false
     reload: 360
     shootSound: explosionbig
-    shootEffect: massiveExplosion
+    shootEffect: [
+    {
+    
     name: bonfire-weapon
     bullet: {
       type: BulletType
