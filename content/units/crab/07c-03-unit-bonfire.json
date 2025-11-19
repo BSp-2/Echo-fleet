@@ -42,9 +42,8 @@ weapons: [
   shoot: {
     firstShotDelay: 80
   }
-  chargeSound: bonfire-charge
-
-	shake: 3
+    chargeSound: bonfire-charge
+    shake: 3
     x: 0
     y: 0
     shootCone: 180
@@ -72,13 +71,13 @@ weapons: [
   			  particles: 12
     		  length: -16
     		  baseLength: 16
-          colorFrom: FFD37FFF
-          colorTo: FFD37F00
-          sizeFrom: 3
+          colorFrom: FFD37F00
+          colorTo: FFD37FFF
+          sizeFrom: 6
 		      cone: 360
-          sizeTo: 1
-          lifetime: 60
-          interp: pow2In
+          sizeTo: 0
+          lifetime: 80
+          interp: pow5In
           sizeInterp: pow2
           followParent: true
           rotWithParent: false
@@ -88,13 +87,13 @@ weapons: [
           particles: 18
           length: -24
           baseLength: 24
-          colorFrom: EEAA77FF
-          colorTo: EEAA7700
-          sizeFrom: 5
+          colorFrom: EEAA7700
+          colorTo: EEAA77FF
+          sizeFrom: 8
           cone: 360
-          sizeTo: 1
-          lifetime: 90
-          interp: pow3In
+          sizeTo: 0
+          lifetime: 80
+          interp: pow5In
           sizeInterp: pow2
           followParent: true
           rotWithParent: false
@@ -104,13 +103,13 @@ weapons: [
           particles: 12
           length: -8
           baseLength: 8
-          colorFrom: DDAA88FF
-          colorTo: DDAA8800
-          sizeFrom: 0
+          colorFrom: DDAA8800
+          colorTo: DDAA88FF
+          sizeFrom: 4
           cone: 360
-          sizeTo: 3
-          lifetime: 110
-          interp: pow2Out
+          sizeTo: 0
+          lifetime: 80
+          interp: pow5In
           sizeInterp: pow2Out
           followParent: true
           rotWithParent: false
