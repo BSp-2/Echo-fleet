@@ -38,9 +38,9 @@ research: {
 weapons: [
   {
   shootStatus: slow
-  shootStatusDuration: 120
+  shootStatusDuration: 80
   shoot: {
-    firstShotDelay: 120
+    firstShotDelay: 80
   }
   chargeSound: bonfire-charge
 
@@ -98,26 +98,6 @@ weapons: [
           sizeInterp: pow2
           followParent: true
           rotWithParent: false
-          }
-          {  
-          type: WaveEffect
-          sides: 10
-          lifetime: 90
-          sizeFrom: 16
-          sizeTo: 1
-          strokeFrom: 2
-          strokeTo: 0.3
-          followParent: true
-          }
-          {  
-          type: WaveEffect
-          sides: 10
-          lifetime: 120
-          strokeFrom: 2
-          strokeTo: 0.3
-          sizeFrom: 1
-          sizeTo: 13
-          followParent: true
           }
           {
           type: ParticleEffect
