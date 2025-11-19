@@ -85,8 +85,8 @@ weapons: [
 		      cone: 360
           sizeTo: 0
           lifetime: 95
-          interp: pow3In
-          sizeInterp: pow2
+          interp: swingIn
+          sizeInterp: linear
           followParent: true
           rotWithParent: false
           }
@@ -101,8 +101,8 @@ weapons: [
           cone: 360
           sizeTo: 0
           lifetime: 100
-          interp: pow3In
-          sizeInterp: pow2
+          interp: seingIn
+          sizeInterp: linear
           followParent: true
           rotWithParent: false
           }
@@ -117,8 +117,8 @@ weapons: [
           cone: 360
           sizeTo: 0
           lifetime: 90
-          interp: pow2In
-          sizeInterp: pow2Out
+          interp: swingIn
+          sizeInterp: linear
           followParent: true
           rotWithParent: false
           }
