@@ -42,42 +42,43 @@ requirements: [
 
 
 consumes: {
-   power: 3
-   liquids: [
-      02a-01-liquid-crude-oil/0.2
-	] 
+  power: 3
+  liquids: [
+    02a-01-liquid-crude-oil/0.2
+  ] 
+}
 ammoTypes: {
   01a-03-item-soft-coal: {
     bullet: {
-       type: MissileBulletType
-        homingPower: 0.008
-        speed: 2
-        lifetime: 100
-        weaveScale: 3
-        weaveMag: 3
-        width: 6
-        height: 8
-        trailLength: 4
-        trailWidth: 1
-        frontColor: FFD37FFF
-        backColor: EEAA77FF
-        trailColor: EEAA77FF
-        pierce: false
-        damage: 20
-        hitEffect: none
-        despawnEffect: none
-		  fragBullets: 1
-        fragBullet: {
-          type: ExplosionBulletType
-          killShooter: false
-          splashDamage: 20
-          splashDamageRadius: 8
-          splashDamagePierce: true
-          hitSound: dullExplosion
-          despawnSound: dullExplosion
-          incendChance: 0.75
-          incendAmount: 18
-          incendSpread: 24
+      type: MissileBulletType
+      homingPower: 0.008
+      speed: 2
+      lifetime: 100
+      weaveScale: 3
+      weaveMag: 3
+      width: 6
+      height: 8
+      trailLength: 4
+      trailWidth: 1
+      frontColor: FFD37FFF
+      backColor: EEAA77FF
+      trailColor: EEAA77FF
+      pierce: false
+      damage: 20
+      hitEffect: none
+      despawnEffect: none
+	  fragBullets: 1
+      fragBullet: {
+        type: ExplosionBulletType
+        killShooter: false
+        splashDamage: 20
+        splashDamageRadius: 8
+        splashDamagePierce: true
+        hitSound: dullExplosion
+        despawnSound: dullExplosion
+        incendChance: 0.75
+        incendAmount: 18
+        incendSpread: 24
       }
     }
   } 
