@@ -59,7 +59,7 @@ weapons: [
       shootEffect: [
         {
         type: ParticleEffect
-        particles: 72
+        particles: 96
         length: 100
         lifetime: 240
         interp: pow3Out
@@ -79,7 +79,7 @@ weapons: [
         colorFrom: FFD37FFF
         colorTo: FFD3700
         sizeFrom: 8
-        sizeTo: 3
+        sizeTo: 0
         }  
 	    {
   	    type: WaveEffect
@@ -90,6 +90,15 @@ weapons: [
 	    colorFrom: BBBBBBFF
 	    colorTo: BBBBBB00
      	} 
+	    {
+  	    type: WaveEffect
+	    sizeFrom: 0
+	    sizeTo: 80
+	    strokeTo: 10
+	    lifetime: 60
+	    colorFrom: BBBBBBFF
+	    colorTo: BBBBBB00
+     	}  
       ] 
     }
   }
