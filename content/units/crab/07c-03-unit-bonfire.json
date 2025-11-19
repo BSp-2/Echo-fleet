@@ -126,8 +126,8 @@ weapons: [
       fragBullet: {
         type: MissileBulletType
         homingPower: 0.05
-        speed: 1
-        lifetime: 80
+        speed: 2
+        lifetime: 40
         weaveScale: 3
         weaveMag: 3
         width: 3
