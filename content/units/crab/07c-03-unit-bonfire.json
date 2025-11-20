@@ -61,6 +61,7 @@ weapons: [
     shootSound: explosionbig
     name: bonfire-weapon
     bullet: {
+	  rangeOverride: 40
       type: BulletType
       status: burning
       statusDuration: 240
