@@ -4,7 +4,7 @@ description: Rapidly fires volleys of burning crude oil in one direction. Can no
 health: 1800
 shootSound: missile
 size: 3
-reload: 6
+reload: 3
 inaccuracy: 10
 hasLiquids: true
 hasPower: true
@@ -65,15 +65,15 @@ ammoTypes: {
     backColor: EEAA77FF
     trailColor: EEAA77FF
     pierce: true
-    splashDamage: 120
-	splashDamageRadius: 16
+    splashDamage: 50
+	splashDamageRadius: 20
     hitEffect: none
     despawnEffect: none
 	fragBullets: 1
     fragBullet: {
       type: ExplosionBulletType
       killShooter: false
-      splashDamage: 60
+      splashDamage: 30
       splashDamageRadius: 8
       splashDamagePierce: true
       hitSound: dullExplosion
