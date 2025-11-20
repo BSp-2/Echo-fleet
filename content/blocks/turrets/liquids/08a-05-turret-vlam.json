@@ -12,7 +12,6 @@ hasItems: true
 liquidCapacity: 60
 itemCapacity: 30
 outlineColor: 13151AFF
-recoil: 2
 shootCone: 360
 category: turret
 rotateSpeed: 0
