@@ -2,7 +2,7 @@ type: ItemTurret
 name: Vlam
 description: Rapidly fires volleys of burning crude oil in one direction. Can not rotate. Capable of starting fires, recommended to use with fire extinguishing turrets.
 health: 1800
-shootSound: missile
+shootSound: vlam
 size: 3
 reload: 3
 inaccuracy: 10
@@ -46,14 +46,14 @@ requirements: [
 consumes: {
   power: 3
   liquids: [
-    02a-01-liquid-crude-oil/0.2
+    02a-01-liquid-crude-oil/0.4
   ] 
 }
 ammoTypes: {
   01a-03-item-soft-coal: {
-	ammoMultiplier: 5
+	ammoMultiplier: 20
     type: MissileBulletType
-    homingPower: 0.03
+    homingPower: 0.025
     speed: 4
     lifetime: 50
     weaveScale: 3
