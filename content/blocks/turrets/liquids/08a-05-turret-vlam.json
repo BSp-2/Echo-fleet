@@ -50,7 +50,7 @@ consumes: {
 }
 ammoTypes: {
   01a-03-item-soft-coal: {
-	ammoMultiplier: 10
+	ammoMultiplier: 5
     type: MissileBulletType
     homingPower: 0.03
     speed: 4
@@ -65,7 +65,8 @@ ammoTypes: {
     backColor: EEAA77FF
     trailColor: EEAA77FF
     pierce: true
-    damage: 120
+    splashDamage: 100
+	splashDamageRadius: 8
     hitEffect: none
     despawnEffect: none
 	fragBullets: 1
