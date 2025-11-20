@@ -88,6 +88,6 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: blehhhhious-
+  basePrefix: vlam-
 }
-squareSprite: false
+squareSprite: true
