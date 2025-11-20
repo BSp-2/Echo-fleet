@@ -50,6 +50,7 @@ consumes: {
 }
 ammoTypes: {
   01a-03-item-soft-coal: {
+	velocityRnd: 0.2
 	shootEffect: shootBig
     smokeEffect: shootBigSmoke
 	ammoMultiplier: 20
