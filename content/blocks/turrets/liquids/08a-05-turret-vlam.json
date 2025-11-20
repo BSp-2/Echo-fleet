@@ -50,6 +50,8 @@ consumes: {
 }
 ammoTypes: {
   01a-03-item-soft-coal: {
+	shootEffect: shootBig
+    smokeEffect: shootBigSmoke
 	ammoMultiplier: 20
     type: MissileBulletType
     homingPower: 0.025
