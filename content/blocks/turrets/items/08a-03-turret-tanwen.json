@@ -19,6 +19,7 @@ shootWarmupSpeed: 0.03
 minWarmup: 0.9
 outlineColor: 13151AFF
 warmupMaintainTime: 150
+buildTime: 480
 
 
 drawer: {
@@ -36,9 +37,9 @@ drawer: {
 
 
 requirements: [
-  01a-01-item-scrap/220
-  01a-02-item-copper/180
-  01a-05-item-cupride/80
+  01a-01-item-scrap/540
+  01a-02-item-copper/480
+  01a-05-item-cupride/320
 ]
 
 
@@ -217,7 +218,7 @@ research: {
 	]
 }
 researchCost: [
-	01a-01-item-scrap/1100
-    01a-02-item-copper/900
-    01a-04-item-alluminum/400
+	01a-01-item-scrap/2700
+    01a-02-item-copper/2400
+    01a-04-item-alluminum/1600
 ]
