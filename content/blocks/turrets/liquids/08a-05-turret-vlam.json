@@ -17,6 +17,7 @@ recoil: 0.5
 shootCone: 360
 category: turret
 rotateSpeed: 0
+buildTime: 720
 
 
 research: {
@@ -26,19 +27,19 @@ research: {
    ]
 }
 researchCost: [
-  01a-01-item-scrap/1260
-  01a-02-item-copper/1140
-  01a-04-item-alluminum/960
-  01a-05-item-cupride/360
+  01a-01-item-scrap/3600
+  01a-02-item-copper/4200
+  01a-04-item-alluminum/3400
+  01a-05-item-cupride/2750
 ]
 
 
 range: 200
 requirements: [
-  01a-01-item-scrap/210
-  01a-02-item-copper/190
-  01a-04-item-alluminum/160
-  01a-05-item-cupride/60
+  01a-01-item-scrap/720
+  01a-02-item-copper/840
+  01a-04-item-alluminum/680
+  01a-05-item-cupride/550
 ]
 
 
