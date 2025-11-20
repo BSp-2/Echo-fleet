@@ -65,8 +65,8 @@ ammoTypes: {
     backColor: EEAA77FF
     trailColor: EEAA77FF
     pierce: true
-    splashDamage: 100
-	splashDamageRadius: 12
+    splashDamage: 120
+	splashDamageRadius: 16
     hitEffect: none
     despawnEffect: none
 	fragBullets: 1
