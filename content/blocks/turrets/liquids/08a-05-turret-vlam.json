@@ -11,9 +11,8 @@ hasPower: true
 hasItems: true
 liquidCapacity: 60
 itemCapacity: 30
-researchCostMultiplier: 0.5
 outlineColor: 13151AFF
-recoil: 0.5
+recoil: 2
 shootCone: 360
 category: turret
 rotateSpeed: 0
