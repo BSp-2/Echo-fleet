@@ -30,6 +30,20 @@ itemCapacity: 0
 outlineColor: 13151AFF
 
 
+abilities: [
+  {
+  type: ShieldArcAbility
+  max: 300
+  cooldown: 600
+  regen: 0.5
+  angle: 90
+  whenShooting: false
+  width: 4
+  x: 0
+  y: -4
+  radius: 20
+  }
+]
 immunities: [
   burning
 ] 
