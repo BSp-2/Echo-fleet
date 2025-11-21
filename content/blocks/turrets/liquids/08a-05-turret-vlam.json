@@ -53,7 +53,7 @@ ammoTypes: {
 	velocityRnd: 0.2
 	shootEffect: shootBig
     smokeEffect: shootBigSmoke
-	ammoMultiplier: 20
+	ammoMultiplier: 15
     type: MissileBulletType
     homingPower: 0.025
     speed: 4
@@ -68,6 +68,7 @@ ammoTypes: {
     backColor: EEAA77FF
     trailColor: EEAA77FF
     pierce: true
+	pierceCap: 5
     splashDamage: 50
 	splashDamageRadius: 20
     hitEffect: none
