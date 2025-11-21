@@ -33,9 +33,9 @@ outlineColor: 13151AFF
 abilities: [
   {
   type: ShieldArcAbility
-  max: 300
+  max: 200
   cooldown: 600
-  regen: 0.5
+  regen: 0.16666666666666666
   angle: 90
   whenShooting: false
   width: 4
