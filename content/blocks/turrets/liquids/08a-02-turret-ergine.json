@@ -26,9 +26,9 @@ ammoTypes: {
     length: 136
     damage: 25
     width: 2
-    incendChance: 0
-    incendAmount: 0
-    incendSpread: 0
+    incendChance: 0.05
+    incendAmount: 3
+    incendSpread: 4
     status: burning
     statusDuration: 24
     colors: [FF40BFFF, FF66CCFF, FF8CD9FF, FFB2E6FF, FFD9F2FF]
