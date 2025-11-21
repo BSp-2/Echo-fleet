@@ -76,7 +76,7 @@ ammoTypes: {
       collidesTeam: false
       hitSound: none
       homingPower: 0.04
-	  blockDamageMultiplier: 0.1
+	  buldingDamageMultiplier: 0.1
   }
  01a-05-item-cupride: {
 	  ammoMultiplier: 3
@@ -100,7 +100,7 @@ ammoTypes: {
       collidesTeam: false
       hitSound: none
       homingPower: 0.04
-	  blockDamageMultiplier: 0.1
+	  buildingDamageMultiplier: 0.1
       despawnEffect: [
 	  {
       	type: ParticleEffect
