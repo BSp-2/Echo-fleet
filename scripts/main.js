@@ -27,10 +27,10 @@ SaveFileReader.fallback.putAll(
   "03c-02-vent-aged-bauxitic", "agedbauxitev", 
   "03c-02-boulder-aged-bauxitic", "agedbauxiteb", 
   "03c-02-boulder-aged-bauxitic-large", "agedbauxitecluster", 
-  sandstone
-  softsand
-  softsandw
-  softsandv
+  "03c-05-tile-sandstone", "sandstone", 
+  "03c-05-tile-soft-sand", "softsand", 
+  "03c-05-wall-sandstone", "softsandw", 
+  "03c-05-vent-sandstone", "softsandv", 
   softsandb
   quicksand
   crudeoil
