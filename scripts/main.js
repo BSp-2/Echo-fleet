@@ -19,14 +19,14 @@ SaveFileReader.fallback.putAll(
   "03c-01-liquid-slag", "lslag", 
   "03c-01-tile-bauxitic", "bauxite", 
   "03c-01-wall-bauxitic", "bauxitew", 
-  bauxitev
-  bauxiteb
-  bauxitecluster
-  agedbauxite
-  agedbauxitew
-  agedbauxitev
-  agedbauxiteb
-  agedbauxitecluster
+  "03c-01-vent-bauxitic", "bauxitev", 
+  "03c-01-d-boulder-bauxitic", "bauxiteb", 
+  "03c-01-d-boulder-bauxite-large", "bauxitecluster", 
+  "03c-02-tile-aged-bauxitic", "agedbauxite", 
+  "03c-02-wall-aged-bauxitic", "agedbauxitew", 
+  "03c-02-vent-aged-bauxitic", "agedbauxitev", 
+  "03c-02-boulder-aged-bauxitic", "agedbauxiteb", 
+  "03c-02-boulder-aged-bauxitic-large", "agedbauxitecluster", 
   sandstone
   softsand
   softsandw
