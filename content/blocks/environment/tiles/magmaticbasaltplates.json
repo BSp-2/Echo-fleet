@@ -1,0 +1,6 @@
+type: Floor
+name: Magmatic Basalt Plates
+variants: 3
+attributes: {
+	heat: 1
+} 
