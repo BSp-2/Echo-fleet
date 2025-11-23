@@ -1,7 +1,7 @@
 name: Atlassic Sand Vent
 type: SteamVent
-blendGroup: 03c-07-tile-atlassic-sand
-parent: 03c-07-tile-atlassic-sand
+blendGroup: smoothatlassium
+parent: smoothatlassium
 effect: ventSteam
 effectColor: 769989FF
 attributes: {
