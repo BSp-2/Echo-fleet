@@ -1,7 +1,7 @@
 name: Bauxite Vent
 type: SteamVent
-blendGroup: 03c-01-tile-bauxitic
-parent: 03c-01-tile-bauxitic
+blendGroup: bauxite
+parent: bauxite
 effect: ventSteam
 effectColor: D9CCCAFF
 attributes: {
