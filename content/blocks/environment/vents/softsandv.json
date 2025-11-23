@@ -1,0 +1,9 @@
+name: Soft Sand Vent
+type: SteamVent
+blendGroup: softsand
+parent: softsand
+effect: ventSteam
+effectColor: C9C286FF
+attributes: {
+   steam: 1
+}

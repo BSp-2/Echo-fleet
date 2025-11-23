@@ -1,9 +1,0 @@
-name: Sandstone Vent
-type: SteamVent
-blendGroup: 03c-05-tile-sandstone
-parent: 03c-05-tile-sandstone
-effect: ventSteam
-effectColor: C9C286FF
-attributes: {
-   steam: 1
-}
