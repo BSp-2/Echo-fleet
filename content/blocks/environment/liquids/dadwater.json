@@ -13,3 +13,4 @@ liquidMultiplier: 1
 emitLight: true
 lightRadius: 48
 lightColor: 60BF9F30
+drownTime: 480
