@@ -31,29 +31,29 @@ SaveFileReader.fallback.putAll(
   "03c-05-tile-soft-sand", "softsand", 
   "03c-05-wall-sandstone", "softsandw", 
   "03c-05-vent-sandstone", "softsandv", 
-  softsandb
-  quicksand
-  crudeoil
-  sdwater
-  dwater
-  ddwater
-  smoothatlassium
-  smoothatlassiumw
-  smoothatlassiumv
-  smoothatlassiumb
-  sadwater
-  adwater
-  dadwater
-  atlassium
-  atlassiumw
-  atlassiumv
-  atlassiumb
-  atlassiumpatterns
-  atlassiumpatternsw
-  atlassiumpatternsv
-  atlassiumpatternsb
-  orescrap
-  orecopper
-  oreeuropium
-  oreechoshard
+  "03c-05-boulder-sandstone", "softsandb", 
+  "03c-06-liquid-quicksand", "quicksand", 
+  "03c-02-liquid-crude-oil", "crudeoil", 
+  "03c-05-liquid-shallow-dirty-water", "sdwater", 
+  "03c-04-liquid-dirty-water", "dwater", 
+  "03c-03-liquid-deep-dirty-water", "ddwater", 
+  "03c-07-tile-atlassic-sand", "smoothatlassium", 
+  "03c-07-wall-atlassic-sand", "smoothatlassiumw", 
+  "03c-07-vent-atlassic-sand", "smoothatlassiumv", 
+  "03c-07-boulder-atlassic-sand", "smoothatlassiumb", 
+  //sadwater
+  "03c-07-liquid-dirty-atlassic-water", "adwater", 
+  "03c-07-liquid-deep-dirty-atlassic-water", "dadwater", 
+  "03c-07-tile-soft-atlassium", "atlassium", 
+  "03c-07-wall-soft-atlassium", "atlassiumw", 
+  "03c-07-vent-soft-atlassium", "atlassiumv", 
+  "03c-07-boulder-soft-atlassium", "atlassiumb", 
+  "03c-08-tile-atlassium", "atlassiumpatterns", 
+  "03c-08-wall-atlassium", "atlassiumpatternsw", 
+  "03c-08-vent-atlassium", "atlassiumpatternsv", 
+  "03c-08-boulder-atlassium", "atlassiumpatternsb", 
+  "03c-01-ore-scrap", "orescrap", 
+  "03c-02-ore-copper", "orecopper", 
+  "03c-03-ore-europium", "oreeuropium", 
+  "03c-04-wall-ore-echo-shard", "oreechoshard" 
 )
