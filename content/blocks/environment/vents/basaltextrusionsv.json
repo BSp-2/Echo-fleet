@@ -19,7 +19,7 @@ effect:{
             baseLength: 4
             sizeFrom: 4
             sizeTo: 8
-            colorFrom: 3E4B59A1
+            colorFrom: 3E4B5980
             colorTo: 131B2600
             layer: 61.8
             cone: 45
@@ -33,7 +33,7 @@ effect:{
             baseLength: 4
             sizeFrom: 4
             sizeTo: 8
-            colorFrom: 3E4B59A1
+            colorFrom: 3E4B5980
             colorTo: 131B2600
             layer: 61.9
             cone: 35
