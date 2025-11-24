@@ -19,7 +19,7 @@ effect:{
             baseLength: 4
             sizeFrom: 4
             sizeTo: 8
-            colorFrom: A6424CA1
+            colorFrom: A6424C80
             colorTo: 59121B00
             layer: 61.8
             cone: 45
