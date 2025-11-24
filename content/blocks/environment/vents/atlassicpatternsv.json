@@ -1,0 +1,9 @@
+name: Atlassic Patterns Vent
+type: SteamVent
+blendGroup: atlassicpatterns
+parent: atlassicpatterns
+effect: ventSteam
+effectColor: 769989FF
+attributes: {
+   oil: 1
+} 
