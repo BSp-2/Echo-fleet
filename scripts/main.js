@@ -7,7 +7,7 @@ echo-fleet.subtitle = Core.bundle.get("mod.echo-fleet.subtitle");
 
 SaveFileReader.fallback.putAll(
   //basalt
-  "echo-fleet-03c-03-tile-basalt-plates", "echo-fleet-basalt",
+  "echo-fleet-03c-03-tile-basalt-plates", "echo-fleet-tbasalt",
   "echo-fleet-03c-03-tile-basalt", "echo-fleet-basaltplates",
   "echo-fleet-03c-03-u-tile-basalt-wave", "echo-fleet-basaltextrusions",
   "echo-fleet-03c-03-wall-basalt", "echo-fleet-basaltw", 
