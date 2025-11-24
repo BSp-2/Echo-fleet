@@ -24,16 +24,16 @@ repo: BSp-2/Echo-fleet
 
 
 contentOrder: [
+  magmaticbasalt
+  magmaticbasaltplates
+  magmaticbasaltw
+  lslag 
   basalt
   basaltplates
   basaltextrusions
   basaltw
   basaltextrusionsv
   basaltb
-  magmaticbasalt
-  magmaticbasaltplates
-  magmaticbasaltw
-  lslag
   bauxite
   bauxitew
   bauxitev
@@ -44,7 +44,6 @@ contentOrder: [
   agedbauxitev
   agedbauxiteb
   agedbauxitecluster
-  sandstone
   softsand
   softsandw
   softsandv
@@ -54,6 +53,7 @@ contentOrder: [
   sdwater
   dwater
   ddwater
+  sandstone
   smoothatlassium
   smoothatlassiumw
   smoothatlassiumv
