@@ -1,6 +1,6 @@
 type: OverflowDuct
 name: Underflow Duct
-description: he underflows
+description: Prioritizes outputting items to the sides. 
 category: distribution
 health: 80
 invert: true
@@ -24,3 +24,4 @@ researchCost: [
   01a-01-item-scrap/50
   01a-02-item-copper/50
 ]
+
