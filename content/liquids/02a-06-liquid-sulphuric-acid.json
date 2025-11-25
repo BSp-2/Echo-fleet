@@ -1,6 +1,6 @@
 type: Liquid
 name: Sulphuric Acid
-description: "Dont drink this"
+description: A highly corrosive acid made by binding Sulphur with bare Ozone or purified water. It's great inside its limited usage field, providing as an excellent kickstarter for some power generators, as well as being great at chipping down metallic layers, corroding surfaces. Hence why they're also used in liquid- or corrosion-/ effect-application- based turrets.
 color: CCBE29FF
 
 explosiveness: 0
@@ -12,4 +12,5 @@ blockReactive: false
 
 
 research: 01a-08-item-sulphur
+
 hiddenOnPlanets: [serpulo, erekir]
