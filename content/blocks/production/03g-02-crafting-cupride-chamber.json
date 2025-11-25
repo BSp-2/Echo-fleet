@@ -45,10 +45,7 @@ sideHeat: [1]
 research: {
   parent: 03g-01-crafting-slag-refinery
   objectives: [
-    {
-	type: OnSector
-	preset: 05a-05-sector-aysel
-    } 
+    01a-06-item-europium
   ]
 }
 researchCost: [
