@@ -1,6 +1,6 @@
 type: Duct
 name: Copper Duct
-description:  "Moves items forward."
+description: Moves items forward.
 category: distribution
 speed: 6
 health: 50
@@ -21,4 +21,5 @@ research: {
 researchCost: [
   01a-02-item-copper/10
 ] 
+
 
