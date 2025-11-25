@@ -1,7 +1,7 @@
 type: Duct
 name: Alluminum Duct
 armored: true
-description: "Moves items forward. Does not accept non-duct inputs from the sides."
+description: Moves items forward. Does not accept non-duct inputs from the sides.
 category: distribution
 speed: 6
 health: 160
@@ -10,6 +10,7 @@ requirements: [
   01a-04-item-alluminum/1
 ]
 junctionReplacement: 03a-05-distribution-copper-junction
+
 
 
 research: 03a-01-distribution-copper-duct
