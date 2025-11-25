@@ -4,7 +4,7 @@ configurable: false
 variants: 0
 solid: true
 
-
+ambientSoundVolume: 0
 targetable: false
 
 requirements: [
