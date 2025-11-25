@@ -1,6 +1,6 @@
 type: DuctRouter
 name: Duct Router
-description: bro sorts and routers
+description: Distributes items to 3 sides equally. Can act as a sorter. 
 regionRotated1: 1
 size: 1
 health: 80
@@ -18,3 +18,4 @@ researchCost: [
 	01a-01-item-scrap/80
     01a-02-item-copper/80
 ] 
+
