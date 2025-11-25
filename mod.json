@@ -19,5 +19,58 @@ Other then that, the mod focuses on [accent[]]complex factories[[]] and [accent[
 [[]]Have fun with whats already added, I guess. :)
 '''
 subtitle: blehhhh
-minGameVersion: 151.1
+minGameVersion: 152.2
 repo: BSp-2/Echo-fleet
+
+
+contentOrder: [
+  magmaticbasalt
+  magmaticbasaltplates
+  magmaticbasaltw
+  lslag 
+  basaltextrusions 
+  tbasalt
+  basaltplates
+  basaltw
+  basaltextrusionsv
+  basaltb
+  bauxite
+  bauxitew
+  bauxitev
+  bauxiteb
+  bauxitecluster
+  agedbauxite
+  agedbauxitew
+  agedbauxitev
+  agedbauxiteb
+  agedbauxitecluster
+  softsand
+  softsandw
+  softsandv
+  softsandb
+  quicksand
+  crudeoil
+  sdwater
+  dwater
+  ddwater
+  sandstone
+  smoothatlassium
+  smoothatlassiumw
+  smoothatlassiumv
+  smoothatlassiumb
+  sadwater
+  adwater
+  dadwater
+  atlassium
+  atlassiumw
+  atlassiumv
+  atlassiumb
+  atlassiumpatterns
+  atlassiumpatternsw
+  atlassiumpatternsv
+  atlassiumpatternsb
+  orescrap
+  orecopper
+  oreeuropium
+  oreechoshard
+] 

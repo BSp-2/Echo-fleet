@@ -1,6 +1,7 @@
 type: LiquidJunction
 name: Liquid Junction
-description: crossroads erekjr
+details: crossroads erekjr
+description: Allows for crossing of 2 conduits. 
 solid: false
 category: liquid
 squareSprite: true
@@ -16,3 +17,4 @@ research: 03d-04-liquid-liquid-pipeline
 researchCost: [
   01a-01-item-scrap/50
 ]
+

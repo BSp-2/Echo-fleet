@@ -1,9 +1,0 @@
-name: Soft Atlassium Vent
-type: SteamVent
-blendGroup: 03c-07-tile-soft-atlassium
-parent: 03c-07-tile-soft-atlassium
-effect: ventSteam
-effectColor: ADE8A0FF
-attributes: {
-   oil: 1
-}

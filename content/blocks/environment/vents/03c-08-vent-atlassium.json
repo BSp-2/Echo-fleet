@@ -1,9 +1,0 @@
-name: Atlassium Vent
-type: SteamVent
-blendGroup: 03c-08-tile-atlassium
-parent: 03c-08-tile-atlassium
-effect: ventSteam
-effectColor: ADE8A0FF
-attributes: {
-   oil: 1
-}

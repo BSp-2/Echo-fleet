@@ -1,6 +1,6 @@
 type: Conduit
 name: Liquid Pipeline
-description: Transports liquids forward no wayy
+description: Transports liquids forward. 
 category: liquid
 
 
@@ -23,4 +23,5 @@ research: 03h-01-core-nest
 researchCost: [
   01a-01-item-scrap/20
 ]
+
 

@@ -1,6 +1,6 @@
 type: LiquidRouter
 name: Liquid Router
-description: routr
+description: Equally distributes liquids to 3 sides. 
 size: 1
 solid: false
 underBullets: true
@@ -20,3 +20,4 @@ research: 03d-06-liquid-liquid-junction
 researchCost: [
   01a-01-item-scrap/100
 ]
+

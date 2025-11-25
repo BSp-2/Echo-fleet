@@ -1,9 +1,0 @@
-name: Purple Plates Vent
-type: SteamVent
-blendGroup: 03c-10-tile-purple-plates
-parent: 03c-10-tile-purple-plates
-effect: ventSteam
-effectColor: D0A0E8FF
-attributes: {
-   steam: 1
-}

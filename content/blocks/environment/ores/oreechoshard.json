@@ -1,0 +1,4 @@
+type: OreBlock
+name: Echo Shard
+itemDrop: 01a-09-item-echo-shard
+wallOre: true

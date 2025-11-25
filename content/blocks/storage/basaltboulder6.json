@@ -1,14 +1,14 @@
-type: Wall
-name: Basalt Boulder 6
+type: GenericCrafter
 size: 1
-health: 600
-category: effect
-buildTime: 200
+configurable: false
+variants: 0
+solid: true
 
+ambientSoundVolume: 0
+targetable: false
 
 requirements: [
-  01a-01-item-scrap/300
+	01a-01-item-scrap/10
+  item/100
 ]
-
-
-hiddenOnPlanets: [serpulo,erekir,aetheria,kaltos]
+buildTime: 40

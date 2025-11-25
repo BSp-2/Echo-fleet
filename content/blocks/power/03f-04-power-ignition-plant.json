@@ -1,6 +1,6 @@
 type: ConsumeGenerator
 name: Ignition Plant
-description: coal combust
+description: Utilizes a basic ignition process to generate small amounts of power. 
 size: 2
 category: power
 squareSprite: false
@@ -63,3 +63,4 @@ researchCost: [
   01a-02-item-copper/500
   01a-04-item-alluminum/200
 ] 
+

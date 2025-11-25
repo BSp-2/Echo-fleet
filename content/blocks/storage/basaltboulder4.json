@@ -1,14 +1,14 @@
-type: Wall
-name: Huge Basalt Boulder 2
+type: GenericCrafter
 size: 3
-health: 5400
-category: effect
-buildTime: 1800
+configurable: false
+variants: 0
+solid: true
 
+ambientSoundVolume: 0
+targetable: false
 
 requirements: [
-  01a-01-item-scrap/2700
+	01a-01-item-scrap/150
+  item/100
 ]
-
-
-hiddenOnPlanets: [serpulo,erekir,aetheria,kaltos]
+buildTime: 405

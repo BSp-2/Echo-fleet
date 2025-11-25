@@ -1,6 +1,0 @@
-type: Floor
-name: Runes
-variants: 3
-emitLight: true
-lightRadius: 40
-lightColor: 9469BF1E

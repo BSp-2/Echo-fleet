@@ -1,9 +1,0 @@
-name: Aged Bauxite Vent
-type: SteamVent
-blendGroup: 03c-02-tile-aged-bauxitic
-parent: 03c-02-tile-aged-bauxitic
-effect: ventSteam
-effectColor: D9D0CAFF
-attributes: {
-   steam: 1
-}

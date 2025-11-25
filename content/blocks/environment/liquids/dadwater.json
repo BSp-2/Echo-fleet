@@ -1,0 +1,16 @@
+type: Floor
+name: Deep Atlassic Dirty Water
+speedMultiplier: 0.5
+variants: 3
+status: wet
+statusDuration: 1200
+liquidDrop: 02a-02-liquid-dirty-water
+isLiquid: true
+cacheLayer: water
+albedo: 0.8
+supportsOverlay: true
+liquidMultiplier: 1
+emitLight: true
+lightRadius: 48
+lightColor: 60BF9F30
+drownTime: 480

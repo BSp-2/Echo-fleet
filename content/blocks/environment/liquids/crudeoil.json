@@ -1,0 +1,12 @@
+type: Floor
+name: Surface Crude Oil
+speedMultiplier: 0.2
+variants: 0
+isLiquid: true
+liquidDrop: 02a-01-liquid-crude-oil
+cacheLayer: tar
+supportsOverlay: true
+liquidMultiplier: 1
+drownTime: 300
+status: tarred
+statusDuration: 600

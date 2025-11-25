@@ -1,0 +1,13 @@
+type: Floor
+name: Dirty Water
+speedMultiplier: 0.7
+variants: 3
+status: wet
+statusDuration: 240
+drownTime: 1200
+liquidDrop: 02a-02-liquid-dirty-water
+liquidMultiplier: 1.5
+isLiquid: true
+cacheLayer: water
+albedo: 0.9
+supportsOverlay: true

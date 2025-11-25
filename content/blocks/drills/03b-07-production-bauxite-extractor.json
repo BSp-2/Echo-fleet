@@ -16,7 +16,7 @@ squareSprite: false
 
 
 name: Bauxite Extractor
-description: Alluminum maker
+description: Extracts raw bauxite from bauxite environment and smelts it into alluminum. Outputs ozone as a byproduct. 
 
 
 consumes: {
@@ -110,6 +110,7 @@ research: {
     }
   ]
 }
+
 
 
 

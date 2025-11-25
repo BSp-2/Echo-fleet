@@ -1,6 +1,6 @@
 type: DuctBridge
 name: Copper Bridge
-description: he jump over blocks
+description: Allows for crossing of terrain or several blocks. 
 health: 140
 size: 1
 solid: false
@@ -24,4 +24,5 @@ researchCost: [
   01a-01-item-scrap/30
   01a-02-item-copper/20
 ]
+
 

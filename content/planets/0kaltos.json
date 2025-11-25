@@ -80,7 +80,7 @@ minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.4
-accessible: true
+accessible: false
 updateLighting: true
 sectorSeed: 14513
 bloom: true
@@ -96,17 +96,3 @@ defaultCore: 03h-01-core-nest
 parent: sun
 solarSystem: sun
 launchCandidates: []
-itemWhitelist: [
-  "01a-01-item-scrap",
-  "01a-02-item-copper",  
-  "01a-03-item-soft-coal",
-  "01a-04-item-alluminum", 
-  "01a-05-item-cupride", 
-  "01a-06-item-europium",
-  "01a-07-item-polycarbonate", 
-  "01a-08-item-sulphur",
-  "01a-09-item-echo-shard",
-  "01a-10-item-echo-circuit", 
-  "01a-11-item-alluminum-polycarbonate",
-  "01a-12-item-resonance-matrix",
-]
