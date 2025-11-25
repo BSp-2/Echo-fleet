@@ -1,6 +1,6 @@
 type: Pump
 name: Siphon Pump
-description: drink liquid
+description: Slowly siphons liquids from water tiles. 
 size: 2
 category: liquid
 squareSprite: false
@@ -29,6 +29,7 @@ researchCost: [
   01a-01-item-scrap/120
   01a-02-item-copper/80
 ]
+
 
 
 
