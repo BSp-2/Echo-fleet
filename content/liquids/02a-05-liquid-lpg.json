@@ -1,6 +1,6 @@
 type: Liquid
 name: Liquid Petroleum Gas
-description: "Vary tasty ngl"
+description: A product of refining crude oil. It's high flammability makes it hard Liquid to work with, but it's a crucial part in the creation of stable polymers and mid-range power generation. 
 color: 9595A6FF
 
 explosiveness: 0.4
@@ -12,4 +12,5 @@ blockReactive: false
 
 
 research: 02a-01-liquid-crude-oil
+
 hiddenOnPlanets: [serpulo, erekir]
