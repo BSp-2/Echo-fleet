@@ -1,6 +1,6 @@
 type: BeamNode
 name: Copper Node
-description: powerline
+description: Acts as a powerline.
 health: 75
 fogRadius: 2.5
 range: 6
@@ -38,5 +38,6 @@ researchCost: [
 	01a-01-item-scrap/40
     01a-02-item-copper/60
 ] 
+
 
 
