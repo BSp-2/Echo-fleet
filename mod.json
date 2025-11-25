@@ -24,6 +24,7 @@ repo: BSp-2/Echo-fleet
 
 
 contentOrder: [
+  bauxiteattribute
   magmaticbasalt
   magmaticbasaltplates
   magmaticbasaltw
