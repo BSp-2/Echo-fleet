@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Pulse Drill
-description: explod ore
+description: Slowly mines ore deposits via low magnitude explosions. 
 size: 3
 category: production
 hasLiquids: true
@@ -78,5 +78,6 @@ drawer: {
     } 
   ]
 }
+
 
 
