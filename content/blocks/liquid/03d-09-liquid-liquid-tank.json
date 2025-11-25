@@ -3,7 +3,7 @@ size: 2
 hasLiquids: true
 liquidCapacity: 600
 name: Liquid Tank
-description: fat liqui router
+description: Equally distributes liquids to 7 sides. Can store moderate amounts of liquids. 
 category: liquid
 
 
@@ -22,3 +22,4 @@ researchCost: [
   01a-01-item-scrap/300
   01a-04-item-alluminum/200
 ]
+
