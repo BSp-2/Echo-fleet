@@ -16,7 +16,7 @@ itemCapacity: 60
 squareSprite: true
 
 
-name: Bauxite Synthesiser
+name: Alluminum Synthesiser
 description: Alluminum maker pro version
 
 
@@ -136,6 +136,7 @@ craftEffect: [
     }
   }
 ]
+
 
 
 research: 03b-07-production-bauxite-extractor
