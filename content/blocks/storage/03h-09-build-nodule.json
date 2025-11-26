@@ -6,7 +6,7 @@ health: 1000
 squareSprite: false
 requirements: [
   01a-01-item-scrap/280
-  02a-02-item-copper/250
+  01a-02-item-copper/250
   01a-04-item-alluminum/180
 ]
 consumes: {
