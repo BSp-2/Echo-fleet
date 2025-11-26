@@ -18,7 +18,7 @@ consumes: {
 buildSpeed: 0.5
 range: 144
 category: effect
-outlineColor: 2C2A36
+outlineColor: 13151AFF
 research: 03h-08-repair-node
 researchCost: [
   01a-01-item-scrap/1400
