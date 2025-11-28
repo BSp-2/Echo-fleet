@@ -1,5 +1,5 @@
 type: Incinerator
-name: Slag Pyre
+name: Incinerator
 description: Uses power to destroy items inputted into it.
 size: 2
 squareSprite: false
