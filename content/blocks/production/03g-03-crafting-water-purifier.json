@@ -44,7 +44,12 @@ requirements: [
 ]
 
 
-research: 03g-02-crafting-cupride-chamber
+research: {
+	parent: 03g-02-crafting-cupride-chamber
+	objectives: [
+	  01a-06-item-europium
+	] 
+} 
 researchCost: [
 	01a-01-item-scrap/600
     01a-02-item-copper/800
