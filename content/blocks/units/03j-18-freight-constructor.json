@@ -22,7 +22,7 @@ maxBlockSize: 2
 
 
 research: {
-  parent: 03j-01-mech-fabricator
+  parent: 03a-02-distribution-alluminum-duct
   objectives: [
     01a-05-item-cupride
   ]
