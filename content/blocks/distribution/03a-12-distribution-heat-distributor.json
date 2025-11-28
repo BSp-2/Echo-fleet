@@ -1,6 +1,6 @@
 type: HeatConductor
 name: Heat Distributor
-description: Transfers heat to other Heat Distributors or heat consumers
+description: Transfers heat to other Heat Distributors or heat consumers. 
 size: 2
 category: distribution
 
@@ -40,5 +40,6 @@ ResearchCost: [
   01a-02-item-copper/400
   01a-04-item-alluminum/200
 ]
+
 
 
