@@ -1,6 +1,6 @@
 type: HeatProducer
 name: Cupride Chamber
-description: Copper + ozone = cupride no way
+description: Oxidizes copper with ozone, creating cupride and heat in the process.
 size: 4
 
 
@@ -46,7 +46,7 @@ research: {
   parent: 03g-01-crafting-slag-refinery
   objectives: [
     {
-	type: LandOnSector
+	type: OnSector
 	preset: 05a-05-sector-aysel
     } 
   ]
