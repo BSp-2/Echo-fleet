@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Blast Drill
-description: explod ore more
+description: Mines ore deposits via medium magnitude explosions.  
 size: 4
 category: production
 hasLiquids: true
@@ -69,3 +69,4 @@ researchCost: [
     01a-04-item-alluminum/200
     01a-05-item-cupride/100
 ]
+
