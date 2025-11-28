@@ -1,6 +1,6 @@
 type: HeatProducer
 name: Soft Coal Heater
-description: this mf is hot
+description: Generates heat with a simple combustion process.
 size: 2
 heatOutput: 2
 squareSprite: true
