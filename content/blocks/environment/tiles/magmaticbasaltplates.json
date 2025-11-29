@@ -2,5 +2,5 @@ type: Floor
 name: Magmatic Basalt Plates
 variants: 3
 attributes: {
-	heat: 1
+	carbon: 0.375
 } 
