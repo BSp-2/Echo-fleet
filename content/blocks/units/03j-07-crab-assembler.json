@@ -25,7 +25,7 @@ plans: [
     echo-fleet-crab-heels/2
     echo-fleet-07c-01-unit-blaze/2
     ]
-    time: 4200
+    time: 1800
   }
   {
     type: AssemblerUnitPlan
@@ -54,6 +54,7 @@ areaSize: 7
 
 
 research: 03j-05-b-crab-refabricator
+
 
 
 
