@@ -3,7 +3,7 @@ name: Magnum
 description: Fires several artillery shells at medium distances. 
 speed: 0.6
 flying: false
-health: 840
+health: 1300
 armor: 5
 hitSize: 15
 outlineColor: 181425FF
@@ -36,7 +36,7 @@ weapons: [
     speed: 3
     lifetime: 48
     splashDamageRadius: 20
-    splashDamage: 18
+    splashDamage: 30
     width: 6
     height: 8
     trailChance: -1
