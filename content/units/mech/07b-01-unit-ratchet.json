@@ -3,7 +3,7 @@ name: Ratchet
 description: Fires molten flak at nearby targets. Pew pew. 
 speed: 0.66666666666666666
 flying: false
-health: 320
+health: 450
 armor: 3
 hitSize: 10.25
 outlineColor: 181425FF
@@ -17,7 +17,8 @@ weapons: [
   name: 07b-01-unit-ratchet-weapon
   recoil: 2.25
   shootCone: 30
-  innacuracy: 10
+  inaccuracy: 10
+  velocityRnd: 2
   y: 0.5
   reload: 180
   rotate: false
@@ -33,7 +34,7 @@ weapons: [
     type: BasicBulletType
     speed: 2
     lifetime: 60
-    damage: 20
+    damage: 40
     pierce: true
     pierceCap: 2
     width: 4
@@ -62,7 +63,7 @@ weapons: [
       width: 4
       height: 8
       pierce: false
-      damage: 4
+      damage: 10
       despawnSound: dullExplosion
     }
   }
