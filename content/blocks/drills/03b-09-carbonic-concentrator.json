@@ -29,7 +29,8 @@ outputItems: [
 
 category: production
 ambientSound: grinding
-ambientSoundVolume: 0.01
+ambientSoundVolume: 0.03
+craftEffect: pulverizeMedium
 
 
 requirements: [
@@ -45,14 +46,11 @@ drawer: {
       type: DrawRegion
       suffix: -bottom
     }
-	{
-	  type: DrawCrucibleFlame
-	} 
     {
       type: DrawRegion
       suffix: -rotator
       spinSprite: true
-      rotateSpeed: -4
+      rotateSpeed: -2
 	} 
     {
       type: DrawDefault
