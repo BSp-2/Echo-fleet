@@ -31,7 +31,6 @@ consumes: {
   items: [
     01a-03-item-soft-coal/1
   ]
-  liquid: 02a-12-liquid-neutralizer/0.01666666666666666666666666666666666
 }
 
 
