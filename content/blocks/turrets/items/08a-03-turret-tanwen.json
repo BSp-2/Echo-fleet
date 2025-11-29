@@ -37,9 +37,9 @@ drawer: {
 
 
 requirements: [
-  01a-01-item-scrap/540
-  01a-02-item-copper/480
-  01a-05-item-cupride/320
+  01a-01-item-scrap/480
+  01a-02-item-copper/320
+  01a-05-item-cupride/120
 ]
 
 
