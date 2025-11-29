@@ -46,8 +46,11 @@ drawer: {
       suffix: -bottom
     }
     {
-    type: DrawArcSmelt
-    }
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: -1
+	} 
     {
       type: DrawDefault
     }
