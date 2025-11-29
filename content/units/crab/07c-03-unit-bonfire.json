@@ -19,7 +19,7 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 groundLayer: 60
-health: 2750
+health: 2300
 armor: 4
 allowLegStep: true
 speed: 1.333333333333333
@@ -33,7 +33,7 @@ outlineColor: 13151AFF
 abilities: [
   {
   type: ShieldArcAbility
-  max: 50
+  max: 500
   cooldown: 600
   regen: 0.16666666666666666
   angle: 90
