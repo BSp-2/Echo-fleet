@@ -29,16 +29,16 @@ researchCost: [
   01a-01-item-scrap/3600
   01a-02-item-copper/4200
   01a-04-item-alluminum/3400
-  01a-05-item-cupride/2750
+  01a-05-item-cupride/1800
 ]
 
 
 range: 200
 requirements: [
-  01a-01-item-scrap/720
-  01a-02-item-copper/840
-  01a-04-item-alluminum/680
-  01a-05-item-cupride/550
+  01a-01-item-scrap/520
+  01a-02-item-copper/660
+  01a-04-item-alluminum/380
+  01a-05-item-cupride/200
 ]
 
 
