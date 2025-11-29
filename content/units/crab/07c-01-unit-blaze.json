@@ -54,7 +54,7 @@ weapons: [
     shootCone: 10
     inaccuracy: 3
     bullet: {
-      damage: 10
+      damage: 20
       shootEffect: none
       speed: 24
       pierce: true
