@@ -58,7 +58,7 @@ weapons: [
       flareLength: 0
       length: 84
       width: 2
-      damage: 8.33333333333333333
+      damage: 12
       pierceCap: 1
       hitEffect: none
       despawnEffect: none
