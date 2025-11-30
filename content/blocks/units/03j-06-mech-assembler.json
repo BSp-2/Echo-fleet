@@ -3,7 +3,7 @@ name: Mech Unit Constructor
 description: Creates medium tier mech units from payloads.
 size: 3
 category: units
-droneType: assembly-drone
+droneType: echo-fleet-mech-drone
 hasPower: true
 hasLiquids: true
 
@@ -53,6 +53,7 @@ areaSize: 7
 
 
 research: 03j-05-a-mech-refabricator
+
 
 
 
