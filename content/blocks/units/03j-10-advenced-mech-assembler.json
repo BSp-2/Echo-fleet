@@ -3,7 +3,7 @@ name: Advanced Mech Unit Constructor
 description: Creates high tier mech units from payloads.
 size: 5
 category: units
-droneType: assembly-drone
+droneType: echo-fleet-mech-drone
 hasPower: true
 hasLiquids: true
 
@@ -66,6 +66,7 @@ areaSize: 11
 
 
 research: 03j-06-mech-assembler
+
 
 
 
