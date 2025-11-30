@@ -2,12 +2,12 @@ type: tether
 name: Crab Drone
 description: Mounts units from crab assemblers.
 flying: true
-drag: 0.01
-accel: 0.11
-speed: 1.3333333333333
+drag: 0.005
+accel: 0.06
+speed: 2
 health: 90
 engineSize: 2
-engineOffset: 4
+engineOffset: 6
 payloadCapacity: 0
 targetable: false
 bounded: false
