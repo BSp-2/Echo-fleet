@@ -47,13 +47,14 @@ consumes: {
   liquids: [
     02a-12-liquid-neutralizer/0.3333333333333333333
   ]
-  power: 6
+  power: 3
 }
 areaSize: 7
 
 
 
 research: 03j-05-b-crab-refabricator
+
 
 
 
