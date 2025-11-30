@@ -3,7 +3,7 @@ name: Hover Unit Constructor
 description: Creates medium tier hover units from payloads.
 size: 3
 category: units
-droneType: assembly-drone
+droneType: echo-fleet-hover-drone
 hasPower: true
 hasLiquids: true
 
@@ -53,6 +53,7 @@ areaSize: 7
 
 
 research: 03j-05-c-hover-refabricator
+
 
 
 
