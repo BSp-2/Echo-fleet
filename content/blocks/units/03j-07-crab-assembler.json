@@ -3,7 +3,7 @@ name: Crab Unit Constructor
 description: Creates medium tier crab units from payloads.
 size: 3
 category: units
-droneType: assembly-drone
+droneType: echo-fleet-crab-drone
 hasPower: true
 hasLiquids: true
 
@@ -54,6 +54,7 @@ areaSize: 7
 
 
 research: 03j-05-b-crab-refabricator
+
 
 
 
