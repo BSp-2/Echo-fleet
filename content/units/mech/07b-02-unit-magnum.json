@@ -36,7 +36,7 @@ weapons: [
     speed: 3
     lifetime: 48
     splashDamageRadius: 20
-    splashDamage: 30
+    splashDamage: 18
     width: 6
     height: 8
     trailChance: -1
