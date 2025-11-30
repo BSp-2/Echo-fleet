@@ -3,7 +3,7 @@ name: Advanced Crab Unit Constructor
 description: Creates high tier crab units from payloads.
 size: 5
 category: units
-droneType: assembly-drone
+droneType: echo-fleet-crab-drone
 hasPower: true
 hasLiquids: true
 
@@ -68,6 +68,7 @@ areaSize: 11
 
 
 research: 03j-07-crab-assembler
+
 
 
 
