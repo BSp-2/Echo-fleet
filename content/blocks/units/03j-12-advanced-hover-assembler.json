@@ -3,7 +3,7 @@ name: Advanced Hover Unit Constructor
 description: Creates high tier hover units from payloads.
 size: 5
 category: units
-droneType: assembly-drone
+droneType: echo-fleet-support-drone
 hasPower: true
 hasLiquids: true
 
