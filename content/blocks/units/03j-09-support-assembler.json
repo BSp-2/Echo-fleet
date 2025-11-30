@@ -48,13 +48,14 @@ consumes: {
   liquids: [
     02a-12-liquid-neutralizer/0.2
   ]
-  power: 8
+  power: 4
 }
 areaSize: 7
 
 
 
 research: 03j-05-d-support-refabricator
+
 
 
 
