@@ -1,6 +1,6 @@
 type: ParticleWeather
 name: Atlassic Foam
-color: 217a5e
+color: 262F5CFF
 noiseColor: 217a5e
 drawNoise: true
 particleRegion: particle
@@ -15,4 +15,5 @@ opacityMultiplier: 0.5
 force: 0
 sound: none
 soundVol: 0
+
 duration: 8400
