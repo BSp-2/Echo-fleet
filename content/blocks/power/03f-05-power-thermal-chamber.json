@@ -52,7 +52,7 @@ drawer: {
     {
       type: DrawBubbles
       fill: false
-	  spread: 14
+	  spread: 10
 	  color: FFCD66FF
     }
     {
@@ -84,6 +84,7 @@ researchCost: [
     01a-04-item-alluminum/700
     01a-06-item-europium/300
 ]
+
 
 
 
