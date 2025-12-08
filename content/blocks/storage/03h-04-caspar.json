@@ -1,0 +1,39 @@
+type: CoreBlock
+name: Core: Caspar
+description: Core of the base. Badly armored, allows for less units to be active at a time. Has high item capacity. 
+
+
+requirements: [
+  01a-01-item-scrap/1200
+  01a-02-item-copper/800
+  01a-04-item-alluminum/600
+]
+
+
+isFirstTier: true
+size: 3
+squareSprite: false
+unitType: 07a-04-loxosceles
+health: 3000
+armor: 1
+itemCapacity: 3600
+unitCapModifier: 6
+solid: false
+category: effect
+
+
+research: {
+  parent: 03h-01-core-nest
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 05a-05-sector-aysel
+    } 
+  ] 
+
+}
+researchCost: [
+  01a-01-item-scrap/6000
+  01a-02-item-copper/4000
+  01a-04-item-alluminum/3000
+]
