@@ -25,7 +25,7 @@ mineTiles: true
 mineSpeed: 8
 mineTier: 2
 buildSpeed: 0.8
-itemCapacity: 20
+itemCapacity: 50
 fogRadius: 15
 range: 105
 
