@@ -1,0 +1,47 @@
+type: legs
+controller: BuilderAI
+legCount: 6
+lockLegBase: true
+legExtension: -4
+legBaseOffset: 3
+legLength: 12
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.12
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+hovering: true
+faceTarget: true
+health: 540
+armor: 4
+speed: 1
+mineWalls: true
+mineGround: true
+mineSpeed: 20
+mineTier: 3
+buildSpeed: 2
+accel: 0.09
+drag: 0.08
+groundLayer: 60
+shadowElevation: 0.1
+rotateSpeed: 4
+itemCapacity: 60
+outlineColor: 13151AFF
+fogRadius: 16
+range: 105
+abilities: [
+  {
+    type: ShieldRegenFieldAbility
+    reload: 480
+    range: 32
+    amount: 25
+    max: 100
+  }
+]
+weapons: [
+]
+research: 03h-04-caspar
+reuiresUnlock: false
