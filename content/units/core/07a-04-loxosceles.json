@@ -9,7 +9,7 @@ legBaseOffset: 3
 legLength: 12
 legMaxLength: 1.1
 legMinLength: 0.2
-legSpeed: 0.12
+legSpeed: 0.2133333333333333333333333333
 legGroupSize: 3
 legForwardScl: 1.05
 legLengthScl: 0.95
@@ -17,7 +17,7 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 faceTarget: true
-hitSize: 40
+hitSize: 5
 health: 720
 armor: 4
 speed: 1.6
