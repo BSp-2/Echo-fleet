@@ -43,6 +43,29 @@ abilities: [
   }
 ]
 weapons: [
-]
+  {
+  widthSinMag: 0.1
+    x: 0
+    y: 5
+    laserColor: 9DC761FF
+    mirror: false
+    type: RepairBeamWeapon
+    rotate: false
+    targetBuildings: true
+    targetUnits: false
+    autoTarget: false
+    controllable: true
+    reload: 10
+    shootY: 0
+    shootCone: 15
+    beamWidth: 0.8
+    repairSpeed: 3.5
+    fractionRepairSpeed: 0.06
+    bullet: {
+      type: BulletType
+      maxRange: 40
+      }
+    }
+] 
 research: 03h-04-caspar
 reuiresUnlock: false
