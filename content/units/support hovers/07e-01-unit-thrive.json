@@ -1,6 +1,6 @@
-type: mech
+type: flying
 name: Thrive
-description: Automaticaly repairs ally structures and units in range. Durable. Cannot cross terrain.
+description: Automaticaly repairs ally structures and units in range. Durable.
 research: 03j-04-support-fabricator
 researchCost: [
   01a-01-item-scrap/180
@@ -15,22 +15,16 @@ engineSize: 0
 faceTarget: true
 
 
-hovering: true
-hoverable: true
 shadowElevation: 0.1
-mechFrontSway: 0
-mechSideSway: 0
-mechStride: 0
-drag: 0.1
+drag: 0.05
 outlineColor: 13151AFF
 speed: 2.66666666666666666666666666666666666666666666
 rotateSpeed: 4
 accel: 0.1
 groundLayer: 60
-health: 440
+health: 640
 armor: 3
 hitSize: 10
-canDrown: false
 itemCapacity: 40
 fogRadius: 12
 range: 75
