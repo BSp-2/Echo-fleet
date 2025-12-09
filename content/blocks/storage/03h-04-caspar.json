@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: Caspar
-description: Core of the base. Badly armored, allows for less units to be active at a time. Has high item capacity. 
+description: Core of the base. Badly armored, allows for less units to be active at a time. Has high item capacity and a better core unit. 
 
 
 requirements: [
