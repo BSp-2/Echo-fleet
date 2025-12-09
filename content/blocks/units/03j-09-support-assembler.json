@@ -1,6 +1,6 @@
 type: UnitAssembler
 name: Support Unit Constructor
-description: Creates medium tier support hover units from payloads.
+description: Creates medium tier support units from payloads.
 size: 3
 category: units
 droneType: echo-fleet-support-drone
@@ -55,6 +55,7 @@ areaSize: 7
 
 
 research: 03j-05-d-support-refabricator
+
 
 
 
