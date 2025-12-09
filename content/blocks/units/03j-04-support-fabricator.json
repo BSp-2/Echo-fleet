@@ -3,7 +3,7 @@ size: 3
 health: 450
 configurable: false
 name: Support Unit Fabricator
-description: Constructs tier 1 support hover units.
+description: Constructs tier 1 support units.
 squareSprite: false
 hasPower: true
 hasItems: true
@@ -53,6 +53,7 @@ researchCost: [
     01a-02-item-copper/450
     01a-04-item-alluminum/300
 ] 
+
 
 
 
