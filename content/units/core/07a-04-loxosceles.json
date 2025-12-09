@@ -17,7 +17,7 @@ legPhysicsLayer: false
 legStraightness: 0.3
 hovering: true
 faceTarget: true
-hitSize: 5
+hitSize: 10
 health: 720
 armor: 4
 speed: 1.6
