@@ -1,6 +1,6 @@
 type: CoreBlock
 name: Core: Nest
-description: Core of the base. Well armored, allows for more units to be active at a time. Has low item capacity. 
+description: Core of the base. Well armored, allows for more units to be active at a time. Has low item capacity and an arguably worse core unit. 
 
 
 requirements: [
@@ -29,4 +29,5 @@ research: {
   requiresUnlock: false
 
 }
+
 
