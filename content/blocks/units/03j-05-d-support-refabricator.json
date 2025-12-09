@@ -2,8 +2,8 @@ type: Reconstructor
 size: 3
 health: 650
 configurable: false
-name: Support Hover Unit Refabricator
-description: Upgrades tier 1 support hover units into their tier 2 counterpart. 
+name: Support Unit Refabricator
+description: Upgrades tier 1 support units into their tier 2 counterpart. 
 squareSprite: false
 hasPower: true
 hasItems: true
