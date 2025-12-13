@@ -1,7 +1,7 @@
 type: Liquid
 name: Purified Water
 description: A purified version of Dirty Water, with way more heat capacity than it's Dirty counterpart. It's great heat capacity is the reason why it's used extensively on both kaltos and aetheria allowing for great cooling in buildings and turrets. It can also be used as ammunition for fluid-based turret. It also creates way less pollution than dirty water when boiled into vapor, making it use less Neutrilizer.
-color: 0090D9FF
+color: 1B5059FF
 
 explosiveness: 0
 flammability: 0
@@ -14,3 +14,4 @@ blockReactive: false
 research: 02a-02-liquid-dirty-water
 
 hiddenOnPlanets: [serpulo, erekir]
+
