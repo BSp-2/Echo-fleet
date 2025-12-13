@@ -33,6 +33,7 @@ ammoTypes: {
     statusDuration: 24
     colors: [FF40BFFF, FF66CCFF, FF8CD9FF, FFB2E6FF, FFD9F2FF]
     shake: 0.2
+	pierceCap: 5
     }
   02a-10-liquid-hydrogen-sulfide: {
     type: ContinuousLaserBulletType
@@ -47,6 +48,7 @@ ammoTypes: {
     colors: [CCC466FF, D9D071FF, E6DF93FF, F2EDB8FF, FFFCE0FF]
     shake: 0.22
 	rangeChange: 54
+	pierceCap: 5
     }
 } 
 range: 136
