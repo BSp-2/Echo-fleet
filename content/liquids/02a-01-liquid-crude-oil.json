@@ -1,11 +1,11 @@
 ﻿type: Liquid
 name: Crude Oil
 description: A naturally occurring viscocious mass of carbon and flammable or corrosive components. It has very little uses in its raw state, and has to be processed for later stages of the game.
-color: 313131FF
+color: 261321FF
 
 
 explosiveness: 0
-flammability: 0.5
+flammability: 1
 heatCapacity: 0.2
 viscosity: 0.8
 temperature: 0
@@ -15,4 +15,5 @@ blockReactive: false
 research: 01a-05-item-cupride
 
 hiddenOnPlanets: [serpulo, erekir]
+
 

@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Neutralizer Foundry
-description: Cools down Slag through low pressure, then mixes it with Dirty Water, in the process infusing the Slag with Dirty Water components and Europium dust. This allows for more efficent Neutralizer production, but requires more power.
+description: Cools down Slag through low pressure, then mixes it with Contaminated Water, in the process infusing the Slag with its components and Europium dust. This allows for more efficent Neutralizer production, but requires more power.
 category: crafting
 size: 4
 
