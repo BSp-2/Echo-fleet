@@ -1,6 +1,6 @@
 type: ThermalGenerator
 name: Water Accumulator
-description: Accumulate contaminated water vapor and condenses it into dirty water. Generates little amounts of power. 
+description: Accumulates contaminated water vapor and condenses it into contaminated water. Generates little amounts of power. 
 size: 3
 attribute: steam
 displayEfficiencyScale: 0.11111111111
@@ -59,6 +59,7 @@ drawer: {
     } 
   ]
 }
+
 
 
 
