@@ -1,0 +1,16 @@
+type: GenericCrafter
+name: Small Sand Cluster
+size: 1
+configurable: false
+variants: 0
+solid: true
+
+ambientSoundVolume: 0
+targetable: false
+
+requirements: [
+	01a-02-item-copper/15
+  01a-04-item-alluminum/5
+  item/100
+]
+buildTime: 60 
