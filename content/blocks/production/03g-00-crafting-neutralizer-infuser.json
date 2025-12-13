@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Neutralizer Infuser
-description: Cools down Slag via low pressure, then mixes it with Dirty Water, in the process infusing the Slag with Dirty Water components and creating the Neutralizer.
+description: Cools down Slag via low pressure, then mixes it with Contaminated Water, in the process infusing the Slag with its components and creating the Neutralizer.
 category: crafting
 size: 3
 
