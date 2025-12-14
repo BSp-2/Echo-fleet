@@ -3,7 +3,7 @@ name: Electronic Belt
 description: electricity??? 
 speed: 0.0833333333333333
 itemCapacity: 20
-health: 90
+health: 240
 category: distribution
 
 
@@ -31,6 +31,7 @@ unloadEffect: {
   strokeFrom: 1
   strokeTo: 0.1
 }
+
 
 
 research: 03a-03-distribution-alluminum-duct
