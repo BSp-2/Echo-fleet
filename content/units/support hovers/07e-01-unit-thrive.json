@@ -28,8 +28,6 @@ hitSize: 10
 itemCapacity: 40
 fogRadius: 12
 range: 75
-canBoost: true
-boostMultiplier: 0.8
 
 
 abilities: [
