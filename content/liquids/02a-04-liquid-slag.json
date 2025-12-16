@@ -1,7 +1,7 @@
 type: Liquid
 name: Slag
 description: A molten mass of a variety of metals. It's an essential liquid when playing your campaign, due to it's wide usage field. Used in refinery, power generation, alloy coating, mining and as ammunition for incendiary, melting or fluid-based turrets.
-color: FFCD66FF
+color: FF8040FF
 
 explosiveness: 0
 flammability: 0
@@ -14,4 +14,5 @@ blockReactive: false
 research: 02a-02-liquid-dirty-water
 
 hiddenOnPlanets: [serpulo, erekir]
+
 
