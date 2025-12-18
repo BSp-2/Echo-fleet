@@ -74,10 +74,7 @@ engines: [
     rotation: 270
   }
 ] 
-
-
 useEngineElevation: false
-lowAltitude: true
 
 
 weapons: [
