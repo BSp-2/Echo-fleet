@@ -23,7 +23,7 @@ outlineColor: 13151AFF
 speed: 2.66666666666666666666666666666666666666666666
 rotateSpeed: 4
 accel: 0.1
-groundLayer: 60
+lowAltitude: false
 health: 640
 armor: 3
 hitSize: 10
