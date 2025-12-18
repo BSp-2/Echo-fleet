@@ -8,7 +8,6 @@ hasLiquids: true
 squareSprite: true
 liquidCapacity: 60
 hasItems: true
-hasPower: true
 itemCapacity: 20
 craftTime: 300
 craftEffect: smeltsmoke
@@ -18,7 +17,6 @@ outputLiquid: 02a-03-liquid-purified-water/0.3
 
 
 consumes: {
-	power: 2
 	liquids: [
   	 02a-02-liquid-dirty-water/0.4
  	  02a-12-liquid-neutralizer/0.1
