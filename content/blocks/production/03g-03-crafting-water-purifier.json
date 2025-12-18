@@ -63,6 +63,12 @@ drawer: {
       suffix: -bottom
     }
     {
+      type: DrawLiquidTile
+      drawLiquid: 02a-02-liquid-dirty-water
+      alpha: 0.7
+      padding: 2
+    }
+    {
       type: DrawLiquidRegion
       suffix: -liquid
       drawLiquid: 02a-03-liquid-purified-water
