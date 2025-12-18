@@ -1,5 +1,6 @@
 type: flying
 flying: true
+canDrown: false 
 name: Thrive
 description: Automaticaly repairs ally structures and units in range. Durable.
 research: 03j-04-support-fabricator
