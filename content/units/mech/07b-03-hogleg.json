@@ -1,0 +1,66 @@
+type: mech
+name: Hogleg
+description: Fires barrages of piercing high-speed rounds. Pew pew pew. 
+speed: 0.6666666666666666
+flying: false
+health: 4750
+armor: 7
+hitSize: 16
+outlineColor: 13151AFF
+mechLegColor: 181425FF
+
+
+weapons: [
+  {
+  top: false
+  x: -6
+  name: 07b-03-hogleg-weapon
+  recoil: 2.25
+  shootCone: 30
+  inaccuracy: 10
+  velocityRnd: 0.15
+  y: 0.5
+  reload: 300
+  rotate: false
+  mirror: true
+  alternate: true
+  shoot: {
+    shots: 10
+    shotDelay: 12
+  }
+  shootSound: artillery
+  despawnSound: dullExplosion
+  bullet: {
+    type: BasicBulletType
+    speed: 4
+    lifetime: 60
+    damage: 80
+    pierce: true
+    pierceCap: 2
+    width: 8
+    height: 20
+    smokeEffect: shootSmokeSquare
+    trailColor: DC913AFF
+    trailWidth: 3
+    trailLength: 24
+    trailParam: 1.6
+    trailInterval: 2
+    trailEffect: missileTrail
+    backColor: DC913AFF
+    hitColor: DC913AFF
+    missColor: DC913AFF
+    collidesTeam: false
+    hitSound: none
+    }
+  }
+]
+
+
+research: 03j-05-mech-assembler
+researchCost: [
+  01a-02-item-copper/600
+  01a-04-item-alluminum/480
+  01a-05-item-cupride/240
+  01a-06-item-europium/320
+]
+researchCostMultiplier: 0.1
