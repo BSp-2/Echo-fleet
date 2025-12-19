@@ -14,7 +14,7 @@ weapons: [
   {
   top: false
   x: -6
-  name: 07b-03-hogleg-weapon
+  name: 07b-03-unit-hogleg-weapon
   recoil: 2.25
   shootCone: 30
   inaccuracy: 10
