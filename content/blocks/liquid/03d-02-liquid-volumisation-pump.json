@@ -29,9 +29,10 @@ research: {
     02a-09-liquid-nitrogen
   ] 
 }
-researchCost [
+researchCost: [
   01a-01-item-scrap/800
   01a-04-item-alluminum/600
   01a-05-item-cupride/400
 ]
+
 
