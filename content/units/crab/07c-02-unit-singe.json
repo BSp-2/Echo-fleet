@@ -22,7 +22,7 @@ groundLayer: 61
 health: 580
 armor: 4
 allowLegStep: true
-speed: 0.666666666666666666666
+speed: 0.8
 rotateSpeed: 2.5
 hitSize: 16
 drag: 0.1
