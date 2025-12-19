@@ -28,7 +28,7 @@ weapons: [
     shots: 24
     shotDelay: 5
   }
-  shootSound: smallCanon
+  shootSound: shootBig
   despawnSound: dullExplosion
   bullet: {
     type: BasicBulletType
