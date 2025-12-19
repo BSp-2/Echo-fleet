@@ -17,7 +17,7 @@ weapons: [
   name: 07b-03-unit-hogleg-weapon
   recoil: 2.25
   shootCone: 20
-  inaccuracy: 25
+  inaccuracy: 5
   velocityRnd: 0.1
   y: 0.5
   reload: 300
@@ -33,7 +33,7 @@ weapons: [
   bullet: {
     type: BasicBulletType
     speed: 6
-    lifetime: 60
+    lifetime: 40
     damage: 30
     pierce: true
     pierceBuilding: true
@@ -52,7 +52,7 @@ weapons: [
     missColor: DC913AFF
     collidesTeam: false
     hitSound: none
-    homingPower: 0.04
+    homingPower: 0.02
     }
   }
 ]
