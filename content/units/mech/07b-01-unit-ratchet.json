@@ -1,7 +1,7 @@
 type: mech
 name: Ratchet
 description: Fires molten flak at nearby targets. Pew pew. 
-speed: 0.66666666666666666
+speed: 1
 flying: false
 health: 450
 armor: 3
