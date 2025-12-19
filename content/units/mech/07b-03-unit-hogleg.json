@@ -28,7 +28,7 @@ weapons: [
     shots: 10
     shotDelay: 3
   }
-  shootSound: shootDull
+  shootSound: shoot-mashinegun
   despawnSound: dullExplosion
   bullet: {
     type: BasicBulletType
