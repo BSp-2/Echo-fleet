@@ -2,57 +2,57 @@ localizedName: Aetheria
 description: WIP
 alwaysUnlocked: true
 mesh: [
- {
-    //slag
-    type: NoiseMesh
-    planet: aetheria
-    divisions: 5
-    seed: 7
-    radius: 0.54
-    color1: C4520BFF
-    color2: D86B28FF
-    octaves: 3.7
-    persistence: 1.1
-  }
-  {
-    //desert
-    type: NoiseMesh
-    planet: aetheria
-    divisions: 5
-    radius: 0.52
-    seed: 94
-    color1: F5EDC4FF
-    color2: CCC28FFF
-    octaves: 3.7
-    persistence: 0.6
-    mag: 1
-  }
-  {
-    //bauxite
-    type: NoiseMesh
-    planet: aetheria
-    divisions: 5
-    seed: 101
-    radius: 0.38
-    color1: 9A554AFF
-    color2: AE776EFF
-    octaves: 3
-    persistence: 0.8
-    mag: 4
-  }
   {
     //basalt
     type: NoiseMesh
-    planet: aetheria
+    planet: xiliri
+    divisions: 5
+    radius: 0.48384
+    seed: 94
+    color1: 263040FF
+    color2: 3E4B59FF
+    octaves: 3
+    persistence: 0.6
+   	mag: 1.575
+  }
+  {
+    //magmatic basalt
+    type: NoiseMesh
+    planet: xiliri
+    divisions: 5
+    radius: 0.49491
+    seed: 94
+    color1: 231F26FF
+    color2: 3D3640FF
+    octaves: 3
+    persistence: 0.6
+   	mag: 1.33
+  }
+  {
+    //slag
+    type: NoiseMesh
+    planet: xiliri
+    divisions: 5
+    seed: 203
+    radius: 0.55701
+    color1: FF6200FF
+    color2: FF6200FF
+    octaves: 3
+    persistence: 0
+   	mag: 0
+  }
+  {
+    //deserts
+    type: NoiseMesh
+    planet: xiliri
     seed: 69
     divisions: 5
-    color1: 36464CFF
-    color2: 525F66FF
-    radius: 0.52
-    octaves: 4
-    persistence: 1
-    scale: 0.75
-    mag: 1
+    color1: BF6F4CFF
+    color2: E69D73FF
+    radius: 0.4806
+    octaves: 3
+    persistence: 0.6
+   	mag: 1.5
   }
 ]
 generator: {
@@ -99,3 +99,4 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: []
+
