@@ -88,7 +88,7 @@ updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: DADD86FF
+atmosphereColor: DADD8648
 iconColor: DADD86FF
 hasAtmosphere: true
 allowWaveSimulation: false
@@ -98,30 +98,4 @@ prebuildBase: false
 defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
-launchCandidates: []
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+launchCandidates: [] 
