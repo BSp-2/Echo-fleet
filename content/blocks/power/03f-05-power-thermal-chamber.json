@@ -73,7 +73,7 @@ drawer: {
 }
 
 
-heatOutput: 4
+heatOutput: 8
 sideHeat: [1]
 
 
@@ -84,6 +84,7 @@ researchCost: [
     01a-04-item-alluminum/700
     01a-06-item-europium/300
 ]
+
 
 
 
