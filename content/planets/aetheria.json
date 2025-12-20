@@ -8,7 +8,7 @@ mesh: [
     planet: xiliri
     divisions: 5
     radius: 0.495
-    seed: 94
+    seed: 69
     color1: 263040FF
     color2: 3E4B59FF
     octaves: 3
@@ -21,7 +21,7 @@ mesh: [
     planet: xiliri
     divisions: 5
     radius: 0.5
-    seed: 94
+    seed: 69
     color1: 231F26FF
     color2: 3D3640FF
     octaves: 3
@@ -78,7 +78,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
-radius: 0.54
+radius: 0.58
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
@@ -99,6 +99,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: []
+
 
 
 
