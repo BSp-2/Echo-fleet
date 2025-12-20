@@ -49,7 +49,7 @@ mesh: [
     divisions: 5
     color1: BF6F4CFF
     color2: E69D73FF
-    radius: 0.4865
+    radius: 0.488
     octaves: 3
     persistence: 0.6
    	mag: 1.5
@@ -99,6 +99,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: []
+
 
 
 
