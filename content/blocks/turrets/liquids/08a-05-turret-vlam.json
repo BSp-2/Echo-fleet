@@ -13,9 +13,9 @@ hasItems: true
 liquidCapacity: 60
 itemCapacity: 30
 outlineColor: 13151AFF
-shootCone: 360
+shootCone: 45
 category: turret
-rotateSpeed: 0
+rotateSpeed: 0.1
 buildTime: 720
 
 
@@ -26,18 +26,18 @@ research: {
    ]
 }
 researchCost: [
-  01a-01-item-scrap/3600
-  01a-02-item-copper/4200
-  01a-04-item-alluminum/3400
+  01a-01-item-scrap/2700
+  01a-02-item-copper/2400
+  01a-04-item-alluminum/2100
   01a-05-item-cupride/1800
 ]
 
 
 range: 200
 requirements: [
-  01a-01-item-scrap/520
-  01a-02-item-copper/660
-  01a-04-item-alluminum/380
+  01a-01-item-scrap/450
+  01a-02-item-copper/400
+  01a-04-item-alluminum/350
   01a-05-item-cupride/200
 ]
 
@@ -55,7 +55,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
 	ammoMultiplier: 15
     type: MissileBulletType
-    homingPower: 0.025
+    homingPower: 0.02
     speed: 4
     lifetime: 50
     weaveScale: 3
@@ -68,8 +68,8 @@ ammoTypes: {
     backColor: EEAA77FF
     trailColor: EEAA77FF
     pierce: true
-	pierceCap: 5
-    splashDamage: 50
+	pierceCap: 4
+    splashDamage: 36
 	splashDamageRadius: 20
     hitEffect: none
     despawnEffect: none
