@@ -17,7 +17,6 @@ engineSize: 0
 faceTarget: true
 
 
-shadowElevation: 0.1
 drag: 0.05
 outlineColor: 13151AFF
 speed: 2.66666666666666666666666666666666666666666666
@@ -74,7 +73,6 @@ engines: [
     rotation: 270
   }
 ] 
-useEngineElevation: false
 
 
 weapons: [
