@@ -78,10 +78,10 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
-radius: 0.58
+radius: 0.56
 minZoom: 1
 drawOrbit: true
-atmosphereRadIn: 0.15
+atmosphereRadIn: 0
 atmosphereRadOut: 0.15
 accessible: true
 updateLighting: true
@@ -99,6 +99,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: [] 
+
 
 
 
