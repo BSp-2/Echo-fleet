@@ -15,7 +15,7 @@ itemCapacity: 30
 outlineColor: 13151AFF
 shootCone: 45
 category: turret
-rotateSpeed: 0.1
+rotateSpeed: 0.25
 buildTime: 720
 
 
