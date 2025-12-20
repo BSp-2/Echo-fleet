@@ -46,11 +46,11 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     seed: 69
-    divisions: 6
+    divisions: 5
     color1: BF6F4CFF
     color2: E69D73FF
     radius: 0.4525
-    octaves: 4
+    octaves: 3
     persistence: 0.4
    	mag: 2.5
   }
@@ -99,6 +99,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: []
+
 
 
 
