@@ -34,11 +34,11 @@ mesh: [
     planet: xiliri
     divisions: 5
     seed: 203
-    radius: 0.55701
+    radius: 0.5574
     color1: FF6200FF
     color2: FF7000FF
     octaves: 3
-    persistence: 0.1
+    persistence: 0.2
    	mag: 0
   }
   {
@@ -99,6 +99,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: [] 
+
 
 
 
