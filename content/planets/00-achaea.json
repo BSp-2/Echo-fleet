@@ -1,0 +1,29 @@
+localizedName: Achaea
+mesh: {
+  type: SunMesh
+  divisions: 5
+  octaves: 4
+  persistence: 0.6
+  scl: 1
+  pow: 1
+  mag: 0.5
+  colorScale: 5
+  colors: [
+    B2F2FFFF
+    99FFFFFF
+    80FFEAFF
+  ]
+}
+radius: 4
+accessible: false
+visible: true
+hasAtmosphere: false
+bloom: true
+orbitSpacing: 10
+solarSystem: 00-achaea
+parent: sun
+orbitRadius: 12000
+drawOrbit: false
+tidalLock: true
+iconColor: ffe06f
+icon: commandRally
