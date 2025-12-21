@@ -9,14 +9,14 @@ mesh: {
   mag: 0.5
   colorScale: 1
   colors: [
-    FF66CC
-    E645B0
-    CC2996
-    B2127D
+    ff66cc
+    e645b0
+    cc2996
+    b2127d
     990066
   ]
 }
-radius: 8
+radius: 12
 accessible: false
 visible: true
 hasAtmosphere: false
