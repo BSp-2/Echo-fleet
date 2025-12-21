@@ -9,10 +9,10 @@ mesh: {
   mag: 0.5
   colorScale: 1
   colors: [
-    ff66cc
-    e645b0
-    cc2996
-    b2127d
+    ff66cc, 
+    e645b0, 
+    cc2996, 
+    b2127d, 
     990066
   ]
 }
