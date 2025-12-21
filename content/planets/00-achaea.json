@@ -9,9 +9,11 @@ mesh: {
   mag: 0.5
   colorScale: 5
   colors: [
-    B2F2FFFF
-    99FFFFFF
-    80FFEAFF
+    FF66CCFF
+    E645B0FF
+    CC2996FF
+    B2127DFF
+    990066FF
   ]
 }
 radius: 4
@@ -25,5 +27,5 @@ parent: sun
 orbitRadius: 12000
 drawOrbit: false
 tidalLock: true
-iconColor: ffe06f
+iconColor: CC2996FF
 icon: commandRally
