@@ -76,7 +76,7 @@ mesh: [
     color1: 80262FFF
     color2: A6424CFF
     radius: 0.25
-    octaves: 5
+    octaves: 1
     persistence: 0.9
    	mag: 10
   } 
@@ -125,6 +125,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: [] 
+
 
 
 
