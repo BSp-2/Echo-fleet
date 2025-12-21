@@ -67,6 +67,19 @@ mesh: [
     persistence: 0.8
    	mag: 6
   }
+  {
+    //bauxite 2
+    type: NoiseMesh
+    planet: xiliri
+    seed: 209
+    divisions: 5
+    color1: 80262FFF
+    color2: A6424CFF
+    radius: 0.32
+    octaves: 3
+    persistence: 0.8
+   	mag: 6
+  } 
 ]
 generator: {
   octaves: 4
@@ -91,7 +104,7 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
 orbitSpacing: 2
-radius: 0.56
+radius: 0.58
 minZoom: 1
 drawOrbit: true
 atmosphereRadIn: 0
@@ -112,6 +125,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: [] 
+
 
 
 
