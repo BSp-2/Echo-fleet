@@ -54,6 +54,19 @@ mesh: [
     persistence: 0.6
    	mag: 2.5
   }
+  {
+    //bauxite
+    type: NoiseMesh
+    planet: xiliri
+    seed: 69
+    divisions: 5
+    color1: 80262FFF
+    color2: A6424CFF
+    radius: 0.432
+    octaves: 3
+    persistence: 0.6
+   	mag: 4
+  }
 ]
 generator: {
   octaves: 4
@@ -99,6 +112,7 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: sun
 launchCandidates: [] 
+
 
 
 
