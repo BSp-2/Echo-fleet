@@ -1,6 +1,7 @@
 localizedName: Achaea
 mesh: {
   type: SunMesh
+  radius: 4
   divisions: 5
   octaves: 4
   persistence: 0.6
@@ -9,11 +10,11 @@ mesh: {
   mag: 0.5
   colorScale: 5
   colors: [
-    FF66CCFF
-    E645B0FF
-    CC2996FF
-    B2127DFF
-    990066FF
+    FF66CC
+    E645B0
+    CC2996
+    B2127D
+    990066
   ]
 }
 radius: 4
