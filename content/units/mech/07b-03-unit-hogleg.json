@@ -104,7 +104,7 @@ weapons: [
 ]
 
 
-research: 03j-05-mech-assembler
+research: 03j-06-mech-assembler
 researchCost: [
   01a-02-item-copper/600
   01a-04-item-alluminum/480
