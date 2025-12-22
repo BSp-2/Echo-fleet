@@ -13,8 +13,9 @@ mechLegColor: 181425FF
 weapons: [
   {
   top: false
-  x: -6
-  name: 07b-03-unit-hogleg-weapon
+  x: 11.5
+  y: -1.75
+  name: 07b-03-unit-hogleg-weapon1
   recoil: 2.25
   shootCone: 20
   inaccuracy: 5
@@ -44,6 +45,47 @@ weapons: [
     trailColor: DC913AFF
     trailWidth: 3
     trailLength: 24
+    trailParam: 1.6
+    trailInterval: 2
+    trailEffect: missileTrail
+    backColor: DC913AFF
+    hitColor: DC913AFF
+    missColor: DC913AFF
+    collidesTeam: false
+    hitSound: none
+    homingPower: 0.02
+    }
+  }
+  {
+  top: false
+  x: 11.5
+  y: -1.75
+  name: 07b-03-unit-hogleg-weapon1
+  recoil: 2.25
+  shootCone: 20
+  inaccuracy: 5
+  velocityRnd: 0.1
+  y: 0.5
+  reload: 300
+  rotate: false
+  mirror: true
+  alternate: true
+  shootSound: 
+  despawnSound: dullExplosion
+  bullet: {
+    type: BasicBulletType
+    speed: 10
+    lifetime: 8
+    damage: 20
+    pierce: false
+    pierceBuilding: false
+    width: 12
+    height: 12
+    sprite: large-orb
+    smokeEffect: shootSmokeSquare
+    trailColor: DC913AFF
+    trailWidth: 3
+    trailLength: 80
     trailParam: 1.6
     trailInterval: 2
     trailEffect: missileTrail
