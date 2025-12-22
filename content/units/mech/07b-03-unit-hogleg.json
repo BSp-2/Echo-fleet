@@ -58,8 +58,8 @@ weapons: [
   }
   {
   top: false
-  x: 11.5
-  y: -1.75
+  x: 6.25
+  y: 4.75
   name: 07b-03-unit-hogleg-weapon2
   recoil: 2.25
   shootCone: 30
