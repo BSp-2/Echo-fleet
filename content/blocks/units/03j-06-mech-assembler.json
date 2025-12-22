@@ -19,7 +19,7 @@ requirements: [
 plans: [
   {
     type: AssemblerUnitPlan
-    unit: fortress
+    unit: 07b-03-unit-hogleg
     requirements: [
     echo-fleet-03k-01-e-defense-scrap-wall-large/3
     echo-fleet-reinforced-leggings/2
@@ -53,6 +53,7 @@ areaSize: 7
 
 
 research: 03j-05-a-mech-refabricator
+
 
 
 
