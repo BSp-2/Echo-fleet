@@ -94,7 +94,6 @@ weapons: [
     missColor: DC913AFF
     collidesTeam: false
     hitSound: none
-    homingPower: 0.02
     }
   }
 ]
