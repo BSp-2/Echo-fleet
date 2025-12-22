@@ -63,20 +63,23 @@ weapons: [
   name: 07b-03-unit-hogleg-weapon2
   recoil: 2.25
   shootCone: 30
-  inaccuracy: 10
+  inaccuracy: 20
   velocityRnd: 0.2
-  y: 0.5
   reload: 60
   rotate: false
   mirror: true
   alternate: true
   shootSound: shotgun
   despawnSound: dullExplosion
+  shoot: {
+    shots: 5
+    shotDelay: 0
+  } 
   bullet: {
     type: BasicBulletType
     speed: 10
     lifetime: 8
-    damage: 60
+    damage: 20
     pierce: true
     pierceBuilding: true
     pierceCap: 1
