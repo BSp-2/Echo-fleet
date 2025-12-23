@@ -15,7 +15,7 @@ parts: [
   type: RegionPart
   mirror: false
   outline: true
-  outlineLayerOffset: 0.001
+  outlineLayerOffset: 0
   moveX: 0
   moveY: 0
   moveRot: 0
