@@ -10,20 +10,6 @@ outlineColor: 13151AFF
 mechLegColor: 181425FF
 
 
-parts: [
-  {
-  type: RegionPart
-  mirror: false
-  outline: true
-  outlineLayerOffset: 0
-  moveX: 0
-  moveY: 0
-  moveRot: 0
-  layerOffset: 0.02
-  }
-]
-
-
 weapons: [
   {
   top: false
