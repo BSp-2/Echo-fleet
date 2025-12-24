@@ -63,15 +63,16 @@ drawer: {
 		  alpha: 1
 		  padding: 3
 		}
-		{
-			type: DrawCrucibleFlame
-			y: 4
-		}
+
 		{
 			type: DrawRegion
 			suffix: -rotator
 			spinSprite: true
 			rotateSpeed: 1
+		} 
+		{
+			type: DrawCrucibleFlame
+			y: 4
 		} 
 		{
 			type: DrawRegion
