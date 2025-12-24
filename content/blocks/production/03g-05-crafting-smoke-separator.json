@@ -66,7 +66,10 @@ drawer: {
 			y: 4
 		}
 		{
-			type: Draw
+			type: DrawRegion
+			suffix: -rotator
+			spinSprite: true
+			rotateSpeed: 1
 		{
 			type: DrawRegion
 			suffix: -bottom2
