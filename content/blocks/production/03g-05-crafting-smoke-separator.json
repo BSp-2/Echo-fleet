@@ -46,3 +46,44 @@ research: {
     01a-06-item-europium
 	]
 } 
+
+
+drawer: {
+	type: DrawMulti
+	drawers: [
+		{
+			type: DrawRegion
+			suffix: -bottom1
+		} 
+		{
+		  type: DrawLiquidRegion
+		  suffix: -liquid1
+		  drawLiquid: 02a-07-liquid-carbon-dioxide
+		  alpha: 1
+		  padding: 3
+		}
+		{
+			type: DrawCrucibleFlame
+		}
+		{
+			type: DrawRegion
+			suffix: -bottom2
+		} 
+		{
+			type: DrawLiquidRegion
+			suffix: -liquid2
+			drawLiquid: 02a-08-liquid-ozone
+			alpha: 1
+			padding: 3
+		}
+		{
+			type: DrawPistons
+			sinMag: 10
+			sinScale: 20
+			pistons: 1
+		} 
+		{
+			type: DrawDefault
+		}
+	] 
+} 
