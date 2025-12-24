@@ -73,6 +73,7 @@ drawer: {
 		{
 			type: DrawCrucibleFlame
 			y: 4
+			particleRad: 6
 		} 
 		{
 			type: DrawRegion
@@ -88,7 +89,7 @@ drawer: {
 		{
 			type: DrawPistons
 			suffix: -piston
-			sinMag: 22
+			sinMag: 21
 			sinScale: 30
 			sides: 1
 			angleOffset: 0
