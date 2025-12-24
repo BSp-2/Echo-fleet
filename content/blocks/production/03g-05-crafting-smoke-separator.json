@@ -5,7 +5,7 @@ size: 3
 
 
 hasLiquids: true
-squareSprite: true
+squareSprite: false
 liquidCapacity: 60
 hasItems: true
 itemCapacity: 10
@@ -68,12 +68,12 @@ drawer: {
 			type: DrawRegion
 			suffix: -rotator
 			spinSprite: true
-			rotateSpeed: 1
+			rotateSpeed: -1
 		} 
 		{
 			type: DrawCrucibleFlame
 			y: 4
-			particleRad: 6
+			particleRad: 4.5
 		} 
 		{
 			type: DrawRegion
