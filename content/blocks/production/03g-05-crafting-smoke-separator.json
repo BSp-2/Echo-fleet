@@ -80,8 +80,8 @@ drawer: {
 		{
 			type: DrawPistons
 			suffix: -piston
-			sinMag: 10
-			sinScale: 20
+			sinMag: 20
+			sinScale: 10
 			sides: 1
 			angleOffset: 0
 		} 
