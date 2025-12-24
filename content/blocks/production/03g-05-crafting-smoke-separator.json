@@ -64,6 +64,7 @@ drawer: {
 		}
 		{
 			type: DrawCrucibleFlame
+			y: 4
 		}
 		{
 			type: DrawRegion
