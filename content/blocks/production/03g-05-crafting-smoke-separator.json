@@ -31,6 +31,8 @@ outputItems: [
 
 category: crafting
 ignoreLiquidFullness: true
+ambientSound: machine
+ambientSoundVolume: 0.03
 
 
 requirements: [
