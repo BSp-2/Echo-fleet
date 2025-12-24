@@ -37,7 +37,7 @@ weapons: [
     damage: 40
     pierce: true
     pierceBuilding: true
-    pierceCap: 3
+    pierceCap: 2
     width: 4
     height: 12
     smokeEffect: shootSmokeSquare
