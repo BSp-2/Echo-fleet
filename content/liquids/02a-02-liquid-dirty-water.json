@@ -1,6 +1,6 @@
 type: Liquid
 name: Contaminated Water
-description: A darkened version of regular Water exclusive to the rocky bodies of the Epsilon Boötis A system. It's unpurity is easy to spot due to its dark-ish color and composition of extreme amounts of minerals, toxic metals, and other things. It's main uses are in power generation and in early game cooling as it's still able to capacitate heat even if it's not strong. It can be purified, however, to create a better cooler. 
+description: A darkened version of regular Water exclusive to the rocky bodies of the Epsilon Boötis A system. It's unpurity is easy to spot due to its slightly darker color and composition of extreme amounts of minerals, toxic metals, and other things. Its main uses are in power generation and in early game cooling as it's still able to capacitate heat even if it's not strong. It can be purified, however, to create a better cooler. 
 color: 1B5059FF
 
 explosiveness: 0
@@ -13,6 +13,7 @@ blockReactive: false
 
 research: 01a-01-item-scrap
 hiddenOnPlanets: [serpulo, erekir]
+
 
 
 
