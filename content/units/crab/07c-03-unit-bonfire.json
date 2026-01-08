@@ -207,7 +207,7 @@ weapons: [
 	    lifetime: 60
 	    colorFrom: BBBBBBFF
 	    colorTo: BBBBBB00
-	    followParent: falsei 
+	    followParent: false
      	}  
       ]
 	  fragBullets: 10
