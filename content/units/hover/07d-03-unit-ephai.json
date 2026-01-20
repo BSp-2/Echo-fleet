@@ -2,8 +2,10 @@ type: mech
 name: Ephai
 description: Fires alternating piercing rounds. Cannot cross terrain.
 research: 03j-08-hover-assembler
-
-
+moveSound: loopExtract
+moveSoundVolume: 0.6
+moveSoundPitchMin: 0.75
+moveSoundPitchMax: 1.45
 hovering: true
 hoverable: true
 shadowElevation: 0.1

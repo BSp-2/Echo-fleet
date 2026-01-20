@@ -26,7 +26,7 @@ hasItems: true
 hasPower: true
 
 
-ambientSound: extractLoop
+ambientSound: loopExtract
 ambientSoundVolume: 0.09
 
 

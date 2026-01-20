@@ -10,7 +10,7 @@ craftTime: 60
 squareSprite: true
 liquidCapacity: 240
 
-ambientSound: smelter
+ambientSound: loopHum
 ambientSoundVolume: 0.08
 category: crafting
 

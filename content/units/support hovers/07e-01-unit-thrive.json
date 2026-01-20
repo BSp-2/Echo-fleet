@@ -15,8 +15,8 @@ controller: RepairAI
 commands: [move, repair]
 engineSize: 0
 faceTarget: true
-
-
+loopSoundVolume: 0.4
+loopSound: loopHover
 drag: 0.05
 outlineColor: 13151AFF
 speed: 2.66666666666666666666666666666666666666666666

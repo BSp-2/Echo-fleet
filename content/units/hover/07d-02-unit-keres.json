@@ -2,8 +2,10 @@ type: mech
 name: Keres
 description: Fires clusters of homing projectiles. Cannot cross terrain.
 research: 03j-05-c-hover-refabricator
-
-
+moveSound: loopExtract
+moveSoundVolume: 0.35
+moveSoundPitchMin: 0.6
+moveSoundPitchMax: 1.25
 hovering: true
 hoverable: true
 shadowElevation: 0.1

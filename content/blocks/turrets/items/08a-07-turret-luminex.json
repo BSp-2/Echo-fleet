@@ -5,7 +5,7 @@ size: 4
 range: 480
 squareSprite: false
 health: 2800
-shootSound: cannon
+shootSound: shootArtillery
 hasItems: true
 hasPower: true
 targetAir: false

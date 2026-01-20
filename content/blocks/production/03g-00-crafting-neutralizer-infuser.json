@@ -30,7 +30,7 @@ consumes: {
 craftTime: 30
 
 
-ambientSound: steam
+ambientSound: loopSteam
 ambientSoundVolume: 0.08
 
 

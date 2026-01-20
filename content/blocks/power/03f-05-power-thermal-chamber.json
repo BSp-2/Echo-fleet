@@ -31,7 +31,7 @@ consumes: {
 
 
 itemDuration: 120
-ambientSound: smelter
+ambientSound: loopSmelter
 ambientSoundVolume: 0.03
 
 

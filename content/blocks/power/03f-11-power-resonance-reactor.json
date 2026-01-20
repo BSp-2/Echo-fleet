@@ -7,7 +7,7 @@ size: 5
 hasPower: true
 hasLiquids: true
 hasItems: true
-explodeSound: reactor-explosion
+explodeSound: explosionReactor2
 explosionShake: 15
 itemCapacity: 10
 liquidCapacity: 480
@@ -21,8 +21,8 @@ explosionRadius: 50
 explosionDamage: 3200
 explodeEffect: [massiveExplosion, impactReactorExplosion]
 fuelItem: 01a-12-item-resonance-matrix
-
-
+ambientSound: loopThoriumReactor
+ambientSoundVolume: 0.11
 consumes: {
   liquids: [
 	02a-11-liquid-hydrogen/0.8

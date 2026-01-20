@@ -31,7 +31,8 @@ outputItems: [
 
 category: crafting
 ignoreLiquidFullness: true
-
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 
 requirements: [
 	01a-01-item-scrap/100

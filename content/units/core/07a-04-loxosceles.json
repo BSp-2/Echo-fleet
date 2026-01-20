@@ -2,6 +2,8 @@ name: Loxosceles
 description: A tanky crab unit with no offensive capabilities. Can repair allied structures.
 type: legs
 controller: BuilderAI
+stepSound: walkerStepTiny
+stepSoundVolume: 0.4
 legCount: 6
 lockLegBase: true
 legExtension: -4

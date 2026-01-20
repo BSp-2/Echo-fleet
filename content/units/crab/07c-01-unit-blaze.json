@@ -1,7 +1,7 @@
 name: Blaze
 description: Has a single flamethrower. 
-
-
+stepSound: walkerStepTiny
+stepSoundVolume: 0.4
 type: legs
 legCount: 4
 lockLegBase: true

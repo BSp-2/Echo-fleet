@@ -1,7 +1,7 @@
 name: Bonfire
 description: A heavy unit capable of generating large explosions that leave behind large amounts of fire. It is suggested you get rid of them as soon as possible because they can ignore your defences.
-
-
+stepSound: walkerStepSmall
+stepSoundPitch: 0.8
 type: legs
 autoDropBombs: true
 legCount: 6

@@ -11,7 +11,7 @@ craftTime: 60
 squareSprite: true
 
 
-ambientSound: smelter
+ambientSound: loopHum
 ambientSoundVolume: 0.08
 category: crafting
 
