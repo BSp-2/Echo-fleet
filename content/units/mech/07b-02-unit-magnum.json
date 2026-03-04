@@ -8,8 +8,9 @@ armor: 5
 hitSize: 15
 outlineColor: 181425FF
 mechLegColor: 181425FF
-
-
+stepSound: mechStepSmall
+stepSoundPitch: 0.8
+stepSoundVolume: 0.7
 weapons: [
   {
   top: false

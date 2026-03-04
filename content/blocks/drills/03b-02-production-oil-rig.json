@@ -37,8 +37,8 @@ requirements: [
 ]
 
 
-ambientSound: hum
-ambientSoundVolume: 0.05
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 
 
 research: 03b-01-production-water-accumulator

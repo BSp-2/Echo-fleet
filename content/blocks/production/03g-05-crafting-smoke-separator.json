@@ -31,7 +31,7 @@ outputItems: [
 
 category: crafting
 ignoreLiquidFullness: true
-ambientSound: machine
+ambientSound: loopMachine
 ambientSoundVolume: 0.03
 
 

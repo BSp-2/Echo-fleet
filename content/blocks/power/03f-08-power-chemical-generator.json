@@ -4,7 +4,8 @@ description: make power and heat
 size: 4
 category: power
 squareSprite: false
-
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 
 requirements: [
   01a-01-item-scrap/320

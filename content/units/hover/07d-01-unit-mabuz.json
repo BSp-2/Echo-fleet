@@ -7,8 +7,10 @@ researchCost: [
   01a-04-item-alluminum/60
 ] 
 researchCostMultiplier: 0.1
-
-
+moveSound: loopExtract
+moveSoundVolume: 0.25
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1
 hovering: true
 hoverable: true
 shadowElevation: 0.1

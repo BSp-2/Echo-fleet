@@ -6,7 +6,7 @@ tier: 5
 size: 4
 optionalBoostIntensity: 2.5
 drillTime: 120
-ambientSound: drill
+ambientSound: loopMineBeam
 ambientSoundVolume: 0.08
 hasLiquids: true
 details: Boost: 2.5x

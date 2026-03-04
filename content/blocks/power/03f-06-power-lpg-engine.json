@@ -29,7 +29,7 @@ powerProduction: 15
 itemDuration: 30
 
 
-ambientSound: smelter
+ambientSound: loopSmelter
 ambientSoundVolume: 0.03
 
 

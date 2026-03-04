@@ -38,8 +38,8 @@ rotate: true
 sideHeat: [1]
 
 
-ambientSound: smelter
-ambientSoundVolume: 0.08
+ambientSound: loopHum
+ambientSoundVolume: 0.04
 category: crafting
 
 

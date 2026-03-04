@@ -28,7 +28,7 @@ outputItems: [
 
 
 category: production
-ambientSound: grinding
+ambientSound: loopGrind
 ambientSoundVolume: 0.03
 craftEffect: pulverizeMedium
 

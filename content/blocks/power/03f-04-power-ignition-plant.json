@@ -29,7 +29,7 @@ itemDuration: 180
 
 
 generateEffect: generatespark
-ambientSound: smelter
+ambientSound: loopSmelter
 ambientSoundVolume: 0.03
 
 

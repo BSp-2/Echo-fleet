@@ -24,8 +24,8 @@ powerProduction: 2.0833333333333333333333
 itemDuration: 300
 
 
-ambientSound: smelter
-ambientSoundVolume: 0.03
+ambientSound: loopHum
+ambientSoundVolume: 0.02
 
 
 drawer: {

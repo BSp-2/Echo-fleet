@@ -1,7 +1,6 @@
 name: Singe
 description: Has 2 plasma cannons. 
-
-
+stepSound: walkerStepSmall
 type: legs
 legCount: 4
 lockLegBase: true

@@ -13,7 +13,7 @@ itemCapacity: 60
 liquidCapacity: 120
 
 
-ambientSound: smelter
+ambientSound: loopHum
 ambientSoundVolume: 0.08
 category: crafting
 

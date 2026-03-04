@@ -5,7 +5,7 @@ size: 3
 range: 288
 squareSprite: false
 health: 1400
-shootSound: blaster
+shootSound: shootLaser
 hasItems: true
 hasPower: true
 targetAir: true
