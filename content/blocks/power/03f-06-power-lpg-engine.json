@@ -37,7 +37,7 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidRegion
+      type: DrawLiquidTile
       drawLiquid: 02a-05-liquid-lpg
       alpha: 1
       padding: 3
