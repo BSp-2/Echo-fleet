@@ -118,7 +118,7 @@ updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: FFA60080
+atmosphereColor: FFA60048
 iconColor: DADD86FF
 hasAtmosphere: true
 allowWaveSimulation: false
@@ -129,28 +129,3 @@ defaultCore: 03h-01-core-nest
 parent: 0kaltos
 solarSystem: 00-achaea
 launchCandidates: [] 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
