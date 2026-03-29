@@ -38,7 +38,6 @@ drawer: {
     }
     {
       type: DrawLiquidRegion
-	  suffix: -liquid
       drawLiquid: 02a-05-liquid-lpg
       alpha: 1
       padding: 3
@@ -52,6 +51,9 @@ drawer: {
     }
     {
 	  type: DrawGlowRegion
+	  alpha: 1
+	  glowIntensity: 0.8
+	  color: FF6A00FF
 	  suffix: -glow
 	  glowScale: 10
 	}
