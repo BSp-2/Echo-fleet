@@ -12,7 +12,7 @@ mesh: [
     mag: 1
     colorScale: 1.35
     colors: [
-	  c6a75f,
+	c6a75f,
     b7864c,
     a05f36,
   	914027,
@@ -24,7 +24,7 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    radius: 0.953
+    radius: 0.55274
     seed: 11
     color1: 231f26
     color2: 231f26
@@ -37,7 +37,7 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    radius: 0.916
+    radius: 0.53128
     seed: 11
     color1: 263040
     color2: 263040
@@ -50,7 +50,7 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    radius: 0.871
+    radius: 0.50518
     seed: 11
     color1: bf6f4c
     color2: bf6f4c
@@ -63,7 +63,7 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    radius: 0.6375
+    radius: 0.36975
     seed: 11
     color1: a65142
     color2: a65142
@@ -76,7 +76,7 @@ mesh: [
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    radius: 0.515
+    radius: 0.2987
     seed: 11
     color1: a6424c
     color2: a6424c
