@@ -25,6 +25,8 @@ consumes: {
 powerProduction: 100
 ambientSound: loopSmelter
 ambientSoundVolume: 0.03
+hasLiquids: true
+hasPower: true
 
 
 drawer: {
