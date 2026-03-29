@@ -3,83 +3,87 @@ description: WIP
 alwaysUnlocked: true
 mesh: [
   {
-    //basalt
+    type: SunMesh 
+    divisions: 5
+    octaves: 1
+    persistence: 0.5
+    scl: 2
+    pow: 1
+    mag: 1
+    colorScale: 1.35
+    colors: [
+	  c6a75f,
+    b7864c,
+    a05f36,
+  	914027,
+  	7e1c1c
+    ]
+  }
+  {
+    //rock 1
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    radius: 0.495
-    seed: 69
-    color1: 263040FF
-    color2: 3E4B59FF
-    octaves: 3
+    radius: 0.953
+    seed: 11
+    color1: 231f26
+    color2: 231f26
+    octaves: 6
     persistence: 0.6
-   	mag: 1.575
+	mag: 0.6
   }
   {
-    //magmatic basalt
+    //rock 2
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    radius: 0.50474
-    seed: 69
-    color1: 231F26FF
-    color2: 3D3640FF
-    octaves: 3
+    radius: 0.916
+    seed: 11
+    color1: 263040
+    color2: 263040
+    octaves: 7
     persistence: 0.6
-   	mag: 1.33
+	mag: 1
   }
   {
-    //slag
+    //desert
     type: NoiseMesh
     planet: xiliri
     divisions: 5
-    seed: 203
-    radius: 0.5574
-    color1: FF6200FF
-    color2: FF7000FF
-    octaves: 3
-    persistence: 0.2
-   	mag: 0
-  }
-  {
-    //deserts
-    type: NoiseMesh
-    planet: xiliri
-    seed: 69
-    divisions: 5
-    color1: BF6F4CFF
-    color2: E69D73FF
-    radius: 0.451
-    octaves: 3
+    radius: 0.871
+    seed: 11
+    color1: bf6f4c
+    color2: bf6f4c
+    octaves: 7
     persistence: 0.6
-   	mag: 2.5
+	mag: 1.5
   }
   {
-    //bauxite
+    //low mountain
     type: NoiseMesh
     planet: xiliri
-    seed: 69
     divisions: 5
-    color1: 80262FFF
-    color2: A6424CFF
-    radius: 0.33
-    octaves: 3
-    persistence: 0.8
-   	mag: 6
+    radius: 0.6375
+    seed: 11
+    color1: a65142
+    color2: a65142
+    octaves: 4
+    persistence: 0.7
+	mag: 5
   }
   {
-    //bauxite 2
+    //mountain
     type: NoiseMesh
     planet: xiliri
-    seed: 209
     divisions: 5
-    color1: 80262FFF
-    color2: A6424CFF
-    radius: 0.255
-    octaves: 3
-    persistence: 0.9
-   	mag: 10
-  } 
+    radius: 0.515
+    seed: 11
+    color1: a6424c
+    color2: a6424c
+    octaves: 4
+    persistence: 0.7
+	mag: 8
+  }
 ]
 generator: {
   octaves: 4
