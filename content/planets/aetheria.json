@@ -119,7 +119,7 @@ sectorSeed: 14513
 bloom: true
 visible: true
 atmosphereColor: 80200030
-iconColor: DADD86FF
+iconColor: FFA600FF
 hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
