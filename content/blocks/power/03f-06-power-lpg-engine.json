@@ -45,6 +45,10 @@ drawer: {
     {
       type: DrawPlasma
 	  plasmas: 4
+	  plasma1: FF6A00FF
+	  plasma2: FF6A00FF
+	  plasma3: FF6A00FF
+	  plasma4: FF6A00FF
     }
     {
       type: DrawDefault
