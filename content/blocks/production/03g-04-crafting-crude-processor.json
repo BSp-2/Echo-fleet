@@ -6,6 +6,7 @@ size: 4
 craftTime: 60
 minEfficiency: 1
 maxEfficiency: 1
+squareSprite: false
 
 
 consumes: {
