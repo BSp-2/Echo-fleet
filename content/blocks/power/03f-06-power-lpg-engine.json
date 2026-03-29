@@ -41,11 +41,17 @@ drawer: {
       padding: 3
     } 
     {
-      type: DrawArcSmelt
+      type: DrawPlasma
+	  plasmas: 4
     }
     {
       type: DrawDefault
     }
+    {
+	  type: DrawGlowRegion
+	  suffix: -glow
+	  glowScale: 10
+	}
   ]
 }
 
