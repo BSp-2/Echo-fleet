@@ -118,7 +118,7 @@ updateLighting: true
 sectorSeed: 14513
 bloom: true
 visible: true
-atmosphereColor: FFA60048
+atmosphereColor: FF480030
 iconColor: DADD86FF
 hasAtmosphere: true
 allowWaveSimulation: false
