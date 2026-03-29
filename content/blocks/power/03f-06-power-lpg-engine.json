@@ -56,10 +56,10 @@ drawer: {
     {
 	  type: DrawGlowRegion
 	  alpha: 1
-	  glowIntensity: 0.8
+	  glowIntensity: 0.6
 	  color: FF6A00FF
 	  suffix: -glow
-	  glowScale: 10
+	  glowScale: 12
 	}
   ]
 }
