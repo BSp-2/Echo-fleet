@@ -10,20 +10,15 @@ liquidCapacity: 60
 hasItems: true
 itemCapacity: 20
 craftTime: 300
-craftEffect: smeltsmoke
 
 
 outputLiquid: 02a-03-liquid-purified-water/0.3
-
-
 consumes: {
 	liquids: [
   	 02a-02-liquid-dirty-water/0.4
  	  02a-12-liquid-neutralizer/0.1
 	]
 }
-
-
 outputItems: [
 	01a-03-item-soft-coal/2
 	01a-04-item-alluminum/1
@@ -65,15 +60,15 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: 02a-02-liquid-dirty-water
-      alpha: 0.7
-      padding: 2
+      alpha: 1
+      padding: 3
     }
     {
       type: DrawLiquidRegion
       suffix: -liquid
       drawLiquid: 02a-03-liquid-purified-water
-      alpha: 0.7
-      padding: 2
+      alpha: 1
+      padding: 3
     } 
     {
       type: DrawBubbles
@@ -86,11 +81,37 @@ drawer: {
       color: 007FBFFF
     }
     {
-      type: DrawRegion
-      suffix: -rotator
-      spinSprite: true
-      rotateSpeed: 2
+      type: DrawPistons
+	  suffix: -piston1
+	  sinMag: 4
+	  sinScale: 30
+	  sides: 1
+	  angleOffset: 45
     }
+    {
+      type: DrawPistons
+	  suffix: -piston2
+	  sinMag: 4
+	  sinScale: 30
+	  sides: 1
+	  angleOffset: 135
+	}
+    {
+      type: DrawPistons
+	  suffix: -piston3
+	  sinMag: 4
+	  sinScale: 30
+	  sides: 1
+	  angleOffset: 225
+	}
+    {
+      type: DrawPistons
+	  suffix: -piston4
+	  sinMag: 4
+	  sinScale: 30
+	  sides: 1
+	  angleOffset: 315
+	}
     {
       type: DrawDefault
     } 
