@@ -81,41 +81,17 @@ drawer: {
       color: 007FBFFF
     }
     {
-	  type: DrawCrucibleFlame
-	  flameColor: 127DB2FF
-	} 
-    {
-      //type: DrawPistons
-	  suffix: -piston1
-	  sinMag: 4
-	  sinScale: 30
-	  sides: 1
-	  angleOffset: 135
-    }
-    {
       type: DrawPistons
-	  suffix: -piston2
+	  suffix: -piston
 	  sinMag: 4
-	  sinScale: 30
+	  sinScale: 10
 	  sides: 4
 	  angleOffset: 225
 	}
     {
-      //type: DrawPistons
-	  suffix: -piston3
-	  sinMag: 4
-	  sinScale: 30
-	  sides: 1
-	  angleOffset: 315
-	}
-    {
-      //type: DrawPistons
-	  suffix: -piston4
-	  sinMag: 4
-	  sinScale: 30
-	  sides: 1
-	  angleOffset: 45
-	}
+	  type: DrawCrucibleFlame
+	  flameColor: 127DB2FF
+	}  
     {
       type: DrawDefault
     } 
