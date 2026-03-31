@@ -85,36 +85,36 @@ drawer: {
 	  flameColor: 127DB2FF
 	} 
     {
-      type: DrawPistons
+      //type: DrawPistons
 	  suffix: -piston1
 	  sinMag: 4
 	  sinScale: 30
 	  sides: 1
-	  angleOffset: 45
+	  angleOffset: 135
     }
     {
       type: DrawPistons
 	  suffix: -piston2
 	  sinMag: 4
 	  sinScale: 30
-	  sides: 1
-	  angleOffset: 135
+	  sides: 4
+	  angleOffset: 225
 	}
     {
-      type: DrawPistons
+      //type: DrawPistons
 	  suffix: -piston3
 	  sinMag: 4
 	  sinScale: 30
 	  sides: 1
-	  angleOffset: 225
+	  angleOffset: 315
 	}
     {
-      type: DrawPistons
+      //type: DrawPistons
 	  suffix: -piston4
 	  sinMag: 4
 	  sinScale: 30
 	  sides: 1
-	  angleOffset: 315
+	  angleOffset: 45
 	}
     {
       type: DrawDefault
