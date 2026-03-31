@@ -81,6 +81,10 @@ drawer: {
       color: 007FBFFF
     }
     {
+	  type: DrawCrucibleFlame
+	  flameColor: 127DB2FF
+	} 
+    {
       type: DrawPistons
 	  suffix: -piston1
 	  sinMag: 4
