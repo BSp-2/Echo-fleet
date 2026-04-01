@@ -83,7 +83,7 @@ drawer: {
     {
 	  type: DrawGlowRegion
 	  suffix: -glow
-	  glowScale: 5
+	  glowScale: 50
 	  color: 80EAFFFF
 	}
   ]
