@@ -48,18 +48,43 @@ drawer: {
       suffix: -bottom
     }
     {
-      type: DrawLiquidTile
+      type: DrawLiquidRegion
+	  suffix: -liquid1
+      drawLiquid: 02a-4-liquid-slag
+      alpha: 1
+      padding: 3
+	}
+    {
+      type: DrawLiquidRegion
+	  suffix: -liquid2
+      drawLiquid: 02a-02-liquid-dirty-water
+      alpha: 1
+      padding: 3
+	} 
+    {
+      type: DrawLiquidRegion
+	  suffix: -liquid3
       drawLiquid: 02a-12-liquid-neutralizer
-      alpha: 0.7
-      padding: 2
+      alpha: 1
+      padding: 3
     }
     {
     type: DrawCrucibleFlame
-    flameColor: CAE8E880
+    flameColor: 80EAFFFF
+	particleRad: 2.5
+	particleLife: 240
+	fadeMargin: 1
+	rotateScl: 1
     }
     {
       type: DrawDefault
     }
+    {
+	  type: DrawGlowRegion
+	  suffix: -glow
+	  glowScale: 5
+	  Color: 80EAFFFF
+	}
   ]
 }
 
