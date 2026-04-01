@@ -50,7 +50,7 @@ drawer: {
     {
       type: DrawLiquidRegion
 	  suffix: -liquid1
-      drawLiquid: 02a-4-liquid-slag
+      drawLiquid: 02a-04-liquid-slag
       alpha: 1
       padding: 3
 	}
