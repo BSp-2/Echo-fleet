@@ -75,6 +75,7 @@ drawer: {
 	particleLife: 240
 	fadeMargin: 1
 	rotateScl: 1
+	circleStroke: 0
     }
     {
       type: DrawDefault
@@ -83,7 +84,7 @@ drawer: {
 	  type: DrawGlowRegion
 	  suffix: -glow
 	  glowScale: 5
-	  Color: 80EAFFFF
+	  color: 80EAFFFF
 	}
   ]
 }
