@@ -29,9 +29,9 @@ weapons: [
     shotDelay: 8
   }
   shootSound: shootArtillery
-  despawnSound: shootArtillerySap
   bullet: {
     type: BasicBulletType
+    despawnSound: shootArtillerySap 
     speed: 2
     lifetime: 60
     damage: 40
@@ -65,7 +65,7 @@ weapons: [
       height: 8
       pierce: false
       damage: 10
-      despawnSound: dullExplosion
+      despawnSound: shootArtillerySap
     }
   }
   }
