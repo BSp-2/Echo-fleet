@@ -71,7 +71,7 @@ weapons: [
     top: false
     reload: 120
     rotate: false
-    shootSound: blaster
+    shootSound: shootElude
     recoil: 0.5
     shoot: {
       shots: 6
