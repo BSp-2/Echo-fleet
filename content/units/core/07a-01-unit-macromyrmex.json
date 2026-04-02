@@ -64,7 +64,7 @@ weapons: [
     alternate: false
     reload: 60
     rotate: false
-    shootSound: missile
+    shootSound: shootMissile
     shoot: {
       shots: 2
       shotDelay: 10
