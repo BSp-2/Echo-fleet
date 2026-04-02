@@ -72,7 +72,7 @@ weapons: [
     mirror: false
     rotate: false
     reload: 360
-    shootSound: explosionbig
+    shootSound: explosionDull
     name: bonfire-weapon
     bullet: {
 	  rangeOverride: 40
