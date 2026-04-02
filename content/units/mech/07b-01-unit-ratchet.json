@@ -28,8 +28,8 @@ weapons: [
     shots: 3
     shotDelay: 8
   }
-  shootSound: artillery
-  despawnSound: dullExplosion
+  shootSound: shootArtillery
+  despawnSound: shootArtillerySap
   bullet: {
     type: BasicBulletType
     speed: 2
