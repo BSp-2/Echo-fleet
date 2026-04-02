@@ -29,8 +29,8 @@ weapons: [
     shots: 5
     shotDelay: 0
   }
-  shootSound: artillery
-  despawnSound: dullExplosion
+  shootSound: shootArtillery
+  despawnSound: shootArtillerySap
   bullet: {
     type: ArtilleryBulletType
     collidesAir: false
