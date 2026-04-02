@@ -50,7 +50,7 @@ weapons: [
     rotate: false
     mirror: false
     reload: 10
-    shootSound: flame
+    shootSound: shootFlame
     shootCone: 10
     inaccuracy: 3
     bullet: {
