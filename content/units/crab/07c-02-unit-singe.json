@@ -46,7 +46,7 @@ weapons: [
     ejectEffect: none
     continuous: true
     alwaysContinuous: true
-    shootSound: torch
+    shootSound: beamPlasmaSmall
     shootStatus: slow
     shootStatusDuration: 16
     shootY: 3
