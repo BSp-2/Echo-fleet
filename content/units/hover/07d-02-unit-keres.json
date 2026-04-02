@@ -83,7 +83,7 @@ weapons: [
     top: true
     reload: 10
     rotate: true
-    shootSound: blaster
+    shootSound: shootAvert
     recoil: 1
     inaccuracy: 5
     velocityRnd: 0.1
