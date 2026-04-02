@@ -31,9 +31,9 @@ weapons: [
     shotDelay: 10
   }
   shootSound: shootCyclone
-  despawnSound: shootArtillerySapBig
   bullet: {
     type: BasicBulletType
+    despawnSound: shootArtillerySapBig 
     speed: 6
     lifetime: 40
     damage: 60
@@ -71,13 +71,13 @@ weapons: [
   mirror: true
   alternate: true
   shootSound: shootDiffuse
-  despawnSound: shootDisperce
   shoot: {
     shots: 5
     shotDelay: 0
   } 
   bullet: {
     type: BasicBulletType
+    despawnSound: shootDisperce 
     speed: 10
     lifetime: 8
     damage: 20
