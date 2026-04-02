@@ -30,9 +30,9 @@ weapons: [
     shotDelay: 0
   }
   shootSound: shootArtillery
-  despawnSound: shootArtillerySap
   bullet: {
     type: ArtilleryBulletType
+    despawnSound: shootArtillerySap 
     collidesAir: false
     speed: 3
     lifetime: 48
