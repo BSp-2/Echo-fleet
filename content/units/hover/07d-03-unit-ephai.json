@@ -87,7 +87,7 @@ weapons: [
     top: false
     reload: 180
     rotate: false
-    shootSound: mediumCannon
+    shootSound: shootDiffuse
     recoil: 4
     inaccuracy: 5
     velocityRnd: 0.1
