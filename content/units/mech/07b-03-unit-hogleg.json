@@ -30,8 +30,8 @@ weapons: [
     shots: 12
     shotDelay: 10
   }
-  shootSound: shootBig
-  despawnSound: dullExplosion
+  shootSound: shootCyclone
+  despawnSound: shootArtillerySapBig
   bullet: {
     type: BasicBulletType
     speed: 6
@@ -70,8 +70,8 @@ weapons: [
   rotate: false
   mirror: true
   alternate: true
-  shootSound: shotgun
-  despawnSound: dullExplosion
+  shootSound: shootDiffuse
+  despawnSound: shootDisperce
   shoot: {
     shots: 5
     shotDelay: 0
