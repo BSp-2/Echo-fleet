@@ -1,4 +1,5 @@
 type: Battery
+name: Capacitor
 description: Stores a moderate amount of power. Useful when the power is rapidly fluctuating.
 size: 2
 health: 240
