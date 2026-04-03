@@ -3,7 +3,7 @@ name: Europium Node
 description: powerline long
 health: 125
 fogRadius: 3.5
-range: 14
+range: 11
 size: 1
 squareSprite: false
 category: power
