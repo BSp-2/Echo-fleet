@@ -11,6 +11,7 @@ hasPower: true
 conductivePower: true
 consumesPower: true
 outputsPower: true
+pulseMag: 0
 pulseScl: 0
 laserWidth: 1
 
