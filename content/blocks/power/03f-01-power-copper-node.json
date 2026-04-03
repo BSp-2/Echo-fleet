@@ -1,5 +1,5 @@
 type: BeamNode
-name: Copper Node
+name: Power Node
 description: Acts as a powerline.
 health: 75
 fogRadius: 2.5
@@ -22,10 +22,6 @@ requirements: [
   01a-01-item-scrap/4
   01a-02-item-copper/6
 ]
-
-
-laserColor1: C692CEFF
-laserColor2: 735B94FF
 
 
 research: {
