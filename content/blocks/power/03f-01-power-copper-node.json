@@ -1,6 +1,6 @@
 type: BeamNode
 name: Power Node
-description: Acts as a powerline.
+description: Acts as a powerline. Stores a miniscule amount of power. 
 health: 75
 fogRadius: 2.5
 range: 6
@@ -17,7 +17,7 @@ laserWidth: 0.68
 
 
 consumes: {
-	powerBuffered: 2000
+	powerBuffered: 5
 } 
 
 
