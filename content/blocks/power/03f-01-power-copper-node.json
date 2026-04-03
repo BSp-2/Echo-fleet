@@ -13,7 +13,7 @@ consumesPower: true
 outputsPower: true
 pulseScl: 0
 pulseMag: 0
-laserWidth: 1
+laserWidth: 0.6
 
 
 consumes: {
