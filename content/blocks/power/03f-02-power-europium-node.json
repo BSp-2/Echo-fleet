@@ -17,7 +17,7 @@ laserWidth: 0.68
 
 
 consumes: {
-	powerBuffered: 4000
+	powerBuffered: 10
 } 
 
 
