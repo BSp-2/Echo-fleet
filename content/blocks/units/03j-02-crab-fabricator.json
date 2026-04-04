@@ -23,8 +23,8 @@ plans: [
     type: FactoryUnitPlan
     unit: 07c-01-unit-blaze
     requirements: [
-      01a-01-item-scrap/50
-      01a-04-item-alluminum/40
+      01a-01-item-scrap/45
+      01a-04-item-alluminum/30
     ]
     time: 2700
   } 
