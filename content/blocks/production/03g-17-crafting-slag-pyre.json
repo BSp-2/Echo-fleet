@@ -9,7 +9,7 @@ liquidCapacity: 30
 
 
 consumes: {
-  power: 0.5
+  power: 5
 }
 category: crafting
 
