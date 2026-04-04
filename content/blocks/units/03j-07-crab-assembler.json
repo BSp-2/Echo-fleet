@@ -21,11 +21,11 @@ plans: [
     type: AssemblerUnitPlan
     unit: 07c-03-unit-bonfire
     requirements: [
-    echo-fleet-03k-01-e-defense-scrap-wall-large/4
+    echo-fleet-03k-01-e-defense-scrap-wall-large/3
     echo-fleet-crab-heels/2
-    echo-fleet-07c-01-unit-blaze/2
+    echo-fleet-07c-01-unit-blaze/1
     ]
-    time: 1800
+    time: 2700
   }
   {
     type: AssemblerUnitPlan
