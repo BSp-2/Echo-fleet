@@ -5,6 +5,7 @@ size: 3
 
 
 hasLiquids: true
+hasPower: true
 squareSprite: true
 liquidCapacity: 60
 hasItems: true
@@ -18,6 +19,7 @@ consumes: {
   	 02a-02-liquid-dirty-water/0.4
  	  02a-12-liquid-neutralizer/0.1
 	]
+	power: 3
 }
 outputItems: [
 	01a-03-item-soft-coal/2
