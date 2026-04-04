@@ -16,7 +16,7 @@ requirements: [
 
 consumes: {
   liquids: [
- 	02a-05-liquid-lpg/1
+ 	02a-05-liquid-lpg/0.8
 	 02a-12-liquid-neutralizer/0.15
   ]
 }
