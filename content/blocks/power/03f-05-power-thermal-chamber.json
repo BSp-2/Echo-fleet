@@ -23,16 +23,16 @@ consumes: {
     01a-03-item-soft-coal/1
   ]
   liquids: [
-	02a-04-liquid-slag/0.15
+	02a-04-liquid-slag/0.2
 	02a-03-liquid-purified-water/0.1
-	02a-12-liquid-neutralizer/0.1
+	02a-12-liquid-neutralizer/0.15
   ] 
 }
 
 
 itemDuration: 120
 ambientSound: loopSmelter
-ambientSoundVolume: 0.03
+ambientSoundVolume: 0.05
 
 
 drawer: {
