@@ -17,7 +17,7 @@ unitType: 07a-01-unit-macromyrmex
 health: 3600
 armor: 6
 itemCapacity: 2500
-unitCapModifier: 8
+unitCapModifier: 10
 solid: false
 category: effect
 
