@@ -65,7 +65,10 @@ squareSprite: false
 research: {
 	parent: 03b-03-production-pulse-drill
 	objectives: [
-	  01a-06-item-europium
+		{
+			type: OnSector
+			preset: 05a-06-sector-wadi
+		} 
 	] 
 } 
 researchCost: [
