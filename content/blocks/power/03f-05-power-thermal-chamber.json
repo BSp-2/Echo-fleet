@@ -82,6 +82,7 @@ research: {
 	objectives: [
 	    02a-03-liquid-purified-water
     ] 
+} 
 researchCost: [
 	01a-01-item-scrap/1400
     01a-02-item-copper/1100
