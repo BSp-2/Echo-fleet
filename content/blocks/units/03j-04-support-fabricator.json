@@ -45,7 +45,10 @@ consumes: {
 research: {
   parent: 03j-03-hover-fabricator
   objectives: [
-	01a-05-item-cupride
+	{
+	  type: OnSector
+	  preset: 05a-06-sector-wadi
+    }
   ]
 }
 researchCost: [
