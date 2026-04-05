@@ -1,7 +1,7 @@
 type: HeatCrafter
 heatRequirement: 8
 name: Crude Processor
-description: crude oil is no longer crude oil
+description: Separates crude oil into gaseous resources under a thermal process. Cannot be rotated. Work around that. 
 size: 4
 craftTime: 60
 minEfficiency: 1
@@ -54,7 +54,11 @@ liquidOutputDirections: [1,2,3,4]
 research: {
 	parent: 03g-02-crafting-curpide-chamber
 	objectives: [
-	  01a-06-item-europium
+	  02a-01-liquid-crude-oil, 
+	  {
+	    type: OnSector
+	    preset: 05a-06-sector-wadi
+	  }
 	]
 }
 
