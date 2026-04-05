@@ -61,7 +61,7 @@ ammoTypes: {
       type: BasicBulletType
       speed: 10
       lifetime: 28.8
-	  damage: 90
+	  damage: 75
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
@@ -79,6 +79,7 @@ ammoTypes: {
 	  buldingDamageMultiplier: 0.1
   }
  01a-05-item-cupride: {
+	  rangeChange: 24
 	  ammoMultiplier: 3
       type: BasicBulletType
       speed: 10
