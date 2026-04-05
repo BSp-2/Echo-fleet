@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Smoke separator
-description: someone smoked too hard
+description: Separates carbon dioxide into soft coal and ozone. 
 size: 3
 
 
@@ -45,7 +45,7 @@ requirements: [
 research: {
 	parent: 03g-03-crafting-water-purifier
     objectives: [
-    01a-06-item-europium
+    02a-07-liquid-carbon-dioxide
 	]
 } 
 
