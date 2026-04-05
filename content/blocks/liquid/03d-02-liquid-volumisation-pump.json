@@ -1,6 +1,6 @@
 type: Pump
 name: Volumisation Pump
-description: drink liquid big
+description: Utilizes nitrogen in a complex process to pump large amounts of liquids. 
 size: 3
 category: liquid
 squareSprite: false
