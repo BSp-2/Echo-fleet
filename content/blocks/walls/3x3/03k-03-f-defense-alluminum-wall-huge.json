@@ -2,7 +2,7 @@ type: Wall
 name: Huge Alluminum Wall
 description: An even larger version of the alluminum wall. Well armored.
 size: 3
-armor: 10
+armor: 8
 health: 4500
 squareSprite: true
 category: defense
