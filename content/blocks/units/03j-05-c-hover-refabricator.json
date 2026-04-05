@@ -48,7 +48,11 @@ research: {
 		}
 	]
 }
-
+researchCost: [
+	01a-01-item-scrap/1600
+	01a-04-item-alluminum/1800
+	01a-05-item-cupride/850
+]
 
 
 
