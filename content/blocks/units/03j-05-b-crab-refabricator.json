@@ -48,7 +48,11 @@ research: {
 		} 
 	]
 }
-
+researchCost: [
+	01a-02-item-copper/2400
+	01a-04-item-alluminum/1400
+	01a-05-item-cupride/640
+]
 
 
 
