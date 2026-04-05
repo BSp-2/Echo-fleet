@@ -1,0 +1,12 @@
+difficulty: 6
+planet: aetheria
+sector: 14
+research: {
+  parent: 05a-05-sector-aysel
+  objectives: [
+    {
+      type: SectorComplete
+      preset: 05a-05-sector-aysel
+    }
+  ]
+}  
