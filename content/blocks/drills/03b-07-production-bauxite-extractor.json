@@ -28,12 +28,12 @@ consumes: {
 }
 
 
-craftTime: 60
+craftTime: 90
 
 
 outputLiquid: 02a-08-liquid-ozone/0.1
 outputItems: [
-	01a-04-item-alluminum/1
+	01a-04-item-alluminum/2
 ] 
 
 
