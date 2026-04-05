@@ -17,7 +17,7 @@ unitType: 07a-04-loxosceles
 health: 3000
 armor: 1
 itemCapacity: 3600
-unitCapModifier: 6
+unitCapModifier: 8
 solid: false
 category: effect
 
