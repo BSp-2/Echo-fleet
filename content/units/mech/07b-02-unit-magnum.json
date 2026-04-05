@@ -11,6 +11,7 @@ mechLegColor: 181425FF
 stepSound: mechStepSmall
 stepSoundPitch: 0.8
 stepSoundVolume: 0.7
+researchCostMultiplier: 0.5
 weapons: [
   {
   top: false
