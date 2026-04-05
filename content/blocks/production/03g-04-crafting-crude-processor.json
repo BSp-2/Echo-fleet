@@ -52,7 +52,7 @@ liquidOutputDirections: [1,2,3,4]
 
 
 research: {
-	parent: 03g-02-crafting-curpide-chamber
+	parent: 03g-02-crafting-cupride-chamber
 	objectives: [
 	  02a-01-liquid-crude-oil, 
 	  {
