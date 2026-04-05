@@ -77,12 +77,16 @@ heatOutput: 8
 sideHeat: [1]
 
 
-research: 03f-04-power-ignition-plant
+research: {
+	parent: 03f-04-power-ignition-plant
+	objectives: [
+	    02a-03-liquid-purified-water
+    ] 
 researchCost: [
 	01a-01-item-scrap/1400
     01a-02-item-copper/1100
     01a-04-item-alluminum/700
-    01a-06-item-europium/300
+    01a-05-item-cupride/300
 ]
 
 
