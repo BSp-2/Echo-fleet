@@ -42,7 +42,10 @@ consumes: {
 research: {
 	parent: 03j-02-crab-fabricator
 	objectives: [
-		01a-06-item-europium
+		{
+			type: OnSector
+			preset: 05a-06-sector-wadi
+		} 
 	]
 }
 
