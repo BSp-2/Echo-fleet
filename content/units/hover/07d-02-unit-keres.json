@@ -26,6 +26,7 @@ canDrown: false
 itemCapacity: 20
 fogRadius: 18
 range: 120
+researchCostMultiplier: 0.5
 
 
 abilities: [
