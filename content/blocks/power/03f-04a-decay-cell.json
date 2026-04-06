@@ -61,7 +61,7 @@ drawer: {
 
 
 research: {
-	parent: 03f-04-power-ignition-
+	parent: 03f-04-power-ignition-plant
 	objectives: [
 		02a-08-liquid-ozone, 
     {
