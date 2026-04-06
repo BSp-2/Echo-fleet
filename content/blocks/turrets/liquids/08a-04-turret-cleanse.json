@@ -14,23 +14,21 @@ category: turret
 
 
 research: {
-   parent: 08a-02-turret-ergine
+   parent: 08a-01-turret-asher
    objectives: [
-      01a-05-item-cupride
+      01a-03-item-soft-coal
    ]
 }
 researchCost: [
   01a-01-item-scrap/800
-  01a-04-item-alluminum/800
-  01a-05-item-cupride/400
+  01a-02-item-copper/500
 ]
 
 
 range: 160
 requirements: [
   01a-01-item-scrap/80
-  01a-04-item-alluminum/80
-  01a-05-item-cupride/40
+  01a-02-item-copper/50
 ]
 
 
