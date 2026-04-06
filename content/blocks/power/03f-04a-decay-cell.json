@@ -70,7 +70,7 @@ research: {
 		} 
 	]
 } 
-ResearchCost: [
+researchCost: [
 	01a-01-item-scrap/1250
 	01a-02-item-copper/900
 	01a-04-item-alluminum/600
