@@ -71,7 +71,7 @@ research: {
 		02a-05-liquid-lpg
 	]
 } 
-ResearchCost: [
+researchCost: [
 	01a-01-item-scrap/1200
 	01a-02-item-copper/1100
 	01a-04-item-alluminum/800
