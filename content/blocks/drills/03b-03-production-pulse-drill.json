@@ -12,9 +12,6 @@ shake: 1.5
 itemCapacity: 30
 optinalBoostIntensity: 2.5
 details: Boost: 1.6×
-drillMultipliers: [
-	01a-01-item-scrap: 1.33333333333333
-]
 
 
 consumes: {
