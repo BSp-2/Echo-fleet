@@ -5,7 +5,7 @@ size: 2
 health: 360
 effectChance: 0.05
 range: 16
-healPercent: 0.008333333333333
+healPercent: 0.0083333333333333333333333333333333333333333334
 outputsPower: false
 hasPower: true
 consumePower: true
