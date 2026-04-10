@@ -6,7 +6,7 @@ attribute: steam
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8
-powerProduction: 0.1111111111111111111
+powerProduction: 0.074074074074074074074074074074074074
 generateEffect: turbinegenerate
 effectChance: 0.1
 squareSprite: false
