@@ -66,7 +66,7 @@ research: {
 		02a-08-liquid-ozone, 
     {
       type: OnSector
-      preset: 05a-03-sector-haign
+      preset: 05a-04-sector-pirc
 		} 
 	]
 } 
