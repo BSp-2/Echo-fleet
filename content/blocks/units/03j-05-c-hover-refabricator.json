@@ -15,7 +15,7 @@ requirements: [
   01a-04-item-alluminum/540
   01a-05-item-cupride/320
 ]
-constructTime: 5400
+constructTime: 3600
 category: units
 
 
@@ -31,8 +31,8 @@ consumes: {
   02a-12-liquid-neutralizer/0.1
   ]
   items: [
-  01a-01-item-scrap/50
-  01a-04-item-alluminum/50
+  01a-01-item-scrap/60
+  01a-04-item-alluminum/45
   01a-05-item-cupride/75
   ]
 }
