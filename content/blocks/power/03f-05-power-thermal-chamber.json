@@ -1,6 +1,6 @@
 type: HeaterGenerator
 name: Thermal Reactor
-description: make power and heat
+description: Produces a greater amount of power from a thermal reaction. Outputs excess heat for later uses in crafting, etc. 
 size: 4
 category: power
 squareSprite: false
@@ -17,7 +17,7 @@ requirements: [
 ]
 
 
-powerProduction: 10
+powerProduction: 12
 consumes: {
   items: [
     01a-03-item-soft-coal/1
