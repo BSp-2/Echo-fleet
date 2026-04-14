@@ -23,9 +23,9 @@ plans: [
     type: FactoryUnitPlan
     unit: 07e-01-unit-thrive
     requirements: [
-      01a-01-item-scrap/60
-      01a-02-item-copper/45
-      01a-04-item-alluminum/30
+      01a-01-item-scrap/75
+      01a-02-item-copper/50
+      01a-04-item-alluminum/25
     ]
     time: 3000
   }  
