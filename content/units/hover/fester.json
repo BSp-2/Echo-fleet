@@ -1,0 +1,168 @@
+type: mech
+name: Fester
+description: Equipped with a medium railcannon and a few support-fire weapons. Cannot cross terrain.
+research: 07d-03-unit-ephai
+moveSound: loopExtract
+moveSoundVolume: 0.6
+moveSoundPitchMin: 0.75
+moveSoundPitchMax: 1.45
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+engineSize: 0
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.1
+outlineColor: 13151AFF
+speed: 1.2
+rotateSpeed: 2.5
+accel: 0.1
+groundLayer: 61
+health: 6400
+armor: 7
+hitSize: 22
+canDrown: false
+itemCapacity: 0
+fogRadius: 20
+range: 384
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: -12.5
+    y: -7
+    interval: 3
+    minVelocity: 0.5
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrail
+    x: 12.5
+    y: -7
+    interval: 3
+    minVelocity: 0.5
+  }
+]
+
+
+engines: [
+  {
+    x: 0
+    y: -10
+    radius: 4
+    rotation: 270
+  }
+  {
+    x: -12.5
+    y: -7
+    radius: 2.5
+    rotation: 270
+  }
+  {
+    x: 12.5
+    y: -7
+    radius: 2.5
+    rotation: 270
+  } 
+]
+
+
+useEngineElevation: false
+lowAltitude: true
+
+
+weapons: [
+  {
+    shootCone: 20
+    x: 0
+    y: 5.96875
+    name: 07d-03-unit-ephai-weapon
+    mirror: false
+    alternate: false
+    top: false
+    reload: 480
+    rotate: false
+    shootSound: shootDiffuse
+    recoil: 5
+    inaccuracy: 2
+    velocityRnd: 0.1
+    shootStatus: unmoving
+    shootStatusDuration: 180
+    shoot: {
+      shots: 1
+      shotDelay: 0
+    }
+    bullet: { 
+      type: BasicBulletType
+      width: 10
+      damage: 400
+      lifetime: 24
+      speed: 16
+      recoil: 6
+      smokeEffect: shootSmokeSquare
+      trailColor: F7EE8AFF
+      trailWidth: 8
+      trailLength: 12
+      trailParam: 2
+      trailInterval: 2
+      trailEffect: missileTrail
+      backColor: CE7B5BFF
+      hitColor: F7EE8AFF
+      missColor: F7EE8AFF
+      collidesTeam: false
+      hitSound: none
+      despawnSound: none
+      homingPower: 0.05
+      weaveMag: 1
+      weaveScale: 8
+      fragOnHit: true
+      fragBullets: 10
+      fragRandomSpread: 360
+      fragVelocityMin: 0.2
+      fragVelocityMax: 0.5
+      fragAngle: 0
+      fragOnAbsorb: true
+      fragHomingDelay: 0
+      fragHomingPower: 0.1
+      fragBullet: {
+        type: BasicBulletType
+        speed: 4
+				drag: 0.05
+        lifetime: 60
+        width: 12
+        height: 12
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 3
+        damage: 40
+        despawnSound: dullExplosion
+        trailColor: F7EE8AFF
+        trailWidth: 5
+        trailLength: 10
+        trailParam: 1.8
+        trailInterval: 2
+        trailEffect: missileTrail
+        backColor: CE7B5BFF
+      }
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 60
+        waveStroke: 1
+        waveColor: F7EE8AFF
+        sparkColor: F7EE8AFF
+        waveRad: 4
+        smokeSize: 2
+        smokeSizeBase: 0
+        sparks: 8
+        sparkRad: 24
+        sparkLen: 2
+        sparkStroke: 1.5
+      }
+    }
+  }
+]  
