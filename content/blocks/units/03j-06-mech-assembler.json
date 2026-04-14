@@ -25,7 +25,7 @@ plans: [
     echo-fleet-reinforced-leggings/2
     echo-fleet-07b-01-unit-ratchet/2
     ]
-    time: 3000
+    time: 3600
   }
   {
     type: AssemblerUnitPlan
