@@ -25,7 +25,7 @@ plans: [
     echo-fleet-gravitron-module/1
     echo-fleet-07d-01-unit-mabuz/3
     ]
-    time: 10800
+    time: 4500
   }
   {
     type: AssemblerUnitPlan
