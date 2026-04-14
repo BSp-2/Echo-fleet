@@ -15,7 +15,7 @@ requirements: [
   01a-04-item-alluminum/240
   01a-05-item-cupride/320
 ]
-constructTime: 5400
+constructTime: 3600
 category: units
 
 
@@ -32,8 +32,8 @@ consumes: {
   ]
   items: [
   01a-02-item-copper/75
-  01a-04-item-alluminum/25
-  01a-05-item-cupride/50
+  01a-04-item-alluminum/30
+  01a-05-item-cupride/45
   ]
 }
 
