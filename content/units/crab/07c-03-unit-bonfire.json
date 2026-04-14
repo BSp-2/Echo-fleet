@@ -22,7 +22,7 @@ groundLayer: 60
 health: 2500
 armor: 4
 allowLegStep: true
-speed: 1.333333333333333
+speed: 1.2
 hitSize: 18
 drag: 0.18
 rotateSpeed: 1.5
@@ -33,9 +33,9 @@ outlineColor: 13151AFF
 abilities: [
   {
   type: ShieldArcAbility
-  max: 300
+  max: 100
   cooldown: 600
-  regen: 0.16666666666666666
+  regen: 0.08333333333333333
   angle: 90
   whenShooting: false
   width: 4
@@ -60,7 +60,7 @@ research: {
 weapons: [
   {
   shootStatus: slow
-  shootStatusDuration: 80
+  shootStatusDuration: 120
   shoot: {
     firstShotDelay: 80
   }
