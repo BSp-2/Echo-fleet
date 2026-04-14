@@ -31,7 +31,7 @@ consumes: {
 craftTime: 90
 
 
-outputLiquid: 02a-08-liquid-ozone/0.1
+outputLiquid: 02a-08-liquid-ozone/0.13333333333333333333333333333333333
 outputItems: [
 	01a-04-item-alluminum/2
 ] 
