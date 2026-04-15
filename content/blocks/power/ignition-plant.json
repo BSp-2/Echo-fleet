@@ -7,19 +7,19 @@ squareSprite: false
 
 
 requirements: [
-  01a-01-item-scrap/60
-  01a-02-item-copper/50
-  01a-04-item-alluminum/20
+  efscrap/60
+  efcopper/50
+  efalluminum/20
 ]
 
 
 consumes: {
   items: [
- 	01a-03-item-soft-coal/1
+ 	efsoft-coal/1
   ]
   liquids: [
- 	02a-02-liquid-dirty-water/0.0666666666666666
-	 02a-12-liquid-neutralizer/0.05
+ 	efdirty-water/0.0666666666666666
+    efneutralizer/0.05
   ]
 }
 
@@ -42,7 +42,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02a-02-liquid-dirty-water
+      drawLiquid: efdirty-water
       alpha: 0.7
       padding: 2
     } 
@@ -57,10 +57,10 @@ drawer: {
 
 
 
-research: 03f-01-power-copper-node
+research: copper-node
 researchCost: [
-  01a-01-item-scrap/600
-  01a-02-item-copper/500
-  01a-04-item-alluminum/200
+  efscrap/600
+  efcopper/500
+  efalluminum/200
 ] 
 
