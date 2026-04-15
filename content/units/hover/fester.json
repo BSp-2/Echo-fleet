@@ -276,17 +276,17 @@ weapons: [
   {
     top: false
 	x: 12
-    recoil: 2.25
+    recoil: 2
     shootCone: 30
-    inaccuracy: 10
+    inaccuracy: 3
     velocityRnd: 0.15
-    reload: 60
+    reload: 30
     rotate: false
     mirror: true
     alternate: true
     shoot: {
       shots: 3
-      shotDelay: 8
+      shotDelay: 4
     }
     shootSound: shootDisperce
     bullet: {
@@ -298,15 +298,15 @@ weapons: [
       width: 4
       height: 12
       smokeEffect: shootSmokeSquare
-      trailColor: DC913AFF
+      trailColor: F7EE8AFF
       trailWidth: 3
       trailLength: 12
       trailParam: 1.6
       trailInterval: 2
       trailEffect: missileTrail
-      backColor: DC913AFF
-      hitColor: DC913AFF
-      missColor: DC913AFF
+      backColor: F7EE8AFF
+      hitColor: F7EE8AFF
+      missColor: F7EE8AFF
       collidesTeam: false
       hitSound: none
       fragBullets: 4
@@ -319,6 +319,7 @@ weapons: [
         pierce: false
         damage: 10
         despawnSound: shootEnergyField
+		lightningColor: F7EE8AFF
       }
     }
   }
