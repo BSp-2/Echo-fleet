@@ -183,8 +183,8 @@ weapons: [
       fragHomingPower: 0.1
       fragBullet: {
         type: BasicBulletType
-	    lifeScaleRadMin: 0.75
-		lifeScaleRadMax: 1.5
+	    lifeScaleRandMin: 0.75
+		lifeScaleRandMax: 1.5
         speed: 12
 	    drag: 0.05
         lifetime: 120
@@ -222,6 +222,7 @@ weapons: [
       intervalSpread: 40
       intervalBullet: {
         type: BasicBulletType
+	    lifeScaleRandMin: 0.9
         lifetime: 60
         speed: 4
         drag: 0.1
