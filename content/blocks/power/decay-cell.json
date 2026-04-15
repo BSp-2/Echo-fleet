@@ -7,16 +7,16 @@ squareSprite: false
 
 
 requirements: [
-  01a-01-item-scrap/250
-  01a-02-item-copper/180
-  01a-04-item-alluminum/120
+  efscrap/250
+  efcopper/180
+  efalluminum/120
 ]
 
 
 consumes: {
   liquids: [
- 	02a-08-liquid-ozone/0.1
-	 02a-12-liquid-neutralizer/0.1
+ 	efozone/0.1
+	efneutralizer/0.1
   ]
 }
 
@@ -37,7 +37,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02a-08-liquid-ozone
+      drawLiquid: efozone
       alpha: 1
       padding: 3
     } 
@@ -61,18 +61,18 @@ drawer: {
 
 
 research: {
-	parent: 03f-04-power-ignition-plant
+	parent: ignition-plant
 	objectives: [
-		02a-08-liquid-ozone, 
+		efozone, 
     {
       type: OnSector
-      preset: 05a-04-sector-pirc
+      preset: pirc
 		} 
 	]
 } 
 researchCost: [
-	01a-01-item-scrap/1250
-	01a-02-item-copper/900
-	01a-04-item-alluminum/600
+	efscrap/1250
+	efcopper/900
+	efalluminum/600
 ]
 	
