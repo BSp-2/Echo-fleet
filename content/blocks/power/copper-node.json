@@ -22,20 +22,20 @@ consumes: {
 
 
 requirements: [
-  01a-01-item-scrap/4
-  01a-02-item-copper/6
+  efscrap/4
+  efcopper/6
 ]
 
 
 research: {
-  parent: 03h-01-core-nest
+  parent: nest
   objectives: [  
-    03d-01-liquid-siphon-pump
+    siphon-pump
   ]
 }
 researchCost: [
-	01a-01-item-scrap/40
-    01a-02-item-copper/60
+	efscrap/40
+    efcopper/60
 ] 
 
 
