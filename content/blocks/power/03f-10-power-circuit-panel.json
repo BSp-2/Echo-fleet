@@ -7,11 +7,11 @@ squareSprite: false
 
 
 requirements: [
-  01a-01-item-scrap/220
-  01a-04-item-alluminum/190
-  01a-07-item-polycarbonate/140
-  01a-09-item-echo-shard/130
-  01a-10-item-echo-circuit/70
+  efscrap/220
+  efalluminum/190
+  efpolycarbonate/140
+  efecho-shard/130
+  efecho-circuit/70
 ]
 
 
@@ -19,4 +19,4 @@ powerProduction: 3
 generateEffect: none
 
 
-research: 03f-09-power-radioactivity-cell
+research: radioactivity-cell
