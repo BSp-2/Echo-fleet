@@ -87,13 +87,14 @@ weapons: [
     top: false
     reload: 480
     rotate: false
-    shootSound: shootDiffuse
+    shootSound: shootBeamPlasma
+	chargeSound: chargeVela
     inaccuracy: 2
     velocityRnd: 0.1
     shootStatus: unmoving
     shootStatusDuration: 300
     shoot: {
-      firstShotDelay: 120
+      firstShotDelay: 60
     }
     bullet: { 
       type: BasicBulletType
@@ -157,6 +158,7 @@ weapons: [
           pierce: false
           pierceBuilding: false
           lightningColor: F7EE8AFF
+	      despawnSound: shootEnergyField
 	    }
       }
 	  bulletInterval: 4
@@ -194,6 +196,7 @@ weapons: [
           pierce: false
           pierceBuilding: false
           lightningColor: F7EE8AFF
+	      despawnSound: shootEnergyField
         } 
       }
       hitEffect: {
