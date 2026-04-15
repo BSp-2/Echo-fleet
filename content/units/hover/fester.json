@@ -206,6 +206,7 @@ weapons: [
         fragRandomSpread: 360
         fragAngle: 0
         fragOnAbsorb: true
+	    fragOnHit: true
 	    fragBullet: {
 		  type: LightningBulletType
           lightningLength: 6
