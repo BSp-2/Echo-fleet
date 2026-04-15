@@ -11,10 +11,10 @@ category: power
 
 
 requirements: [
-  01a-02-item-copper/120
-  01a-04-item-alluminum/80
-  01a-05-item-cupride/80
-  01a-09-item-echo-shard/40
+  efcopper/120
+  efalluminum/80
+  efcupride/80
+  efecho-shard/40
 ]
 
 
@@ -23,4 +23,4 @@ laserColor1: C692CEFF
 laserColor2: 735B94FF
 
 
-research: 03f-02-power-europium-node
+research: europium-node
