@@ -7,9 +7,9 @@ squareSprite: false
 
 
 requirements: [
-  01a-01-item-scrap/80
-  01a-04-item-alluminum/60
-  01a-05-item-cupride/40
+  efscrap/80
+  efalluminum/60
+  efcupride/40
 ]
 
 
@@ -17,22 +17,22 @@ pumpAmount: 0.0888888888888888888
 consumes: {
   power: 1
   liquids: [
- 	02a-09-liquid-nitrogen/0.03333333333333333333
+ 	efnitrogen/0.03333333333333333333
  ]
 }
 
 
 
 research: {
-  parent: 03d-01-liquid-siphon-pump
+  parent: siphon-pump
   objectives: [
-    02a-09-liquid-nitrogen
+    efnitrogen
   ] 
 }
 researchCost: [
-  01a-01-item-scrap/800
-  01a-04-item-alluminum/600
-  01a-05-item-cupride/400
+  efscrap/800
+  efalluminum/600
+  efcupride/400
 ]
 
 
