@@ -15,11 +15,11 @@ details: Boost: 1.6×
 
 
 consumes: {
-	liquid: 02a-06-liquid-sulphuric-acid/0.1
+	liquid: efsulphuric-acid/0.1
 	power: 4
 	liquids: {
 		liquids: [
-			02a-11-liquid-hydrogen/0.033333333333333333333333333333333
+			efhydrogen/0.033333333333333333333333333333333
 		]
 		optional: true
 		booster: true
@@ -51,11 +51,11 @@ drillEffect: [
 
 
 requirements: [
-  01a-01-item-scrap/230
-  01a-02-item-copper/210
-  01a-06-item-europium/170
-  01a-07-item-polycarbonate/140
-  01a-09-item-echo-shard/70
+  efscrap/230
+  efcopper/210
+  efeuropium/170
+  efpolycarbonate/140
+  efecho-shard/70
 ]
 
 
@@ -63,4 +63,4 @@ squareSprite: false
 
 
 
-research: 03b-04-production-blast-drill
+research: blast-drill
