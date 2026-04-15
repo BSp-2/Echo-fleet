@@ -7,8 +7,8 @@ squareSprite: false
 
 
 requirements: [
-  01a-01-item-scrap/30
-  01a-02-item-copper/20
+  efscrap/30
+  efcopper/20
 ]
 
 
@@ -20,14 +20,14 @@ consumes: {
 
 
 research: {
-  parent: 03h-01-core-nest
+  parent: nest
   objectives: [  
-    03k-01-defense-scrap-wall
+    scrap-wall
   ]
 }
 researchCost: [
-  01a-01-item-scrap/120
-  01a-02-item-copper/80
+  efscrap/120
+  efcopper/80
 ]
 
 
