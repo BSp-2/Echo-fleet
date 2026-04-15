@@ -52,8 +52,8 @@ drawer: {
     {
       type: DrawLiquidTile
       drawLiquid: eflpg
-      padding: 2
-      alpha: 0.8
+      padding: 3
+      alpha: 1
     }
     {
       type: DrawBubbles
