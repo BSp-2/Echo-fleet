@@ -116,9 +116,9 @@ weapons: [
     	  cone: 360
     	  interp:pow3Out
     	  sizeChangeStart:12
-    	  length: 16
-    	  sizeFrom: 2
-    	  sizeTo: 4
+    	  length: 20
+    	  sizeFrom: 4
+    	  sizeTo: 8
     	  baseRotation:180
     	  colorFrom: F7EE8AAA
     	  colorTo: F7EE8A00
@@ -131,9 +131,9 @@ weapons: [
     	  layer: 100.5
     	  cone: 80
     	  sizeChangeStart:12
-    	  length: 6
-    	  sizeFrom: 2
-    	  sizeTo: 3
+    	  length: 8
+    	  sizeFrom: 4
+    	  sizeTo: 6
     	  colorFrom: F7EE8A90
      	  colorTo: F7EE8A00
         }
@@ -143,8 +143,8 @@ weapons: [
     	  lifetime: 50
     	  layer: 100.3
     	  cone: 360
-    	  length: 8
-    	  sizeFrom: 1
+    	  length: 12
+    	  sizeFrom: 3
     	  sizeTo: 0
     	  colorFrom: F7EE8A
     	  colorTo: F7EE8A
@@ -155,8 +155,8 @@ weapons: [
     	  lifetime: 50
     	  layer: 100.3
     	  cone: 40
-    	  length: 6
-    	  sizeFrom: 2
+    	  length: 12
+    	  sizeFrom: 4
     	  sizeTo: 0
     	  baseRotation:180
     	  colorFrom: ffffff
