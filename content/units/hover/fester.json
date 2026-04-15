@@ -129,9 +129,9 @@ weapons: [
       fragHomingPower: 0.1
       fragBullet: {
         type: BasicBulletType
-        speed: 4
+        speed: 12
 	    drag: 0.05
-        lifetime: 60
+        lifetime: 120
         width: 12
         height: 12
         pierce: true
@@ -167,7 +167,7 @@ weapons: [
         type: BasicBulletType
         lifetime: 60
         speed: 4
-        drag: 0.05
+        drag: 0.1
         width: 8
         height: 8
         pierce: false
