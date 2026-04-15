@@ -88,14 +88,13 @@ weapons: [
     reload: 480
     rotate: false
     shootSound: shootDiffuse
-    recoil: 5
     inaccuracy: 2
     velocityRnd: 0.1
     shootStatus: unmoving
-    shootStatusDuration: 180
+    shootStatusDuration: 300
     shoot: {
       shots: 1
-      shotDelay: 0
+      shotDelay: 120
     }
     bullet: { 
       type: BasicBulletType
