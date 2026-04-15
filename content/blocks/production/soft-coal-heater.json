@@ -29,7 +29,7 @@ drawer: {
 
 consumes: {
   items: [
-    01a-03-item-soft-coal/1
+    efsoft-coal/1
   ]
 }
 
@@ -44,13 +44,13 @@ category: crafting
 
 
 requirements: [
-  01a-01-item-scrap/50
-  01a-02-item-copper/40
+  efscrap/50
+  efcopper/40
 ]
 
 
-research: 03g-02-crafting-cupride-chamber
+research: cupride-chamber
 researchCost: [
-  01a-01-item-scrap/500
-  01a-02-item-copper/400
+  efscrap/500
+  efcopper/400
 ]
