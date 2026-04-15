@@ -7,7 +7,7 @@ speed: 20
 
 
 requirements: [
-  01a-02-item-copper/2
+  efcopper/2
 ]
 
 
@@ -16,7 +16,7 @@ category: distribution
 
 
 
-research: 03a-01-distribution-copper-duct
+research: copper-duct
 researchCost: [
-  01a-02-item-copper/20
+  efcopper/20
 ]
