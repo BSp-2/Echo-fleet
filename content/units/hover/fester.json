@@ -80,8 +80,7 @@ weapons: [
   {
     shootCone: 20
     x: 0
-    y: 5.96875
-    name: 07d-03-unit-ephai-weapon
+    y: 0
     mirror: false
     alternate: false
     top: false
@@ -94,7 +93,7 @@ weapons: [
     shootStatus: unmoving
     shootStatusDuration: 300
     shoot: {
-      firstShotDelay: 60
+      firstShotDelay: 55
     }
     bullet: { 
       type: BasicBulletType
@@ -105,7 +104,7 @@ weapons: [
       recoil: 6
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
-      trailWidth: 8
+      trailWidth: 4
       trailLength: 12
       trailParam: 2
       trailInterval: 2
@@ -141,7 +140,7 @@ weapons: [
         damage: 40
         despawnSound: dullExplosion
         trailColor: F7EE8AFF
-        trailWidth: 5
+        trailWidth: 2
         trailLength: 10
         trailParam: 1.8
         trailInterval: 2
@@ -161,10 +160,10 @@ weapons: [
 	      despawnSound: shootEnergyField
 	    }
       }
-	  bulletInterval: 4
+	  bulletInterval: 3
       intervalRandomSpread: 0
       intervalBullets: 2
-      intervalSpread: 60
+      intervalSpread: 40
       intervalBullet: {
         type: BasicBulletType
         lifetime: 60
@@ -178,7 +177,7 @@ weapons: [
         areaDamageRadius: 24
         despawnSound: dullExplosion
         trailColor: F7EE8AFF
-        trailWidth: 5
+        trailWidth: 2
         trailLength: 10
         trailParam: 1.8
         trailInterval: 2
