@@ -5,13 +5,13 @@ description: Moves items forward. Does not accept non-duct inputs from the sides
 category: distribution
 speed: 6
 health: 360
-bridgeReplacement: 03a-06-distribution-copper-bridge
+bridgeReplacement: copper-bridge
 requirements: [
-  01a-04-item-alluminum/1
+  efalluminum/1
 ]
-junctionReplacement: 03a-05-distribution-copper-junction
+junctionReplacement: copper-junction
 
 
 
-research: 03a-01-distribution-copper-duct
+research: copper-duct
 
