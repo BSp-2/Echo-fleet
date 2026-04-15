@@ -6,9 +6,9 @@ category: distribution
 
 
 requirements: [
-  01a-02-item-copper/60
-  01a-04-item-alluminum/30
-  01a-07-item-polycarbonate/20
+  efcopper/60
+  efalluminum/30
+  efpolycarbonate/20
 ]
 
 
@@ -30,4 +30,4 @@ drawer: {
 }
 
 
-research: 03a-12-distribution-heat-distributor
+research: efheat-distributor
