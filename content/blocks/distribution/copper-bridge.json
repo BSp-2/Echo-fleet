@@ -7,8 +7,8 @@ solid: false
 
 
 requirements: [
-  01a-01-item-scrap/3
-  01a-02-item-copper/2
+  efscrap/3
+  efcopper/2
 ] 
 
 
@@ -19,10 +19,10 @@ speed: 3
 
 
 
-research: 03a-01-distribution-copper-duct
+research: copper-duct
 researchCost: [
-  01a-01-item-scrap/30
-  01a-02-item-copper/20
+  efscrap/30
+  efcopper/20
 ]
 
 
