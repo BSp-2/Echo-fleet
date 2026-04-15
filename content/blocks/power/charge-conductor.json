@@ -7,21 +7,21 @@ squareSprite: false
 
 
 requirements: [
-  01a-01-item-scrap/180
-  01a-02-item-copper/160
-  01a-04-item-alluminum/150
-  01a-06-item-europium/90
-  01a-07-item-polycarbonate/40
+  efscrap/180
+  efcopper/160
+  efalluminum/150
+  efeuropium/90
+  efpolycarbonate/40
 ]
 
 
 consumes: {
   items: [
- 	01a-04-item-alluminum/1
+ 	efalluminum/1
   ]
   liquids: [
- 	02a-09-liquid-nitrogen/0.2
- 	02a-12-liquid-neutralizer/0.15
+ 	efnitrogen/0.2
+ 	efneutralizer/0.15
   ]
 }
 
@@ -43,7 +43,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02a-09-liquid-nitrogen
+      drawLiquid: efnitrogen
       alpha: 0.7
       padding: 2
     } 
@@ -57,4 +57,4 @@ drawer: {
 }
 
 
-research: 03f-06-power-lpg-engine
+research: lpg-engine
