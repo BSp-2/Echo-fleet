@@ -103,12 +103,66 @@ weapons: [
       speed: 6.4
       recoil: 6
       smokeEffect: shootSmokeSquare
-      trailColor: F7EE8AFF
-      trailWidth: 4
+      trailInterval: 1
+      trailRotation: true
       trailLength: 12
-      trailParam: 2
-      trailInterval: 2
-      trailEffect: missileTrail
+      trailWidth: 2
+      trailEffect: [
+    	{
+    	  type: ParticleEffect
+    	  particles: 4
+    	  lifetime: 50
+    	  layer: 100.4
+    	  cone: 360
+    	  interp:pow3Out
+    	  sizeChangeStart:12
+    	  length: 16
+    	  sizeFrom: 2
+    	  sizeTo: 4
+    	  baseRotation:180
+    	  colorFrom: F7EE8AAA
+    	  colorTo: F7EE8A00
+        }
+    	{
+    	  type: ParticleEffect
+    	  particles: 2
+    	  lifetime: 50
+    	  interp:pow3Out
+    	  layer: 100.5
+    	  cone: 80
+    	  sizeChangeStart:12
+    	  length: 6
+    	  sizeFrom: 2
+    	  sizeTo: 3
+    	  colorFrom: F7EE8A90
+     	  colorTo: F7EE8A00
+        }
+    	{
+    	  type: ParticleEffect
+    	  particles: 2
+    	  lifetime: 50
+    	  layer: 100.3
+    	  cone: 360
+    	  length: 8
+    	  sizeFrom: 1
+    	  sizeTo: 0
+    	  colorFrom: F7EE8A
+    	  colorTo: F7EE8A
+        }
+    	{
+    	  type: ParticleEffect
+    	  particles: 1
+    	  lifetime: 50
+    	  layer: 100.3
+    	  cone: 40
+    	  length: 6
+    	  sizeFrom: 2
+    	  sizeTo: 0
+    	  baseRotation:180
+    	  colorFrom: ffffff
+    	  colorTo: F7EE8A
+        }
+	  ] 
       backColor: CE7B5BFF
       hitColor: F7EE8AFF
       missColor: F7EE8AFF
