@@ -11,13 +11,13 @@ squareSprite: true
 
 
 requirements: [
-  01a-01-item-scrap/10
+  efscrap/10
 ]
 
 
 
-research: 03d-06-liquid-liquid-junction
+research: liquid-junction
 researchCost: [
-  01a-01-item-scrap/100
+  efscrap/100
 ]
 
