@@ -8,7 +8,7 @@ solid: false
 
 
 requirements: [
-  01a-01-item-scrap/10
+  efscrap/10
 ]
 
 
@@ -17,9 +17,9 @@ squareSprite: true
 
 
 
-research: 03d-04-liquid-liquid-pipeline
+research: liquid-pipeline
 researchCost: [
-  01a-01-item-scrap/100
+  efscrap/100
 ] 
 
 
