@@ -208,7 +208,8 @@ weapons: [
         fragOnAbsorb: true
 	    fragBullet: {
 		  type: LightningBulletType
-          lightningLength: 12
+          lightningLength: 6
+		  lightningLengthRand: 6
           damage: 5
           pierce: false
           pierceBuilding: false
@@ -230,8 +231,8 @@ weapons: [
         height: 8
         pierce: false
         damage: 5
-        areaDamage: 30
-        areaDamageRadius: 24
+        splashDamage: 30
+        splashDamageRadius: 24
         despawnSound: dullExplosion
         trailColor: F7EE8AFF
         trailWidth: 2
@@ -247,7 +248,8 @@ weapons: [
         fragBullet: {
           type: LightningBulletType
           lightningColor: F7EE8AFF
-          lightningLength: 16
+          lightningLength: 8
+		  lightningLengthRand: 8
           damage: 15
           pierce: false
           pierceBuilding: false
