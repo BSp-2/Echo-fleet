@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: Neutralizer Foundry
+name: Neutralizer Centrifuge
 description: Cools down Slag through low pressure, then mixes it with Contaminated Water, in the process infusing the Slag with its components and Europium dust. This allows for more efficent Neutralizer production, but requires more power.
 category: crafting
 size: 4
@@ -16,21 +16,21 @@ itemCapacity: 30
 
 
 outputLiquids: [
-    02a-12-liquid-neutralizer/2.2
+    efneutralizer/2.4
 ]
 
 
 consumes: {
     power: 7.5
 	liquids: [
-        02a-04-liquid-slag/0.25
-        02a-02-liquid-dirty-water/0.15
+        efslag/0.25
+        efwater/0.15
     ]
     items: [
    	 01a-06-item-europium/1
     ]
 }
-craftTime: 30
+craftTime: 60
 
 
 ambientSound: loopSteam
@@ -38,10 +38,10 @@ ambientSoundVolume: 0.1
 
 
 requirements: [
-  01a-01-item-scrap/140
-  01a-02-item-copper/120
-  01a-04-item-alluminum/80
-  01a-06-item-europium/40
+  efscrap/140
+  efcopper/120
+  efalluminum/80
+  efeuropium/40
 ]
 
 
@@ -54,7 +54,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02a-12-liquid-neutralizer
+      drawLiquid: efneutralizer
       alpha: 0.7
       padding: 2
     }
@@ -69,4 +69,4 @@ drawer: {
 }
 
 
-research: 03g-00-crafting-neutralizer-infuser
+research: neutralizer-infuser
