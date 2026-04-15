@@ -93,8 +93,7 @@ weapons: [
     shootStatus: unmoving
     shootStatusDuration: 300
     shoot: {
-      shots: 1
-      shotDelay: 120
+      firstShotDelay: 120
     }
     bullet: { 
       type: BasicBulletType
