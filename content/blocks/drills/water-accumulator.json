@@ -15,11 +15,11 @@ hasLiquids: true
 hasPower: true
 
 
-outputLiquid: 02a-02-liquid-dirty-water/0.05555555555555555555555555555555555555555555555555555
+outputLiquid: efdirty-water/0.05555555555555555555555555555555555555555555555555555
 
 
 requirements: [
-    01a-01-item-scrap/40
+    efscrap/40
 ]
 
 
@@ -28,9 +28,9 @@ ambientSoundVolume: 0.08
 
 
 
-research: 03h-01-core-nest
+research: nest
 researchCost: [
-    01a-01-item-scrap/10
+    efscrap/10
 ] 
 
 
@@ -44,7 +44,7 @@ drawer: {
     {
       type: DrawLiquidRegion
       suffix: -liquid1
-      drawLiquid: 02a-02-liquid-dirty-water
+      drawLiquid: efdirty-water
       alpha: 0.7
       padding: 2
     } 
