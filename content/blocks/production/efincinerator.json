@@ -1,6 +1,6 @@
 type: Incinerator
 name: Incinerator
-description: Uses power to destroy items inputted into it.
+description: Uses power to destroy items and liquids inputted into it.
 size: 2
 squareSprite: false
 hasPower: true
@@ -15,22 +15,22 @@ category: crafting
 
 
 requirements: [
-  01a-01-item-scrap/40
-  01a-02-item-copper/20
-  01a-04-item-alluminum/60
+  efscrap/40
+  efcopper/20
+  efalluminum/60
 ]
 
 
 research: {
-  parent: 03g-01-crafting-slag-refinery
+  parent: slag-refinery
   objectives: [
-    01a-04-item-alluminum
+    efalluminum
   ] 
 } 
 researchCost: [
-  01a-01-item-scrap/400
-  01a-02-item-copper/200
-  01a-04-item-alluminum/600
+  efscrap/400
+  efcopper/200
+  efalluminum/600
 ]
 
 
