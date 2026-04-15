@@ -7,8 +7,8 @@ range: 5
 
 
 requirements: [
-  01a-01-item-scrap/10
-  01a-10-item-echo-circuit/2
+  efscrap/10
+  efecho-circuit/2
 ]
 
 
@@ -16,4 +16,4 @@ category: liquid
 squareSprite: true
 
 
-research: 03d-07-liquid-liquid-bridge
+research: liquid-bridge
