@@ -5,7 +5,7 @@ category: liquid
 
 
 requirements: [
-  01a-01-item-scrap/2
+  efscrap/2
 ]
 
 
@@ -14,14 +14,14 @@ leaks: true
 underBullets: true
 
 
-junctionReplacement: 03d-06-liquid-liquid-junction
-rotBridgeReplacement: 03d-07-liquid-liquid-bridge
+junctionReplacement: liquid-junction
+rotBridgeReplacement: liquid-bridge
 
 
 
-research: 03h-01-core-nest
+research: nest
 researchCost: [
-  01a-01-item-scrap/20
+  efscrap/20
 ]
 
 
