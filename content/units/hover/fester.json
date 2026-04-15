@@ -157,7 +157,44 @@ weapons: [
           pierce: false
           pierceBuilding: false
           lightningColor: F7EE8AFF
-	a   }
+	    }
+      }
+	  bulletInterval: 4
+      intervalRandomSpread: 0
+      intervalBullets: 2
+      intervalSpread: 60
+      intervalBullet: {
+        type: BasicBulletType
+        lifetime: 60
+        speed: 4
+        drag: 0.05
+        width: 8
+        height: 8
+        pierce: false
+        damage: 5
+        areaDamage: 30
+        areaDamageRadius: 24
+        despawnSound: dullExplosion
+        trailColor: F7EE8AFF
+        trailWidth: 5
+        trailLength: 10
+        trailParam: 1.8
+        trailInterval: 2
+        trailEffect: missileTrail
+        backColor: CE7B5BFF
+        fragBullets: 2
+        fragRandomSpread: 360
+        fragAngle: 0
+        fragOnAbsorb: true
+        fragBullet: {
+          type: LightningBulletType
+          lightningColor: F7EE8AFF
+          lightningLength: 16
+          damage: 15
+          pierce: false
+          pierceBuilding: false
+          lightningColor: F7EE8AFF
+        } 
       }
       hitEffect: {
         type: ExplosionEffect
