@@ -5,8 +5,8 @@ category: liquid
 
 
 requirements: [
-  01a-04-item-alluminum/3
-  01a-06-item-europium/2
+  efalluminum/3
+  efeuropium/2
 ]
 
 
@@ -14,8 +14,8 @@ health: 230
 leaks: false
 
 
-junctionReplacement: 03d-06-liquid-liquid-junction
-rotBridgeReplacement: 03d-07-liquid-liquid-bridge
+junctionReplacement: liquid-junction
+rotBridgeReplacement: liquid-bridge
 
 
 underBullets: true
@@ -23,4 +23,4 @@ liquidPressure: 1.075
 liquidCapacity: 30
 
 
-research: 03d-04-liquid-liquid-pipeline
+research: liquid-pipeline
