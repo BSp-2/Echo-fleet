@@ -1,0 +1,81 @@
+type: BurstDrill
+name: Blast Drill
+description: Mines ore deposits via medium magnitude explosions.  
+size: 4
+category: production
+hasLiquids: true
+drillTime: 300
+drillHardnessMultiplier: 200
+hasPower: true
+tier: 4
+shake: 2.5
+itemCapacity: 40
+optionalBoostIntensity: 2.5
+details: Boost: 1.6×
+
+
+consumes: {
+	liquid: efpurified-water/0.1
+	power: 1.5
+	liquids: {
+		liquids: [
+			efnitrogen/0.033333333333333333333333333333333
+		] 
+		optional: true
+		booster: true
+	}
+}
+
+
+drillEffect: [
+  {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 15
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: 8f8d87
+    colorTo: 6b6a66
+    lifetime: 40
+  }
+  {
+  type: MineImpact
+  } 
+  {
+  type: MineImpactSteam
+  } 
+  {
+  type: DrillSteam
+  } 
+]
+
+
+requirements: [
+  efscrap/120
+  efcopper/90
+  efalluminum/40
+  efcupride/20
+]
+
+
+squareSprite: false
+
+
+
+research: {
+	parent: pulse-drill
+	objectives: [
+		{
+			type: OnSector
+			preset: wadi
+		} 
+	] 
+} 
+researchCost: [
+	   efscrap/600
+    efcopper/450
+    efalluminum/200
+    efcupride/100
+]
+
+
