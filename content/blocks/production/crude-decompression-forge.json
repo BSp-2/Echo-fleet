@@ -9,10 +9,10 @@ maxEfficiency: 1
 
 
 consumes: {
-	liquids: [
-   	02a-01-liquid-crude-oil/0.8
-  	 02a-12-liquid-neutralizer/0.5
-	]
+  liquids: [
+   	efcrude-oil/0.8
+  	efneutralizer/0.5
+  ]
 }
 
 
@@ -26,10 +26,10 @@ ambientSoundVolume: 0.09
 
 
 outputLiquids: [
-	02a-05-liquid-lpg/0.2
-	02a-07-liquid-carbon-dioxide/0.6
-	02a-09-liquid-nitrogen/0.4
-	02a-10-liquid-hydrogen-sulfide/0.4
+	eflpg/0.2
+	efcarbon-dioxide/0.6
+	efnitrogen/0.4
+	efhydrogen-sulfide/0.4
 ]
 
 
@@ -37,11 +37,11 @@ category: crafting
 
 
 requirements: [
-	01a-01-item-scrap/640
-	01a-02-item-copper/580
-	01a-07-item-polycarbonate/250
-	01a-09-item-echo-shard/220
-	01a-10-item-echo-circuit/180
+	efscrap/640
+	efcopper/580
+	efpolycarbonate/250
+	efecho-shard/220
+	efecho-circuit/180
 ]
 
 
@@ -49,4 +49,4 @@ liquidCapacity: 240
 liquidOutputDirections: [1,2,3,4]
 
 
-research: 03g-04-crafting-crude-processor
+research: crude-processor
