@@ -4,23 +4,23 @@ description: Prioritizes outputting items to the front.
 category: distribution
 health: 80
 requirements: [
-	01a-01-item-scrap/5
-	01a-02-item-copper/5
+	efscrap/5
+	efcopper/5
 ]
 
 
 
 research: {
-  parent: 03a-07-distribution-duct-router
+  parent: copper-duct-router
   objectives: [  
       {
       type: SectorComplete
-      preset: 05a-01-sector-un
+      preset: un
       }
   ]
 }
 researchCost: [
-  01a-01-item-scrap/50
-  01a-02-item-copper/50
+  efscrap/50
+  efcopper/50
 ]
 
