@@ -8,13 +8,13 @@ squareSprite: true
 
 
 requirements: [
-  01a-01-item-scrap/5
+  efscrap/5
 ]
 
 
 
-research: 03d-04-liquid-liquid-pipeline
+research: liquid-pipeline
 researchCost: [
-  01a-01-item-scrap/50
+  efscrap/50
 ]
 
