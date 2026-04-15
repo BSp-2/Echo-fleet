@@ -8,8 +8,8 @@ category: liquid
 
 
 requirements: [
-  01a-01-item-scrap/30
-  01a-04-item-alluminum/20
+  efscrap/30
+  efalluminum/20
 ]
 
 
@@ -17,9 +17,9 @@ liquidPadding: 1.8
 
 
 
-research: 03d-08-liquid-liquid-router
+research: liquid-router
 researchCost: [
-  01a-01-item-scrap/300
-  01a-04-item-alluminum/200
+  efscrap/300
+  efalluminum/200
 ]
 
