@@ -1,8 +1,8 @@
 # Echo-Fleet
-A mindustry mod adding a new planet focused on difficult to use factories and oil refinery
+WALTER WHY ARE THERE LIQUID PIPELINES EVERYWHERE???? WALTER I DIDNT SIGN UP FOR THIS
 
 discord server: https://discord.gg/wrVcj585RH
 
 
 
-Goal: 23/30 stars
+Goal: 27/30 stars
