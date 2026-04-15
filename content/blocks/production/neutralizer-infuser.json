@@ -16,15 +16,15 @@ itemCapacity: 30
 
 
 outputLiquids: [
-    02a-12-liquid-neutralizer/0.6
+    efneutralizer/0.6
 ]
 
 
 consumes: {
     power: 0.25
 	liquids: [
-        02a-04-liquid-slag/0.15
-        02a-02-liquid-dirty-water/0.05
+        efslag/0.15
+        efdirty-water/0.05
     ]
 }
 craftTime: 30
@@ -35,8 +35,8 @@ ambientSoundVolume: 0.08
 
 
 requirements: [
-  01a-01-item-scrap/45
-  01a-02-item-copper/25
+  efscrap/45
+  efcopper/25
 ]
 
 
@@ -50,21 +50,21 @@ drawer: {
     {
       type: DrawLiquidRegion
 	  suffix: -liquid1
-      drawLiquid: 02a-04-liquid-slag
+      drawLiquid: efslag
       alpha: 1
       padding: 3
 	}
     {
       type: DrawLiquidRegion
 	  suffix: -liquid2
-      drawLiquid: 02a-02-liquid-dirty-water
+      drawLiquid: efdirty-water
       alpha: 1
       padding: 3
 	} 
     {
       type: DrawLiquidRegion
 	  suffix: -liquid3
-      drawLiquid: 02a-12-liquid-neutralizer
+      drawLiquid: efneutralizer
       alpha: 1
       padding: 3
     }
@@ -91,15 +91,15 @@ drawer: {
 
 
 research: {
-  parent: 03h-01-core-nest
+  parent: nest
   objectives: [
     {
       type: OnSector
-      preset: 05a-02-sector-mollum
+      preset: mollum
     }
   ]
 }
 researchCost: [
-	01a-01-item-scrap/150
-    01a-02-item-copper/100
+	efscrap/150
+    efcopper/100
 ]
