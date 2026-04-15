@@ -7,7 +7,7 @@ size: 3
 hasLiquids: true
 hasPower: true
 hasItems: true
-craftTime: 60
+craftTime: 120
 squareSprite: true
 
 
@@ -17,29 +17,29 @@ category: crafting
 
 
 requirements: [
-	01a-01-item-scrap/220
-	01a-02-item-copper/180
-	01a-04-item-alluminum/140
-	01a-05-item-cupride/60
-	01a-07-item-polycarbonate/120
+	efscrap/220
+	efcopper/180
+	efalluminum/140
+	efcupride/60
+	efpolycarbonate/120
 ]
 
 
 consumes: {
 	power: 8
 	liquids: [
-		02a-12-liquid-neutralizer/0.25
-		02a-03-liquid-purified-water/0.133333333333
+		efneutralizer/0.25
+		efpurified-water/0.15
 	]
 	items: [
-		01a-08-item-sulphur/2
+		efsulphur/2
 	] 
 }
 
 
 outputLiquids: [
-	02a-06-liquid-sulphuric-acid/0.2
+	efsulphuric-acid/0.2
 ]
 
 
-research: 03g-06-crafting-sulphur-extractor
+research: sulphur-extractor
