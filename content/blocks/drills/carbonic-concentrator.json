@@ -23,7 +23,7 @@ consumes: {
 
 craftTime: 180
 outputItems: [
-	01a-03-item-soft-coal/1
+	efsoft-coal/1
 ] 
 
 
@@ -34,8 +34,8 @@ craftEffect: pulverizeMedium
 
 
 requirements: [
-	01a-01-item-scrap/80
-	01a-02-item-copper/30
+	efscrap/80
+	efcopper/30
 ]
 
 
@@ -60,11 +60,11 @@ drawer: {
 
 
 research: {
-  parent: 03b-07-production-bauxite-extractor
+  parent: alluminum-extractor
   objectives: [ 
     {
       type: OnSector
-      preset: 05a-05-sector-aysel
+      preset: aysel
     }
   ]
 }
