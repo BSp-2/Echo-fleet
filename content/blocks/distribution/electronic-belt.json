@@ -8,8 +8,8 @@ category: distribution
 
 
 requirements: [
-  01a-04-item-alluminum/2
-  01a-10-item-echo-circuit/1
+  efalluminum/2
+  ececho-circuit/1
 ]   
 
 
@@ -34,4 +34,4 @@ unloadEffect: {
 
 
 
-research: 03a-03-distribution-alluminum-duct
+research: alluminum-duct
