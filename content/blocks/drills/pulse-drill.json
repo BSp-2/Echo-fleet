@@ -15,10 +15,10 @@ details: Boost: 1.6×
 
 
 consumes: {
-	liquid: 02a-02-liquid-dirty-water/0.166666666666666666666
+	liquid: efdirty-water/0.166666666666666666666
 	liquids: {
 		liquids: [
-			02a-08-liquid-ozone/0.033333333333333333333333333333333
+			efozone/0.033333333333333333333333333333333
 		]
 		optional: true
 		booster: true
@@ -50,8 +50,8 @@ drillEffect: [
 
 
 requirements: [
-  01a-01-item-scrap/40
-  01a-02-item-copper/20
+  efscrap/40
+  efcopper/20
 ]
 
 
@@ -59,10 +59,10 @@ squareSprite: false
 
 
 
-research: 03b-01-production-water-accumulator
+research: water-accumulator
 researchCost: [
-    01a-01-item-scrap/80
-    01a-02-item-copper/40
+    efscrap/80
+    efcopper/40
 ]
 
 
