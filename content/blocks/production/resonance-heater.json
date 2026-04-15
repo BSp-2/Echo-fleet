@@ -2,9 +2,9 @@ type: HeatProducer
 name: Resonance Heater
 description: this mf is the hottest
 size: 2
-heatOutput: 12
+heatOutput: 8
 squareSprite: true
-craftTime: 500
+craftTime: 480
 
 
 drawer: {
@@ -29,7 +29,7 @@ drawer: {
 
 consumes: {
   items: [
-    01a-12-item-resonance-matrix/1
+    efresonance-matrix/1
   ]
 } 
 
@@ -69,11 +69,11 @@ category: crafting
 
 
 requirements: [
-  01a-01-item-scrap/80
-  01a-04-item-alluminum/60
-  01a-05-item-cupride/50
-  01a-11-item-alluminum-polycarbonate/20
+  efscrap/80
+  efalluminum/60
+  efcupride/50
+  efalluminum-polycarbonate/20
 ]
 
 
-research: 03g-15-crafting-sulphur-heater
+research: sulphur-heater
