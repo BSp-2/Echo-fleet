@@ -22,8 +22,8 @@ description: Extracts raw bauxite from bauxite environment and smelts it into al
 consumes: {
     power: 0.75
 	liquids: [
-   	02a-04-liquid-slag/0.2
-  	 02a-12-liquid-neutralizer/0.066666666666666666666666666666666666
+     	efslag/0.2
+    	efneutralizer/0.066666666666666666666666666666666666
 	]
 }
 
@@ -31,9 +31,9 @@ consumes: {
 craftTime: 90
 
 
-outputLiquid: 02a-08-liquid-ozone/0.13333333333333333333333333333333333
+outputLiquid: efozone/0.13333333333333333333333333333333333
 outputItems: [
-	01a-04-item-alluminum/2
+	efalluminum/2
 ] 
 
 
@@ -43,8 +43,8 @@ ambientSoundVolume: 0.03
 
 
 requirements: [
-	01a-01-item-scrap/60
-	01a-02-item-copper/40
+	efscrap/60
+	efcopper/40
 ]
 
 
@@ -57,12 +57,12 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02a-04-liquid-slag
+      drawLiquid: efslag
       alpha: 0.7
       padding: 2
     }
     {
-    type: DrawArcSmelt
+      type: DrawArcSmelt
     }
     {
       type: DrawDefault
@@ -102,11 +102,11 @@ craftEffect: [
 
 
 research: {
-  parent: 03b-01-production-water-accumulator
+  parent: water-accumulator
   objectives: [ 
     {
       type: OnSector
-      preset: 05a-03-sector-haign
+      preset: haign
     }
   ]
 }
