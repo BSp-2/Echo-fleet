@@ -101,8 +101,8 @@ weapons: [
       type: BasicBulletType
       width: 10
       damage: 400
-      lifetime: 24
-      speed: 16
+      lifetime: 60
+      speed: 6.4
       recoil: 6
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
@@ -122,7 +122,7 @@ weapons: [
       weaveScale: 8
       fragOnHit: true
       fragBullets: 10
-      fragRandomSpread: 360
+      fragRandomSpread: 30
       fragVelocityMin: 0.2
       fragVelocityMax: 0.5
       fragAngle: 0
@@ -132,7 +132,7 @@ weapons: [
       fragBullet: {
         type: BasicBulletType
         speed: 4
-				drag: 0.05
+	    drag: 0.05
         lifetime: 60
         width: 12
         height: 12
@@ -148,6 +148,18 @@ weapons: [
         trailInterval: 2
         trailEffect: missileTrail
         backColor: CE7B5BFF
+	    fragBullets: 2
+        fragRandomSpread: 360
+        fragAngle: 0
+        fragOnAbsorb: true
+	    fragBullet: {
+		  type: LightningBulletType
+          lightningLength: 12
+          damage: 5
+          pierce: false
+          pierceBuilding: false
+          lightningColor: F7EE8AFF
+	a   }
       }
       hitEffect: {
         type: ExplosionEffect
