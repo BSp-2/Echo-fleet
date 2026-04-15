@@ -7,16 +7,16 @@ itemCapacity: 30
 reload: 240
 range: 144
 consumes: {
-  power: 1
+  power: 2
 }
 category: distribution
 requirements: [
-  01a-01-item-scrap/120
-  01a-02-item-copper/80
-  01a-04-item-alluminum/60
-  01a-07-item-polycarbonate/40
+  efscrap/120
+  efcopper/80
+  efalluminum/60
+  efpolycarbonate/40
 ]
 
 
 
-research: 03a-02-distribution-europium-duct
+research: europium-duct
