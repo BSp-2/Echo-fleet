@@ -12,20 +12,20 @@ itemCapacity: 10
 craftTime: 120
 
 
-outputLiquid: 02a-08-liquid-ozone/0.15
+outputLiquid: efozone/0.15
 
 
 consumes: {
 	power: 1.5
 	liquids: [
-  	 02a-07-liquid-carbon-dioxide/0.15
-  	 02a-12-liquid-neutralizer/0.15
+  	 efcarbon-dioxide/0.15
+  	 efneutralizer/0.15
 	]
 }
 
 
 outputItems: [
-	01a-03-item-soft-coal/4
+	efsoft-coal/4
 ]
 
 
@@ -36,16 +36,16 @@ ambientSoundVolume: 0.03
 
 
 requirements: [
-	01a-01-item-scrap/90
-	01a-02-item-copper/40
-	01a-04-item-alluminum/40
+	efscrap/90
+	efcopper/40
+	efalluminum/40
 ]
 
 
 research: {
-	parent: 03g-03-crafting-water-purifier
+	parent: water-purifier
     objectives: [
-    02a-07-liquid-carbon-dioxide
+    efcarbon-dioxide
 	]
 } 
 
@@ -59,7 +59,7 @@ drawer: {
 		} 
 		{
 		  type: DrawLiquidTile
-		  drawLiquid: 02a-07-liquid-carbon-dioxide
+		  drawLiquid: efcarbon-dioxide
 		  alpha: 1
 		  padding: 3
 		}
@@ -82,7 +82,7 @@ drawer: {
 		{
 			type: DrawLiquidRegion
 			suffix: -liquid2
-			drawLiquid: 02a-08-liquid-ozone
+			drawLiquid: efozone
 			alpha: 1
 			padding: 3
 		}
