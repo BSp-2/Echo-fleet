@@ -6,8 +6,8 @@ size: 1
 
 
 requirements: [
-  01a-02-item-copper/4
-  01a-10-item-echo-circuit/1
+  efcopper/4
+  efecho-circuit/1
 ] 
 
 
@@ -17,4 +17,4 @@ range: 5
 speed: 3
 
 
-research: 03a-06-distribution-copper-bridge
+research: copper-bridge
