@@ -10,22 +10,22 @@ consumes: {
   powerBuffered: 5000
 }
 requirements: [
-  01a-01-item-scrap/80
-  01a-04-item-alluminum/40
+  efscrap/80
+  efalluminum/40
 ]
 category: power
 
 
 research: {
-  parent: 03f-01-power-copper-node
+  parent: copper-node
   objectives: [
     {
       type: OnSector
-      preset: 05a-03-sector-haign
+      preset: haign
     }
   ]
 }
 researchCost: [
-  01a-01-item-scrap/400
-  01a-04-item-alluminum/200
+  efscrap/400
+  efalluminum/200
 ]
