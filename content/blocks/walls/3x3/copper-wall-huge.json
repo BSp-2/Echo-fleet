@@ -12,11 +12,11 @@ buildTime: 72
 
 
 requirements: [
-  01a-02-item-copper/54
+  efcopper/54
 ]
 
 
-research: 03k-02-e-defense-copper-wall-large
+research: copper-wall-large
 researchCost: [
-  01a-02-item-copper/540
+  efcopper/540
 ]
