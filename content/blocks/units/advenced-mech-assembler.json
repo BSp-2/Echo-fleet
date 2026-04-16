@@ -9,12 +9,12 @@ hasLiquids: true
 
 
 requirements: [
-  01a-01-item-scrap/720
-  01a-04-item-alluminum/640
-  01a-06-item-europium/640
-  01a-09-item-echo-shard/380
-  01a-10-item-echo-circuit/240
-  01a-11-item-alluminum-polycarbonate/240
+  efscrap/720
+  efalluminum/640
+  efeuropium/640
+  efecho-shard/380
+  efecho-circuit/240
+  efalluminum-polycarbonate/240
 ]
 
 
@@ -31,10 +31,10 @@ plans: [
     type: AssemblerUnitPlan
     unit: reign
     requirements: [
-    echo-fleet-03k-03-f-defense-alluminum-wall-huge/8
-    echo-fleet-03k-07-defense-electric-wall/6
+    echo-fleet-alluminum-wall-huge/8
+    echo-fleet-electric-wall/6
     echo-fleet-advanced-leggings/4
-    echo-fleet-07b-01-unit-ratchet/10
+    echo-fleet-ratchet/10
     ]
     time: 14400
   }
@@ -42,11 +42,11 @@ plans: [
     type: AssemblerUnitPlan
     unit: stell
     requirements: [
-    echo-fleet-03k-04-f-defense-europium-wall-huge/12
-    echo-fleet-03k-08-e-defense-alluminum-polycarbonate-wall-large/4
-    echo-fleet-03k-09-defense-resonance-matrix-wall/8
+    echo-fleet-europium-wall-huge/12
+    echo-fleet-alluminum-polycarbonate-wall-large/4
+    echo-fleet-resonance-matrix-wall/8
     echo-fleet-advanced-leggings/9
-    echo-fleet-07b-02-unit-magnum/12
+    echo-fleet-magnum/12
     ]
     time: 28800
    }
@@ -56,8 +56,8 @@ plans: [
 squareSprite: false
 consumes: {
   liquids: [
-    02a-12-liquid-neutralizer/0.5
-    02a-10-liquid-hydrogen-sulfide/0.2
+    efneutralizer/0.5
+    efhydrogen-sulfide/0.2
   ]
   power: 12
 }
@@ -65,7 +65,7 @@ areaSize: 11
 
 
 
-research: 03j-06-mech-assembler
+research: mech-assembler
 
 
 
