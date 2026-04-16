@@ -12,11 +12,11 @@ buildTime: 8
 
 
 requirements: [
-  01a-02-item-copper/6
+  efcopper/6
 ]
 
 
-research: 03k-01-defense-scrap-wall
+research: scrap-wall
 researchCost: [
-  01a-02-item-copper/60
+  efcopper/60
 ]
