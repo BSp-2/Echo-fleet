@@ -12,13 +12,13 @@ chanceDeflect: 15
 
 
 requirements: [
-  01a-07-item-polycarbonate/24
-  01a-04-item-alluminum/16
+  efpolycarbonate/24
+  efalluminum/16
 ]
 
 
-research: 03k-05-defense-polycarbonate-wall
+research: polycarbonate-wall
 researchCost: [
-  01a-04-item-alluminum/160
-  01a-07-item-polycarbonate/240
+  efalluminum/160
+  efpolycarbonate/240
 ]
