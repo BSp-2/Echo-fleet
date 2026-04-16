@@ -67,17 +67,17 @@ consumes: {
 
 
 research: {
-  parent: 08a-01-turret-asher
+  parent: asher
   objectives: [
-	01a-04-item-alluminum, 
+	efalluminum, 
     {
       type: SectorComplete
-      preset: 05a-02-sector-mollum
+      preset: mollum
     }
   ]
 }
 researchCost: [
-	01a-01-item-scrap/700
-    01a-02-item-copper/500
-    01a-04-item-alluminum/300
+	efscrap/700
+    efcopper/500
+    efalluminum/300
 ]
