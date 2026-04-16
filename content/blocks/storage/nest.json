@@ -4,8 +4,8 @@ description: Core of the base. Well armored, allows for more units to be active 
 
 
 requirements: [
-  01a-01-item-scrap/1200
-  01a-02-item-copper/800
+  efscrap/1200
+  efcopper/800
 ]
 
 
@@ -13,7 +13,7 @@ isFirstTier: true
 size: 3
 squareSprite: false
 alwaysUnlocked: true
-unitType: 07a-01-unit-macromyrmex
+unitType: macromyrmex
 health: 3600
 armor: 6
 itemCapacity: 2500
@@ -27,7 +27,6 @@ research: {
   root: true
   name: Echo Fleet
   requiresUnlock: false
-
 }
 
 
