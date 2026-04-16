@@ -11,9 +11,9 @@ hasLiquids: true
 
 
 requirements: [
-  01a-01-item-scrap/220
-  01a-02-item-copper/120
-  01a-04-item-alluminum/60
+  efscrap/220
+  efcopper/120
+  efalluminum/60
 ]
 category: units
 
@@ -21,10 +21,10 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: 07b-01-unit-ratchet
+    unit: ratchet
     requirements: [
-      01a-02-item-copper/40
-      01a-04-item-alluminum/30
+      efcopper/40
+      efalluminum/30
     ]
     time: 1800
   }
@@ -34,26 +34,26 @@ plans: [
 consumes: {
   power: 1.6666666666666666666666666666
   liquids: [
-	02a-02-liquid-dirty-water/0.1
-	02a-12-liquid-neutralizer/0.05
+	efdirty-water/0.1
+	efneutralizer/0.05
   ]
 }
 
 
 
 research: {
-  parent: 03h-01-core-nest
+  parent: nest
   objectives: [  
     {
 	type: OnSector
-	preset: 05a-04-sector-pirc
+	preset: pirc
     }
   ]
 }
 researchCost: [
-	01a-01-item-scrap/440
-    01a-02-item-copper/240
-    01a-04-item-alluminum/120
+	efscrap/440
+    efcopper/240
+    efalluminum/120
 ]
 
 
