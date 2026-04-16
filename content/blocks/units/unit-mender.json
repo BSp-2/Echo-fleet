@@ -9,8 +9,8 @@ hasLiquids: true
 
 
 requirements: [
-  01a-02-item-copper/120
-  01a-04-item-alluminum/40
+  efcopper/120
+  efalluminum/40
 ]
 
 
@@ -19,23 +19,23 @@ healAmount: 1
 consumes: {
   power: 1
   liquids: [
-    02a-08-liquid-ozone/0.0333333333333333333333
+    efozone/0.0333333333333333333333
   ] 
 }
 
 
 research: {
-  parent: 03h-08-repair-node
+  parent: repair-node
   objectives: [
     {
     type: OnSector
-    preset: 05a-04-sector-pirc
+    preset: pirc
     }
   ]
 }
 researchCost: [
-  01a-02-item-copper/600
-  01a-04-item-alluminum/200
+  efcopper/600
+  efalluminum/200
 ]
 
 
@@ -48,7 +48,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      drawLiquid: 02a-08-liquid-ozone
+      drawLiquid: efozone
       alpha: 0.7
       padding: 2
     }
