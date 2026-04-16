@@ -3,8 +3,8 @@ name: Message Chip
 description: Stores a message for communication between allies.
 size: 1
 requirements: [
-  01a-01-item-scrap/20
-  01a-04-item-alluminum/4
+  efscrap/20
+  efalluminum/4
 ]
 category: effect
-research: 03h-08-repair-node
+research: repair-node
