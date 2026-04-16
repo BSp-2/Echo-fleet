@@ -16,35 +16,35 @@ category: effect
 
 
 requirements: [
-  01a-01-item-scrap/80
-  01a-02-item-copper/60
+  efscrap/80
+  efcopper/60
 ]
 
 
 consumes: {
   power: 0.5
   items: [
-    01a-03-item-soft-coal/1
+    efsoft-coal/1
   ]
   liquids: [
-    02a-12-liquid-neutralizer/0.1
+    efneutralizer/0.1
   ] 
 }
 
 
 research: {
-  parent: 03h-01-core-nest
+  parent: nest
   objectives: [
-  01a-03-item-soft-coal
+  efsoft-coal
     {
       type: OnSector
-      preset: 05a-02-sector-mollum
+      preset: mollum
     }
   ]
 }
 researchCost: [
-	01a-01-item-scrap/120
-    01a-02-item-copper/90
+	efscrap/120
+    efcopper/90
 ]
 
 
