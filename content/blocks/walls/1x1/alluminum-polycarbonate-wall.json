@@ -14,15 +14,15 @@ absorbLasers: true
 
 
 requirements: [
-  01a-11-item-alluminum-polycarbonate/6
-  01a-09-item-echo-shard/8
-  01a-06-item-europium/6
+  efalluminum-polycarbonate/6
+  efecho-shard/8
+  efeuropium/6
 ]
 
 
-research: 03k-05-defense-polycarbonate-wall
+research: polycarbonate-wall
 researchCost: [
-  01a-06-item-europium/60
-  01a-09-item-echo-shard/80
-  01a-11-item-alluminum-polycarbonate/60
+  efeuropium/60
+  efecho-shard/80
+  efalluminum-polycarbonate/60
 ]
