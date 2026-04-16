@@ -8,13 +8,13 @@ squareSprite: true
 category: defense
 buildTime: 64
 lightningChance: 0.2
-lightningDamage: 20
+lightningDamage: 10
 lightningColor: C692CEFF
 
 
 requirements: [
-  01a-09-item-echo-shard/32
-  01a-04-item-alluminum/20
+  efecho-shard/32
+  efalluminum/20
 ]
 
 
@@ -22,14 +22,15 @@ destroyBullet: {
   instantDisappear: true
   damage: 0
   speed: 0
-  fragBullets: 8
+  fragBullets: 12
   fragBullet: {
     type: BasicBulletType
     speed: 6
-    lifetime: 30
+    drag: 0.1
+    lifetime: 60
     pierce: true
     pierceCap: 2
-    damage: 24
+    damage: 5
     width: 3
     height: 5
     homingPower: 0.25
@@ -39,8 +40,8 @@ destroyBullet: {
 }
 
 
-research: 03k-06-defense-echo-shard-wall
+research: echo-shard-wall
 researchCost: [
-  01a-04-item-alluminum/200
-  01a-09-item-echo-shard/320
+  efalluminum/200
+  efecho-shard/320
 ]
