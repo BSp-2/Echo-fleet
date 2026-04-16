@@ -10,11 +10,11 @@ buildTime: 40
 
 
 requirements: [
-  01a-04-item-alluminum/24
+  efalluminum/24
 ]
 
 
-research: 03k-03-defense-alluminum-wall
+research: alluminum-wall
 researchCost: [
-  01a-04-item-alluminum/240
+  efalluminum/240
 ]
