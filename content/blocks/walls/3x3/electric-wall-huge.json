@@ -16,9 +16,9 @@ category: defense
 
 
 requirements: [
-  01a-10-item-echo-circuit/36
-  01a-06-item-europium/54
-  01a-04-item-alluminum/36
+  efecho-circuit/36
+  efeuropium/54
+  efalluminum/36
 ]
 
 
@@ -27,9 +27,9 @@ consumes: {
 }
 
 
-research: 03k-07-e-defense-electric-wall-large
+research: electric-wall-large
 researchCost: [
-  01a-04-item-alluminum/360
-  01a-06-item-europium/540
-  01a-10-item-echo-circuit/360
+  efalluminum/360
+  efeuropium/540
+  efecho-circuit/360
 ]
