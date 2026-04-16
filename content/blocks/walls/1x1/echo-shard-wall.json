@@ -8,7 +8,7 @@ squareSprite: true
 category: defense
 buildTime: 16
 lightningChance: 0.1
-lightningDamage: 10
+lightningDamage: 5
 lightningColor: C692CEFF
 
 
@@ -22,14 +22,15 @@ destroyBullet: {
   instantDisappear: true
   damage: 0
   speed: 0
-  fragBullets: 4
+  fragBullets: 10
   fragBullet: {
     type: BasicBulletType
-    speed: 5
-    lifetime: 24
+    speed: 4
+    drag: 0.1
+    lifetime: 60
     pierce: true
     pierceCap: 2
-    damage: 18
+    damage: 4
     width: 3
     height: 5
     homingPower: 0.2
@@ -39,8 +40,8 @@ destroyBullet: {
 }
 
 
-research: 03k-04-defense-europium-wall
+research: europium-wall
 researchCost: [
-  01a-04-item-alluminum/50
-  01a-09-item-echo-shard/80
+  efalluminum/50
+  efecho-shard/80
 ]
