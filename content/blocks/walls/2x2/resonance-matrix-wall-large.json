@@ -9,7 +9,7 @@ armor: 14
 buildTime: 66
 consumesPower: false
 lightningChance: 0.5
-lightningDamage: 40
+lightningDamage: 12
 lightningLength: 20
 lightningColor: 5C72D9FF
 shieldHealth: 1400
@@ -18,15 +18,15 @@ breakCooldown: 360
 
 
 requirements: [
-	01a-12-item-resonance-matrix/16
-	01a-09-item-echo-shard/40
-	01a-06-item-europium/48
+	efresonance-matrix/16
+	efecho-shard/40
+	efeuropium/48
 ]
 
 
-research: 03k-09-defense-resonance-matrix-wall
+research: resonance-matrix-wall
 researchCost: [
-	01a-06-item-europium/480
-    01a-09-item-echo-shard/400
-    01a-12-item-resonance-matrix/160
+	efeuropium/480
+    efecho-shard/400
+    efresonance-matrix/160
 ] 
