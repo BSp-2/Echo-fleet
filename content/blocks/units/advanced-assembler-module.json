@@ -8,12 +8,12 @@ tier: 2
 
 
 requirements: [
-  01a-01-item-scrap/800
-  01a-04-item-alluminum/700
-  01a-07-item-polycarbonate/500
-  01a-09-item-echo-shard/400
-  01a-10-item-echo-circuit/300
-  01a-12-item-resonance-matrix/100
+  efscrap/800
+  efalluminum/700
+  efpolycarbonate/500
+  efecho-shard/400
+  efecho-circuit/300
+  efresonance-matrix/100
 ]
 
 
@@ -23,4 +23,4 @@ consumes: {
 
 
 
-research: 03j-14-assembler-module
+research: assembler-module
