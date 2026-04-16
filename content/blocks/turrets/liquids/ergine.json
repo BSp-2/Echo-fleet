@@ -8,9 +8,9 @@ liquidCapacity: 10
 
 
 requirements: [
-  01a-01-item-scrap/140
-  01a-02-item-copper/100
-  01a-04-item-alluminum/60
+  efscrap/140
+  efcopper/100
+  efalluminum/60
 ]
 
 
@@ -21,7 +21,7 @@ drawer: {
 outlineColor: 13151AFF
 
 ammoTypes: {
-  02a-08-liquid-ozone: {
+  efozone: {
     type: ContinuousLaserBulletType
     length: 136
     damage: 25
@@ -35,7 +35,7 @@ ammoTypes: {
     shake: 0.2
 	pierceCap: 3
     }
-  02a-10-liquid-hydrogen-sulfide: {
+  efhydrogen-sulfide: {
     type: ContinuousLaserBulletType
     length: 180
     damage: 40
@@ -49,7 +49,7 @@ ammoTypes: {
     shake: 0.22
 	rangeChange: 54
 	pierceCap: 4
-    }
+  }
 } 
 range: 136
 shootSound: none
