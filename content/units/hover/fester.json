@@ -192,7 +192,6 @@ weapons: [
         height: 12
         pierce: true
         pierceBuilding: true
-        pierceCap: 3
         damage: 40
         despawnSound: dullExplosion
         trailColor: F7EE8AFF

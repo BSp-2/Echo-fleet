@@ -17,7 +17,7 @@ mesh: {
   ]
 }
 radius: 12
-accessible: true
+accessible: false
 visible: true
 hasAtmosphere: false
 bloom: true
