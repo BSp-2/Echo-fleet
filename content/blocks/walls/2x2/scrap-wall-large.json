@@ -9,11 +9,11 @@ category: defense
 
 
 requirements: [
-  01a-01-item-scrap/24
+  efscrap/24
 ]
 
 
-research: 03k-01-defense-scrap-wall
+research: scrap-wall
 researchCost: [
-  01a-01-item-scrap/240
+  efscrap/240
 ] 
