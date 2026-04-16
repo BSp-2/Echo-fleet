@@ -7,11 +7,11 @@ hasPower: true
 
 
 requirements: [
-  01a-01-item-scrap/640
-  01a-04-item-alluminum/580
-  01a-05-item-cupride/440
-  01a-07-item-polycarbonate/480
-  01a-09-item-echo-shard/220
+  efscrap/640
+  efalluminum/580
+  efcupride/440
+  efpolycarbonate/480
+  efecho-shard/220
 ]
 
 
@@ -21,4 +21,4 @@ consumes: {
 
 
 
-research: 03j-06-mech-assembler
+research: mech-assembler
