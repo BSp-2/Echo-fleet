@@ -7,8 +7,8 @@ category: units
 
 
 requirements: [
-  01a-01-item-scrap/100
-  01a-02-item-copper/150
+  efscrap/100
+  efcopper/150
 ]
 
 
@@ -19,8 +19,8 @@ consumes: {
 }
 
 
-research: 03j-18-freight-constructor
+research: freight-constructor
 researchCost: [
-  01a-01-item-scrap/500
-  01a-02-item-copper/750
+  efscrap/500
+  efcopper/750
 ]
