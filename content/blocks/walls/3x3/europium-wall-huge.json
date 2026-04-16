@@ -11,11 +11,11 @@ buildTime: 108
 
 
 requirements: [
-  01a-06-item-europium/54
+  efeuropium/54
 ]
 
 
-research: 03k-04-e-defense-europium-wall-large
+research: europium-wall-large
 researchCost: [
-  01a-06-item-europium/540
+  efeuropium/540
 ]
