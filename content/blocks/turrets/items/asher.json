@@ -11,15 +11,15 @@ hasLiquids: true
 
 
 requirements: [
-  01a-01-item-scrap/100
-  01a-02-item-copper/40
+  efscrap/100
+  efcopper/40
 ]
 
 
 category: turret
 consumes: {
   power: 0.25
-  liquid: 02a-04-liquid-slag/0.05
+  liquid: efslag/0.05
 } 
 
 
@@ -35,7 +35,7 @@ shootY: 6
 
 ammoPerShot: 2
 ammoTypes: {
-  01a-02-item-copper: {
+  efcopper: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     damage: 50
@@ -247,7 +247,7 @@ ammoTypes: {
       }
   	]
   }
-  01a-04-item-alluminum: {
+  efalluminum: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
     damage: 50
@@ -461,7 +461,7 @@ ammoTypes: {
     }
   ]
 }
-01a-06-item-europium: {
+efeuropium: {
   type: BasicBulletType
   buildingDamageMultiplier: 0.25
   width: 9
@@ -636,12 +636,12 @@ drawer: {
 
 
 research: {
-  parent: 03h-01-core-nest
+  parent: nest
   objectives: [  
-    01a-02-item-copper
+    efcopper
   ]
 }
 researchCost: [
-  01a-01-item-scrap/100
-  01a-02-item-copper/40
+  efscrap/100
+  efcopper/40
 ]
