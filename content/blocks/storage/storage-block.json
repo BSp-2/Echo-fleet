@@ -1,4 +1,5 @@
 type: StorageBlock
+name: Storage Block
 size: 2
 solid: false
 scaledHealth: 40
@@ -7,7 +8,7 @@ description: dump items in here
 itemCapacity: 150
 category: effect
 requirements: [
-  01a-06-item-europium/50
-  01a-04-item-alluminum/80
+  efeuropium/50
+  efalluminum/80
 ]
 squareSprite: false
