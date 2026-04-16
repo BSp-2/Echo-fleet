@@ -14,21 +14,21 @@ category: turret
 
 
 research: {
-   parent: 08a-01-turret-asher
+   parent: asher
    objectives: [
-      01a-03-item-soft-coal
+      efsoft-coal
    ]
 }
 researchCost: [
-  01a-01-item-scrap/800
-  01a-02-item-copper/500
+  efscrap/800
+  efcopper/500
 ]
 
 
 range: 160
 requirements: [
-  01a-01-item-scrap/80
-  01a-02-item-copper/50
+  efscrap/80
+  efcopper/50
 ]
 
 
@@ -38,11 +38,11 @@ shoot: {
   shotDelay: 2
 }
 ammoTypes: {
-  02a-02-liquid-dirty-water: {
+  efdirty-water: {
     despawnEffect: none
     hitEffect: none
     type: LiquidBulletType
-    liquid: 02a-02-liquid-dirty-water
+    liquid: efdirty-water
     speed: 2
     lifetime: 80
     knockback: 1
@@ -53,11 +53,11 @@ ammoTypes: {
     despawnSound: splash
     hitSound: splash
   }
-  02a-03-liquid-purified-water: {
+  efpurified-water: {
     despawnEffect: none
     hitEffect: none
     type: LiquidBulletType
-    liquid: 02a-03-liquid-purified-water
+    liquid: efpurified-water
     speed: 2
     lifetime: 80
     knockback: 4
@@ -68,11 +68,11 @@ ammoTypes: {
     despawnSound: splash
     hitSound: splash 
   }
-  02a-04-liquid-slag: {
+  efslag: {
     despawnEffect: none
     hitEffect: none
     type: LiquidBulletType
-    liquid: 02a-04-liquid-slag
+    liquid: efslag
     speed: 2
     lifetime: 80
     knockback: 2
@@ -83,11 +83,11 @@ ammoTypes: {
     despawnSound: splash
     hitSound: splash
   }
-  02a-06-liquid-sulphuric-acid: {
+  efsulphuric-acid: {
     despawnEffect: none
     hitEffect: none
     type: LiquidBulletType
-    liquid: 02a-06-liquid-sulphuric-acid
+    liquid: efsulphuric-acid
     speed: 2
     lifetime: 80
     knockback: 5
