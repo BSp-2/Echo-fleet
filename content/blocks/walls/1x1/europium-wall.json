@@ -11,13 +11,13 @@ buildTime: 12
 
 
 requirements: [
-  01a-06-item-europium/6
-  01a-04-item-alluminum/4
+  efeuropium/6
+  efalluminum/4
 ]
 
 
-research: 03k-03-defense-alluminum-wall
+research: alluminum-wall
 researchCost: [
-  01a-04-item-alluminum/40
-  01a-06-item-europium/60
+  efalluminum/40
+  efeuropium/60
 ]
