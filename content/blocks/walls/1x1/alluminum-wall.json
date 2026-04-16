@@ -10,11 +10,11 @@ buildTime: 10
 
 
 requirements: [
-  01a-04-item-alluminum/6
+  efalluminum/6
 ]
 
 
-research: 03k-01-defense-scrap-wall
+research: scrap-wall
 researchCost: [
-  01a-04-item-alluminum/60
+  efalluminum/60
 ]
