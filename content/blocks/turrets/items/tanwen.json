@@ -37,9 +37,9 @@ drawer: {
 
 
 requirements: [
-  01a-01-item-scrap/480
-  01a-02-item-copper/320
-  01a-05-item-cupride/120
+  efscrap/480
+  efcopper/320
+  efcupride/120
 ]
 
 
@@ -57,7 +57,7 @@ shoot: {
     firstShotDelay: 30
 }
 ammoTypes: {
-  01a-04-item-alluminum: {
+  efalluminum: {
       type: BasicBulletType
       speed: 10
       lifetime: 28.8
@@ -78,7 +78,7 @@ ammoTypes: {
       homingPower: 0.04
 	  buldingDamageMultiplier: 0.1
   }
- 01a-05-item-cupride: {
+  efcupride: {
 	  rangeChange: 24
 	  ammoMultiplier: 3
       type: BasicBulletType
@@ -215,13 +215,13 @@ ammoTypes: {
 
 
 research: {
-	parent: 08a-01-turret-asher
+	parent: asher
     objectives: [
-        01a-05-item-cupride
+        efcupride
 	]
 }
 researchCost: [
-	01a-01-item-scrap/2700
-    01a-02-item-copper/2400
-    01a-04-item-alluminum/1600
+	efscrap/2700
+    efcopper/2400
+    efalluminum/1600
 ]
