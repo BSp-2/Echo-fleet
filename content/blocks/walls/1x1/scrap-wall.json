@@ -9,16 +9,16 @@ category: defense
 
 
 requirements: [
-  01a-01-item-scrap/6
+  efscrap/6
 ]
 
 
 research: {
-  parent: 03h-01-core-nest 
+  parent: nest 
   objectives: [  
-    03b-03-production-pulse-drill
+    pulse-drill
   ]
 }
 researchCost: [
-  01a-01-item-scrap/60
+  efscrap/60
 ]
