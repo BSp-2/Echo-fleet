@@ -11,9 +11,9 @@ hasLiquids: true
 
 
 requirements: [
-  01a-01-item-scrap/180
-  01a-02-item-copper/100
-  01a-04-item-alluminum/140
+  efscrap/180
+  efcopper/100
+  efalluminum/140
 ]
 category: units
 
@@ -21,10 +21,10 @@ category: units
 plans: [
   {
     type: FactoryUnitPlan
-    unit: 07c-01-unit-blaze
+    unit: blaze
     requirements: [
-      01a-01-item-scrap/45
-      01a-04-item-alluminum/30
+      efscrap/45
+      efalluminum/30
     ]
     time: 2700
   } 
@@ -34,14 +34,14 @@ plans: [
 consumes: {
   power: 2
   liquids: [
-	02a-02-liquid-dirty-water/0.15
-	02a-12-liquid-neutralizer/0.05
+	efdirty-water/0.15
+	efneutralizer/0.05
   ] 
 }
 
-research: 03j-01-mech-fabricator
+research: mech-fabricator
 researchCost: [
-	01a-01-item-scrap/900
-    01a-02-item-copper/500
-    01a-04-item-alluminum/700
+	efscrap/900
+    efcopper/500
+    efalluminum/700
 ]
