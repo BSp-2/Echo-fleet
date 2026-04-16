@@ -15,7 +15,7 @@ hasLiquids: true
 hasPower: true
 
 
-outputLiquid: 02a-02-liquid-dirty-water/0.05555555555555555555555555555555555555555555555555555
+outputLiquid: 02a-02-liquid-dirty-water/0.0666666666666666666666666666666666666
 
 
 requirements: [
