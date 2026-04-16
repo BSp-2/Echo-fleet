@@ -18,15 +18,15 @@ breakCooldown: 540
 
 
 requirements: [
-	01a-12-item-resonance-matrix/36
-	01a-09-item-echo-shard/90
-	01a-06-item-europium/108
+	efresonance-matrix/36
+	efecho-shard/90
+	efeuropium/108
 ]
 
 
-research: 03k-09-e-defense-resonance-matrix-wall-large
+research: resonance-matrix-wall-large
 researchCost: [
-	01a-06-item-europium/1080
-    01a-09-item-echo-shard/900
-    01a-12-item-resonance-matrix/360
+	efeuropium/1080
+    efecho-shard/900
+    efresonance-matrix/360
 ] 
