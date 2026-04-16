@@ -16,9 +16,9 @@ category: defense
 
 
 requirements: [
-  01a-10-item-echo-circuit/4
-  01a-06-item-europium/6
-  01a-04-item-alluminum/4
+  efecho-circuit/4
+  efeuropium/6
+  efalluminum/4
 ]
 
 
@@ -27,9 +27,9 @@ consumes: {
 }
 
 
-research: 03k-02-defense-copper-wall
+research: copper-wall
 researchCost: [
-  01a-04-item-alluminum/40
-  01a-06-item-europium/60
-  01a-10-item-echo-circuit/40
+  efalluminum/40
+  efeuropium/60
+  efecho-circuit/40
 ]
