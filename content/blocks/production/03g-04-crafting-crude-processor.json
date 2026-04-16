@@ -1,0 +1,113 @@
+type: HeatCrafter
+heatRequirement: 8
+name: Crude Processor
+description: Separates crude oil into gaseous resources under a thermal process. Cannot be rotated. Work around that. 
+size: 4
+craftTime: 60
+minEfficiency: 1
+maxEfficiency: 1
+squareSprite: false
+
+
+consumes: {
+	liquids: [
+   	02a-01-liquid-crude-oil/0.25
+  	 02a-12-liquid-neutralizer/0.15
+	]
+	power: 4.58333333333333333333333
+}
+
+
+hasLiquids: true
+hasPower: true
+dumpExtraLiquid: true
+rotate: false
+
+
+ambientSound: loopExtract
+ambientSoundVolume: 0.09
+
+
+outputLiquids: [
+	02a-05-liquid-lpg/0.05
+	02a-07-liquid-carbon-dioxide/0.15
+	02a-09-liquid-nitrogen/0.1
+	02a-10-liquid-hydrogen-sulfide/0.1
+]
+
+
+category: crafting
+
+
+requirements: [
+	01a-01-item-scrap/240
+	01a-02-item-copper/200
+	01a-04-item-alluminum/140
+	01a-05-item-cupride/90
+]
+
+
+liquidCapacity: 120
+liquidOutputDirections: [1,2,3,4]
+
+
+research: {
+	parent: 03g-02-crafting-cupride-chamber
+	objectives: [
+	  02a-01-liquid-crude-oil, 
+	  {
+	    type: OnSector
+	    preset: 05a-06-sector-wadi
+	  }
+	]
+}
+researchCost: [
+	01a-01-item-scrap/1200
+	01a-02-item-copper/1000
+	01a-04-item-alluminum/700
+	01a-05-item-cupride/450
+] 
+
+
+drawer: {
+	type: DrawMulti
+  drawers: [
+    {
+    type: DrawRegion
+    suffix: -bottom
+    }
+    {
+		type: DrawLiquidRegion
+    suffix: -liquid5
+    drawLiquid: 02a-01-liquid-crude-oil
+    padding: 3
+		}
+    {
+		type: drawBubbles
+    color: 332927FF
+    fill: false
+    spread: 5
+		}
+    {
+		type: DrawCrucibleFlame
+		particleRad: 10
+		flameRad: 3
+		partcileSize: 4
+		rotateScl: 2
+		particles: 50
+		particleLife: 120
+	  }
+    {
+		type: DrawDefault
+		}
+    {
+		type: DrawHeatInput
+		suffix: -heat
+		} 
+    {
+    type: DrawGlowRegion
+    suffix: -glow
+    glowScale: 10
+		}
+  ]
+} 

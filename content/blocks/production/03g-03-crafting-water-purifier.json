@@ -1,0 +1,101 @@
+type: GenericCrafter
+name: Water Purifier
+description: Purifies Contaminated Water, in the process siphoning out little amounts of resources.
+size: 3
+
+
+hasLiquids: true
+hasPower: true
+squareSprite: true
+liquidCapacity: 60
+hasItems: true
+itemCapacity: 20
+craftTime: 300
+
+
+outputLiquid: 02a-03-liquid-purified-water/0.3
+consumes: {
+	liquids: [
+  	 02a-02-liquid-dirty-water/0.4
+ 	  02a-12-liquid-neutralizer/0.1
+	]
+	power: 2
+}
+outputItems: [
+	01a-03-item-soft-coal/2
+	01a-04-item-alluminum/1
+]
+
+
+category: crafting
+ambientSound: water-purifier
+ambientSoundVolume: 0.2
+
+
+requirements: [
+	01a-01-item-scrap/60
+	01a-02-item-copper/80
+	01a-05-item-cupride/20
+]
+
+
+research: {
+	parent: 03g-02-crafting-cupride-chamber
+	objectives: [
+	  01a-05-item-cupride
+	] 
+} 
+researchCost: [
+	01a-01-item-scrap/600
+    01a-02-item-copper/800
+    01a-04-item-alluminum/200
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02a-02-liquid-dirty-water
+      alpha: 1
+      padding: 3
+    }
+    {
+      type: DrawLiquidRegion
+      suffix: -liquid
+      drawLiquid: 02a-03-liquid-purified-water
+      alpha: 1
+      padding: 3
+    } 
+    {
+      type: DrawBubbles
+      fill: false
+      color: 00AAFFFF
+	}
+    {
+      type: DrawBubbles
+      fill: false
+      color: 007FBFFF
+    }
+    {
+      type: DrawPistons
+	  suffix: -piston
+	  sinMag: 4
+	  sinScale: 10
+	  sides: 4
+	  angleOffset: 225
+	}
+    {
+	  type: DrawCrucibleFlame
+	  flameColor: 127DB2FF
+	}  
+    {
+      type: DrawDefault
+    } 
+  ]
+}

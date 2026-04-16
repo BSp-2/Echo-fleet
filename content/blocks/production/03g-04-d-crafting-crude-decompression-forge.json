@@ -1,0 +1,52 @@
+type: HeatCrafter
+heatRequirement: 24
+name: Crude Decompression Forge
+description: crude oil is no longer crude oil  pro version
+size: 6
+craftTime: 60
+minEfficiency: 1
+maxEfficiency: 1
+
+
+consumes: {
+	liquids: [
+   	02a-01-liquid-crude-oil/0.8
+  	 02a-12-liquid-neutralizer/0.5
+	]
+}
+
+
+hasLiquids: true
+dumpExtraLiquid: true
+rotate: true
+
+
+ambientSound: loopExtract
+ambientSoundVolume: 0.09
+
+
+outputLiquids: [
+	02a-05-liquid-lpg/0.2
+	02a-07-liquid-carbon-dioxide/0.6
+	02a-09-liquid-nitrogen/0.4
+	02a-10-liquid-hydrogen-sulfide/0.4
+]
+
+
+category: crafting
+
+
+requirements: [
+	01a-01-item-scrap/640
+	01a-02-item-copper/580
+	01a-07-item-polycarbonate/250
+	01a-09-item-echo-shard/220
+	01a-10-item-echo-circuit/180
+]
+
+
+liquidCapacity: 240
+liquidOutputDirections: [1,2,3,4]
+
+
+research: 03g-04-crafting-crude-processor

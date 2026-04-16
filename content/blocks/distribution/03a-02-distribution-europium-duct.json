@@ -1,0 +1,16 @@
+type: Duct
+name: Europium Duct
+description: "Moves items forward. Faster than a copper duct."
+category: distribution
+speed: 3
+health: 240
+bridgeReplacement: 03a-06-distribution-copper-bridge
+requirements: [
+  01a-04-item-alluminum/1
+  01a-06-item-europium/1
+]
+junctionReplacement: 03a-05-distribution-copper-junction
+
+
+
+research: 03a-03-distribution-alluminum-duct

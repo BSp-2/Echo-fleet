@@ -1,0 +1,22 @@
+type: PayloadRouter
+name: Freight Router
+description: Equally distributes payloads in 3 directions.
+category: units
+
+
+research: 03j-21-freight-conveyor
+researchCost: [
+  01a-01-item-scrap/150
+  01a-02-item-copper/100
+  01a-04-item-alluminum/50
+]
+
+
+requirements: [
+  01a-01-item-scrap/15
+  01a-02-item-copper/10
+  01a-04-item-alluminum/5
+]
+
+
+canOverdrive: false

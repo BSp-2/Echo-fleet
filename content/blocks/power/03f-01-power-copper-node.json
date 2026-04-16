@@ -1,0 +1,42 @@
+type: BeamNode
+name: Power Node
+description: Acts as a powerline. Stores a miniscule amount of power. 
+health: 75
+fogRadius: 2.5
+range: 6
+size: 1
+squareSprite: false
+category: power
+hasPower: true
+conductivePower: true
+consumesPower: true
+outputsPower: true
+pulseScl: 0
+pulseMag: 0
+laserWidth: 0.68
+
+
+consumes: {
+	powerBuffered: 5
+} 
+
+
+requirements: [
+  01a-01-item-scrap/4
+  01a-02-item-copper/6
+]
+
+
+research: {
+  parent: 03h-01-core-nest
+  objectives: [  
+    03d-01-liquid-siphon-pump
+  ]
+}
+researchCost: [
+	01a-01-item-scrap/40
+    01a-02-item-copper/60
+] 
+
+
+

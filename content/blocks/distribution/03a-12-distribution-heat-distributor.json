@@ -1,0 +1,45 @@
+type: HeatConductor
+name: Heat Distributor
+description: Transfers heat to other Heat Distributors or heat consumers. 
+size: 2
+category: distribution
+
+
+requirements: [
+  01a-02-item-copper/40
+  01a-04-item-alluminum/20
+]
+
+
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+
+
+
+research: {
+  parent: 03a-03-distribution-alluminum-duct
+  objectives: [
+    01a-05-item-cupride
+  ]
+}
+ResearchCost: [
+  01a-02-item-copper/400
+  01a-04-item-alluminum/200
+]
+
+
+

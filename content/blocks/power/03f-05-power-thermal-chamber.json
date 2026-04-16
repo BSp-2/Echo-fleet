@@ -1,0 +1,101 @@
+type: HeaterGenerator
+name: Thermal Reactor
+description: Produces a greater amount of power from a thermal reaction. Outputs excess heat for later uses in crafting, etc. 
+size: 4
+category: power
+squareSprite: false
+hasPower: true
+hasLiquids: true
+hasItems: true
+
+
+requirements: [
+  01a-01-item-scrap/280
+  01a-02-item-copper/220
+  01a-04-item-alluminum/140
+  01a-05-item-cupride/60
+]
+
+
+powerProduction: 12
+consumes: {
+  items: [
+    01a-03-item-soft-coal/1
+  ]
+  liquids: [
+	02a-04-liquid-slag/0.2
+	02a-03-liquid-purified-water/0.1
+	02a-12-liquid-neutralizer/0.15
+  ] 
+}
+
+
+itemDuration: 120
+ambientSound: loopSmelter
+ambientSoundVolume: 0.05
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidRegion
+	  suffix: -liquid1
+      drawLiquid: 02a-04-liquid-slag
+      alpha: 1
+      padding: 2
+    }
+    {
+      type: DrawBubbles
+      fill: false
+	  spread: 10
+	  color: FFCD66FF
+    }
+    {
+	  type: DrawCrucibleFlame
+	  flameRad: 3
+	  particleRad: 14
+	  flameRadiusScl: 12
+	  flameRadiusMag: 1
+	  circleSpace: 1
+	}
+    {    
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+
+
+heatOutput: 8
+sideHeat: [1]
+
+
+research: {
+	parent: 03f-04-power-ignition-plant
+	objectives: [
+	    02a-03-liquid-purified-water
+    ] 
+} 
+researchCost: [
+	01a-01-item-scrap/1400
+    01a-02-item-copper/1100
+    01a-04-item-alluminum/700
+    01a-05-item-cupride/300
+]
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+type: PayloadMassDriver
+name: Freight Mass Driver
+description: Launches payloads to other connected Freight Mass Drivers. Requires power.
+consumes: {
+  power: 0.5
+}
+category: units
+
+
+research: 03j-18-freight-constructor
+researchCost: [
+  01a-01-item-scrap/900
+  01a-02-item-copper/700
+]
+
+requirements: [
+  01a-01-item-scrap/180
+  01a-02-item-copper/140
+]
+
+
+reload: 180
+chargeTime: 60
+range: 320
+maxPayloadSize: 3
+size: 3

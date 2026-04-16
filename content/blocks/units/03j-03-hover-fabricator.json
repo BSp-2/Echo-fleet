@@ -1,0 +1,49 @@
+type: UnitFactory
+size: 3
+health: 450
+configurable: false
+name: Hover Unit Fabricator
+description: Constructs tier 1 hover units.
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  01a-01-item-scrap/180
+  01a-02-item-copper/60
+  01a-04-item-alluminum/120
+]
+category: units
+
+
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: 07d-01-unit-mabuz
+    requirements: [
+      01a-01-item-scrap/40
+      01a-04-item-alluminum/30
+    ]
+    time: 2700
+  }
+]
+
+
+consumes: {
+  power: 1.3333333333333333333333333333333
+  liquids: [
+	02a-02-liquid-dirty-water/0.1
+	02a-12-liquid-neutralizer/0.05
+  ] 
+}
+
+
+
+research: 03j-01-mech-fabricator
+researchCost: [
+	01a-01-item-scrap/900
+    01a-02-item-copper/300
+    01a-04-item-alluminum/600
+]

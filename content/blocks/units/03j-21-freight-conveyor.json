@@ -1,0 +1,23 @@
+type: PayloadConveyor
+name: Freight Conveyor
+description: Transports payloads forward.
+category: units
+
+
+research: 03j-18-freight-constructor
+researchCost: [
+  01a-01-item-scrap/150
+  01a-02-item-copper/100
+  01a-04-item-alluminum/50
+] 
+
+
+requirements: [
+  01a-01-item-scrap/15
+  01a-02-item-copper/10
+  01a-04-item-alluminum/5
+]
+
+
+canOverdrive: false
+payloadLimit: 4

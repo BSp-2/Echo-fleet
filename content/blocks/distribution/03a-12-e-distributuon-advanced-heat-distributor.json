@@ -1,0 +1,33 @@
+type: HeatConductor
+name: Advanced Heat Distributor
+description: hot
+size: 1
+category: distribution
+
+
+requirements: [
+  01a-02-item-copper/60
+  01a-04-item-alluminum/30
+  01a-07-item-polycarbonate/20
+]
+
+
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+
+
+research: 03a-12-distribution-heat-distributor

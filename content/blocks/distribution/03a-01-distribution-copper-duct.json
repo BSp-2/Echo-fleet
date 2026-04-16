@@ -1,0 +1,26 @@
+type: Duct
+name: Copper Duct
+description: Moves items forward.
+category: distribution
+speed: 6
+health: 180
+bridgeReplacement: 03a-06-distribution-copper-bridge
+requirements: [
+  01a-02-item-copper/1
+]
+junctionReplacement: 03a-05-distribution-copper-junction
+
+
+
+research: {
+  parent: 03h-01-core-nest
+  objectives: [  
+     03b-03-production-pulse-drill
+  ]
+}
+researchCost: [
+  01a-02-item-copper/10
+] 
+
+
+

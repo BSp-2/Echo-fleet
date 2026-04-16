@@ -1,0 +1,118 @@
+type: AttributeCrafter
+attribute: bauxite
+baseEfficiency: 0
+minEfficiency: 1
+maxBoost: 1
+
+
+displayEfficiency: true
+hasItems: true
+hasLiquids: true
+hasPower: true
+ignoreLiquidFullness: true
+size: 3
+liquidCapacity: 60
+squareSprite: false
+
+
+name: Alluminum Extractor
+description: Extracts raw bauxite from bauxite environment and smelts it into alluminum. Outputs ozone as a byproduct. 
+
+
+consumes: {
+    power: 0.75
+	liquids: [
+   	02a-04-liquid-slag/0.2
+  	 02a-12-liquid-neutralizer/0.066666666666666666666666666666666666
+	]
+}
+
+
+craftTime: 90
+
+
+outputLiquid: 02a-08-liquid-ozone/0.13333333333333333333333333333333333
+outputItems: [
+	01a-04-item-alluminum/2
+] 
+
+
+category: production
+ambientSound: bauxite-extractor
+ambientSoundVolume: 0.03
+
+
+requirements: [
+	01a-01-item-scrap/60
+	01a-02-item-copper/40
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: 02a-04-liquid-slag
+      alpha: 0.7
+      padding: 2
+    }
+    {
+    type: DrawArcSmelt
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+
+craftEffect: [
+  {
+    type: RadialEffect
+    rotationOffset: 0
+    rotationSpacing: 0
+    amount: 1
+    lengthOffset: 0
+    layer: 110
+    effect: {
+      type: ParticleEffect
+      particles: 4
+      lifetime: 90
+      sizeFrom: 1.6
+      useRotation: false
+      baseRotation: 0
+      sizeTo: 0
+      colorFrom: 808080FF
+      colorTo: 808080FF
+      length: 16
+      baseLength: 0
+      cone: 360
+      interp: pow2
+      sizeInterp: pow3In
+      layer: 110
+    }
+  }
+]
+
+
+
+research: {
+  parent: 03b-01-production-water-accumulator
+  objectives: [ 
+    {
+      type: OnSector
+      preset: 05a-03-sector-haign
+    }
+  ]
+}
+
+
+
+
+
+

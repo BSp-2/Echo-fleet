@@ -1,0 +1,48 @@
+type: beamDrill
+name: Deterioration Bore
+description: deteriorate wall
+range: 6
+tier: 5
+size: 4
+optionalBoostIntensity: 2.5
+drillTime: 120
+ambientSound: loopMineBeam
+ambientSoundVolume: 0.08
+hasLiquids: true
+details: Boost: 2.5x
+
+
+consumes: {
+  liquid: 02a-06-liquid-sulphuric-acid/0.066666666666666666666
+  power: 2
+  liquids: {
+    liquids: [
+      02a-08-liquid-ozone/0.1
+    ]
+    optional: true
+    booster: true
+  }
+}
+category: production
+
+
+requirements: [
+  01a-01-item-scrap/180
+  01a-04-item-alluminum/120
+  01a-05-item-cupride/100
+  01a-06-item-europium/140
+  01a-07-item-polycarbonate/60
+]
+
+
+sparkColor: CFFF70FF
+heatColor: DC7244FF
+boostHeatColor: EDE74CFF
+
+sparks: 18
+sparkLife: 24
+sparkSpread: 45
+
+
+
+research: 03b-04-production-blast-drill

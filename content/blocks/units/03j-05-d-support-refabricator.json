@@ -1,0 +1,54 @@
+type: Reconstructor
+size: 3
+health: 650
+configurable: false
+name: Support Unit Refabricator
+description: Upgrades tier 1 support units into their tier 2 counterpart. 
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  01a-01-item-scrap/280
+  01a-02-item-copper/240
+  01a-04-item-alluminum/180
+  01a-05-item-cupride/240
+  01a-06-item-europium/120
+]
+constructTime: 4500
+category: units
+
+
+upgrades: [
+    [07e-01-unit-thrive, poly] 
+]
+  
+  
+consumes: {
+  power: 6
+  liquids: [
+  02a-03-liquid-purified-water/0.1
+  02a-12-liquid-neutralizer/0.1
+  ]
+  items: [
+  01a-04-item-alluminum/75
+  01a-05-item-cupride/50
+  01a-06-item-europium/50
+  ]
+}
+
+
+
+research: {
+	parent: 03j-04-support-fabricator
+	objectives: [
+		01a-06-item-europium
+	]
+}
+
+
+
+
+

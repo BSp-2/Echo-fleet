@@ -1,0 +1,30 @@
+type: BeamNode
+name: Europium Node
+description: powerline long
+health: 125
+fogRadius: 3.5
+range: 11
+size: 1
+squareSprite: false
+category: power
+hasPower: true
+conductivePower: true
+consumesPower: true
+outputsPower: true
+pulseMag: 0
+pulseScl: 0
+laserWidth: 0.68
+
+
+consumes: {
+	powerBuffered: 10
+} 
+
+
+requirements: [
+  01a-04-item-alluminum/6
+  01a-06-item-europium/4
+]
+
+
+research: 03f-01-power-copper-node

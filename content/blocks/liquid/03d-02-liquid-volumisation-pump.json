@@ -1,0 +1,38 @@
+type: Pump
+name: Volumisation Pump
+description: Utilizes nitrogen in a complex process to pump large amounts of liquids. 
+size: 3
+category: liquid
+squareSprite: false
+
+
+requirements: [
+  01a-01-item-scrap/80
+  01a-04-item-alluminum/60
+  01a-05-item-cupride/40
+]
+
+
+pumpAmount: 0.0888888888888888888
+consumes: {
+  power: 1
+  liquids: [
+ 	02a-09-liquid-nitrogen/0.03333333333333333333
+ ]
+}
+
+
+
+research: {
+  parent: 03d-01-liquid-siphon-pump
+  objectives: [
+    02a-09-liquid-nitrogen
+  ] 
+}
+researchCost: [
+  01a-01-item-scrap/800
+  01a-04-item-alluminum/600
+  01a-05-item-cupride/400
+]
+
+

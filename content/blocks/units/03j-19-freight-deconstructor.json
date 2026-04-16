@@ -1,0 +1,26 @@
+type: PayloadDeconstructor
+name: Freight Deconstructor
+description: Uses power to deconstruct payloads with a 100% refund.
+itemCapacity: 80
+size: 3
+category: units
+
+
+requirements: [
+  01a-01-item-scrap/100
+  01a-02-item-copper/150
+]
+
+
+squareSprite: false
+deconstructSpeed: 0.8
+consumes: {
+  power: 1
+}
+
+
+research: 03j-18-freight-constructor
+researchCost: [
+  01a-01-item-scrap/500
+  01a-02-item-copper/750
+]

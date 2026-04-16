@@ -1,0 +1,96 @@
+type: ItemTurret
+name: Vlam
+description: Rapidly fires volleys of burning crude oil in one direction. Can not rotate. Capable of starting fires, recommended to use with fire extinguishing turrets.
+health: 1800
+shootSound: vlam
+recoil: 0
+size: 3
+reload: 3
+inaccuracy: 10
+hasLiquids: true
+hasPower: true
+hasItems: true
+liquidCapacity: 60
+itemCapacity: 30
+outlineColor: 13151AFF
+shootCone: 45
+category: turret
+rotateSpeed: 0.25
+buildTime: 720
+
+
+research: {
+   parent: 08a-04-turret-cleanse
+   objectives: [
+      02a-01-liquid-crude-oil
+   ]
+}
+researchCost: [
+  01a-01-item-scrap/2700
+  01a-02-item-copper/2400
+  01a-04-item-alluminum/2100
+  01a-05-item-cupride/1800
+]
+
+
+range: 200
+requirements: [
+  01a-01-item-scrap/450
+  01a-02-item-copper/400
+  01a-04-item-alluminum/350
+  01a-05-item-cupride/200
+]
+
+
+consumes: {
+  power: 3
+  liquids: [
+    02a-01-liquid-crude-oil/0.4
+  ] 
+}
+ammoTypes: {
+  01a-03-item-soft-coal: {
+	velocityRnd: 0.2
+	shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+	ammoMultiplier: 15
+    type: MissileBulletType
+    homingPower: 0.02
+    speed: 4
+    lifetime: 50
+    weaveScale: 3
+    weaveMag: 3
+    width: 6
+    height: 8
+    trailLength: 4
+    trailWidth: 1
+    frontColor: FFD37FFF
+    backColor: EEAA77FF
+    trailColor: EEAA77FF
+    pierce: true
+	pierceCap: 4
+    splashDamage: 40
+	splashDamageRadius: 20
+    hitEffect: none
+    despawnEffect: none
+	fragBullets: 1
+    fragBullet: {
+      type: ExplosionBulletType
+      killShooter: false
+      splashDamage: 10
+      splashDamageRadius: 8
+      splashDamagePierce: true
+      hitSound: dullExplosion
+      despawnSound: dullExplosion
+      incendChance: 0.5
+      incendAmount: 6
+      incendSpread: 16
+    }
+  } 
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: vlam-
+}
+squareSprite: true

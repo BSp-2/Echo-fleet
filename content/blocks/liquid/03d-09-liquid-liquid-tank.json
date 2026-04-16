@@ -1,0 +1,25 @@
+type: LiquidRouter
+size: 2
+hasLiquids: true
+liquidCapacity: 600
+name: Liquid Tank
+description: Equally distributes liquids to 7 sides. Can store moderate amounts of liquids. 
+category: liquid
+
+
+requirements: [
+  01a-01-item-scrap/30
+  01a-04-item-alluminum/20
+]
+
+
+liquidPadding: 1.8
+
+
+
+research: 03d-08-liquid-liquid-router
+researchCost: [
+  01a-01-item-scrap/300
+  01a-04-item-alluminum/200
+]
+

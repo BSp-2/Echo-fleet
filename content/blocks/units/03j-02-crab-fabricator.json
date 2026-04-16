@@ -1,0 +1,47 @@
+type: UnitFactory
+size: 3
+health: 450
+configurable: false
+name: Crab Unit Fabricator
+description: Constructs tier 1 crab units.
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  01a-01-item-scrap/180
+  01a-02-item-copper/100
+  01a-04-item-alluminum/140
+]
+category: units
+
+
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: 07c-01-unit-blaze
+    requirements: [
+      01a-01-item-scrap/45
+      01a-04-item-alluminum/30
+    ]
+    time: 2700
+  } 
+]
+
+
+consumes: {
+  power: 2
+  liquids: [
+	02a-02-liquid-dirty-water/0.15
+	02a-12-liquid-neutralizer/0.05
+  ] 
+}
+
+research: 03j-01-mech-fabricator
+researchCost: [
+	01a-01-item-scrap/900
+    01a-02-item-copper/500
+    01a-04-item-alluminum/700
+]
