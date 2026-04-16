@@ -1,0 +1,63 @@
+type: UnitAssembler
+name: Support Unit Constructor
+description: Creates medium tier support units from payloads.
+size: 3
+category: units
+droneType: echo-fleet-support-drone
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efscrap/500
+  efcopper/500
+  efalluminum/300
+  efcupride/300
+  efpolycarbonate/150
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: mega
+    requirements: [
+    echo-fleet-scrap-wall-large/4
+    echo-fleet-repair-node/2
+    echo-fleet-thrive/2
+    ]
+    time: 4800
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: quad
+    requirements: [
+    echo-fleet-europium-wall-large/4
+    echo-fleet-echo-shard-wall-large/2
+    echo-fleet-gravitron-module/6
+    mend-projector/6
+    poly/6
+    ]
+    time: 9000
+   }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    efneutralizer/0.2
+  ]
+  power: 4
+}
+areaSize: 7
+
+
+
+research: support-refabricator
+
+
+
+
+
+

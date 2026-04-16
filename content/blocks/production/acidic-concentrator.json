@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Acidic Concentrator
+description: August 12th 2036, the heat death of the universe. 
+size: 4
+
+
+hasLiquids: true
+hasPower: true
+craftTime: 60
+squareSprite: true
+liquidCapacity: 240
+
+ambientSound: loopHum
+ambientSoundVolume: 0.08
+category: crafting
+
+
+requirements: [
+	efscrap/360
+	efcopper/320
+	efcupride/230
+	efpolycarbonate/120
+	efecho-shard/70
+]
+
+
+consumes: {
+	power: 10
+	liquids: [
+		efhydrogen-sulfide/0.4
+		efozone/0.6
+		efneutralizer/0.4
+	]
+}
+
+
+outputLiquids: [
+	efsulphuric-acid/0.8
+]
+
+
+research: sulphuric-acid-mixer

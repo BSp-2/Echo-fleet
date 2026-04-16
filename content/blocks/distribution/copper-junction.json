@@ -1,0 +1,22 @@
+type: Junction
+name: Copper Junction
+description: Allows for crossing of two ducts.
+health: 70
+size: 1
+speed: 20
+
+
+requirements: [
+  efcopper/2
+]
+
+
+squareSprite: true
+category: distribution
+
+
+
+research: copper-duct
+researchCost: [
+  efcopper/20
+]

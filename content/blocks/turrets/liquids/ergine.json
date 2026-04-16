@@ -1,0 +1,83 @@
+type: ContinuousLiquidTurret
+name: Ergine
+description: Fires a continuous beam of superheated gases at enemies, applying different status effects to them in the process. 
+size: 2
+category: turret
+health: 800
+liquidCapacity: 10
+
+
+requirements: [
+  efscrap/140
+  efcopper/100
+  efalluminum/60
+]
+
+
+drawer: {
+  type: DrawTurret
+  basePrefix: blehhhhious-
+}
+outlineColor: 13151AFF
+
+ammoTypes: {
+  efozone: {
+    type: ContinuousLaserBulletType
+    length: 136
+    damage: 25
+    width: 2
+    incendChance: 0.05
+    incendAmount: 3
+    incendSpread: 4
+    status: burning
+    statusDuration: 24
+    colors: [FF40BFFF, FF66CCFF, FF8CD9FF, FFB2E6FF, FFD9F2FF]
+    shake: 0.2
+	pierceCap: 3
+    }
+  efhydrogen-sulfide: {
+    type: ContinuousLaserBulletType
+    length: 180
+    damage: 40
+    width: 2
+    incendChance: 0
+    incendAmount: 0
+    incendSpread: 0
+    status: corroded
+    statusDuration: 720
+    colors: [CCC466FF, D9D071FF, E6DF93FF, F2EDB8FF, FFFCE0FF]
+    shake: 0.22
+	rangeChange: 54
+	pierceCap: 4
+  }
+} 
+range: 136
+shootSound: none
+loopSound: beamLustre
+shootWarmupSpeed: 0.02
+shootCone: 360
+aimChangeSpeed: 0.75
+rotateSpeed: 1.5
+shootY: 5.5
+
+
+consumes: {
+  power: 4
+}
+
+
+research: {
+  parent: asher
+  objectives: [
+	efalluminum, 
+    {
+      type: SectorComplete
+      preset: mollum
+    }
+  ]
+}
+researchCost: [
+	efscrap/700
+    efcopper/500
+    efalluminum/300
+]

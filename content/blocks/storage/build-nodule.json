@@ -1,0 +1,28 @@
+type: BuildTurret
+name: Build Nodule
+description: Slowly repairs destroyed structures in range and helps the player build. 
+size: 3
+health: 1000
+squareSprite: false
+requirements: [
+  efscrap/280
+  efcopper/250
+  efalluminum/180
+]
+consumes: {
+  power: 0.5
+  liquids: [
+    efslag/0.15
+  ]
+}
+buildSpeed: 0.5
+range: 144
+category: effect
+outlineColor: 13151AFF
+research: repair-node
+researchCost: [
+  efscrap/1400
+  efcopper/1250
+  efalluminum/900
+]
+buildTime: 420

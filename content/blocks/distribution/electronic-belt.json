@@ -1,0 +1,37 @@
+type: StackConveyor
+name: Electronic Belt
+description: electricity??? 
+speed: 0.0833333333333333
+itemCapacity: 20
+health: 240
+category: distribution
+
+
+requirements: [
+  efalluminum/2
+  ececho-circuit/1
+]   
+
+
+loadEffect: {
+  type: ParticleEffect
+  length: 5
+  particles: 12
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}
+
+
+unloadEffect: {
+  type: ParticleEffect
+  length: 5
+  particles: 12
+  line: true
+  strokeFrom: 1
+  strokeTo: 0.1
+}
+
+
+
+research: alluminum-duct

@@ -1,0 +1,25 @@
+type: Pump
+name: Toxic Pump
+description: drink liquid fast
+size: 2
+category: liquid
+squareSprite: false
+
+
+requirements: [
+  efscrap/60
+  efalluminum/40
+  efcupride/40
+  efecho-shard/20
+]
+
+
+pumpAmount: 0.1
+consumes: {
+  liquids: [
+ 	efsulphuric-acid/0.05
+ ]
+}
+
+
+research: volumisation-pump

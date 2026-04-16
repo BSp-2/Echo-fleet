@@ -1,0 +1,26 @@
+type: UnitAssemblerModule
+name: Advenced Constructor Module
+description: Increases a constructors' tier by 1 when placed next to its bounding box. If powered, may be used as an additional payload input. Requires the normal constructor module to function. 
+size: 5
+category: units
+hasPower: true
+tier: 2
+
+
+requirements: [
+  efscrap/800
+  efalluminum/700
+  efpolycarbonate/500
+  efecho-shard/400
+  efecho-circuit/300
+  efresonance-matrix/100
+]
+
+
+consumes: {
+  power: 4
+}
+
+
+
+research: assembler-module

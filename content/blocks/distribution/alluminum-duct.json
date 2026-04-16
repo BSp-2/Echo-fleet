@@ -1,0 +1,17 @@
+type: Duct
+name: Alluminum Duct
+armored: true
+description: Moves items forward. Does not accept non-duct inputs from the sides.
+category: distribution
+speed: 6
+health: 360
+bridgeReplacement: copper-bridge
+requirements: [
+  efalluminum/1
+]
+junctionReplacement: copper-junction
+
+
+
+research: copper-duct
+

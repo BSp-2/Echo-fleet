@@ -1,0 +1,36 @@
+type: Pump
+name: Siphon Pump
+description: Slowly siphons liquids from water tiles. 
+size: 2
+category: liquid
+squareSprite: false
+
+
+requirements: [
+  efscrap/30
+  efcopper/20
+]
+
+
+pumpAmount: 0.0375
+consumes: {
+  power: 0.0833333333333333333333333333333333333333333333333
+}
+
+
+
+research: {
+  parent: nest
+  objectives: [  
+    scrap-wall
+  ]
+}
+researchCost: [
+  efscrap/120
+  efcopper/80
+]
+
+
+
+
+

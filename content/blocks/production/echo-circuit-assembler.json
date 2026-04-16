@@ -1,0 +1,49 @@
+type: GenericCrafter
+name: Echo Circuit Assembler
+description: HOLY SHIT IS THAT THE ASSEMBLER FROM THE GAME FACTORIO
+size: 4
+
+
+hasLiquids: true
+hasPower: true
+hasItems: true
+craftTime: 480
+squareSprite: true
+itemCapacity: 60
+liquidCapacity: 120
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.08
+category: crafting
+
+
+requirements: [
+	efscrap/400
+	efcopper/320
+	efcupride/280
+	efpolycarbonate/80
+	efecho-shard/160
+]
+
+
+consumes: {
+	power: 8
+	liquids: [
+		efhydrogen-sulfide/0.2
+		efneutralizer/0.4
+	]
+	items: [
+		efcopper/24
+		efalluminum/16
+		efecho-shard/8
+	]
+}
+
+
+outputItems: [
+	efecho-circuit/12
+]
+
+
+research: crude-processor

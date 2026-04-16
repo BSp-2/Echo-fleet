@@ -1,0 +1,62 @@
+type: Constructor
+name: Freight Constructor
+description: Constructs payloads to later be used in various ways. Conducts power. 
+size: 3
+category: units
+
+
+requirements: [
+  efscrap/120
+  efcopper/100
+] 
+hasPower: true
+consumes: {
+  power: 0.5
+}
+
+
+buildSpeed: 1
+squareSprite: false
+conductivePower: true
+maxBlockSize: 2
+
+
+research: {
+  parent: alluminum-duct
+  objectives: [
+    {
+    type: OnSector
+    preset: aysel
+    } 
+  ]
+}
+researchCost: [
+  efscrap/600
+  efcopper/500
+]
+
+
+filter: [
+  liquid-tank,
+  unit-mender,
+  repair-node,
+  storage-block,
+  scrap-wall,
+  scrap-wall-large,
+  copper-wall,
+  copper-wall-large,
+  alluminum-wall,
+  alluminum-wall-large,
+  europium-wall,
+  europium-wall-large,
+  polycarbonate-wall,
+  polycarbonate-wall-large,
+  echo-shard-wall,
+  echo-shard-wall-large,
+  electric-wall,
+  electric-wall-large,
+  alluminum-polycarbonate-wall,
+  alluminum-polycarbonate-wall-large,
+  resonance-matrix-wall,
+  resonance-matrix-wall-large
+]

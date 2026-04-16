@@ -1,0 +1,26 @@
+type: ArmoredConduit
+name: Reinforced Pipeline
+description: healthy water mover
+category: liquid
+
+
+requirements: [
+  efalluminum/3
+  efeuropium/2
+]
+
+
+health: 230
+leaks: false
+
+
+junctionReplacement: liquid-junction
+rotBridgeReplacement: liquid-bridge
+
+
+underBullets: true
+liquidPressure: 1.075
+liquidCapacity: 30
+
+
+research: liquid-pipeline

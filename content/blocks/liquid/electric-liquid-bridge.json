@@ -1,0 +1,19 @@
+type: DirectionLiquidBridge
+name: Electric Liquid Bridge
+description: water walk over wall further
+size: 1
+health: 140
+range: 5
+
+
+requirements: [
+  efscrap/10
+  efecho-circuit/2
+]
+
+
+category: liquid
+squareSprite: true
+
+
+research: liquid-bridge

@@ -1,0 +1,89 @@
+type: HeaterGenerator
+name: Chemical Reactor
+description: make power and heat 
+size: 4
+category: power
+squareSprite: false
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+
+requirements: [
+  efscrap/320
+  efalluminum/280
+  efcupride/240
+  efpolycarbonate/140
+  efecho-shard/80
+]
+
+
+powerProduction: 16
+consumes: {
+  items: [
+	efsulphur/2
+  ]
+  liquids: [
+	efsulphuric-acid/0.25
+	efpurified-water/0.5
+	efneutralizer/0.2
+  ] 
+}
+
+
+itemDuration: 60
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: efpurified-water
+      alpha: 0.7
+      padding: 2
+    }
+    {    
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+  ]
+}
+
+
+generateEffectRange: 0
+generateEffect: {
+  type: RadialEffect
+  rotationSpacing: 45
+  amount: 32
+  lengthOffset: 12
+  layer: 118
+  effect: {
+    type: ParticleEffect
+    particles: 8
+    lifetime: 120
+    sizeFrom: 2.5
+    useRotation: false
+    baseRotation: 90
+    sizeTo: 0.1
+    colorFrom: 77775100
+    colorTo: a9a98888
+    length: 6
+    baseLength: 8
+    cone: 15
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+} 
+
+
+heatOutput: 12
+sideHeat: [1]
+
+
+research: power-transmitter

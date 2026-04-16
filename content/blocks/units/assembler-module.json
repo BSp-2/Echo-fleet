@@ -1,0 +1,24 @@
+type: UnitAssemblerModule
+name: Constructor Module
+description: Increases a constructors' tier by 1 when placed next to its bounding box. If powered, may be used as an additional payload input.
+size: 3
+category: units
+hasPower: true
+
+
+requirements: [
+  efscrap/640
+  efalluminum/580
+  efcupride/440
+  efpolycarbonate/480
+  efecho-shard/220
+]
+
+
+consumes: {
+  power: 2
+}
+
+
+
+research: mech-assembler

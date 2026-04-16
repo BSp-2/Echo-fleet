@@ -1,0 +1,72 @@
+type: UnitAssembler
+name: Advanced Mech Unit Constructor
+description: Creates high tier mech units from payloads.
+size: 5
+category: units
+droneType: echo-fleet-mech-drone
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efscrap/720
+  efalluminum/640
+  efeuropium/640
+  efecho-shard/380
+  efecho-circuit/240
+  efalluminum-polycarbonate/240
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: assembly-drone
+    requirements: [
+    assembly-drone/1
+    ]
+    time: 60
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: reign
+    requirements: [
+    echo-fleet-alluminum-wall-huge/8
+    echo-fleet-electric-wall/6
+    echo-fleet-advanced-leggings/4
+    echo-fleet-ratchet/10
+    ]
+    time: 14400
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: stell
+    requirements: [
+    echo-fleet-europium-wall-huge/12
+    echo-fleet-alluminum-polycarbonate-wall-large/4
+    echo-fleet-resonance-matrix-wall/8
+    echo-fleet-advanced-leggings/9
+    echo-fleet-magnum/12
+    ]
+    time: 28800
+   }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    efneutralizer/0.5
+    efhydrogen-sulfide/0.2
+  ]
+  power: 12
+}
+areaSize: 11
+
+
+
+research: mech-assembler
+
+
+
+

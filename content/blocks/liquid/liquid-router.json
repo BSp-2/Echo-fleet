@@ -1,0 +1,23 @@
+type: LiquidRouter
+name: Liquid Router
+description: Equally distributes liquids to 3 sides. 
+size: 1
+solid: false
+underBullets: true
+health: 60
+liquidCapacity: 20
+category: liquid
+squareSprite: true
+
+
+requirements: [
+  efscrap/10
+]
+
+
+
+research: liquid-junction
+researchCost: [
+  efscrap/100
+]
+

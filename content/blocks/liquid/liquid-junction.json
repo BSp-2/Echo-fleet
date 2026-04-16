@@ -1,0 +1,20 @@
+type: LiquidJunction
+name: Liquid Junction
+details: crossroads erekjr
+description: Allows for crossing of 2 conduits. 
+solid: false
+category: liquid
+squareSprite: true
+
+
+requirements: [
+  efscrap/5
+]
+
+
+
+research: liquid-pipeline
+researchCost: [
+  efscrap/50
+]
+

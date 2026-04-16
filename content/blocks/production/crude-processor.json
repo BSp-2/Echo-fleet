@@ -1,0 +1,114 @@
+type: HeatCrafter
+heatRequirement: 8
+name: Crude Processor
+description: Separates crude oil into gaseous resources under a thermal process. Cannot be rotated. Work around that. 
+size: 4
+craftTime: 60
+minEfficiency: 1
+maxEfficiency: 1
+squareSprite: false
+
+
+consumes: {
+	liquids: [
+   	  efcrude-oil/0.25
+  	  efneutralizer/0.15
+	]
+	power: 4.58333333333333333333333
+}
+
+
+hasLiquids: true
+hasPower: true
+dumpExtraLiquid: true
+rotate: false
+
+
+ambientSound: loopExtract
+ambientSoundVolume: 0.09
+
+
+outputLiquids: [
+	eflpg/0.05
+	efcarbon-dioxide/0.15
+	efnitrogen/0.1
+	efhydrogen-sulfide/0.1
+]
+
+
+category: crafting
+
+
+requirements: [
+	efscrap/240
+	efcopper/200
+	efalluminum/140
+	efcupride/90
+]
+
+
+liquidCapacity: 120
+liquidOutputDirections: [1,2,3,4]
+
+
+research: {
+	parent: cupride-chamber
+	objectives: [
+	  efcrude-oil, 
+	  {
+	    type: OnSector
+	    preset: wadi
+	  }
+	]
+}
+researchCost: [
+	efscrap/1200
+	efcopper/1000
+	efalluminum/700
+	efcupride/450
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+	  type: DrawLiquidRegion
+      suffix: -liquid5
+      drawLiquid: efcrude-oil
+      padding: 3
+	}
+    {
+	  type: drawBubbles
+      color: 332927FF
+      fill: false
+      spread: 5
+	}
+    {
+	  type: DrawCrucibleFlame
+	  particleRad: 10
+	  flameRad: 3
+	  partcileSize: 4
+	  rotateScl: 2
+	  particles: 50
+	  particleLife: 120
+	}
+    {
+	  type: DrawDefault
+	}
+    {
+	  type: DrawHeatInput
+	  suffix: -heat
+	} 
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      glowScale: 10
+	  color: FFA600FF
+	}
+  ]
+} 

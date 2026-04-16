@@ -1,0 +1,28 @@
+type: DuctBridge
+name: Copper Bridge
+description: Allows for crossing of terrain or several blocks. 
+health: 140
+size: 1
+solid: false
+
+
+requirements: [
+  efscrap/3
+  efcopper/2
+] 
+
+
+category: distribution
+squareSprite: true
+range: 3
+speed: 3
+
+
+
+research: copper-duct
+researchCost: [
+  efscrap/30
+  efcopper/20
+]
+
+

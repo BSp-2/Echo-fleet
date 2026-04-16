@@ -1,0 +1,41 @@
+type: Constructor
+name: Advanced Unit Part Constructor
+description: Constructs advanced unit parts to later use them in unit production.
+size: 5
+category: units
+
+
+requirements: [
+  efscrap/400
+  efalluminum/240
+  efpolycarbonate/200
+  efecho-circuit/120
+] 
+hasPower: true
+
+
+consumes: {
+  power: 5
+  liquids: [
+    efneutralizer/0.15
+    efnitrogen/0.05
+  ]
+}
+buildSpeed: 1
+
+
+filter: [
+  echo-fleet-reinforced-leggings, 
+  echo-fleet-crab-heels, 
+  echo-fleet-gravitron-module, 
+  echo-fleet-advanced-leggings, 
+  echo-fleet-gravitron-engine
+]
+
+
+squareSprite: false
+conductivePower: true
+maxBlockSize: 3
+
+
+research: unit-part-constructor

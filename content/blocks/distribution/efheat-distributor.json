@@ -1,0 +1,45 @@
+type: HeatConductor
+name: Heat Distributor
+description: Transfers heat to other Heat Distributors or heat consumers. 
+size: 2
+category: distribution
+
+
+requirements: [
+  efcopper/40
+  efalluminum/20
+]
+
+
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+
+
+
+research: {
+  parent: alluminum-duct
+  objectives: [
+    efcupride
+  ]
+}
+ResearchCost: [
+  efcopper/400
+  efalluminum/200
+]
+
+
+

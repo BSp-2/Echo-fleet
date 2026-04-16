@@ -1,0 +1,60 @@
+type: ConsumeGenerator
+name: Charge Conductor
+description: Uhh
+size: 3
+category: power
+squareSprite: false
+
+
+requirements: [
+  efscrap/180
+  efcopper/160
+  efalluminum/150
+  efeuropium/90
+  efpolycarbonate/40
+]
+
+
+consumes: {
+  items: [
+ 	efalluminum/1
+  ]
+  liquids: [
+ 	efnitrogen/0.2
+ 	efneutralizer/0.15
+  ]
+}
+
+
+powerProduction: 12.5
+itemDuration: 60
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.03
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: efnitrogen
+      alpha: 0.7
+      padding: 2
+    } 
+    {
+      type: DrawPlasma
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+
+research: lpg-engine

@@ -1,0 +1,61 @@
+type: Reconstructor
+size: 3
+health: 650
+configurable: false
+name: Mech Unit Refabcircator
+description: Upgrades tier 1 mech units into their tier 2 counterpart. 
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  efscrap/280
+  efcopper/260
+  efalluminum/180
+  efcupride/320
+]
+constructTime: 2400
+category: units
+
+
+upgrades: [
+    [ratchet, magnum] 
+]
+  
+  
+consumes: {
+  power: 3
+  liquids: [
+	efozone/0.05
+	efneutralizer/0.1
+  ]
+  items: [
+  efalluminum/45
+  efcupride/30
+  ]
+}
+
+
+
+research: {
+	parent: mech-fabricator
+	objectives: [
+		{
+			type: OnSector
+			preset: wadi
+		}
+	]
+}
+researchCost: [
+	efscrap/1400
+	efcopper/1300
+	efalluminum/900
+	efcupride/640
+]
+
+
+
+
+

@@ -1,0 +1,74 @@
+type: UnitAssembler
+name: Advanced Crab Unit Constructor
+description: Creates high tier crab units from payloads.
+size: 5
+category: units
+droneType: echo-fleet-crab-drone
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efcopper/720
+  efalluminum/640
+  efeuropium/640
+  efecho-shard/380
+  efecho-circuit/240
+  efalluminum-polycarbonate/240
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: assembly-drone
+    requirements: [
+    assembly-drone/1
+    ]
+    time: 60
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: toxopid
+    requirements: [
+    echo-fleet-copper-wall-huge/10
+    echo-fleet-electric-wall-large/2
+    echo-fleet-advanced-leggings/2
+    echo-fleet-crab-heels/6
+    echo-fleet-blaze/12
+    ]
+    time: 16200
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: stell
+    requirements: [
+    echo-fleet-polycarbonate-wall-huge/10
+    echo-fleet-alluminum-polycarbonate-wall-large/6
+    echo-fleet-resonance-matrix-wall/10
+    echo-fleet-advanced-leggings/3
+    echo-fleet-crab-heels/8
+    echo-fleet-singe/16
+    ]
+    time: 32400
+   }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    efneutralizer/0.4
+    efhydrogen-sulfide/0.25
+  ]
+  power: 10
+}
+areaSize: 11
+
+
+
+research: crab-assembler
+
+
+
+
