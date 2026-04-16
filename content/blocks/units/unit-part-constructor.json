@@ -6,9 +6,9 @@ category: units
 
 
 requirements: [
-  01a-01-item-scrap/240
-  01a-04-item-alluminum/200
-  01a-07-item-polycarbonate/120
+  efscrap/240
+  efalluminum/200
+  efpolycarbonate/120
 ] 
 hasPower: true
 
@@ -16,8 +16,8 @@ hasPower: true
 consumes: {
   power: 2
   liquids: [
-    02a-12-liquid-neutralizer/0.1
-    02a-08-liquid-ozone/0.05
+    efneutralizer/0.1
+    efozone/0.05
   ]
 }
 buildSpeed: 1
@@ -36,4 +36,4 @@ maxBlockSize: 3
 
 
 
-research: 03j-06-mech-assembler
+research: mech-assembler
