@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Vlam
-description: Rapidly fires volleys of burning crude oil in one direction. Can not rotate. Capable of starting fires, recommended to use with fire extinguishing turrets.
+description: Rapidly fires volleys of burning crude oil in one direction. Due to complications with igniting machinery and high risk of combustion, the turret can only rotate extremely slowly. Handle with care. Capable of starting fires, recommended to use with fire extinguishing turrets.
 health: 1800
 shootSound: vlam
 recoil: 0
@@ -20,36 +20,36 @@ buildTime: 720
 
 
 research: {
-   parent: 08a-04-turret-cleanse
+   parent: cleanse
    objectives: [
-      02a-01-liquid-crude-oil
+      efcrude-oil
    ]
 }
 researchCost: [
-  01a-01-item-scrap/2700
-  01a-02-item-copper/2400
-  01a-04-item-alluminum/2100
-  01a-05-item-cupride/1800
+  efscrap/2700
+  efcopper/2400
+  efalluminum/2100
+  efcupride/1800
 ]
 
 
 range: 200
 requirements: [
-  01a-01-item-scrap/450
-  01a-02-item-copper/400
-  01a-04-item-alluminum/350
-  01a-05-item-cupride/200
+  efscrap/450
+  efcopper/400
+  efalluminum/350
+  efcupride/200
 ]
 
 
 consumes: {
   power: 3
   liquids: [
-    02a-01-liquid-crude-oil/0.4
+    efcrude-oil/0.4
   ] 
 }
 ammoTypes: {
-  01a-03-item-soft-coal: {
+  efsoft-coal: {
 	velocityRnd: 0.2
 	shootEffect: shootBig
     smokeEffect: shootBigSmoke
