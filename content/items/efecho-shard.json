@@ -1,0 +1,19 @@
+type: item
+name: Echo Shard
+description: Radioactive pile of metals infested with exotic nanomachines left behind by ancient civilisations. 
+flammability: 0
+explosiveness: 0.2
+radioactivity: 0.8
+charge: 0.8
+hardness: 5
+color: C692CEFF
+
+
+research: efeuropium
+
+hiddenOnPlanets: [serpulo, erekir]
+
+
+
+
+
