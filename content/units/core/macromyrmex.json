@@ -1,7 +1,7 @@
 type: mech
 name: Macromyrmex
 description: Protects the Nest core. Can mine ores and build. Cannot heal allied structures. Cannot cross terrain. 
-research: 03h-01-core-nest
+research: nest
 stepSound: mechStepSmall
 
 hovering: true
