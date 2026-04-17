@@ -50,9 +50,9 @@ immunities: [
 
 
 research: {
-  parent: 03j-07-crab-assembler
+  parent: crab-assembler
   objectives: [
-    01a-06-item-europium
+    efeuropium
   ]
 }
 
