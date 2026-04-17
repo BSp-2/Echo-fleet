@@ -1,0 +1,18 @@
+type: Liquid
+name: Purified Water
+description: Properly purificated water. Nothing special. JUST water. 
+color: 0090D9FF
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 1
+viscosity: 0.2
+temperature: 0
+blockReactive: false
+
+
+research: efdirty-water
+
+hiddenOnPlanets: [serpulo, erekir]
+
+
