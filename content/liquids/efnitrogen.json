@@ -1,6 +1,6 @@
 type: Liquid
 name: Nitrogen
-description: "cold"
+description: Usualy cold gas. Useful as a coolant. 
 color: 948A99FF
 
 explosiveness: 0
@@ -14,5 +14,5 @@ gas: true
 blockReactive: false
 
 
-research: 02a-01-liquid-crude-oil 
+research: efcrude-oil 
 hiddenOnPlanets: [serpulo, erekir]
