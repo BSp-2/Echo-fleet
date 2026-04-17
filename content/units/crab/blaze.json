@@ -34,10 +34,10 @@ immunities: [
 ]
 
 
-research: 03j-02-crab-fabricator
+research: fabricator
 researchCost: [
-  01a-01-item-scrap/80
-  01a-04-item-alluminum/60
+  efscrap/80
+  efalluminum/60
 ] 
 researchCostMultiplier: 0.1
 controller: HugAI
