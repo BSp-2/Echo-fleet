@@ -1,0 +1,19 @@
+﻿type: Liquid
+name: Crude Oil
+description: Viscocious mass of carbon and flammable or corrosive components.
+color: 261321FF
+
+
+explosiveness: 0
+flammability: 1
+heatCapacity: 0.2
+viscosity: 0.8
+temperature: 0
+blockReactive: false
+
+
+research: efcupride
+
+hiddenOnPlanets: [serpulo, erekir]
+
+
