@@ -1,7 +1,8 @@
 type: Liquid
 name: Hydrogen Sulfide
-description: "fart gas"
+description: Corrosive sulfuric gas. Toxic. 
 color: BFB760FF
+details: Smells like rotten eggs. 
 
 explosiveness: 0
 flammability: 0.2
@@ -14,5 +15,5 @@ gas: true
 blockReactive: false
 
 
-research: 02a-01-liquid-crude-oil
+research: efcrude-oil
 hiddenOnPlanets: [serpulo, erekir]
