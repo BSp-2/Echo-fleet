@@ -273,4 +273,54 @@ weapons: [
       }
     }
   }
+  {
+    top: false
+	x: 12
+    recoil: 2
+    shootCone: 30
+    inaccuracy: 3
+    velocityRnd: 0.15
+    reload: 30
+    rotate: false
+    mirror: true
+    alternate: true
+    shoot: {
+      shots: 3
+      shotDelay: 4
+    }
+    shootSound: shootDisperce
+    bullet: {
+      type: BasicBulletType
+      despawnSound: explosionPlasmaSmall
+      speed: 8
+      lifetime: 24
+      damage: 25
+      width: 4
+      height: 12
+      smokeEffect: shootSmokeSquare
+      trailColor: F7EE8AFF
+      trailWidth: 3
+      trailLength: 12
+      trailParam: 1.6
+      trailInterval: 2
+      trailEffect: missileTrail
+      backColor: F7EE8AFF
+      hitColor: F7EE8AFF
+      missColor: F7EE8AFF
+      collidesTeam: false
+      hitSound: none
+      fragBullets: 4
+      homingPower: 0.1
+      homingDelay: 20
+      fragBullet: {
+        type: LightningBulletType
+		lightningLength: 4
+		lightningLengthRand: 4
+        pierce: false
+        damage: 10
+        despawnSound: shootEnergyField
+		lightningColor: F7EE8AFF
+      }
+    }
+  }
 ]  
