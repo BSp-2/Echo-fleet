@@ -16,7 +16,7 @@ weapons: [
   {
   top: false
   x: 9.875
-  name: 07b-02-unit-magnum-weapon
+  name: magnum-weapon
   recoil: 2.5
   shootCone: 30
   inaccuracy: 4
@@ -48,4 +48,4 @@ weapons: [
 ]
 
 
-research: 03j-05-a-mech-refabricator
+research: mech-refabricator
