@@ -14,7 +14,7 @@ weapons: [
   {
   top: false
   x: -6
-  name: 07b-01-unit-ratchet-weapon
+  name: ratchet-weapon
   recoil: 2.25
   shootCone: 30
   inaccuracy: 10
@@ -72,9 +72,9 @@ weapons: [
 ]
 
 
-research: 03j-01-mech-fabricator
+research: mech-fabricator
 researchCost: [
-  01a-02-item-copper/100
-  01a-04-item-alluminum/80
+  efcopper/100
+  eralluminum/80
 ]
 researchCostMultiplier: 0.1
