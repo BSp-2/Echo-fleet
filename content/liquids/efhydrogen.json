@@ -1,6 +1,6 @@
 type: Liquid
 name: Hydrogen
-description: "water but not water"
+description: Slightly combustible. Frigid. This is as good as coolants will get in this campaign. 
 color: 99B2BFFF
 
 explosiveness: 0.4
@@ -14,5 +14,5 @@ gas: true
 blockReactive: false
 
 
-research: 02a-10-liquid-hydrogen-sulfide
+research: efhydrogen-sulfide
 hiddenOnPlanets: [serpulo, erekir]
