@@ -1,0 +1,19 @@
+type: Liquid
+name: Contaminated Water
+description: Seriously contaminated water. Barely does it's job as a coolant. Purification is basicaly mandatory. 
+color: 1B5059FF
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.8
+viscosity: 0.6
+temperature: 0.4
+blockReactive: false
+
+
+research: efscrap
+hiddenOnPlanets: [serpulo, erekir]
+
+
+
+
