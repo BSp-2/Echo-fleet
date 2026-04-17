@@ -71,5 +71,5 @@ weapons: [
       }
     }
 ] 
-research: 03h-04-caspar
+research: caspar
 reuiresUnlock: false
