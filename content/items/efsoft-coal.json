@@ -1,0 +1,20 @@
+type: item
+name: Soft Coal
+description: A low quality type of coal. Acquired through refinement processes as a byproduct.
+flammability: 1
+explosiveness: 0.2
+radioactivity: 0
+charge: 0
+color: 72574DFF
+
+
+research: {
+  parent: efscrap
+  objectives: [  
+    efsoft-coal
+  ]
+}
+hiddenOnPlanets: [serpulo, erekir]
+
+
+
