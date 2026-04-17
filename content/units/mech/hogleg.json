@@ -17,7 +17,7 @@ weapons: [
   top: false
   x: 11.5
   y: -0.875
-  name: 07b-03-unit-hogleg-weapon1
+  name: hogleg-weapon1
   recoil: 2.25
   shootCone: 20
   inaccuracy: 15
@@ -61,7 +61,7 @@ weapons: [
   top: false
   x: 6.375
   y: 5.75
-  name: 07b-03-unit-hogleg-weapon2
+  name: hogleg-weapon2
   recoil: 2.25
   shootCone: 30
   inaccuracy: 20
@@ -106,11 +106,11 @@ weapons: [
 ]
 
 
-research: 03j-06-mech-assembler
+research: mech-assembler
 researchCost: [
-  01a-02-item-copper/600
-  01a-04-item-alluminum/480
-  01a-05-item-cupride/240
-  01a-06-item-europium/320
+  efcopper/600
+  efalluminum/480
+  efcupride/240
+  efeuropium/320
 ]
 researchCostMultiplier: 0.1
