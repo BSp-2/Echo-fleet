@@ -3,12 +3,12 @@ flying: true
 canDrown: false 
 name: Thrive
 description: Automaticaly repairs ally structures and units in range. Durable.
-research: 03j-04-support-fabricator
+research: support-fabricator
 researchCost: [
-  01a-01-item-scrap/180
-  02a-02-item-copper/160
-  01a-04-item-alluminum/140
-  01a-05-item-cupride/120
+  efscrap/180
+  efcopper/160
+  efalluminum/140
+  efcupride/120
 ] 
 researchCostMultiplier: 0.1
 controller: RepairAI
