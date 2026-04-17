@@ -1,6 +1,6 @@
 type: Liquid
 name: Ozone
-description: "try breathing it"
+description: Combustible gas with oxidizing properties. 
 color: FF80D4DF
 
 explosiveness: 0.6
@@ -14,5 +14,5 @@ gas: true
 blockReactive: false
 
 
-research: 01a-04-item-alluminum
+research: efalluminum
 hiddenOnPlanets: [serpulo, erekir]
