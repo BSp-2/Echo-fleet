@@ -1,0 +1,22 @@
+type: item
+name: Copper
+description: A soft metal with small electric charge and conductivity.
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.3
+hardness: 2
+color: D5AE8CFF
+
+
+research: {
+  parent: efscrap
+  objectives: [  
+    efcopper
+  ]
+}
+hiddenOnPlanets: [serpulo, erekir]
+
+
+
+
