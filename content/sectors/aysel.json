@@ -3,11 +3,11 @@ difficulty: 5
 planet: aetheria
 sector: 28
 research: {
-  parent: 05a-04-sector-pirc
+  parent: pirc
   objectives: [
     {
       type: SectorComplete
-      preset: 05a-04-sector-pirc
+      preset: pirc
     }
   ]
 }
