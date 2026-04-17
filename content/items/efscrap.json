@@ -1,6 +1,6 @@
 type: item
 name: Scrap
-description: A common material composed of many different metals.
+description: Abundant material composed of many different metals.
 flammability: 0.1
 explosiveness: 0
 radioactivity: 0
