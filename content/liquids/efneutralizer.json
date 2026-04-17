@@ -1,6 +1,6 @@
 type: Liquid
 name: Neutralizer
-description: "eat pollution"
+description: Extremely slow to change temperature. 
 color: 2EE6D6FF
 
 explosiveness: 0.0
@@ -14,5 +14,5 @@ gas: true
 blockReactive: false
 
 
-research: 02a-04-liquid-slag
+research: efslag
 hiddenOnPlanets: [serpulo, erekir]
