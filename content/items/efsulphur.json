@@ -1,0 +1,14 @@
+type: item
+name: Sulphur
+description: Highly flammable and toxic powder. Great for thermal reactions. 
+flammability: 1.75
+explosiveness: 0.6
+radioactivity: 0
+charge: 0
+color: F0E8A2FF
+
+
+research: efhydrogen-sulfide
+
+hiddenOnPlanets: [serpulo, erekir]
+
