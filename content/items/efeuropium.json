@@ -1,0 +1,22 @@
+type: item
+name: Europium
+description: A charged and slightly radioactive metal. Has a strange structure that let's it both conduct and block electricity. 
+flammability: 0
+explosiveness: 0
+radioactivity: 0.2
+charge: 0.6
+hardness: 4
+color: CA8A85FF
+details: Not a crosium ripoff. I think.
+
+
+research: {
+  parent: efcopper
+  objectives: [  
+    efeuropium
+  ]
+}
+hiddenOnPlanets: [serpulo, erekir]
+
+
+
