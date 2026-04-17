@@ -1,0 +1,14 @@
+type: item
+name: Alluminum Polycarbonate
+description: Highly charged reinforced plastic. Greatly impact resistant.
+flammability: 0.25
+explosiveness: 0
+radioactivity: 0
+charge: 0.8
+color: B4E4D9FF
+
+
+research: efpolycarbonate
+
+hiddenOnPlanets: [serpulo, erekir]
+
