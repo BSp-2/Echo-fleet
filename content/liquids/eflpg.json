@@ -1,0 +1,17 @@
+type: Liquid
+name: Liquid Petroleum Gas
+description: Processed petroleum. Mostly used for plastic synthesis.
+color: 9595A6FF
+
+explosiveness: 0.4
+flammability: 1
+heatCapacity: 0.5
+viscosity: 0.1
+temperature: 0.6
+blockReactive: false
+
+
+research: efcrude-oil
+
+hiddenOnPlanets: [serpulo, erekir]
+
