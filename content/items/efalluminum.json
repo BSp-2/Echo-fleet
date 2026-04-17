@@ -1,0 +1,16 @@
+type: item
+name: Alluminum
+description: A charged, soft and light, but durable metal.
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.4
+color: ADC6B8FF
+
+
+research: efslag
+
+hiddenOnPlanets: [serpulo, erekir]
+
+
+
