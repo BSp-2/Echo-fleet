@@ -71,21 +71,195 @@ contentOrder: [
     oreechoshard
   #blocks
     #turrets
+      asher
+      ergine
+      cleanse
+      tanwen
+      vlam
+      luminex
     #drills
+      water-accumulator
+      pulse-drill
+      blast-drill
+      paraxosm-drill
+      deterioration-drill
+      alluminum-extractor
+      alluminum-synthesiser
+      carbonic-concentrator
     #distribution
-    #liquid distribution
+      copper-duct
+      alluminum-duct
+      europium-duct
+      electric-belt
+      copper-junction
+      copper-bridge
+      electric-bridge
+      copper-duct-router
+      copper-overflow-duct
+      copper-underflow-duct
+      mechanical-unloader
+      heat-distributor
+      advanced-heat-distributor
+      force-driver
+    #liquid stuff
+      siphon-pump
+      volumisation-pump
+      toxic-pump
+      liquid-pipeline
+      reinforced-pipeline
+      liquid-junction
+      liquid-router
+      liquid-bridge
+      electric-liquid-bridge
+      liquid-tank
     #power
+      copper-node
+      europium-node
+      power-transmitter
+      capacitor
+      ignition-plant
+      decay-cell
+      thermal-reactor
+      lpg-engine
+      charge-conductor
+      chemical-reactor
+      radioactivity-cell
+      circuit-panel
+      resonance-reactor
     #walls
+      scrap-wall
+      scrap-wall-large
+      scrap-wall-huge
+      copper-wall
+      copper-wall-large
+      copper-wall-huge
+      alluminum-wall
+      alluminum-wall-large
+      alluminum-wall-huge
+      europium-wall
+      europium-wall-large
+      automatic-door
+      europium-wall-huge
+      polycarbonate-wall
+      polycarbonate-wall-large
+      polycarbonate-wall-huge
+      echo-shard-wall
+      echo-shard-wall-large
+      echo-shard-wall-huge
+      echo-circuit-wall
+      echo-circuit-wall-large
+      echo-circuit-wall-huge
+      alluminum-polycarbonate-wall
+      alluminum-polycarbonate-wall-large
+      alluminum-polycarbonate-wall-huge
+      resonance-matrix-wall
+      resonance-matrix-wall-large
+      resonance-matrix-wall-huge
     #factories
+      neutralizer-infuser
+      neutralizer-centrifuge
+      slag-refinery
+      cupride-chamber
+      water-purifier
+      crude-processor
+      crude-decompression-forge
+      smoke-separator
+      chemical-chamber
+      chemical-furnace
+      sulphur-extractor
+      sulphuric-acid-mixer
+      acidic-concentrator
+      water-synthesiser
+      echo-circuit-assembler
+      alluminum-polycarbonate-smelter
+      resonance-matrix-forge
+      soft-coal-heater
+      sulphur-heater
+      resonance-heater
+      efincinerator
     #unit blocks
+      mech-fabricator
+      mech-refabricator
+      mech-assembler
+      advenced-mech-assembler
+      crab-fabricator
+      crab-refabricator
+      crab-assembler
+      advenced-crab-assembler
+      hover-fabricator
+      hover-refabricator
+      hover-assembler
+      advanced-hover-assembler
+      support-fabricator
+      support-refabricator
+      support-assembler
+      unit-part-constructor
+      advanced-unit-part-constructor
+      assembler-module
+      advanced-assembler-module
+      freight-constructor
+      freight-deconstructor
+      freight-mass-driver
+      freight-conveyor
+      freight-router
+      unit-mender
     #misc core stuff
+      messege-chip
+      repair-node
+      build-nodule
+      nest
+      caspar
+      storage-block
   #items
+    efscrap
+    efcopper
+    efsoft-coal
+    efalluminum
+    efcupride
+    efeuropium
+    efpolycarbonate
+    efsulphur
+    efecho-shard
+    efecho-shard
+    efalluminum-polycarbonate
+    efresonance-matrix
   #liquids
+    efcrude-oil
+    efdirty-water
+    efpurified-water
+    efslag
+    eflpg
+    efsulphuric-acid
+    efcarbon-dioxide
+    efozone
+    efnitrogen
+    efhydrogen-sulfide
+    efhydrogen
+    efneutralizer
   #sectors
+    un
+    mollum
+    haign
+    pirc
+    aysel
+    wadi
   #units
     #core
+      macromyrmex 
+      loxosceles
     #mech
+      ratchet 
+      magnum
+      hogleg
     #crab
+      blaze
+      singe
+      bonfire
     #hover
+      mabuz
+      keres
+      ephai
+      fester
     #support
+      thrive
 ] 
