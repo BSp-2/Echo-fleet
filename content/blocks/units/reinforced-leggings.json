@@ -7,9 +7,9 @@ placeablePlayer: false
 
 
 requirements: [
-  01a-06-item-europium/8
-  01a-07-item-polycarbonate/6
+  efeuropium/8
+  efpolycarbonate/6
 ]
 
 
-research: 03j-16-unit-part-constructor
+research: unit-part-constructor
