@@ -7,9 +7,9 @@ placeablePlayer: false
 
 
 requirements: [
-  01a-04-item-alluminum/20
-  01a-07-item-polycarbonate/15
-  01a-10-item-echo-circuit/5
+  efalluminum/20
+  efpolycarbonate/15
+  efecho-circuit/5
 ]
 
 
