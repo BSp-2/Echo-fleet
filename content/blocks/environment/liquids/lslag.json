@@ -3,7 +3,7 @@ name: Slag
 speedMultiplier: 0.4
 variants: 0
 isLiquid: true
-liquidDrop: 02a-04-liquid-slag
+liquidDrop: efslag
 cacheLayer: slag
 supportsOverlay: true
 liquidMultiplier: 1
