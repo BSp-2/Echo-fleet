@@ -27,7 +27,7 @@ consumes: {
         efwater/0.15
     ]
     items: [
-   	 01a-06-item-europium/1
+   	 efeuropium/1
     ]
 }
 craftTime: 60
