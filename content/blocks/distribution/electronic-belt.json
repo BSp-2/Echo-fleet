@@ -9,7 +9,7 @@ category: distribution
 
 requirements: [
   efalluminum/2
-  ececho-circuit/1
+  efecho-circuit/1
 ]   
 
 
