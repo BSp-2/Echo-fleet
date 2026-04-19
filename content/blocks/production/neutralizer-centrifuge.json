@@ -24,7 +24,7 @@ consumes: {
     power: 7.5
 	liquids: [
         efslag/0.25
-        efwater/0.15
+        efdirty-water/0.15
     ]
     items: [
    	 efeuropium/1
