@@ -7,10 +7,10 @@ placeablePlayer: false
 
 
 requirements: [
-  01a-01-item-scrap/16
-  01a-02-item-copper/8
-  01a-07-item-polycarbonate/8
+  efscrap/16
+  efcopper/8
+  efpolycarbonate/8
 ]
 
 
-research: 03j-16-unit-part-constructor
+research: unit-part-constructor
