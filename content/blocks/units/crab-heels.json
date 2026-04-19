@@ -7,9 +7,9 @@ placeablePlayer: false
 
 
 requirements: [
-  01a-01-item-scrap/20
-  01a-04-item-alluminum/15
-  01a-05-item-cupride/5
+  efscrap/20
+  efalluminum/15
+  efcupride/5
 ]
 
 
