@@ -22,7 +22,7 @@ requirements: [
 
 
 research: {
-  parent: slag-refinery
+  parent: efslag-refinery
   objectives: [
     efalluminum
   ] 
