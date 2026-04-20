@@ -16,7 +16,7 @@ requirements: [
 
 
 
-research: liquid-junction
+research: efliquid-junction
 researchCost: [
   efscrap/100
 ]

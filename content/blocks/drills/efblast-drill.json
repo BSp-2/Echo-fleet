@@ -63,7 +63,7 @@ squareSprite: false
 
 
 research: {
-	parent: pulse-drill
+	parent: efpulse-drill
 	objectives: [
 		{
 			type: OnSector

@@ -59,7 +59,7 @@ squareSprite: false
 
 
 
-research: water-accumulator
+research: efwater-accumulator
 researchCost: [
     efscrap/80
     efcopper/40

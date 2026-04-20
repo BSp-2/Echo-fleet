@@ -60,7 +60,7 @@ drawer: {
 
 
 research: {
-  parent: alluminum-extractor
+  parent: efalluminum-extractor
   objectives: [ 
     {
       type: OnSector

@@ -17,7 +17,7 @@ squareSprite: true
 
 
 
-research: liquid-pipeline
+research: efliquid-pipeline
 researchCost: [
   efscrap/100
 ] 

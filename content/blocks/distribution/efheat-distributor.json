@@ -31,7 +31,7 @@ drawer: {
 
 
 research: {
-  parent: alluminum-duct
+  parent: efalluminum-duct
   objectives: [
     efcupride
   ]
