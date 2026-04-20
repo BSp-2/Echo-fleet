@@ -90,7 +90,7 @@ contentOrder: [
       copper-duct
       alluminum-duct
       europium-duct
-      electric-belt
+      electronic-belt
       copper-junction
       copper-bridge
       electric-bridge
@@ -98,8 +98,8 @@ contentOrder: [
       copper-overflow-duct
       copper-underflow-duct
       mechanical-unloader
-      heat-distributor
-      advanced-heat-distributor
+      efheat-distributor
+      efadvanced-heat-distributor
       force-driver
     #liquid stuff
       siphon-pump
