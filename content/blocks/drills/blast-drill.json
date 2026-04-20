@@ -11,7 +11,7 @@ tier: 4
 shake: 2.5
 itemCapacity: 40
 optionalBoostIntensity: 2.5
-details: Boost: 1.6×
+details: Boost: 1.6Ã—
 
 
 consumes: {
@@ -79,3 +79,15 @@ researchCost: [
 ]
 
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix:-arrow
+    }
+    {
+      type: DrawDefault
+    }
+  ] 
+} 
