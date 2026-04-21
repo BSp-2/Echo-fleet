@@ -8,7 +8,7 @@ charge: 1.8
 color: ACC688FF
 
 
-research: 01a-09-item-echo-shard
+research: efecho-shard
 
 hiddenOnPlanets: [serpulo, erekir]
 

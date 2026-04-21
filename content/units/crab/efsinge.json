@@ -1,0 +1,74 @@
+name: Singe
+description: Has 2 plasma cannons. 
+stepSound: walkerStepSmall
+type: legs
+legCount: 4
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 4
+legLength: 12
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+
+hovering: true
+groundLayer: 61
+health: 580
+armor: 4
+allowLegStep: true
+speed: 0.8
+rotateSpeed: 2.5
+hitSize: 16
+drag: 0.1
+itemCapacity: 0
+outlineColor: 13151AFF
+
+
+research: efcrab-refabricator
+researchCostMultiplier: 0.5
+
+
+weapons: [
+  {
+    x: 6.5
+    y: 0.5
+    reload: 15
+    rotationSpeed: 2
+    rotationLimit: 30
+    alternate: false
+    mirror: true
+    name: singe-weapon
+    ejectEffect: none
+    continuous: true
+    alwaysContinuous: true
+    shootSound: beamPlasmaSmall
+    shootStatus: slow
+    shootStatusDuration: 16
+    shootY: 3
+    top: true
+    rotate: true
+    bullet: {
+      type: ContinuousFlameBulletType
+      flareLength: 0
+      length: 84
+      width: 2
+      damage: 12
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+      hitColor: E67676
+      colors: [
+               D45050,
+               E67676,
+               EEAAAA,
+               FFC7C7
+              ]
+      lightColor: D45050
+    }
+  }
+]

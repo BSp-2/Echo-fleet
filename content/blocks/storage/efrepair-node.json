@@ -33,7 +33,7 @@ consumes: {
 
 
 research: {
-  parent: nest
+  parent: efnest
   objectives: [
   efsoft-coal
     {

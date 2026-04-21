@@ -92,7 +92,7 @@ allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: nest
+defaultCore: efnest
 parent: 00-achaea
 solarSystem: 00-achaea
 launchCandidates: []

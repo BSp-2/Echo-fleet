@@ -1,0 +1,19 @@
+type: Wall
+name: Large Scrap Wall
+description: A larger version of the scrap wall.
+size: 2
+armor: 4
+health: 1600
+squareSprite: true
+category: defense
+
+
+requirements: [
+  efscrap/24
+]
+
+
+research: efscrap-wall
+researchCost: [
+  efscrap/240
+] 

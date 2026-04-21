@@ -19,7 +19,7 @@ buildSpeed: 0.5
 range: 144
 category: effect
 outlineColor: 13151AFF
-research: repair-node
+research: efrepair-node
 researchCost: [
   efscrap/1400
   efcopper/1250

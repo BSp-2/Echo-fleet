@@ -1,0 +1,47 @@
+type: Wall
+name: Echo shard Wall
+description: A wall made of echo shards. Upon destruction bursts into deadly frags. Upon being hit can release radioactive energy arcs.
+size: 1
+armor: 12
+health: 800
+squareSprite: true
+category: defense
+buildTime: 16
+lightningChance: 0.1
+lightningDamage: 5
+lightningColor: C692CEFF
+
+
+requirements: [
+  efecho-shard/8
+  efalluminum/5
+]
+
+
+destroyBullet: {
+  instantDisappear: true
+  damage: 0
+  speed: 0
+  fragBullets: 10
+  fragBullet: {
+    type: BasicBulletType
+    speed: 4
+    drag: 0.1
+    lifetime: 60
+    pierce: true
+    pierceCap: 2
+    damage: 4
+    width: 3
+    height: 5
+    homingPower: 0.2
+    mixColorFrom: 735B94FF
+    mixColorTo: 34325FFF
+  }
+}
+
+
+research: efeuropium-wall
+researchCost: [
+  efalluminum/50
+  efecho-shard/80
+]

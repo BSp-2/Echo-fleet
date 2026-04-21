@@ -125,7 +125,7 @@ allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-defaultCore: nest
+defaultCore: efnest
 parent: 0kaltos
 solarSystem: 00-achaea
 launchCandidates: [] 
