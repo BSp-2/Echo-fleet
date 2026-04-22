@@ -79,6 +79,7 @@ contentOrder: [
       luminex
     #drills
       efwater-accumulator
+      efoil-rig
       efpulse-drill
       efblast-drill
       efparaxosm-drill
@@ -146,9 +147,9 @@ contentOrder: [
       efecho-shard-wall
       efecho-shard-wall-large
       efecho-shard-wall-huge
-      efecho-circuit-wall
-      efecho-circuit-wall-large
-      efecho-circuit-wall-huge
+      efelectric-wall
+      efelectric-wall-large
+      efelectric-wall-huge
       efalluminum-polycarbonate-wall
       efalluminum-polycarbonate-wall-large
       efalluminum-polycarbonate-wall-huge
