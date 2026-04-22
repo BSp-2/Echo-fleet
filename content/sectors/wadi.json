@@ -4,7 +4,7 @@ sector: 14
 research: {
   parent: aysel
   objectives: [
-    caspar,
+    efcaspar,
     {
       type: SectorComplete
       preset: aysel
