@@ -10,7 +10,7 @@ color: 949FA0FF
 
 
 research: {
-  parent: nest
+  parent: efnest
   objectives: [  
     efscrap
   ]
