@@ -1,6 +1,4 @@
 type: Liquid
-name: Neutralizer
-description: Extremely slow to change temperature. 
 color: 2EE6D6FF
 
 explosiveness: 0.0
@@ -15,4 +13,4 @@ blockReactive: false
 
 
 research: efslag
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [aetheria]

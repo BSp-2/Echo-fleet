@@ -1,6 +1,4 @@
 type: Liquid
-name: Ozone
-description: Combustible gas with oxidizing properties. 
 color: FF80D4DF
 
 explosiveness: 0.6
@@ -15,4 +13,4 @@ blockReactive: false
 
 
 research: efalluminum
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [aetheria]

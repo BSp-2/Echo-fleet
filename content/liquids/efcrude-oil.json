@@ -1,6 +1,4 @@
 ﻿type: Liquid
-name: Crude Oil
-description: Viscocious mass of carbon and flammable or corrosive components.
 color: 261321FF
 
 
@@ -13,7 +11,4 @@ blockReactive: false
 
 
 research: efcupride
-
-hiddenOnPlanets: [serpulo, erekir]
-
-
+shownPlanets: [aetheria]

@@ -1,6 +1,4 @@
 type: item
-name: Echo Circuit
-description: Electronic component dedicated to handling precise and complex tasks.
 flammability: 0
 explosiveness: 0
 radioactivity: 0.6
@@ -10,7 +8,4 @@ color: ACC688FF
 
 research: efecho-shard
 
-hiddenOnPlanets: [serpulo, erekir]
-
-
-
+shownPlanets: [aetheria]

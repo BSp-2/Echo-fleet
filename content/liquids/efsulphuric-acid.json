@@ -1,6 +1,4 @@
 type: Liquid
-name: Sulphuric Acid
-description: Extremely corrosive acid.
 color: CCBE29FF
 
 explosiveness: 0
@@ -12,5 +10,4 @@ blockReactive: false
 
 
 research: efsulphur
-
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [aetheria]

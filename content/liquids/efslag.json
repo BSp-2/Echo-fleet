@@ -1,6 +1,4 @@
 type: Liquid
-name: Slag
-description: Molten mass of a variety of metals.
 color: FF8040FF
 
 explosiveness: 0
@@ -12,7 +10,4 @@ blockReactive: false
 
 
 research: efdirty-water
-
-hiddenOnPlanets: [serpulo, erekir]
-
-
+shownPlanets: [aetheria]

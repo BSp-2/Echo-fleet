@@ -1,8 +1,5 @@
 type: Liquid
-name: Hydrogen Sulfide
-description: Corrosive sulfuric gas. Toxic. 
 color: BFB760FF
-details: Smells like rotten eggs. 
 
 explosiveness: 0
 flammability: 0.2
@@ -16,4 +13,4 @@ blockReactive: false
 
 
 research: efcrude-oil
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [aetheria]

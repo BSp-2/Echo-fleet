@@ -1,6 +1,4 @@
 type: Liquid
-name: Carbon Dioxide
-description: Smoke. Can be refined into basic components. Mostly useless.
 color: 666666FF
 
 explosiveness: 0
@@ -15,4 +13,4 @@ blockReactive: false
 
 
 research: efcrude-oil
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [aetheria]

@@ -1,6 +1,4 @@
 type: Liquid
-name: Contaminated Water
-description: Seriously contaminated water. Barely does it's job as a coolant. Purification is basicaly mandatory. 
 color: 1B5059FF
 
 explosiveness: 0
@@ -12,8 +10,4 @@ blockReactive: false
 
 
 research: efscrap
-hiddenOnPlanets: [serpulo, erekir]
-
-
-
-
+shownPlanets: [aetheria]

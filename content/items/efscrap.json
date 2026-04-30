@@ -1,6 +1,4 @@
 type: item
-name: Scrap
-description: Abundant material composed of many different metals.
 flammability: 0.1
 explosiveness: 0
 radioactivity: 0
@@ -8,15 +6,10 @@ charge: 0.1
 hardness: 1
 color: 949FA0FF
 
-
 research: {
   parent: efnest
   objectives: [  
     efscrap
   ]
 }
-hiddenOnPlanets: [serpulo, erekir]
-
-
-
-
+shownPlanets: [aetheria]

@@ -1,15 +1,10 @@
-type: item
-name: Polycarbonate
-description: Crude plastic synthesized from coal and LPGs. Great at reflecting impacts. 
+type: item 
 flammability: 0.4
 explosiveness: 0
 radioactivity: 0
 charge: 0
 color: C4BECEFF
 
-
 research: efsoft-coal
 
-hiddenOnPlanets: [serpulo, erekir]
-
-
+shownPlanets: [aetheria]

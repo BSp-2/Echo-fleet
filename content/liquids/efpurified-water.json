@@ -1,6 +1,4 @@
 type: Liquid
-name: Purified Water
-description: Properly purificated water. Nothing special. JUST water. 
 color: 0090D9FF
 
 explosiveness: 0
@@ -12,7 +10,4 @@ blockReactive: false
 
 
 research: efdirty-water
-
-hiddenOnPlanets: [serpulo, erekir]
-
-
+shownPlanets: [aetheria]

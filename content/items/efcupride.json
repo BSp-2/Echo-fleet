@@ -1,12 +1,9 @@
 type: item
-name: Cupride
-description: Slightly charged resource acquired through oxidizing copper. Decently toxic. 
 flammability: 0
 explosiveness: 0
 radioactivity: 0
 charge: 0.2
 color: BEE1ADFF
-
 
 research: {
   parent: efcopper
@@ -14,7 +11,4 @@ research: {
     efcupride
   ]
 }
-hiddenOnPlanets: [serpulo, erekir]
-
-
-
+shownPlanets: [aetheria]

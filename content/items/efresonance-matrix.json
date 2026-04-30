@@ -1,6 +1,4 @@
 type: item
-name: Resonance Matrix
-description: Horrible mess of molecules. Extremely radioactive and unstable, yet somehow unnaturaly durable at the same time.
 flammability: 0.75
 explosiveness: 0.2
 radioactivity: 1
@@ -9,8 +7,4 @@ color: 5C72D9FF
 
 
 research: efecho-shard
-
-hiddenOnPlanets: [serpulo, erekir]
-
-
-
+shownPlanets: [aetheria]

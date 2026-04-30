@@ -1,6 +1,4 @@
 type: Liquid
-name: Hydrogen
-description: Slightly combustible. Frigid. This is as good as coolants will get in this campaign. 
 color: 99B2BFFF
 
 explosiveness: 0.4
@@ -15,4 +13,4 @@ blockReactive: false
 
 
 research: efhydrogen-sulfide
-hiddenOnPlanets: [serpulo, erekir]
+shownPlanets: [aetheria]
