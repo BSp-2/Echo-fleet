@@ -151,6 +151,70 @@ weapons: [
     shoot: {
       firstShotDelay: 55
     }
+	chargeEffect: {
+	  type: MultiEffect
+	  lifetime: 55
+	    effects: [
+		  {
+  		    type: ParticleEffect
+  			particles: 12
+    		length: -16
+    		baseLength: 16
+            colorFrom: F7EE8A00
+            colorTo: F7EE8AFF
+            sizeFrom: 5
+		    cone: 360
+            sizeTo: 0
+            lifetime: 55
+            interp: swingIn
+            sizeInterp: linear
+            followParent: true
+            rotWithParent: false
+          }
+          {
+            type: ParticleEffect
+            particles: 18
+            length: -24
+            baseLength: 24
+            colorFrom: FFF69680
+            colorTo: FFF696FF
+            sizeFrom: 6
+            cone: 360
+            sizeTo: 0
+            lifetime: 60
+            interp: swingIn
+            sizeInterp: linear
+            followParent: true
+            rotWithParent: false
+          }
+          {
+            type: ParticleEffect
+            particles: 12
+            length: -8
+            baseLength: 8
+            colorFrom: F0E08080
+            colorTo: F0E080FF
+            sizeFrom: 4
+            cone: 360
+            sizeTo: 0
+            lifetime: 55
+            interp: swingIn
+            sizeInterp: linear
+            followParent: true
+            rotWithParent: false
+          }
+	      {  
+            type: WaveEffect
+            lifetime: 60
+            sizeFrom: 24
+            sizeTo: 1
+            strokeFrom: 0.3
+            strokeTo: 3
+            followParent: true
+		    color: F7EE8AFF
+          }
+        ]
+	  }
     bullet: { 
       type: BasicBulletType
       width: 10
