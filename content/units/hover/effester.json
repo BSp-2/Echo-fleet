@@ -222,7 +222,59 @@ weapons: [
           }
         ]
       } 
-      smokeEffect: shootSmokeSquare
+      smokeEffect: {
+		type: MultiEffect
+		effects: [
+		  {
+		    type: ParticleEffect
+		    particles: 24
+		    length: 32
+		    baseLength: 0
+		    colorFrom: f0e080ff
+		    colorTo: f0e08080
+		    sizeFrom: 12
+		    sizeTo: 0
+		    lifetime: 150
+		    interp: pow5Out
+		    sizeInterp: swingIn
+		    cone: 40
+		    followParent: false
+		    rotateWithParent: false
+	      } 
+		  {
+		    type: ParticleEffect
+		    particles: 30
+		    length: 30
+		    baseLength: 0
+		    colorFrom: f7ee8aff
+		    colorTo: f7ee8a80
+		    sizeFrom: 10
+		    sizeTo: 0
+		    lifetime: 140
+		    interp: pow5Out
+		    sizeInterp: swingIn
+		    cone: 45
+		    followParent: false
+		    rotateWithParent: false
+	      } 
+		  {
+		    type: ParticleEffect
+		    particles: 36
+		    length: 28
+		    baseLength: 0
+		    colorFrom: fff696ff
+		    colorTo: fff69680
+		    sizeFrom: 8
+		    sizeTo: 0
+		    lifetime: 130
+		    interp: pow5Out
+		    sizeInterp: swingIn
+		    cone: 50
+		    followParent: false
+		    rotateWithParent: false
+	      } 
+        ] 
+      } 
       trailInterval: 1
       trailRotation: true
       trailLength: 12
