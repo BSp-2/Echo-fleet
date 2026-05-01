@@ -52,7 +52,6 @@ parts: [
 	under: true
 	moveX: 2
 	moveY: -2
-	moveRot: -5
   }
   {
     type: RegionPart
@@ -68,7 +67,6 @@ parts: [
 	under: true
 	moveX: 2
 	moveY: -2
-	moveRot: -5
   }
   {
     type: RegionPart
@@ -77,7 +75,6 @@ parts: [
 	under: true
 	moveX: 1
 	moveY: -1
-	moveRot: -5
   } 
   {
     type: RegionPart
@@ -337,7 +334,7 @@ weapons: [
     top: false
 	name: effester-gun
     recoil: 2
-	x: -3.25
+	x: -1.75
     shootCone: 30
     inaccuracy: 3
     velocityRnd: 0.15
