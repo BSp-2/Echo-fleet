@@ -31,14 +31,14 @@ range: 384
 parts: [
   {
     type: RegionPart
-    name: "effester-cells"
+    name: -cells
     heatProgress: recoil
 	mirror: true
 	under: true
   }
   {
     type: RegionPart
-    name: "effester-crystal"
+    name: -crystal
     heatProgress: recoil
 	mirror: false
 	under: true
@@ -46,7 +46,7 @@ parts: [
   } 
   {
     type: RegionPart
-    name: "effester-cover"
+    name: -cover
 	mirror: true
 	under: true
 	progress: recoil
@@ -56,13 +56,13 @@ parts: [
   }
   {
     type: RegionPart
-    name: "effester-misc"
+    name: -misc
 	mirror: false
 	under: true
   }
   {
     type: RegionPart
-    name: "effester-blade"
+    name: -blade
     heatProgress: recoil
 	progress: recoil
 	mirror: true
@@ -73,7 +73,7 @@ parts: [
   }
   {
     type: RegionPart
-    name: "effester-lower-blade"
+    name: -lower-blade
 	progress: recoil
 	mirror: true
 	under: true
@@ -83,7 +83,7 @@ parts: [
   } 
   {
     type: RegionPart
-    name: "effester-main"
+    name: -main
 	mirror: false
 	under: true
   } 
