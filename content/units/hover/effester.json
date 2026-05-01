@@ -32,15 +32,18 @@ parts: [
   {
     type: RegionPart
     suffix: -cells
+	heatProgress: recoil
 	mirror: true
 	under: true
   }
   {
     type: RegionPart
     suffix: -crystal
+	heatProgress: recoil
+	progress: recoil
 	mirror: false
 	under: true
-	moveY: -2
+	moveY: -1
   } 
   {
     type: RegionPart
@@ -60,6 +63,7 @@ parts: [
   {
     type: RegionPart
     suffix: -blade
+	heatProgress: recoil
 	mirror: true
 	under: true
 	moveX: 2
@@ -333,7 +337,7 @@ weapons: [
     top: false
 	name: effester-gun
     recoil: 2
-	x: -8
+	x: -3.25
     shootCone: 30
     inaccuracy: 3
     velocityRnd: 0.15
