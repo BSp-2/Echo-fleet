@@ -47,9 +47,9 @@ parts: [
     suffix: -cover
 	mirror: true
 	under: true
-	moveX: 4
+	moveX: 2
 	moveY: -2
-	moveRot: -15
+	moveRot: -5
   }
   {
     type: RegionPart
@@ -62,18 +62,18 @@ parts: [
     suffix: -blade
 	mirror: true
 	under: true
-	moveX: 4
-	moveY: -4
-	moveRot: -15
+	moveX: 2
+	moveY: -2
+	moveRot: -5
   }
   {
     type: RegionPart
     suffix: -lower-blade
 	mirror: true
 	under: true
-	moveX: 2
-	moveY: -2
-	moveRot: -15
+	moveX: 1
+	moveY: -1
+	moveRot: -5
   } 
   {
     type: RegionPart
