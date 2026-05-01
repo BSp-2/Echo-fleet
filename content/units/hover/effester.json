@@ -336,7 +336,7 @@ weapons: [
     recoil: 2
 	x: 0
 	shootX: 14
-	shootY: 4
+	shootY: 8
     shootCone: 30
     inaccuracy: 3
     velocityRnd: 0.15
@@ -351,6 +351,7 @@ weapons: [
     shootSound: shootDisperce
     bullet: {
       type: BasicBulletType
+	  layer: 89.9
       despawnSound: explosionPlasmaSmall
       speed: 8
       lifetime: 24
