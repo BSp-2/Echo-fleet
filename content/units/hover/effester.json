@@ -228,48 +228,48 @@ weapons: [
 		  {
 		    type: ParticleEffect
 		    particles: 12
-		    length: 48
+		    length: 80
 		    baseLength: 0
 		    colorFrom: CCAA55ff
 		    colorTo: CCAA5580
-		    sizeFrom: 12
+		    sizeFrom: 6
 		    sizeTo: 0
 		    lifetime: 150
 		    interp: pow5Out
 		    sizeInterp: swingIn
-		    cone: 40
+		    cone: 27
 		    followParent: false
 		    rotateWithParent: false
 	      } 
 		  {
 		    type: ParticleEffect
 		    particles: 15
-		    length: 45
+		    length: 72
 		    baseLength: 0
 		    colorFrom: EEBB77ff
 		    colorTo: EEBB7780
-		    sizeFrom: 10
+		    sizeFrom: 5
 		    sizeTo: 0
 		    lifetime: 140
 		    interp: pow5Out
 		    sizeInterp: swingIn
-		    cone: 45
+		    cone: 30
 		    followParent: false
 		    rotateWithParent: false
 	      } 
 		  {
 		    type: ParticleEffect
 		    particles: 18
-		    length: 42
+		    length: 64
 		    baseLength: 0
 		    colorFrom: fff696ff
 		    colorTo: fff69680
-		    sizeFrom: 8
+		    sizeFrom: 4
 		    sizeTo: 0
 		    lifetime: 130
 		    interp: pow5Out
 		    sizeInterp: swingIn
-		    cone: 50
+		    cone: 33
 		    followParent: false
 		    rotateWithParent: false
 	      } 
