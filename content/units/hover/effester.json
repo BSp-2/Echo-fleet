@@ -151,7 +151,14 @@ weapons: [
     shoot: {
       firstShotDelay: 55
     }
-	chargeEffect: {
+    bullet: { 
+      type: BasicBulletType
+      width: 10
+      damage: 400
+      lifetime: 60
+      speed: 6.4
+      recoil: 6
+	  chargeEffect: {
 	  type: MultiEffect
 	  lifetime: 55
 	    effects: [
@@ -214,14 +221,7 @@ weapons: [
 		    color: F7EE8AFF
           }
         ]
-	  }
-    bullet: { 
-      type: BasicBulletType
-      width: 10
-      damage: 400
-      lifetime: 60
-      speed: 6.4
-      recoil: 6
+      } 
       smokeEffect: shootSmokeSquare
       trailInterval: 1
       trailRotation: true
