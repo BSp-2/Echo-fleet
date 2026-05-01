@@ -28,6 +28,68 @@ fogRadius: 20
 range: 384
 
 
+parts: [
+  {
+    type: RegionPart
+    name: "effester-cells"
+    heatProgress: recoil
+	mirror: true
+	under: true
+  }
+  {
+    type: RegionPart
+    name: "effester-crystal"
+    heatProgress: recoil
+	mirror: false
+	under: true
+	moveY: -2
+  } 
+  {
+    type: RegionPart
+    name: "effester-cover"
+	mirror: true
+	under: true
+	progress: recoil
+	moveX: 4
+	moveY: -2
+	moveRot: -15
+  }
+  {
+    type: RegionPart
+    name: "effester-misc"
+	mirror: false
+	under: true
+  }
+  {
+    type: RegionPart
+    name: "effester-blade"
+    heatProgress: recoil
+	progress: recoil
+	mirror: true
+	under: true
+	moveX: 4
+	moveY: -4
+	moveRot: -15
+  }
+  {
+    type: RegionPart
+    name: "effester-lower-blade"
+	progress: recoil
+	mirror: true
+	under: true
+	moveX: 2
+	moveY: -2
+	moveRot: -15
+  } 
+  {
+    type: RegionPart
+    name: "effester-main"
+	mirror: false
+	under: true
+  } 
+]
+
+
 abilities: [
   {
     type: MoveEffectAbility
@@ -275,7 +337,7 @@ weapons: [
   }
   {
     top: false
-	x: 12
+	name: effester-gun
     recoil: 2
     shootCone: 30
     inaccuracy: 3
