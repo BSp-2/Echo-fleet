@@ -334,9 +334,9 @@ weapons: [
 	name: effester-gun
     recoil: 2
 	x: 0
-	shootX: 14
-	shootY: 8
-    shootCone: 30
+	shootX: 15
+	shootY: 12
+    shootCone: 10
     inaccuracy: 3
     velocityRnd: 0.15
     reload: 30
@@ -350,7 +350,6 @@ weapons: [
     shootSound: shootDisperce
     bullet: {
       type: BasicBulletType
-	  layer: 89.9
       despawnSound: explosionPlasmaSmall
       speed: 8
       lifetime: 24
