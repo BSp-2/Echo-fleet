@@ -110,19 +110,19 @@ abilities: [
 engines: [
   {
     x: 0
-    y: -10
+    y: -15
     radius: 4
     rotation: 270
   }
   {
-    x: -12.5
-    y: -7
+    x: -5
+    y: -12.5
     radius: 2.5
     rotation: 270
   }
   {
-    x: 12.5
-    y: -7
+    x: 5
+    y: -12.5
     radius: 2.5
     rotation: 270
   } 
@@ -334,7 +334,8 @@ weapons: [
     top: false
 	name: effester-gun
     recoil: 2
-	x: -1.75
+	x: -1
+	shootX: 2
     shootCone: 30
     inaccuracy: 3
     velocityRnd: 0.15
