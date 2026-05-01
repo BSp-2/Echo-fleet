@@ -90,8 +90,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
-    x: -18
-    y: -8
+    x: -18.5
+    y: -8.5
     interval: 3
     minVelocity: 0.5
   }
@@ -99,8 +99,8 @@ abilities: [
     type: MoveEffectAbility
     teamColor: true
     effect: missileTrail
-    x: 18
-    y: -8
+    x: 18.5
+    y: -8.5
     interval: 3
     minVelocity: 0.5
   }
@@ -335,7 +335,8 @@ weapons: [
 	name: effester-gun
     recoil: 2
 	x: 0
-	shootX: 13
+	shootX: 14
+	shootY: 4
     shootCone: 30
     inaccuracy: 3
     velocityRnd: 0.15
