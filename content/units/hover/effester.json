@@ -40,7 +40,6 @@ parts: [
     type: RegionPart
     suffix: -crystal
 	heatProgress: recoil
-	progress: recoil
 	mirror: false
 	under: true
 	moveY: -1
