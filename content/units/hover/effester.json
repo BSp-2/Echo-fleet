@@ -31,14 +31,14 @@ range: 384
 parts: [
   {
     type: RegionPart
-    name: -cells
+    suffix: -cells
     heatProgress: recoil
 	mirror: true
 	under: true
   }
   {
     type: RegionPart
-    name: -crystal
+    suffix: -crystal
     heatProgress: recoil
 	mirror: false
 	under: true
@@ -46,7 +46,7 @@ parts: [
   } 
   {
     type: RegionPart
-    name: -cover
+    suffix: -cover
 	mirror: true
 	under: true
 	progress: recoil
@@ -56,13 +56,13 @@ parts: [
   }
   {
     type: RegionPart
-    name: -misc
+    suffix: -misc
 	mirror: false
 	under: true
   }
   {
     type: RegionPart
-    name: -blade
+    suffix: -blade
     heatProgress: recoil
 	progress: recoil
 	mirror: true
@@ -73,7 +73,7 @@ parts: [
   }
   {
     type: RegionPart
-    name: -lower-blade
+    suffix: -lower-blade
 	progress: recoil
 	mirror: true
 	under: true
@@ -83,7 +83,7 @@ parts: [
   } 
   {
     type: RegionPart
-    name: -main
+    suffix: -main
 	mirror: false
 	under: true
   } 
