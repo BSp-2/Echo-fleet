@@ -227,11 +227,11 @@ weapons: [
 		effects: [
 		  {
 		    type: ParticleEffect
-		    particles: 24
-		    length: 32
+		    particles: 12
+		    length: 48
 		    baseLength: 0
-		    colorFrom: f0e080ff
-		    colorTo: f0e08080
+		    colorFrom: CCAA55ff
+		    colorTo: CCAA5580
 		    sizeFrom: 12
 		    sizeTo: 0
 		    lifetime: 150
@@ -243,11 +243,11 @@ weapons: [
 	      } 
 		  {
 		    type: ParticleEffect
-		    particles: 30
-		    length: 30
+		    particles: 15
+		    length: 45
 		    baseLength: 0
-		    colorFrom: f7ee8aff
-		    colorTo: f7ee8a80
+		    colorFrom: EEBB77ff
+		    colorTo: EEBB7780
 		    sizeFrom: 10
 		    sizeTo: 0
 		    lifetime: 140
@@ -259,8 +259,8 @@ weapons: [
 	      } 
 		  {
 		    type: ParticleEffect
-		    particles: 36
-		    length: 28
+		    particles: 18
+		    length: 42
 		    baseLength: 0
 		    colorFrom: fff696ff
 		    colorTo: fff69680
