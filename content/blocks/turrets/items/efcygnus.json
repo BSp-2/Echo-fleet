@@ -63,11 +63,12 @@ requirements: [
 category: turret
 consumes: {
   power: 2
+  liquid: efhydrogen-sulfide/0.025
 }
 
 
 reload: 90
-ammoPerShot: 1
+ammoPerShot: 2
 inaccuracy: 0
 shootCone: 20
 ammoTypes: {
