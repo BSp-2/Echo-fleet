@@ -2,7 +2,7 @@ type: ItemTurret
 name: Cygnus
 description: Shoots splintering piercing shells at medium distances. Great against swarms
 size: 4
-range: 288
+range: 296
 squareSprite: false
 health: 2400
 shootSound: shootDisperse
