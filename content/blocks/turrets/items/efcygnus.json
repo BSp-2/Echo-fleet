@@ -103,14 +103,14 @@ ammoTypes: {
     fragVelocityMin: 1
     fragVelocityMax: 1
     fragSpread: 24
-    fragAngle: -48
+    fragAngle: 0
     fragBullet: {
       type: BasicBulletType
 	    buildingDamageMultiplier: 0.01
       speed: 3
       lifetime: 75
-      drag: 0.05
-	    damage: 25
+      drag: 0.015
+	    damage: 30
       pierce: true
       pierceCap: 3
       pierceBuilding: false
