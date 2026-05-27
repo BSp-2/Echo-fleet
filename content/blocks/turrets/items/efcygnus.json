@@ -2,7 +2,7 @@ type: ItemTurret
 name: Cygnus
 description: Charges polycarbonate projectiles and thrashes them at long distances. Weak against swarms. 
 size: 4
-range: 420
+range: 288
 squareSprite: false
 health: 2400
 shootSound: shootDisperse
@@ -74,7 +74,6 @@ shootCone: 20
 ammoTypes: {
   efeuropium: {
     type: BasicBulletType
-	  buildingDamageMultiplier: 0.01
     speed: 7.5
     lifetime: 120
     drag: 0.04
@@ -92,7 +91,7 @@ ammoTypes: {
     trailInterval: 0.5
     trailEffect: missileTrail
     backColor: 5C1B3EFF
-    hitColor: C9645DFF
+    color: C9645DFF
     collidesTeam: false
     hitSound: none
     homingPower: 0.05
@@ -106,7 +105,6 @@ ammoTypes: {
     fragAngle: 0
     fragBullet: {
       type: BasicBulletType
-	    buildingDamageMultiplier: 0.01
       speed: 3
       lifetime: 75
       drag: 0.015
@@ -125,7 +123,65 @@ ammoTypes: {
       trailInterval: 0.5
       trailEffect: missileTrail
       backColor: 5C1B3EFF
-      hitColor: C9645DFF
+      color: C9645DFF
+      collidesTeam: false
+      hitSound: none
+      homingPower: 0.2
+    } 
+  }
+  efecho-shard: {
+		rangeChange: 40
+    type: BasicBulletType
+    speed: 7.5
+    lifetime: 120
+    drag: 0.04
+	  damage: 120
+    pierce: true
+    pierceBuilding: false
+	  width: 16
+  	sprite: circle-bullet
+    height: 20
+    smokeEffect: shootSmokeSquare
+    trailColor: 613D94FF
+    trailWidth: 6
+    trailLength: 40
+    trailParam: 1.25
+    trailInterval: 0.5
+    trailEffect: missileTrail
+    backColor: 613D94FF
+    color: C169CFFF
+    collidesTeam: false
+    hitSound: none
+    homingPower: 0.05
+  	fragOnHit: false
+    fragOnAbsorb: true
+    fragBullets: 6
+    fragRandomSpread: 0
+    fragVelocityMin: 0.8
+    fragVelocityMax: 1.2
+    fragSpread: 18
+    fragAngle: 0
+    fragBullet: {
+      type: BasicBulletType
+      speed: 4
+      lifetime: 75
+      drag: 0.015
+	    damage: 36
+      pierce: true
+      pierceCap: 3
+      pierceBuilding: false
+	    width: 8
+    	sprite: circle-bullet
+      height: 10
+      smokeEffect: shootSmokeSquare
+      trailColor: 613D94FF
+      trailWidth: 3
+      trailLength: 24
+      trailParam: 1.25
+      trailInterval: 0.5
+      trailEffect: missileTrail
+      backColor: 613D94FF
+      color: C169CFFF
       collidesTeam: false
       hitSound: none
       homingPower: 0.2
