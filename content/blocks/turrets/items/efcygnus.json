@@ -48,11 +48,6 @@ drawer: {
       progress: warmup
       moveX: -1
     }
-    {
-      type: RegionPart
-      suffix: -heat
-      heatProgress: warmup
-    }
   ]
 }
 
@@ -71,7 +66,7 @@ consumes: {
 }
 
 
-reload: 150
+reload: 90
 ammoPerShot: 1
 inaccuracy: 0
 shootCone: 20
@@ -79,15 +74,15 @@ ammoTypes: {
   efeuropium: {
     type: BasicBulletType
 	  buildingDamageMultiplier: 0.01
-    speed: 10
+    speed: 7.5
     lifetime: 120
-    drag: 0.02
+    drag: 0.06
 	  damage: 120
     pierce: true
     pierceBuilding: false
-	  width: 16
+	  width: 32
   	sprite: large-orb
-    height: 16
+    height: 32
     smokeEffect: shootSmokeSquare
     trailColor: C9645DFF
     trailWidth: 2
@@ -102,25 +97,25 @@ ammoTypes: {
     homingPower: 0.05
   	fragOnHit: false
     fragOnAbsorb: true
-    fragBullets: 2
+    fragBullets: 4
     fragRandomSpread: 0
     fragVelocityMin: 1
     fragVelocityMax: 1
-    fragSpread: 90
-    fragAngle: 45
+    fragSpread: 30
+    fragAngle: 60
     fragBullet: {
       type: BasicBulletType
 	    buildingDamageMultiplier: 0.01
-      speed: 10
+      speed: 7.5
       lifetime: 30
       drag: 0
-	    damage: 80
+	    damage: 40
       pierce: true
       pierceCap: 3
       pierceBuilding: false
-	    width: 8
+	    width: 16
     	sprite: large-orb
-      height: 8
+      height: 16
       smokeEffect: shootSmokeSquare
       trailColor: C9645DFF
       trailWidth: 2
