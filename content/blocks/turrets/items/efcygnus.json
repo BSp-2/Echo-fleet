@@ -91,10 +91,65 @@ ammoTypes: {
 		shrinkY: 0
     trailColor: 5C1B3EFF
     trailWidth: 6
-    trailLength: 40
+    trailLength: 24
     trailParam: 1.25
     trailInterval: 0.5
-    trailEffect: missileTrail
+	  trailEffect: [
+    	{
+    	  type: ParticleEffect
+    	  particles: 4
+    	  lifetime: 50
+    	  layer: 100.4
+    	  cone: 360
+    	  interp:pow3Out
+    	  sizeChangeStart:12
+    	  length: 20
+    	  sizeFrom: 4
+    	  sizeTo: 8
+    	  baseRotation:180
+    	  colorFrom: 5C1B3EAA
+    	  colorTo: 5C1B3E00
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 2
+    	  lifetime: 50
+    	  interp:pow3Out
+    	  layer: 100.5
+    	  cone: 80
+    	  sizeChangeStart:12
+    	  length: 8
+    	  sizeFrom: 4
+    	  sizeTo: 6
+    	  colorFrom: 5C1B3E90
+     	  colorTo: 5C1B3E00
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 2
+    	  lifetime: 50
+    	  layer: 100.3
+    	  cone: 360
+    	  length: 12
+    	  sizeFrom: 3
+    	  sizeTo: 0
+    	  colorFrom: 5C1B3E
+    	  colorTo: 5C1B3E
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 1
+    	  lifetime: 50
+    	  layer: 100.3
+    	  cone: 40
+    	  length: 12
+    	  sizeFrom: 4
+    	  sizeTo: 0
+    	  baseRotation:180
+    	  colorFrom: ffffff
+    	  colorTo: 5C1B3E
+      }
+	  ]
     backColor: 5C1B3EFF
     color: C9645DFF
     collidesTeam: false
@@ -123,8 +178,8 @@ ammoTypes: {
       smokeEffect: shootSmokeSquare
 		  status: efirradiation 
 		  statusDuration: 40
-		  shrinkX: 0
-		  shrinkY: 0
+		  shrinkX: 1
+		  shrinkY: 1
       trailColor: 5C1B3EFF
       trailWidth: 3
       trailLength: 24
@@ -135,7 +190,7 @@ ammoTypes: {
       color: C9645DFF
       collidesTeam: false
       hitSound: none
-      homingPower: 0.2
+      homingPower: 0.15
     } 
   }
   efecho-shard: {
@@ -160,7 +215,62 @@ ammoTypes: {
     trailLength: 40
     trailParam: 1.25
     trailInterval: 0.5
-    trailEffect: missileTrail
+    trailEffect: [
+    	{
+    	  type: ParticleEffect
+    	  particles: 4
+    	  lifetime: 50
+    	  layer: 100.4
+    	  cone: 360
+    	  interp:pow3Out
+    	  sizeChangeStart:12
+    	  length: 20
+    	  sizeFrom: 4
+    	  sizeTo: 8
+    	  baseRotation:180
+    	  colorFrom: 613D94AA
+    	  colorTo: 613D9400
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 2
+    	  lifetime: 50
+    	  interp:pow3Out
+    	  layer: 100.5
+    	  cone: 80
+    	  sizeChangeStart:12
+    	  length: 8
+    	  sizeFrom: 4
+    	  sizeTo: 6
+    	  colorFrom: 613D9490
+     	  colorTo: 613D9400
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 2
+    	  lifetime: 50
+    	  layer: 100.3
+    	  cone: 360
+    	  length: 12
+    	  sizeFrom: 3
+    	  sizeTo: 0
+    	  colorFrom: 613D94
+    	  colorTo: 613D94
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 1
+    	  lifetime: 50
+    	  layer: 100.3
+    	  cone: 40
+    	  length: 12
+    	  sizeFrom: 4
+    	  sizeTo: 0
+    	  baseRotation:180
+    	  colorFrom: ffffff
+    	  colorTo: 613D94
+      }
+	  ] 
     backColor: 613D94FF
     color: C169CFFF
     collidesTeam: false
@@ -189,8 +299,8 @@ ammoTypes: {
       smokeEffect: shootSmokeSquare
 		  status: efinfestation
 		  statusDuration: 60
-		  shrinkX: 0
-		  shrinkY: 0
+		  shrinkX: 1
+		  shrinkY: 1
       trailColor: 613D94FF
       trailWidth: 3
       trailLength: 24
@@ -201,7 +311,7 @@ ammoTypes: {
       color: C169CFFF
       collidesTeam: false
       hitSound: none
-      homingPower: 0.2
+      homingPower: 0.15
     } 
   }
 }  
