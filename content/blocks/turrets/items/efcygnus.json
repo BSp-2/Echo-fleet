@@ -55,6 +55,7 @@ drawer: {
 requirements: [
   efscrap/480
   efcopper/320
+	efalluminum/400
   efcupride/240
   efeuropium/200
 ]
@@ -205,3 +206,17 @@ ammoTypes: {
   }
 }  
 
+
+research: {
+  parent: eftanwen
+  objectives: [
+    efeuropium
+	]
+}
+researchCost: [
+	efscrap/2400
+	efcopper/1600
+  efalluminum/2000
+  efcupride/1200
+  efeuropium/1000
+]
