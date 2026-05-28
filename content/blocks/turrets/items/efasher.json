@@ -463,7 +463,7 @@ ammoTypes: {
 }
 efeuropium: {
   type: BasicBulletType
-  status: irradiation 
+  status: efirradiation 
   statusDuration: 60
   buildingDamageMultiplier: 0.25
   width: 9
