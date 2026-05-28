@@ -84,7 +84,7 @@ ammoTypes: {
   	sprite: circle-bullet
     height: 20
     smokeEffect: shootSmokeSquare
-		status: irradiation
+		status: efirradiation
 		statusDuration: 120
 		shrinkX: 0
 		shrinkY: 0
@@ -120,8 +120,8 @@ ammoTypes: {
     	sprite: circle-bullet
       height: 10
       smokeEffect: shootSmokeSquare
-		  status: irradiation 
-		  statusDuration: 60
+		  status: efirradiation 
+		  statusDuration: 40
 		  shrinkX: 0
 		  shrinkY: 0
       trailColor: 5C1B3EFF
@@ -150,7 +150,7 @@ ammoTypes: {
   	sprite: circle-bullet
     height: 20
     smokeEffect: shootSmokeSquare
-	  status: infestation 
+	  status: efinfestation 
 		statusDuration: 180
 		shrinkX: 0
 		shrinkY: 0
@@ -186,7 +186,7 @@ ammoTypes: {
     	sprite: circle-bullet
       height: 10
       smokeEffect: shootSmokeSquare
-		  status: infestation
+		  status: efinfestation
 		  statusDuration: 60
 		  shrinkX: 0
 		  shrinkY: 0
