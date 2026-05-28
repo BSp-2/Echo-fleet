@@ -463,9 +463,11 @@ ammoTypes: {
 }
 efeuropium: {
   type: BasicBulletType
+  status: irradiation 
+  statusDuration: 60
   buildingDamageMultiplier: 0.25
   width: 9
-  reloadMultiplier: 0.75
+  reloadMultiplier: 0.8
   sprite: large-orb
   height: 11.5
   shrinkX:0
@@ -474,7 +476,7 @@ efeuropium: {
   pierce: true
   pierceBuilding: true
   pierceCap: 1
-  damage: 160
+  damage: 175
   pierceArmor: true
   speed: 12
   lifetime: 21.333333333333333333333333
