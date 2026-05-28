@@ -84,7 +84,7 @@ ammoTypes: {
 	  width: 16
   	sprite: circle-bullet
     height: 16
-    smokeEffect: shootSmoke
+    smokeEffect: fireSmoke
 		status: efirradiation
 		statusDuration: 120
 		shrinkX: 0.5
@@ -207,7 +207,7 @@ ammoTypes: {
 	  width: 16
   	sprite: circle-bullet
     height: 16
-    smokeEffect: shootSmoke
+    smokeEffect: fireballsmoke
 	  status: efinfestation 
 		statusDuration: 180
 		shrinkX: 0.5
