@@ -87,9 +87,8 @@ ammoTypes: {
     smokeEffect: shootSmokeDisperse
 		status: efirradiation
 		statusDuration: 120
-		shrinkX: -0.5
-		shrinkY: -0.5
-	  shrinkInterp: swingIn
+		shrinkX: 0
+		shrinkY: 0
     trailColor: 5C1B3EFF
     trailWidth: 5
     trailLength: 24
@@ -210,9 +209,8 @@ ammoTypes: {
     smokeEffect:shootSmokeDisperse
 	  status: efinfestation 
 		statusDuration: 180
-		shrinkX: -0.5
-		shrinkY: -0.5
-	  zhrinkInterp: swingIn
+		shrinkX: 0
+		shrinkY: 0
     trailColor: 613D94FF
     trailWidth: 5
     trailLength: 40
