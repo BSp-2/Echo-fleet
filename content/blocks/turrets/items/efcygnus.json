@@ -63,7 +63,7 @@ requirements: [
 category: turret
 consumes: {
   power: 2
-  liquid: efhydrogen-sulfide/0.025
+  liquid: efhydrogen-sulfide/0.033333333333333333333333333
 }
 
 
@@ -84,6 +84,10 @@ ammoTypes: {
   	sprite: circle-bullet
     height: 20
     smokeEffect: shootSmokeSquare
+		status: irradiation
+		statusDuration: 120
+		shrinkX: 0
+		shrinkY: 0
     trailColor: 5C1B3EFF
     trailWidth: 6
     trailLength: 40
@@ -116,6 +120,10 @@ ammoTypes: {
     	sprite: circle-bullet
       height: 10
       smokeEffect: shootSmokeSquare
+		  status: irradiation 
+		  statusDuration: 60
+		  shrinkX: 0
+		  shrinkY: 0
       trailColor: 5C1B3EFF
       trailWidth: 3
       trailLength: 24
@@ -142,6 +150,10 @@ ammoTypes: {
   	sprite: circle-bullet
     height: 20
     smokeEffect: shootSmokeSquare
+	  status: infestation 
+		statusDuration: 180
+		shrinkX: 0
+		shrinkY: 0
     trailColor: 613D94FF
     trailWidth: 6
     trailLength: 40
@@ -174,6 +186,10 @@ ammoTypes: {
     	sprite: circle-bullet
       height: 10
       smokeEffect: shootSmokeSquare
+		  status: infestation
+		  statusDuration: 60
+		  shrinkX: 0
+		  shrinkY: 0
       trailColor: 613D94FF
       trailWidth: 3
       trailLength: 24
