@@ -84,11 +84,11 @@ ammoTypes: {
 	  width: 16
   	sprite: circle-bullet
     height: 16
-    smokeEffect: fireSmoke
+    smokeEffect: shootSmokeDisperse
 		status: efirradiation
 		statusDuration: 120
-		shrinkX: 0.5
-		shrinkY: 0.5
+		shrinkX: -0.5
+		shrinkY: -0.5
 	  shrinkInterp: swingIn
     trailColor: 5C1B3EFF
     trailWidth: 5
@@ -207,11 +207,11 @@ ammoTypes: {
 	  width: 16
   	sprite: circle-bullet
     height: 16
-    smokeEffect: fireballsmoke
+    smokeEffect:shootSmokeDisperse
 	  status: efinfestation 
 		statusDuration: 180
-		shrinkX: 0.5
-		shrinkY: 0.5
+		shrinkX: -0.5
+		shrinkY: -0.5
 	  zhrinkInterp: swingIn
     trailColor: 613D94FF
     trailWidth: 5
