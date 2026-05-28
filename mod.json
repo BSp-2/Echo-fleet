@@ -1,17 +1,4 @@
-name: "echo-fleet"
-displayName: "Echo Fleet"
-author: "Dev - Blehhhh cat\n\n[accent[]]Contributors:[gray[]]\n- Kamikazefoxmk.i\n- Tinport\n- Aerodynamic Attorney\n\n[accent[]]Music Composer:[gray[]]\n- Ace1020spawn"
-description:
-'''
-This mod adds 2 planets sharing a single campaign to the game. 
-
-You [stat]WILL[] be forced to work with excruciatingly hideous structures that output 4 different liquids and require gigantic factory setups to just run. yes. 
-
-The mod is still wip. 
-Only 5 sectors are done as of now.
-'''
-subtitle: blehhhh
-minGameVersion: 156.2
+minGameVersion: 158.1
 repo: BSp-2/Echo-fleet
 
 
@@ -19,6 +6,9 @@ contentOrder: [
   #attributes
     carbonattribute
     bauxiteattribute
+  #status effects
+    efirradiation
+    efinfestation
   #env
     magmaticbasalt
     magmaticbasaltplates
@@ -76,6 +66,7 @@ contentOrder: [
       efcleanse
       eftanwen
       efvlam
+      efcygnus
       luminex
     #drills
       efwater-accumulator
