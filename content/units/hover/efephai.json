@@ -99,14 +99,16 @@ weapons: [
     }
     bullet: { 
       type: BasicBulletType
-      width: 4
+      width: 16
+      height: 16
+      sprite: circle-bullet
       damage: 240
       lifetime: 8
       speed: 16
       recoil: 5
       smokeEffect: shootSmokeSquare
       trailColor: F7EE8AFF
-      trailWidth: 5
+      trailWidth: 2
       trailLength: 10
       trailParam: 1.8
       trailInterval: 2
@@ -142,7 +144,7 @@ weapons: [
         damage: 32
         despawnSound: dullExplosion
         trailColor: F7EE8AFF
-        trailWidth: 5
+        trailWidth: 1
         trailLength: 10
         trailParam: 1.8
         trailInterval: 2
