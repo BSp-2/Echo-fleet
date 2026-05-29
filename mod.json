@@ -1,6 +1,6 @@
 name: "echo-fleet"
-displayName: Echo Fleet
-author: dev - Thinkerdoodle\n\n[gray]Contributors:[]\n- Tinport\n- Leslie\n- Kennysetiawan
+displayName: "Echo Fleet" 
+author: "dev - Thinkerdoodle\n\n[gray]Contributors:[]\n- Tinport\n- Leslie\n- Kennysetiawan" 
 description: '''This mod adds 2 planets sharing a single campaign to the game.
 
 You [stat]WILL[] be forced to work with excruciatingly hideous structures that output 4 different liquids and require gigantic factory setups to just run. yes. 
@@ -8,7 +8,7 @@ You [stat]WILL[] be forced to work with excruciatingly hideous structures that o
 The mod is still wip. 
 Only 6 sectors have been made as of now.
 '''
-subtitle: ?ploo
+subtitle: "?ploo"
 minGameVersion: 158.1
 repo: BSp-2/Echo-fleet
 
