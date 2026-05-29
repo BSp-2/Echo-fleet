@@ -24,9 +24,9 @@ ammoTypes: {
   efozone: {
     type: ContinuousLaserBulletType
     length: 136
-    damage: 25
+    damage: 24
     width: 2
-    incendChance: 0.05
+    incendChance: 0.1
     incendAmount: 3
     incendSpread: 4
     status: burning
@@ -37,17 +37,14 @@ ammoTypes: {
     }
   efhydrogen-sulfide: {
     type: ContinuousLaserBulletType
-    length: 180
-    damage: 40
+    length: 160
+    damage: 32
     width: 2
-    incendChance: 0
-    incendAmount: 0
-    incendSpread: 0
     status: corroded
-    statusDuration: 720
+    statusDuration: 180
     colors: [CCC466FF, D9D071FF, E6DF93FF, F2EDB8FF, FFFCE0FF]
     shake: 0.22
-	rangeChange: 54
+	rangeChange: 24
 	pierceCap: 4
   }
 } 
