@@ -17,23 +17,39 @@ weapons: [
   name: ratchet-weapon
   recoil: 2.25
   shootCone: 30
-  inaccuracy: 10
-  velocityRnd: 0.15
+  inaccuracy: 7
+  velocityRnd: 0.3
   y: 0.5
   reload: 90
   rotate: false
   mirror: true
   alternate: true
   shoot: {
-    shots: 2
-    shotDelay: 8
+    shots: 3
+    shotDelay: 2
   }
+
+    shoot: {
+        type: ShootMulti
+        source: {
+        type: ShootPattern
+        shots: 2
+        }
+        dest: [
+            {
+            type: ShootPattern
+            shots: 3
+            shotDelay: 5
+            }
+    ]
+    }
+
   shootSound: shootSalvo
   bullet: {
     type: BasicBulletType
     speed: 8
     lifetime: 15
-    damage: 50
+    damage: 27
     pierce: true
     pierceBuilding: true
     pierceCap: 2
@@ -42,15 +58,26 @@ weapons: [
     smokeEffect: shootSmokeSquare
     trailColor: DC913AFF
     trailWidth: 1
-    trailLength: 12
-    trailParam: 1.6
+    trailLength: 9
     trailInterval: 2
-    trailEffect: missileTrail
+    trailEffect: {
+        type: ParticleEffect
+        startDelay:2
+        lifetime: 7
+        particles: 1
+        cone: 0
+        length: 1
+        sizeFrom: 3
+        sizeTo: 1
+        colorFrom: DC913A80
+        colorTo: DC913A00
+    }
     backColor: DC913AFF
     hitColor: DC913AFF
     missColor: DC913AFF
     collidesTeam: false
     hitSound: none
+  }
   }
 ]
 
