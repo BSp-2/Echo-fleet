@@ -2,7 +2,7 @@ type: ItemTurret
 name: Cygnus
 description: Shoots splintering piercing shells at medium distances. Great against swarms
 size: 4
-range: 296
+range: 320
 squareSprite: false
 health: 2400
 shootSound: shootDisperse
@@ -131,7 +131,7 @@ ammoTypes: {
 				cone: 360
 				length: 32
 				interp: pow2Out
-				sizeFrom: 4
+				sizeFrom: 3
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
@@ -145,7 +145,7 @@ ammoTypes: {
 				cone: 360
 				length: 24
 			  interp: pow2Out
-				sizeFrom: 3
+				sizeFrom: 2
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
@@ -169,7 +169,7 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       speed: 3
-      lifetime: 75
+      lifetime: 120
       drag: 0.015
 	    damage: 20
       pierce: true
@@ -280,7 +280,7 @@ ammoTypes: {
 				cone: 360
 				length: 32
 				interp: pow2Out
-				sizeFrom: 4
+				sizeFrom: 3
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
@@ -294,7 +294,7 @@ ammoTypes: {
 				cone: 360
 				length: 24
 			  interp: pow2Out
-				sizeFrom: 3
+				sizeFrom: 2
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
@@ -318,7 +318,7 @@ ammoTypes: {
     fragBullet: {
       type: BasicBulletType
       speed: 4
-      lifetime: 75
+      lifetime: 120
       drag: 0.015
 	    damage: 30
       pierce: true
