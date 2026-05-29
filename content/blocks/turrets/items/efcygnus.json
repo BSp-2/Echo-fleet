@@ -23,6 +23,7 @@ warmupMaintainTime: 150
 drawer: {
   type: DrawTurret
   basePrefix: blehhhhious-
+  heatProgress: warmup
   parts: [
     {
       type: RegionPart
@@ -104,8 +105,8 @@ ammoTypes: {
     	  length: 12
     	  sizeFrom: 3
     	  sizeTo: 0
-    	  colorFrom: 5C1B3E
-    	  colorTo: 5C1B3E
+    	  colorFrom: ffffff
+    	  colorTo: C9645D
       }
     	{
     	  type: ParticleEffect
@@ -128,11 +129,11 @@ ammoTypes: {
 				particles: 24
 				layer: 100.1
 				cone: 360
-				length: 16
-				sizeFrom: 6
+				length: 32
+				sizeFrom: 8
 				sizeTo: 0
-				sizeInterp: swingOut
-				colorFrom: C9645D
+				sizeInterp: swingIn
+				colorFrom: ffffff
 				colorTo: 5C1B3E
 			} 
 			{
@@ -141,10 +142,10 @@ ammoTypes: {
 				particles: 16
 				layer: 100.1
 				cone: 360
-				length: 12
-				sizeFrom: 4
+				length: 24
+				sizeFrom: 6
 				sizeTo: 0
-				sizeInterp: swingOut
+				sizeInterp: swingIn
 				colorFrom: ffffff
 				colorTo: C9645D
 			} 
@@ -225,8 +226,8 @@ ammoTypes: {
     	  length: 12
     	  sizeFrom: 3
     	  sizeTo: 0
-    	  colorFrom: 613D94
-    	  colorTo: 613D94
+    	  colorFrom: ffffff
+    	  colorTo: C169CF
       }
     	{
     	  type: ParticleEffect
@@ -249,11 +250,11 @@ ammoTypes: {
 				particles: 24
 				layer: 100.1
 				cone: 360
-				length: 16
-				sizeFrom: 6
+				length: 32
+				sizeFrom: 8
 				sizeTo: 0
-				sizeInterp: swingOut
-				colorFrom: C169CF
+				sizeInterp: swingIn
+				colorFrom: ffffff
 				colorTo: 613D94
 			} 
 			{
@@ -262,10 +263,10 @@ ammoTypes: {
 				particles: 16
 				layer: 100.1
 				cone: 360
-				length: 12
-				sizeFrom: 4
+				length: 24
+				sizeFrom: 6
 				sizeTo: 0
-				sizeInterp: swingOut
+				sizeInterp: swingIn
 				colorFrom: ffffff
 				colorTo: C169CF
 			} 
