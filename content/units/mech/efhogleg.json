@@ -40,11 +40,11 @@ weapons: [
     pierce: true
     pierceBuilding: true
     pierceCap: 2
-    width: 8
+    width: 12
     height: 20
     smokeEffect: shootSmokeSquare
     trailColor: DC913AFF
-    trailWidth: 3
+    trailWidth: 2
     trailLength: 24
     trailParam: 1.6
     trailInterval: 2
@@ -54,7 +54,7 @@ weapons: [
     missColor: DC913AFF
     collidesTeam: false
     hitSound: none
-    homingPower: 0.03
+    homingPower: 0.015
     }
   }
   {
@@ -86,10 +86,10 @@ weapons: [
     pierceCap: 1
     width: 12
     height: 12
-    sprite: large-orb
+    sprite: circle-bullet
     smokeEffect: shootSmokeSquare
     trailColor: DC913AFF
-    trailWidth: 3
+    trailWidth: 2
     trailLength: 80
     trailParam: 1.6
     trailInterval: 2
