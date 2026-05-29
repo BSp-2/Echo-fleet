@@ -82,16 +82,16 @@ ammoTypes: {
 	  damage: 80
     pierce: true
     pierceBuilding: false
-	  width: 16
+	  width: 24
   	sprite: circle-bullet
-    height: 16
+    height: 24
     smokeEffect: shootSmokeDisperse
 		status: efirradiation
 		statusDuration: 120
 		shrinkX: 0
 		shrinkY: 0
     trailColor: 5C1B3EFF
-    trailWidth: 5
+    trailWidth: 6
     trailLength: 24
     trailParam: 1
     trailInterval: 0.5
@@ -170,7 +170,7 @@ ammoTypes: {
       type: BasicBulletType
       speed: 3
       lifetime: 120
-      drag: 0.015
+      drag: 0.02
 	    damage: 20
       pierce: true
       pierceCap: 3
@@ -231,16 +231,16 @@ ammoTypes: {
 	  damage: 120
     pierce: true
     pierceBuilding: false
-	  width: 16
+	  width: 24
   	sprite: circle-bullet
-    height: 16
+    height: 24
     smokeEffect:shootSmokeDisperse
 	  status: efinfestation 
 		statusDuration: 180
 		shrinkX: 0
 		shrinkY: 0
     trailColor: 613D94FF
-    trailWidth: 5
+    trailWidth: 6
     trailLength: 40
     trailParam: 1
     trailInterval: 0.5
@@ -319,7 +319,7 @@ ammoTypes: {
       type: BasicBulletType
       speed: 4
       lifetime: 120
-      drag: 0.015
+      drag: 0.02
 	    damage: 30
       pierce: true
       pierceCap: 3
