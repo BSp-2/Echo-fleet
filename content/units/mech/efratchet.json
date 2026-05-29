@@ -20,29 +20,28 @@ weapons: [
   inaccuracy: 10
   velocityRnd: 0.15
   y: 0.5
-  reload: 180
+  reload: 90
   rotate: false
   mirror: true
   alternate: true
   shoot: {
-    shots: 3
+    shots: 2
     shotDelay: 8
   }
-  shootSound: shootArtillery
+  shootSound: shootSalvo
   bullet: {
     type: BasicBulletType
-    despawnSound: shootArtillerySap 
-    speed: 2
-    lifetime: 60
-    damage: 40
+    speed: 8
+    lifetime: 15
+    damage: 50
     pierce: true
     pierceBuilding: true
     pierceCap: 2
-    width: 4
+    width: 8
     height: 12
     smokeEffect: shootSmokeSquare
     trailColor: DC913AFF
-    trailWidth: 3
+    trailWidth: 1
     trailLength: 12
     trailParam: 1.6
     trailInterval: 2
@@ -52,22 +51,6 @@ weapons: [
     missColor: DC913AFF
     collidesTeam: false
     hitSound: none
-    fragBullets: 8
-    fragVelocityMin: 0.3
-    fragLifeMin: 0.2
-    homingPower: 0.04
-    homingDelay: 20
-    fragBullet: {
-      type: BasicBulletType
-      speed: 2
-      lifetime: 30
-      width: 4
-      height: 8
-      pierce: false
-      damage: 10
-      despawnSound: shootArtillerySap
-    }
-  }
   }
 ]
 
