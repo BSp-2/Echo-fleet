@@ -25,24 +25,19 @@ weapons: [
   mirror: true
   alternate: true
   shoot: {
-    shots: 3
-    shotDelay: 2
+      type: ShootMulti
+      source: {
+      type: ShootPattern
+      shots: 2
+      }
+      dest: [
+          {
+          type: ShootPattern
+          shots: 3
+          shotDelay: 5
+          }
+  ]
   }
-
-    shoot: {
-        type: ShootMulti
-        source: {
-        type: ShootPattern
-        shots: 2
-        }
-        dest: [
-            {
-            type: ShootPattern
-            shots: 3
-            shotDelay: 5
-            }
-    ]
-    }
 
   shootSound: shootSalvo
   bullet: {
@@ -56,6 +51,8 @@ weapons: [
     width: 8
     height: 12
     smokeEffect: shootSmokeSquare
+    backColor: DC913AFF
+    hitColor: DC913AFF
     trailColor: DC913AFF
     trailWidth: 1
     trailLength: 9
@@ -72,8 +69,6 @@ weapons: [
         colorFrom: DC913A80
         colorTo: DC913A00
     }
-    backColor: DC913AFF
-    hitColor: DC913AFF
     missColor: DC913AFF
     collidesTeam: false
     hitSound: none
