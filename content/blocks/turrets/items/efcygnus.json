@@ -97,38 +97,9 @@ ammoTypes: {
 	  trailEffect: [
     	{
     	  type: ParticleEffect
-    	  particles: 4
+    	  particles: 3
     	  lifetime: 50
-    	  layer: 100.4
-    	  cone: 360
-    	  interp:pow3Out
-    	  sizeChangeStart:12
-    	  length: 20
-    	  sizeFrom: 4
-    	  sizeTo: 8
-    	  baseRotation:180
-    	  colorFrom: 5C1B3EAA
-    	  colorTo: 5C1B3E00
-      }
-    	{
-    	  type: ParticleEffect
-    	  particles: 2
-    	  lifetime: 50
-    	  interp:pow3Out
-    	  layer: 100.5
-    	  cone: 80
-    	  sizeChangeStart:12
-    	  length: 8
-    	  sizeFrom: 4
-    	  sizeTo: 6
-    	  colorFrom: 5C1B3E90
-     	  colorTo: 5C1B3E00
-      }
-    	{
-    	  type: ParticleEffect
-    	  particles: 2
-    	  lifetime: 50
-    	  layer: 100.3
+    	  layer: 100.1
     	  cone: 360
     	  length: 12
     	  sizeFrom: 3
@@ -140,7 +111,7 @@ ammoTypes: {
     	  type: ParticleEffect
     	  particles: 1
     	  lifetime: 50
-    	  layer: 100.3
+    	  layer: 100.1
     	  cone: 40
     	  length: 12
     	  sizeFrom: 4
@@ -150,6 +121,34 @@ ammoTypes: {
     	  colorTo: 5C1B3E
       }
 	  ]
+    despawnEffect: [
+			{
+				type: ParticleEffect 
+				lifetime: 90
+				particles: 24
+				layer: 100.1
+				cone: 360
+				length: 16
+				sizeFrom: 6
+				sizeTo: 0
+				sizeInterp: swingOut
+				colorFrom: C9645D
+				colorTo: 5C1B3E
+			} 
+			{
+				type: ParticleEffect 
+				lifetime: 75
+				particles: 16
+				layer: 100.1
+				cone: 360
+				length: 12
+				sizeFrom: 4
+				sizeTo: 0
+				sizeInterp: swingOut
+				colorFrom: ffffff
+				colorTo: C9645D
+			} 
+		] 
     backColor: 5C1B3EFF
     color: C9645DFF
     collidesTeam: false
@@ -219,38 +218,9 @@ ammoTypes: {
     trailEffect: [
     	{
     	  type: ParticleEffect
-    	  particles: 4
-    	  lifetime: 50
-    	  layer: 100.4
-    	  cone: 360
-    	  interp:pow3Out
-    	  sizeChangeStart:12
-    	  length: 20
-    	  sizeFrom: 4
-    	  sizeTo: 8
-    	  baseRotation:180
-    	  colorFrom: 613D94AA
-    	  colorTo: 613D9400
-      }
-    	{
-    	  type: ParticleEffect
     	  particles: 2
     	  lifetime: 50
-    	  interp:pow3Out
-    	  layer: 100.5
-    	  cone: 80
-    	  sizeChangeStart:12
-    	  length: 8
-    	  sizeFrom: 4
-    	  sizeTo: 6
-    	  colorFrom: 613D9490
-     	  colorTo: 613D9400
-      }
-    	{
-    	  type: ParticleEffect
-    	  particles: 2
-    	  lifetime: 50
-    	  layer: 100.3
+    	  layer: 100.1
     	  cone: 360
     	  length: 12
     	  sizeFrom: 3
@@ -262,7 +232,7 @@ ammoTypes: {
     	  type: ParticleEffect
     	  particles: 1
     	  lifetime: 50
-    	  layer: 100.3
+    	  layer: 100.1
     	  cone: 40
     	  length: 12
     	  sizeFrom: 4
@@ -272,6 +242,34 @@ ammoTypes: {
     	  colorTo: 613D94
       }
 	  ] 
+    despawnEffect: [
+			{
+				type: ParticleEffect 
+				lifetime: 90
+				particles: 24
+				layer: 100.1
+				cone: 360
+				length: 16
+				sizeFrom: 6
+				sizeTo: 0
+				sizeInterp: swingOut
+				colorFrom: C169CF
+				colorTo: 613D94
+			} 
+			{
+				type: ParticleEffect 
+				lifetime: 75
+				particles: 16
+				layer: 100.1
+				cone: 360
+				length: 12
+				sizeFrom: 4
+				sizeTo: 0
+				sizeInterp: swingOut
+				colorFrom: ffffff
+				colorTo: C169CF
+			} 
+		]  
     backColor: 613D94FF
     color: C169CFFF
     collidesTeam: false
