@@ -71,13 +71,14 @@ weapons: [
     }
     bullet: { 
       type: BasicBulletType
-      width: 4
+      width: 8
+      height: 12
       damage: 50
       lifetime: 30
       speed: 4
       smokeEffect: shootSmokeSquare
       trailColor: 9DC761FF
-      trailWidth: 2
+      trailWidth: 1
       trailLength: 5
       trailParam: 1.6
       trailInterval: 6
