@@ -130,11 +130,12 @@ ammoTypes: {
 				layer: 100.1
 				cone: 360
 				length: 32
-				sizeFrom: 8
+				interp: pow2Out
+				sizeFrom: 4
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: 5C1B3E
+				colorTo: E67A73
 			} 
 			{
 				type: ParticleEffect 
@@ -143,11 +144,12 @@ ammoTypes: {
 				layer: 100.1
 				cone: 360
 				length: 24
-				sizeFrom: 6
+			  interp: pow2Out
+				sizeFrom: 3
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: C9645D
+				colorTo: E67A73
 			} 
 		] 
     backColor: 5C1B3EFF
@@ -251,11 +253,12 @@ ammoTypes: {
 				layer: 100.1
 				cone: 360
 				length: 32
-				sizeFrom: 8
+				interp: pow2Out
+				sizeFrom: 4
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: 613D94
+				colorTo: E673E6
 			} 
 			{
 				type: ParticleEffect 
@@ -264,11 +267,12 @@ ammoTypes: {
 				layer: 100.1
 				cone: 360
 				length: 24
-				sizeFrom: 6
+			  interp: pow2Out
+				sizeFrom: 3
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: C169CF
+				colorTo: E673E6
 			} 
 		]  
     backColor: 613D94FF
