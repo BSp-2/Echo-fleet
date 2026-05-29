@@ -13,7 +13,7 @@ targetAir: true
 targetGround: true
 rotateSpeed: 2
 recoil: 4
-shootY: -1
+shootY: -1.5
 shootWarmupSpeed: 0.03
 minWarmup: 0.9
 outlineColor: 13151AFF
@@ -126,7 +126,7 @@ ammoTypes: {
 			{
 				type: ParticleEffect 
 				lifetime: 90
-				particles: 24
+				particles: 12
 				layer: 100.1
 				cone: 360
 				length: 32
@@ -135,12 +135,12 @@ ammoTypes: {
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: E67A73
+				colorTo: C9645D
 			} 
 			{
 				type: ParticleEffect 
 				lifetime: 75
-				particles: 16
+				particles: 8
 				layer: 100.1
 				cone: 360
 				length: 24
@@ -149,7 +149,7 @@ ammoTypes: {
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: E67A73
+				colorTo: 5C1B3E
 			} 
 		] 
     backColor: 5C1B3EFF
@@ -188,7 +188,33 @@ ammoTypes: {
       trailLength: 24
       trailParam: 1
       trailInterval: 0.5
-      trailEffect: missileTrail
+			trailEffect: [
+        {
+    	    type: ParticleEffect
+    	    particles: 3
+    	    lifetime: 50
+    	    layer: 100.1
+    	    cone: 360
+    	    length: 12
+    	    sizeFrom: 3
+    	    sizeTo: 0
+    	    colorFrom: ffffff
+    	    colorTo: C9645D
+        }
+    	  {
+    	    type: ParticleEffect
+    	    particles: 1
+    	    lifetime: 50
+    	    layer: 100.1
+    	    cone: 40
+    	    length: 12
+    	    sizeFrom: 4
+    	    sizeTo: 0
+    	    baseRotation:180
+    	    colorFrom: ffffff
+    	    colorTo: 5C1B3E
+        }
+      ] 
       backColor: 5C1B3EFF
       color: C9645DFF
       collidesTeam: false
@@ -249,7 +275,7 @@ ammoTypes: {
 			{
 				type: ParticleEffect 
 				lifetime: 90
-				particles: 24
+				particles: 12
 				layer: 100.1
 				cone: 360
 				length: 32
@@ -258,12 +284,12 @@ ammoTypes: {
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: E673E6
+				colorTo: C169CF
 			} 
 			{
 				type: ParticleEffect 
 				lifetime: 75
-				particles: 16
+				particles: 8
 				layer: 100.1
 				cone: 360
 				length: 24
@@ -272,7 +298,7 @@ ammoTypes: {
 				sizeTo: 0
 				sizeInterp: swingIn
 				colorFrom: ffffff
-				colorTo: E673E6
+				colorTo: 613D94
 			} 
 		]  
     backColor: 613D94FF
@@ -311,7 +337,33 @@ ammoTypes: {
       trailLength: 24
       trailParam: 1
       trailInterval: 0.5
-      trailEffect: missileTrail
+      trailEffect: [
+			  {
+    	    type: ParticleEffect
+    	    particles: 2
+      	  lifetime: 50
+      	  layer: 100.1
+      	  cone: 360
+      	  length: 12
+      	  sizeFrom: 3
+    	    sizeTo: 0
+      	  colorFrom: ffffff
+    	    colorTo: C169CF
+        }
+      	{
+      	  type: ParticleEffect
+      	  particles: 1
+      	  lifetime: 50
+      	  layer: 100.1
+      	  cone: 40
+      	  length: 12
+      	  sizeFrom: 4
+      	  sizeTo: 0
+      	  baseRotation:180
+      	  colorFrom: ffffff
+      	  colorTo: 613D94
+        }
+	    ]  
       backColor: 613D94FF
       color: C169CFFF
       collidesTeam: false
