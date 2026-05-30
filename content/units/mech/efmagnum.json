@@ -49,11 +49,11 @@ weapons: [
     lifeScaleRandMin:0.7
     collidesAir: false
     scaleLife:true
-    speed: 3.5
+    speed: 5
     drag:0.018
     lifetime: 48
     splashDamageRadius: 20
-    splashDamage: 24
+    splashDamage: 30
     width: 9
     height: 9
     homingDelay:16
