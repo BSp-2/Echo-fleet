@@ -3,7 +3,7 @@ name: Cleanse
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 health: 600
 size: 2
-reload: 4
+reload: 60
 inaccuracy: 5
 hasLiquids: true
 liquidCapacity: 40
@@ -33,14 +33,24 @@ requirements: [
 
 
 shoot: {
-  type: ShootAlternate
-  spread: 4
-  shotDelay: 2
+  type: ShootMulti
+  source: {
+    type: ShootPattern
+    shots: 5
+    spread: 10
+  } 
+  dest: [
+  {
+    type: ShootPattern
+    shots: 10
+    shotDelay: 5.5
+  }
+  ] 
 }
 ammoTypes: {
   efdirty-water: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efdirty-water
     speed: 2
@@ -52,10 +62,11 @@ ammoTypes: {
     layer: 98
     despawnSound: splash
     hitSound: splash
+    puddleSize: 8
   }
   efpurified-water: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efpurified-water
     speed: 2
@@ -66,11 +77,12 @@ ammoTypes: {
     damage: 2
     layer: 98
     despawnSound: splash
-    hitSound: splash 
+    hitSound: splash
+    puddleSize: 8
   }
   efslag: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efslag
     speed: 2
@@ -82,10 +94,11 @@ ammoTypes: {
     layer: 98
     despawnSound: splash
     hitSound: splash
+    puddleSize: 8
   }
   efsulphuric-acid: {
-    despawnEffect: none
-    hitEffect: none
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efsulphuric-acid
     speed: 2
@@ -97,6 +110,7 @@ ammoTypes: {
     layer: 98
     despawnSound: splash
     hitSound: splash
+    puddleSize: 8
   }
 }
 
