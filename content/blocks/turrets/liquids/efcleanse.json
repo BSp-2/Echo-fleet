@@ -3,13 +3,13 @@ name: Cleanse
 description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
 health: 600
 size: 2
-reload: 60
-inaccuracy: 5
+reload: 120
+inaccuracy: 12
 hasLiquids: true
 liquidCapacity: 40
 researchCostMultiplier: 0.5
 outlineColor: 13151AFF
-recoil: 0.5
+recoil: 2
 category: turret
 
 
@@ -37,18 +37,21 @@ shoot: {
   source: {
     type: ShootPattern
     shots: 5
-    spread: 10
+    spread: 13
   } 
   dest: [
   {
     type: ShootPattern
-    shots: 10
-    shotDelay: 5.5
+    shots: 6
+    shotDelay: 15
   }
   ] 
 }
+velocityRnd: 0.1
 ammoTypes: {
   efdirty-water: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2
     despawnEffect: hitLiquid
     hitEffect: hitLiquid
     type: LiquidBulletType
@@ -65,6 +68,8 @@ ammoTypes: {
     puddleSize: 8
   }
   efpurified-water: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2 
     despawnEffect: hitLiquid
     hitEffect: hitLiquid
     type: LiquidBulletType
@@ -81,6 +86,8 @@ ammoTypes: {
     puddleSize: 8
   }
   efslag: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2
     despawnEffect: hitLiquid
     hitEffect: hitLiquid
     type: LiquidBulletType
@@ -97,6 +104,8 @@ ammoTypes: {
     puddleSize: 8
   }
   efsulphuric-acid: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2
     despawnEffect: hitLiquid
     hitEffect: hitLiquid
     type: LiquidBulletType
