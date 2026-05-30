@@ -27,7 +27,7 @@ researchCost: [
 ]
 
 
-range: 160
+range: 200
 requirements: [
   efscrap/80
   efcopper/50
@@ -58,8 +58,9 @@ ammoTypes: {
     hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efdirty-water
-    speed: 2
-    lifetime: 80
+    speed: 3
+    lifetime: 100
+    drag: 0.01
     knockback: 1
     status: wet
     statusDuration: 120
@@ -117,11 +118,11 @@ ammoTypes: {
     hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efpurified-water
-    speed: 2
-    lifetime: 80
+    speed: 3
+    lifetime: 100
+    drag: 0.01
     knockback: 4
-    stat
-     us: wet
+    status: wet
     statusDuration: 300
     damage: 2
     layer: 100.1
@@ -177,8 +178,9 @@ ammoTypes: {
     hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efslag
-    speed: 2
-    lifetime: 80
+    speed: 3
+    lifetime: 100
+    drag: 0.01
     knockback: 2
     status: burning
     statusDuration: 120
@@ -235,8 +237,9 @@ ammoTypes: {
     hitEffect: hitLiquid
     type: LiquidBulletType
     liquid: efsulphuric-acid
-    speed: 2
-    lifetime: 80
+    speed: 3
+    lifetime: 100
+    drag: 0.01
     knockback: 5
     status: corroded
     statusDuration: 480
