@@ -147,7 +147,7 @@ weapons: [
     inaccuracy: 2
     velocityRnd: 0.1
     shootStatus: unmoving
-    shootStatusDuration: 300
+    shootStatusDuration: 85
     shoot: {
       firstShotDelay: 55
     }
@@ -234,7 +234,7 @@ weapons: [
 		    colorTo: CCAA5580
 		    sizeFrom: 6
 		    sizeTo: 0
-		    lifetime: 150
+		    lifetime: 60
 		    interp: pow5Out
 		    sizeInterp: swingIn
 		    cone: 27
@@ -250,7 +250,7 @@ weapons: [
 		    colorTo: EEBB7780
 		    sizeFrom: 5
 		    sizeTo: 0
-		    lifetime: 140
+		    lifetime: 70
 		    interp: pow5Out
 		    sizeInterp: swingIn
 		    cone: 30
@@ -266,7 +266,7 @@ weapons: [
 		    colorTo: fff69680
 		    sizeFrom: 4
 		    sizeTo: 0
-		    lifetime: 130
+		    lifetime: 40
 		    interp: pow5Out
 		    sizeInterp: swingIn
 		    cone: 33
@@ -282,13 +282,14 @@ weapons: [
       trailEffect: [
     	{
     	  type: ParticleEffect
+          startDelay:4
     	  particles: 4
-    	  lifetime: 50
-    	  layer: 100.4
+    	  lifetime: 84
+    	  layer: 100.1
     	  cone: 360
-    	  interp:pow3Out
+    	  interp:pow10Out
     	  sizeChangeStart:12
-    	  length: 20
+    	  length: 32
     	  sizeFrom: 4
     	  sizeTo: 8
     	  baseRotation:180
@@ -297,13 +298,14 @@ weapons: [
         }
     	{
     	  type: ParticleEffect
+          startDelay:2
     	  particles: 2
-    	  lifetime: 50
-    	  interp:pow3Out
-    	  layer: 100.5
+    	  lifetime: 70
+    	  interp:pow5Out
+    	  layer: 100.1
     	  cone: 80
     	  sizeChangeStart:12
-    	  length: 8
+    	  length: 24
     	  sizeFrom: 4
     	  sizeTo: 6
     	  colorFrom: F7EE8A90
@@ -311,11 +313,12 @@ weapons: [
         }
     	{
     	  type: ParticleEffect
+          startDelay:1
     	  particles: 2
-    	  lifetime: 50
-    	  layer: 100.3
+    	  lifetime: 60
+    	  layer: 100.2
     	  cone: 360
-    	  length: 12
+    	  length: 15
     	  sizeFrom: 3
     	  sizeTo: 0
     	  colorFrom: F7EE8A
@@ -323,12 +326,13 @@ weapons: [
         }
     	{
     	  type: ParticleEffect
-    	  particles: 1
+    	  particles: 6
+          sizeChangeStart:30
     	  lifetime: 50
     	  layer: 100.3
-    	  cone: 40
+    	  cone: 20
     	  length: 12
-    	  sizeFrom: 4
+    	  sizeFrom: 3
     	  sizeTo: 0
     	  baseRotation:180
     	  colorFrom: ffffff
@@ -341,30 +345,29 @@ weapons: [
       collidesTeam: false
       hitSound: none
       despawnSound: none
-      homingPower: 0.05
-      weaveMag: 1
+      homingPower: 0.012
+      weaveMag: 2
       weaveScale: 8
       fragOnHit: true
-      fragBullets: 10
-      fragRandomSpread: 30
-      fragVelocityMin: 0.2
-      fragVelocityMax: 0.5
+      fragBullets: 14
+      fragRandomSpread: 46
+      fragVelocityMin: 0.6
+      fragVelocityMax: 1.2
       fragAngle: 0
       fragOnAbsorb: true
-      fragHomingDelay: 0
-      fragHomingPower: 0.1
       fragBullet: {
         type: BasicBulletType
-	    lifeScaleRandMin: 0.75
+	    lifeScaleRandMin: 0.5
 		lifeScaleRandMax: 1.5
-        speed: 12
-	    drag: 0.05
-        lifetime: 120
-        width: 12
-        height: 12
+        speed: 8.5
+	    drag: 0.02
+        lifetime: 32
+        width: 10
+        height: 14
 		shrinkX: 0
 	    shrinkY: 0
         pierce: true
+        pierceCap:7
         pierceBuilding: true
         damage: 40
         despawnSound: none
@@ -372,20 +375,43 @@ weapons: [
         trailWidth: 1.5
         trailLength: 10
         trailParam: 1.8
-        trailInterval: 2
         trailEffect: missileTrail
         backColor: E6D837
 		frontColor: F7EE8AFF
-	    fragBullets: 2
+	    fragBullets: 1
         fragRandomSpread: 360
         fragAngle: 0
         fragOnAbsorb: true
-	    fragOnHit: true
+	    fragOnHit: false
+        despawnEffect:{
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 12
+        strokeFrom: 4
+        strokeTo: 0
+        followParent: true
+        colorFrom: E6D837
+        colorTo: E6D837
+        rotWithParent: true
+        }
+        hitEffect:{
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 12
+        strokeFrom: 4
+        strokeTo: 0
+        followParent: true
+        colorFrom: E6D837
+        colorTo: E6D837
+        rotWithParent: true
+        }
 	    fragBullet: {
 		  type: LightningBulletType
-          lightningLength: 6
-		  lightningLengthRand: 6
-          damage: 5
+          lightningLength: 4
+		  lightningLengthRand: 3
+          damage: 7
           pierce: false
           pierceBuilding: false
           lightningColor: F7EE8AFF
@@ -393,17 +419,20 @@ weapons: [
 	    }
       }
 	  bulletInterval: 3
-      intervalRandomSpread: 0
+      intervalRandomSpread: 12
       intervalBullets: 2
       intervalSpread: 40
       intervalBullet: {
         type: BasicBulletType
-	    lifeScaleRandMin: 0.9
-        lifetime: 60
-        speed: 4
-        drag: 0.1
-        width: 8
-        height: 8
+	    lifeScaleRandMin: 0.2
+        velocityScaleRandMax:1.3
+        keepVelocity:false
+        lifetime: 40
+        speed: 3
+        drag: 0.02
+        homingPower: 0.02
+        width: 5
+        height: 5
 		sprite: circle-bullet
 		shrinkX: 0
 		shrinkY: 0
@@ -413,17 +442,41 @@ weapons: [
         splashDamageRadius: 24
         despawnSound: dullExplosion
         trailColor: E6D837
-        trailWidth: 1.5
+        trailWidth: 1.2
         trailLength: 10
         trailParam: 1.8
-        trailInterval: 2
-        trailEffect: missileTrail
+        weaveMag:2
+        weaveScale:4
         backColor: E6D837
 		frontColor: F7EE8AFF
         fragBullets: 2
-        fragRandomSpread: 360
+        fragRandomSpread: 40
         fragAngle: 0
         fragOnAbsorb: true
+        despawnEffect:{
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 12
+        strokeFrom: 4
+        strokeTo: 0
+        followParent: true
+        colorFrom: E6D837
+        colorTo: E6D837
+        rotWithParent: true
+        }
+        hitEffect:{
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 12
+        strokeFrom: 4
+        strokeTo: 0
+        followParent: true
+        colorFrom: E6D837
+        colorTo: E6D837
+        rotWithParent: true
+        }
         fragBullet: {
           type: LightningBulletType
           lightningColor: F7EE8AFF
@@ -435,20 +488,19 @@ weapons: [
 	      despawnSound: shootEnergyField
         } 
       }
-      hitEffect: {
-        type: ExplosionEffect
-        lifetime: 60
-        waveStroke: 1
-        waveColor: F7EE8AFF
-        sparkColor: F7EE8AFF
-        waveRad: 4
-        smokeSize: 2
-        smokeSizeBase: 0
-        sparks: 8
-        sparkRad: 24
-        sparkLen: 2
-        sparkStroke: 1.5
-      }
+      hitEffect:
+        {
+          type: WaveEffect
+          lifetime: 34
+          sizeFrom: 0
+          sizeTo: 26
+          strokeFrom: 7
+          strokeTo: 0
+          followParent: true
+          colorFrom: E6D837
+          colorTo: E6D837
+          rotWithParent: true
+        }
     }
   }
   {
@@ -460,40 +512,89 @@ weapons: [
 	shootY: 12
     shootCone: 10
     inaccuracy: 3
-    velocityRnd: 0.15
-    reload: 30
+    velocityRnd: 0.3
+    reload: 45
     rotate: false
     mirror: true
     alternate: true
     shoot: {
-      shots: 3
-      shotDelay: 4
+    type: ShootMulti
+      source: {
+        type: ShootPattern
+        shots: 2
+      }
+    dest: [
+      {
+        type: ShootPattern
+        shots: 2
+        shotDelay: 6
+      }
+    ]
     }
     shootSound: shootDisperce
     bullet: {
       type: BasicBulletType
       despawnSound: explosionPlasmaSmall
-      speed: 8
-      lifetime: 24
-      damage: 25
+      speed: 4
+      lifetime: 56
+      damage: 27
       width: 16
       height: 16
+      spin:0.6
 	  sprite: mine-bullet
 	  shrinkX: 0.2
       shrinkY: 0.2
+      weaveMag: 2
+      weaveScale: 6
       smokeEffect: shootSmokeSquare
       trailColor: E6D837
       trailWidth: 2.4
       trailLength: 12
       trailParam: 1.6
-      trailInterval: 2
-      trailEffect: missileTrail
+      trailInterval: 1
+      trailEffect: {
+      type: ParticleEffect
+        particles: 2
+        length: 4
+        lifetime: 12
+        interp: pow5Out
+        cone: 1
+        colorFrom: E6D837
+        colorTo: E6D83700
+        sizeFrom: 1
+        sizeTo: 3
+      }
+      despawnEffect:{
+      type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 12
+        strokeFrom: 4
+        strokeTo: 0
+        followParent: true
+        colorFrom: E6D837
+        colorTo: E6D837
+        rotWithParent: true
+      }
+      hitEffect:{
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 12
+        strokeFrom: 4
+        strokeTo: 0
+        followParent: true
+        colorFrom: E6D837
+        colorTo: E6D837
+        rotWithParent: true
+      }
       backColor: E6D837
       hitColor: F7EE8AFF
       frontColor: F7EE8AFF
       collidesTeam: false
       hitSound: none
-      fragBullets: 4
+      fragBullets: 3
+      fragRandomSpread: 14
       fragBullet: {
         type: LightningBulletType
 		lightningLength: 4
