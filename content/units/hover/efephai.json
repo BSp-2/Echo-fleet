@@ -194,7 +194,7 @@ weapons: [
         homingDelay:4
         backColor: E6D837
         frontColor: F7EE8AFF
-        despawnSound: dullExplosion
+        despawnSound: none
         trailColor: E6D837
         trailWidth: 1
         trailLength: 5
