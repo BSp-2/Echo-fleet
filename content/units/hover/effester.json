@@ -367,7 +367,7 @@ weapons: [
         pierce: true
         pierceBuilding: true
         damage: 40
-        despawnSound: dullExplosion
+        despawnSound: none
         trailColor: E6D837
         trailWidth: 1.5
         trailLength: 10
