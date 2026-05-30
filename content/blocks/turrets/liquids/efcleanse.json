@@ -1,6 +1,6 @@
 type: LiquidTurret
 name: Cleanse
-description: Rapidly fires drops of liquid at enemies. Capable of extinguishing fires.
+description: Rapidly fires bursts of liquids at enemies. Capable of extinguishing fires.
 health: 600
 size: 2
 reload: 120
