@@ -369,7 +369,7 @@ weapons: [
         damage: 40
         despawnSound: dullExplosion
         trailColor: E6D837
-        trailWidth: 2
+        trailWidth: 1.5
         trailLength: 10
         trailParam: 1.8
         trailInterval: 2
@@ -403,7 +403,8 @@ weapons: [
         speed: 4
         drag: 0.1
         width: 8
-        height: 12
+        height: 8
+		sprite: circle-bullet
 		shrinkX: 0
 		shrinkY: 0
         pierce: false
@@ -412,7 +413,7 @@ weapons: [
         splashDamageRadius: 24
         despawnSound: dullExplosion
         trailColor: E6D837
-        trailWidth: 5
+        trailWidth: 1.5
         trailLength: 10
         trailParam: 1.8
         trailInterval: 2
@@ -475,14 +476,14 @@ weapons: [
       speed: 8
       lifetime: 24
       damage: 25
-      width: 8
-      height: 8
+      width: 16
+      height: 16
 	  sprite: mine-bullet
 	  shrinkX: 0.2
       shrinkY: 0.2
       smokeEffect: shootSmokeSquare
       trailColor: E6D837
-      trailWidth: 3
+      trailWidth: 2.4
       trailLength: 12
       trailParam: 1.6
       trailInterval: 2
