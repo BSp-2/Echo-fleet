@@ -44,7 +44,7 @@ weapons: [
     type: BasicBulletType
     speed: 8
     lifetime: 15
-    damage: 27
+    damage: 20
     pierce: true
     pierceBuilding: true
     pierceCap: 2
