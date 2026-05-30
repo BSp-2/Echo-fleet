@@ -1,6 +1,8 @@
 type: LiquidTurret
 name: Cleanse
 description: Rapidly fires bursts of liquids at enemies. Capable of extinguishing fires.
+loopSound: none
+shootSound: shootRetusa
 health: 600
 size: 2
 reload: 120
@@ -36,18 +38,18 @@ shoot: {
   type: ShootMulti
   source: {
     type: ShootPattern
-    shots: 12
+    shots: 15
     spread: 12
   } 
   dest: [
   {
     type: ShootPattern
     shots: 2
-    shotDelay: 10
+    shotDelay: 4
   }
   ] 
 }
-velocityRnd: 0.1
+velocityRnd: 0.25
 ammoTypes: {
   efdirty-water: {
     lifeScaleRandMin: 0.8
