@@ -54,7 +54,7 @@ weapons: [
     shootCone: 10
     inaccuracy: 0
     bullet: {
-      damage: 7.5
+      damage: 15
       shootEffect: none
       speed: 2.5
       pierce: true
@@ -65,6 +65,7 @@ weapons: [
       incendChance:0.3
       lifetime: 24
       despawnEffect: none
+      hitEffect: none
       height: 0
       hittable: false
       smokeEffect: [
