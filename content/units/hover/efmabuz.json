@@ -94,7 +94,7 @@ weapons: [
       frontColor: F7EE8AFF
       collidesTeam: false
       hitSound: none
-      despawnSound: dullExplosion
+      despawnSound: none
       homingPower: 0.013
       hitEffect: {
         type: ExplosionEffect
