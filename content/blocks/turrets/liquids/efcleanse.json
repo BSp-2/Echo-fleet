@@ -189,6 +189,7 @@ ammoTypes: {
     despawnSound: splash
     hitSound: splash
     puddleSize: 8
+    shootEffect: [
     {
       type: ParticleEffect
       particles: 12
@@ -248,6 +249,7 @@ ammoTypes: {
     despawnSound: splash
     hitSound: splash
     puddleSize: 8
+    shootEffect: [
     {
       type: ParticleEffect
       particles: 12
