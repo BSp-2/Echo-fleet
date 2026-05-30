@@ -61,45 +61,41 @@ lowAltitude: true
 weapons: [
   {
     shootCone: 30
-    inaccuracy: 15
-    velocityRnd: 0.15
+    inaccuracy: 7
+    velocityRnd: 0.2
     x: 2
     y: 3
     name: mabuz-weapon
     mirror: true
     alternate: true
     top: false
-    reload: 120
+    reload: 40
     rotate: false
     shootSound: shootElude
     recoil: 0.5
     shoot: {
-      shots: 6
-      shotDelay: 5
+      shots: 2
+      shotDelay: 2
     }
     bullet: { 
       type: BasicBulletType
-      width: 8
+      width: 6
       height: 12
       damage: 15
       lifetime: 20
       speed: 6
       smokeEffect: shootSmokeSquare
-      trailColor: F7EE8AFF
+      trailColor: E6D837
       trailWidth: 1
-      trailLength: 5
+      trailLength: 7
       trailParam: 1.6
-      trailInterval: 3
-      trailEffect: missileTrail
-      backColor: CE7B5BFF
       hitColor: F7EE8AFF
-      missColor: F7EE8AFF
+      backColor: E6D837
+      frontColor: F7EE8AFF
       collidesTeam: false
       hitSound: none
       despawnSound: dullExplosion
-      homingPower: 0.1
-      weaveMag: 0
-      weaveScale: 0
+      homingPower: 0.013
       hitEffect: {
         type: ExplosionEffect
         lifetime: 20

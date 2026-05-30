@@ -82,37 +82,34 @@ weapons: [
     mirror: true
     alternate: true
     top: true
-    reload: 10
+    reload: 14
     rotate: true
     shootSound: shootAvert
     recoil: 1
     inaccuracy: 5
-    velocityRnd: 0.1
+    velocityRnd: 0.2
     shoot: {
-      shots: 1
-      shotDelay: 0
+      shots: 2
+      shotDelay: 4
     }
     bullet: { 
       type: BasicBulletType
-      width: 12
+      width: 9
       height: 18
       damage: 20
       lifetime: 24
       speed: 6.666666666666666666
       smokeEffect: shootSmokeSquare
-      trailColor: F7EE8AFF
+      trailColor: E6D837
       trailWidth: 1.5
-      trailLength: 6
-      trailParam: 1.6
-      trailInterval: 2.5
-      trailEffect: missileTrail
-      backColor: CE7B5BFF
+      trailLength: 7
+      backColor: E6D837
+      frontColor: F7EE8AFF
       hitColor: F7EE8AFF
-      missColor: F7EE8AFF
       collidesTeam: false
       hitSound: none
       despawnSound: none
-      homingPower: 0.5
+      homingPower: 0.013
       weaveMag: 1.5
       weaveScale: 6
       hitEffect: {

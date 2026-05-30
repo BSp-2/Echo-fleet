@@ -54,7 +54,8 @@ weapons: [
     rotate: true
     bullet: {
       type: ContinuousFlameBulletType
-      flareLength: 0
+      drawFlare:false
+      oscScl:0.6
       length: 84
       width: 2
       damage: 12
@@ -63,10 +64,10 @@ weapons: [
       despawnEffect: none
       hitColor: E67676
       colors: [
-               D45050FF,
-               E67676BB,
-               EEAAAA99,
-               FFC7C766
+               D4505066,
+               E6767699,
+               EEAAAAbb,
+               FFC7C7ff
               ]
       lightColor: D45050
     }

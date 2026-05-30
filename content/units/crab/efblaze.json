@@ -52,35 +52,79 @@ weapons: [
     reload: 10
     shootSound: shootFlame
     shootCone: 10
-    inaccuracy: 3
+    inaccuracy: 0
     bullet: {
       damage: 20
       shootEffect: none
-      speed: 24
+      speed: 2.5
       pierce: true
       pierceBuilding: true
-      ammoMultiplier: 5
       status: burning
       statusDuration: 60
-      makeFire: true
-      lifetime: 2.5
+      incendAmount:3
+      incendChance:0.3
+      lifetime: 24
       despawnEffect: none
-      width: 0.01
-      height: 0.01
+      height: 0
       hittable: false
-      smokeEffect: {
-        type: ParticleEffect
-          particles: 25
-          length: 140
-          lifetime: 72
-          interp: pow5out
+      smokeEffect: [
+        {
+          type: ParticleEffect
+          particles: 2
+          length: 6
+          lifetime: 15
           interp: pow5Out
-          cone: 3
+          cone: 360
+          layer:100.1
+          colorFrom: FCB96030
+          colorTo: C97E4700
+          sizeFrom: 1.2
+          sizeTo: 2
+        }
+        {
+          type: ParticleEffect
+          particles: 12
+          followParent:false
+          length: 112
+          lifetime: 135
+          interp: pow5Out
+          cone: 6
+          layer:100.1
           colorFrom: FCB960FF
           colorTo: C97E4700
-          sizeFrom: 4
+          sizeFrom: 1.2
+          sizeTo: 4
+        }
+        {
+          type: ParticleEffect
+          followParent:false
+          particles: 8
+          length: 94
+          lifetime: 75
+          interp: pow3Out
+          cone: 3
+          layer:100.2
+          colorFrom: FCB96070
+          colorTo: C97E4700
+          sizeFrom: 3
+          sizeTo: 1
+        }
+        {
+          type: ParticleEffect
+          followParent:false
+          particles: 4
+          length: 93
+          lifetime: 156
+          interp: pow10Out
+          cone: 3
+          layer:100.3
+          sizeChangeStart:110
+          colorFrom: FFCF9F
+          colorTo: C97E47
+          sizeFrom: 1.6
           sizeTo: 0
         }
+     ]
      }
   }
 ]

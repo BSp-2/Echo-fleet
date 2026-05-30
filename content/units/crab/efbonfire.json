@@ -62,12 +62,12 @@ weapons: [
   shootStatus: slow
   shootStatusDuration: 120
   shoot: {
-    firstShotDelay: 80
+    firstShotDelay: 115
   }
     chargeSound: bonfire-charge
     shake: 3
     x: 0
-    y: 0
+    y: -3
     shootCone: 180
     mirror: false
     rotate: false
@@ -75,7 +75,7 @@ weapons: [
     shootSound: explosionDull
     name: bonfire-weapon
     bullet: {
-	  rangeOverride: 40
+	  rangeOverride: 48
       type: BulletType
       status: burning
       statusDuration: 240
@@ -85,148 +85,174 @@ weapons: [
       lifetime: 1
       splashDamage: 160
       splashDamageRadius: 80
-	 	  chargeEffect: {
-		    type: MultiEffect
-		    lifetime: 120
-	      effects: [
-					{
-  		    type: ParticleEffect
-  			  particles: 12
-    		  length: -16
-    		  baseLength: 16
-          colorFrom: FFD37F80
-          colorTo: FFD37FFF
-          sizeFrom: 5
-		      cone: 360
-          sizeTo: 0
-          lifetime: 95
-          interp: swingIn
+      chargeEffect: [
+          {
+          type: ParticleEffect
+          region: echo-fleet-efbonfire-shape
+          particles: 1
+          length: 0
+          baseRotation:90
+          colorFrom: 8C3F4C00
+          colorTo: ffffff
+          sizeFrom: 10
+          sizeTo: 10
+          cone: 0
+          layer:100.3
+          lifetime: 125
           sizeInterp: linear
           followParent: true
-          rotWithParent: false
+          rotWithParent: true
           }
           {
           type: ParticleEffect
           particles: 18
-          length: -24
-          baseLength: 24
-          colorFrom: EEAA7780
+          length: -46
+          baseLength: 46
+          colorFrom: EEAA7700
           colorTo: EEAA77FF
-          sizeFrom: 6
+          sizeFrom: 0
           cone: 360
-          sizeTo: 0
-          lifetime: 100
-          interp: swingIn
+          sizeTo: 3
+          lifetime: 69
+          interp: pow3Out
           sizeInterp: linear
           followParent: true
-          rotWithParent: false
+          rotWithParent: true
           }
           {
           type: ParticleEffect
           particles: 12
-          length: -8
-          baseLength: 8
+          length: -25
+          startDelay:35
+          baseLength: 56
           colorFrom: DDAA8880
-          colorTo: DDAA88FF
-          sizeFrom: 4
+          colorTo: DDAA8800
+          sizeFrom: 0
           cone: 360
-          sizeTo: 0
-          lifetime: 90
-          interp: swingIn
+          sizeTo: 2
+          lifetime: 86
+          interp: pow3Out
           sizeInterp: linear
           followParent: true
-          rotWithParent: false
+          rotWithParent: true
           }
-	      {  
+          {
           type: WaveEffect
-          lifetime: 90
-          sizeFrom: 24
-          sizeTo: 1
-          strokeFrom: 0.3
-          strokeTo: 3
+          lifetime: 100
+          sizeFrom: 58
+          sizeTo: 24
+          strokeFrom: 5
+          strokeTo: 0
           followParent: true
-		  color: EEAA77FF
-      	  }
+          colorFrom: EEAA7700
+          colorTo: EEAA77FF20
+          rotWithParent: true
+          }
         ]
-      }
       shootEffect: [
         {
         type: ParticleEffect
-        particles: 96
-        length: 100
-        lifetime: 240
-        interp: pow3Out
+        region: echo-fleet-efbonfire-shape
+        particles: 1
+        length: 0
+        baseRotation:90
+        colorFrom: ffffff
+        colorTo: 8C3F4C00
+        sizeFrom: 10
+        sizeTo: 10
+        cone: 0
+        layer:100.3
+        lifetime: 50
+        sizeInterp: linear
+        followParent: true
+        rotWithParent: true
+        }
+        {
+        type: ParticleEffect
+        particles: 75
+        length: 120
+        lifetime: 60
+        interp: pow10Out
         cone: 360
         colorFrom: 888888FF
         colorTo: 44444400
-        sizeFrom: 4
+        sizeFrom: 3
         sizeTo: 10
 	    followParent: false
         }
         {
         type: ParticleEffect
-        particles: 48
-        length: 120
-        lifetime: 90
+        particles: 45
+        startDelay:6
+        length: 95
+        lifetime: 59
         interp: pow5Out
         cone: 360
         colorFrom: FFD37FFF
-        colorTo: FFD3700
-        sizeFrom: 8
-        sizeTo: 0
+        colorTo: FFD37000
+        sizeFrom: 2
+        sizeTo: 4
 	    followParent: false
      	} 
 	    {
         type: ParticleEffect
         particles: 64
-        length: 120
+        startDelay:9
+        length: 94
         lifetime: 120
         interp: pow5Out
         cone: 360
-        colorFrom: EEAA77FF
-        colorTo: EEAA7700
-        sizeFrom: 10
+        sizeChangeStart:65
+        colorFrom: EEAA7760
+        colorTo: EEAA77
+        sizeChangeStart:70
+        sizeFrom: 3
         sizeTo: 0
 	    followParent: false
         }
 	    {
   	    type: WaveEffect
-	    sizeFrom: 0
-	    sizeTo: 80
-	    strokeTo: 5
-	    lifetime: 40
-	    colorFrom: BBBBBBFF
-	    colorTo: BBBBBB00
-	    followParent: false
-     	} 
-	    {
-  	    type: WaveEffect
-	    sizeFrom: 0
-	    sizeTo: 80
-	    strokeTo: 10
+	    sizeFrom: 12
+	    sizeTo: 156
+	    strokeTo: 0
 	    lifetime: 60
 	    colorFrom: BBBBBBFF
 	    colorTo: BBBBBB00
 	    followParent: false
-     	}  
+     	}
+        {
+        type: WaveEffect
+        startDelay:14
+        sizeFrom: 12
+        sizeTo: 168
+        strokeTo: 0
+        lifetime: 60
+        colorFrom: BBBBBBFF
+        colorTo: BBBBBB00
+        followParent: false
+        }
       ]
-	  fragBullets: 10
+	  fragBullets: 32
       fragOnHit: true
       fragOnAbsorb: true
       fragRandomSpread: 360
-      fragLifeMin: 0.7
+      fragLifeMin: 0.6
+      fragLifeMax: 1.2
       fragVelocityMin: 0.7
+      fragVelocityMax: 1.5
       fragBullet: {
-        type: MissileBulletType
-        homingPower: 0.05
+        type: BasicBulletType
+        sprite: large-orb
+        homingPower: 0.024
+        homingRange: 60
         speed: 2
         lifetime: 40
-        weaveScale: 3
-        weaveMag: 3
-        width: 3
-        height: 6
-        trailLength: 4
-        trailWidth: 1
+        weaveScale: 6
+        weaveMag: 1
+        width: 8
+        height: 14
+        trailLength: 16
+        trailWidth: 2
         frontColor: FFD37FFF
         backColor: EEAA77FF
         trailColor: EEAA77FF
@@ -244,8 +270,8 @@ weapons: [
           hitSound: dullExplosion
           despawnSound: dullExplosion
           incendChance: 0.75
-          incendAmount: 18
-          incendSpread: 24
+          incendAmount: 4
+          incendSpread: 6
         }
 	  }
     }
