@@ -23,14 +23,14 @@ research: {
 }
 researchCost: [
   efscrap/800
-  efcopper/500
+  efcopper/600
 ]
 
 
 range: 200
 requirements: [
-  efscrap/80
-  efcopper/50
+  efscrap/160
+  efcopper/120
 ]
 
 
@@ -65,51 +65,10 @@ ammoTypes: {
     status: wet
     statusDuration: 120
     damage: 0
-    layer: 100.1
+    layer: 100.3
     despawnSound: splash
     hitSound: splash
     puddleSize: 8
-    smokeEffect: [
-    {
-      type: ParticleEffect
-      particles: 12
-      lifetime: 90
-      length: 40
-      cone: 24
-      sizeFrom: 8
-      sizeTo: 4
-      colorFrom: 1B505990
-      colorTo: 1B505900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 9
-      lifetime: 100
-      length: 36
-      cone: 20
-      sizeFrom: 6
-      sizeTo: 3
-      colorFrom: 1B5059BB
-      colorTo: 1B505900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 6
-      lifetime: 110
-      length: 32
-      cone: 16
-      sizeFrom: 4
-      sizeTo: 2
-      colorFrom: 1B5059FF
-      colorTo: 1B505900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    ] 
   }
   efpurified-water: {
     lifeScaleRandMin: 0.8
@@ -125,51 +84,10 @@ ammoTypes: {
     status: wet
     statusDuration: 300
     damage: 2
-    layer: 100.1
+    layer: 100.3
     despawnSound: splash
     hitSound: splash
     puddleSize: 8
-    smokeEffect: [
-    {
-      type: ParticleEffect
-      particles: 12
-      lifetime: 90
-      length: 40
-      cone: 24
-      sizeFrom: 8
-      sizeTo: 4
-      colorFrom: 0090D990
-      colorTo: 0090D900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 9
-      lifetime: 100
-      length: 36
-      cone: 20
-      sizeFrom: 6
-      sizeTo: 3
-      colorFrom: 0090D9BB
-      colorTo: 0090D900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 6
-      lifetime: 110
-      length: 32
-      cone: 16
-      sizeFrom: 4
-      sizeTo: 2
-      colorFrom: 0090D9FF
-      colorTo: 0090D900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    ] 
   }
   efslag: {
     lifeScaleRandMin: 0.8
@@ -189,47 +107,6 @@ ammoTypes: {
     despawnSound: splash
     hitSound: splash
     puddleSize: 8
-    smokeEffect: [
-    {
-      type: ParticleEffect
-      particles: 12
-      lifetime: 90
-      length: 40
-      cone: 24
-      sizeFrom: 8
-      sizeTo: 4
-      colorFrom: FF804090
-      colorTo: FF804000
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 9
-      lifetime: 100
-      length: 36
-      cone: 20
-      sizeFrom: 6
-      sizeTo: 3
-      colorFrom: FF8040BB
-      colorTo: FF804000
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 6
-      lifetime: 110
-      length: 32
-      cone: 16
-      sizeFrom: 4
-      sizeTo: 2
-      colorFrom: FF8040FF
-      colorTo: FF804000
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    ] 
   }
   efsulphuric-acid: {
     lifeScaleRandMin: 0.8
@@ -249,47 +126,6 @@ ammoTypes: {
     despawnSound: splash
     hitSound: splash
     puddleSize: 8
-    smokeEffect: [
-    {
-      type: ParticleEffect
-      particles: 12
-      lifetime: 90
-      length: 40
-      cone: 24
-      sizeFrom: 8
-      sizeTo: 4
-      colorFrom: CCBE2990
-      colorTo: CCBE2900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 9
-      lifetime: 100
-      length: 36
-      cone: 20
-      sizeFrom: 6
-      sizeTo: 3
-      colorFrom: CCBE29BB
-      colorTo: CCBE2900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    {
-      type: ParticleEffect
-      particles: 6
-      lifetime: 110
-      length: 32
-      cone: 16
-      sizeFrom: 4
-      sizeTo: 2
-      colorFrom: CCBE29FF
-      colorTo: CCBE2900
-      sizeInterp: pow3Out
-      interp: swingIn
-    } 
-    ] 
   }
 }
 
