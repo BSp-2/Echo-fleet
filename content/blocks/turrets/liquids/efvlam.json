@@ -68,8 +68,8 @@ ammoTypes: {
     backColor: EEAA77FF
     trailColor: EEAA77FF
 	trailEffect: missileTrail
-    splashDamage: 150
-	splashDamageRadius: 32
+    splashDamage: 200
+	splashDamageRadius: 48
     hitEffect: none
     despawnEffect: none
 	despawnSound: explosionDull
@@ -95,7 +95,8 @@ ammoTypes: {
 	  pierceBuilding: false
 	  weaveScale: 5
 	  weaveMag: 2
-	  knockback: 6
+	  knockback: 5
+	  impact: true
 	  sprite: large-bomb
 	  width: 12
 	  height: 12
