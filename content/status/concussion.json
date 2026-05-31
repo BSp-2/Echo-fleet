@@ -1,0 +1,6 @@
+type: StatusEffect
+name: Concussion
+description: Damages to the internal structure caused by heavy impacts.
+speedMultiplier: 0.7
+reloadMultiplier: 0.8
+damageMultiplier: 0.8
