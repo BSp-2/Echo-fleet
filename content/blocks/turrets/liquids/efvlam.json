@@ -5,7 +5,7 @@ health: 1800
 shootSound: shootToxopidShotgun
 recoil: 4
 size: 3
-reload: 240
+reload: 180
 inaccuracy: 10
 hasLiquids: true
 hasPower: true
@@ -62,7 +62,7 @@ ammoTypes: {
     width: 16
     height: 24
 	shrinkY: 0.3333333333
-    trailLength: 6
+    trailLength: 10
     trailWidth: 3
     frontColor: FFD37FFF
     backColor: EEAA77FF
@@ -73,6 +73,9 @@ ammoTypes: {
     hitEffect: none
     despawnEffect: none
 	despawnSound: explosionDull
+	incendChance: 1
+	incendSpread: 24
+	incendAmount: 16
 	fragBullets: 24
 	fragVelocityMin: 0.6
 	fragVelocityMax: 1.6
@@ -94,12 +97,12 @@ ammoTypes: {
 	  weaveMag: 2
 	  knockback: 6
 	  sprite: large-bomb
-	  width: 8
-	  height: 8
+	  width: 12
+	  height: 12
 	  shrinkX: 0
 	  shrinkY: 0
-	  trailLength: 3
-	  trailWidth: 1
+	  trailLength: 8
+	  trailWidth: 2
 	  frontColor: FFD37FFF
 	  backColor: EEAA77FF
 	  trailColor: EEAA77FF
@@ -119,6 +122,7 @@ ammoTypes: {
 	    height: 0
 	    trailEffect: none
 	    despawnEffect: none
+	    smokeEffect: none
 	    frontColor: FFD37FFF
 	    backColor: EEAA77FF
 	    hitColor: EEAA77FF
@@ -136,6 +140,7 @@ ammoTypes: {
           incendAmount: 8
           incendSpread: 8
 	      despawnEffect: none
+	      smokeEffect: none
         } 
       }
     }
