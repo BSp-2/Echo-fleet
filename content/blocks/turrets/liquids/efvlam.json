@@ -6,18 +6,17 @@ shootSound: shootToxopidShotgun
 recoil: 4
 size: 3
 reload: 180
-inaccuracy: 0
+inaccuracy: 5
 hasLiquids: true
 hasPower: true
 hasItems: true
 liquidCapacity: 60
 itemCapacity: 30
 outlineColor: 13151AFF
-shootCone: 45
+shootCone: 15
 category: turret
 rotateSpeed: 2
 buildTime: 720
-
 
 research: {
    parent: cleanse
@@ -51,54 +50,92 @@ consumes: {
 ammoPerShot: 4
 ammoTypes: {
   efsoft-coal: {
-	velocityRnd: 0.1
 	shootEffect: shootBig
     smokeEffect: shootBigSmoke
     type: ArtilleryBulletType
+    scaleLife:true
 	sprite: mine-bullet
-    homingPower: 0.008
-    speed: 10
-    lifetime: 24
-    width: 16
+    homingPower: 0.012
+    homingDelay:6
+    speed: 13
+    drag:0.14
+    lifetime: 56
+    width: 24
     height: 24
-	shrinkY: 0.3333333333
-    trailLength: 10
-    trailWidth: 3
+    spin:2
+	shrinkY:0.3
+    shrinkX: 0.3
+    trailLength: 8
+    trailWidth: 3.5
     frontColor: FFD37FFF
     backColor: EEAA77FF
     trailColor: EEAA77FF
-	trailEffect: missileTrail
     splashDamage: 200
 	splashDamageRadius: 48
-    hitEffect: none
+    hitEffect: [
+      {
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 0
+      sizeTo: 32
+      strokeFrom: 12
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+    }
+    {
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 0
+      sizeTo: 50
+      strokeFrom: 9
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+    }
+    {
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 0
+      sizeTo: 70
+      strokeFrom: 5
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+    }
+    ]
     despawnEffect: none
 	despawnSound: explosionDull
 	status: efconcussion
 	statusDuration: 360
 	incendChance: 1
-	incendSpread: 24
-	incendAmount: 16
-	fragBullets: 24
-	fragVelocityMin: 0.6
-	fragVelocityMax: 1.6
-	fragRandomSpread: 60
+	incendSpread: 12
+	incendAmount: 8
+	fragBullets: 22
+    fragVelocityMin: 0.4
+    fragVelocityMax: 1.4
+	fragLifeMin: 0.6
+	fragLifeMax: 6
+    fragOffsetMin:12
+    fragOffsetMax:12
+    fragSpread: 10
+    fragRandomSpread: 0
     fragBullet: {
       type: BasicBulletType
-	  lifeScaleRandMin: 0.7
-	  lifeScaleRandMax: 1.4
-	  damage: 4
+	  damage: 40
 	  splashDamage: 30
-	  splashDamageRadius: 8
-	  speed: 8
-	  lifetime: 90
-	  drag: 0.05
-	  pierce: true
-	  pierceCap: 3
-	  pierceBuilding: false
-	  weaveScale: 5
-	  weaveMag: 2
-	  knockback: 5
-	  impact: true
+	  splashDamageRadius: 4
+	  speed: 2.4
+	  lifetime: 120
+	  drag: 0.02
+	  weaveScale: 6
+	  weaveMag:2
+      weaveRandom: false
+      incendChance: 1
+      incendSpread: 4
+      incendAmount: 2
+      pierce:true
+      pierceCap:2
 	  sprite: large-bomb
 	  width: 12
 	  height: 12
@@ -110,44 +147,31 @@ ammoTypes: {
 	  backColor: EEAA77FF
 	  trailColor: EEAA77FF
 	  status: efconcussion
-	  statusDuration: 180
-	  fragBullets: 1
-	  fragOnHit: false
-	  fragOnAbsorb: true
-	  fragBullet: {
-        type: BasicBulletType
-	    speed: 0
-	    lifetime: 360
-	    damage: 1
-	    pierce: true
-	    pierceBuilding: true
-	    width: 0
-	    height: 0
-	    trailEffect: none
-	    despawnEffect: none
-	    smokeEffect: none
-	    frontColor: FFD37FFF
-	    backColor: EEAA77FF
-	    hitColor: EEAA77FF
-	    intervalBullets: 1
-	    bulletInterval: 30
-	    intervalBullet: {
-	      type: ExplosionBulletType
-          killShooter: false
-          splashDamage: 5
-          splashDamageRadius: 16
-          splashDamagePierce: true
-          hitSound: none
-          despawnSound: none
-          incendChance: 0.5
-          incendAmount: 8
-          incendSpread: 8
-	      despawnEffect: none
-	      smokeEffect: none
-        } 
+	  statusDuration: 250
+      hitEffect:{
+      type: WaveEffect
+      lifetime: 30
+      sizeFrom: 12
+      sizeTo: 6
+      strokeFrom: 3
+      strokeTo: 0
+      colorFrom: EEAA7700
+      colorTo: EEAA77FF
+      }
+      fragBullets:1
+      fragBullet:{
+      width:0
+      damage:1
+      splashDamage: 1
+      splashDamageRadius: 6
+      speed:0.1
+      pierce:true
+      lifetime:1
+      status: slow
+      statusDuration: 45
+      }
       }
     }
-  } 
 }
 
 drawer: {
