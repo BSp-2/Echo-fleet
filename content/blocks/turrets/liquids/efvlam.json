@@ -72,9 +72,9 @@ ammoTypes: {
     hitEffect: none
     despawnEffect: none
 	fragBullets: 24
-	fragVelocityMin: 0.8
+	fragVelocityMin: 0.6
 	fragVelocityMax: 1.6
-	fragRandomSpread: 45
+	fragRandomSpread: 60
     fragBullet: {
       type: BasicBulletType
 	  lifeScaleRandMin: 0.7
@@ -85,10 +85,14 @@ ammoTypes: {
 	  speed: 8
 	  lifetime: 90
 	  drag: 0.05
-	  weaveScale: 1
+	  pierce: true
+	  pierceCap: 3
+	  pierceBuilding: false
+	  weaveScale: 5
 	  weaveMag: 2
 	  knockback: 10
-	  width: 4
+	  sprite: large-bomb
+	  width: 8
 	  height: 8
 	  trailLength: 3
 	  trailWidth: 1
@@ -112,7 +116,19 @@ ammoTypes: {
 	    backColor: EEAA77FF
 	    hitColor: EEAA77FF
 	    intervalBullets: 1
-	    interval
+	    bulletInterval: 30
+	    intervalBullet: {
+	      type: ExplosionBulletType
+          killShooter: false
+          splashDamage: 5
+          splashDamageRadius: 16
+          splashDamagePierce: true
+          hitSound: none
+          despawnSound: none
+          incendChance: 0.5
+          incendAmount: 8
+          incendSpread: 8
+        } 
       }
     }
   } 
