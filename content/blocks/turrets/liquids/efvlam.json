@@ -6,7 +6,7 @@ shootSound: shootToxopidShotgun
 recoil: 4
 size: 3
 reload: 180
-inaccuracy: 10
+inaccuracy: 0
 hasLiquids: true
 hasPower: true
 hasItems: true
@@ -73,6 +73,8 @@ ammoTypes: {
     hitEffect: none
     despawnEffect: none
 	despawnSound: explosionDull
+	status: efconcussion
+	statusDuration: 360
 	incendChance: 1
 	incendSpread: 24
 	incendAmount: 16
@@ -107,8 +109,8 @@ ammoTypes: {
 	  frontColor: FFD37FFF
 	  backColor: EEAA77FF
 	  trailColor: EEAA77FF
-	  status: slow
-	  statusDuration: 300
+	  status: efconcussion
+	  statusDuration: 180
 	  fragBullets: 1
 	  fragOnHit: false
 	  fragOnAbsorb: true
