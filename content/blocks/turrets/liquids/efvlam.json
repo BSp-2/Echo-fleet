@@ -55,7 +55,7 @@ ammoTypes: {
 	shootEffect: shootBig
     smokeEffect: shootBigSmoke
     type: ArtilleryBulletType
-	sprite: missile-bullet
+	sprite: mine-bullet
     homingPower: 0.008
     speed: 12
     lifetime: 20
@@ -71,18 +71,18 @@ ammoTypes: {
 	splashDamageRadius: 32
     hitEffect: none
     despawnEffect: none
-	fragBullets: 16
+	fragBullets: 24
 	fragVelocityMin: 0.8
 	fragVelocityMax: 1.6
 	fragRandomSpread: 45
     fragBullet: {
       type: BasicBulletType
-	  lifeScaleRandMin: 0.8
-	  lifeScaleRandMax: 1.2
+	  lifeScaleRandMin: 0.7
+	  lifeScaleRandMax: 1.4
 	  damage: 50
 	  splashDamage: 25
 	  splashDamageRadius: 8
-	  speed: 4
+	  speed: 8
 	  lifetime: 90
 	  drag: 0.05
 	  weaveScale: 1
@@ -96,19 +96,23 @@ ammoTypes: {
 	  backColor: EEAA77FF
 	  trailColor: REAA77FF
 	  status: slow
-	  statusDuration: 180
+	  statusDuration: 300
 	  fragBullets: 1
 	  fragBullet: {
-	    type: ExplosionBulletType
-        killShooter: false
-        splashDamage: 5
-        splashDamageRadius: 16
-        splashDamagePierce: true
-        hitSound: dullExplosion
-        despawnSound: dullExplosion
-        incendChance: 0.5
-        incendAmount: 6
-        incendSpread: 12
+        type: BasicBulletType
+	    speed: 0
+	    lifetime: 360
+	    damage: 1
+	    pierce: true
+	    pierceBuilding: true
+	    width: 4
+	    height: 4
+	    trailEffect: none
+	    frontColor: FFD37FFF
+	    backColor: EEAA77FF
+	    hitColor: EEAA77FF
+	    intervalBullets: 1
+	    interval
       }
     }
   } 
