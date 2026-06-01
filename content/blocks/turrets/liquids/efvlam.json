@@ -70,7 +70,7 @@ ammoTypes: {
     frontColor: FFD37FFF
     backColor: EEAA77FF
     trailColor: EEAA77FF
-    splashDamage: 200
+    splashDamage: 150
 	splashDamageRadius: 48
     hitEffect: [
       {
@@ -147,7 +147,7 @@ ammoTypes: {
 	  backColor: EEAA77FF
 	  trailColor: EEAA77FF
 	  status: efconcussion
-	  statusDuration: 250
+	  statusDuration: 240
       hitEffect:{
       type: WaveEffect
       lifetime: 30
@@ -170,12 +170,12 @@ ammoTypes: {
       status: slow
       statusDuration: 45
       }
-      }
     }
+  }
 }
 
 drawer: {
   type: DrawTurret
-  basePrefix: vlam-
+  basePrefix: blehhhhious-
 }
 squareSprite: true
