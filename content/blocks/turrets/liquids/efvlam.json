@@ -18,7 +18,7 @@ category: turret
 rotateSpeed: 2
 buildTime: 720
 shootWarmupSpeed: 0.05
-minWarmup: 1
+minWarmup: 0.9
 warmupMaintainTime: 180
 
 
@@ -187,14 +187,14 @@ drawer: {
 	  suffix: -blade-r
 	  progress: warmup
 	  moveX: 2
-	  layerOffset: -0.1
+	  top: false
   }
   {
 	  type: RegionPart
 		suffix: -blade-l
 		progress: warmup
 		moveX: -2
-		layerOffset: -0.1
+	    top: false
 	}
   ]
 }
