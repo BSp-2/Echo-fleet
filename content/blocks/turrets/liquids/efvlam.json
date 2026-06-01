@@ -177,5 +177,19 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: blehhhhious-
+  parts: [
+  {
+  	type: RegionPart
+	  suffix: -blade-r
+	  progress: warmup
+	  moveX: 2
+  }
+  {
+	  type: RegionPart
+		suffix: -blade-l
+		progress: warmup
+		moveX: -2
+	}
+  ]
 }
-squareSprite: true
+squareSprite: false
