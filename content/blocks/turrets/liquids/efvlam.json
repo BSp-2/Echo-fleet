@@ -187,14 +187,16 @@ drawer: {
 	  suffix: -blade-r
 	  progress: warmup
 	  moveX: 2
-	  top: false
   }
   {
 	  type: RegionPart
 		suffix: -blade-l
 		progress: warmup
 		moveX: -2
-	    top: false
+	}
+  {
+		type: RegionPart
+		suffix: -top
 	}
   ]
 }
