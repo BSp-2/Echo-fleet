@@ -30,7 +30,7 @@ targetGround: true
 rotateSpeed: 2
 reload: 60
 range: 192
-shootY: 6
+shootY: 3
 
 
 ammoPerShot: 2
