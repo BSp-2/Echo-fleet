@@ -22,9 +22,9 @@ weapons: [
   velocityRnd: 0.2
   x: 0
   y: 0
-  shootY: 5
-  shootX: 8.5
-  layerOffset: -0.1
+  shootY: 6
+  shootX: 9
+  layerOffset: -0.01
   reload: 80
   rotate: false
   mirror: true
