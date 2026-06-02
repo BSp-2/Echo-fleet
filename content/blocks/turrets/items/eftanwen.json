@@ -20,8 +20,8 @@ minWarmup: 0.9
 outlineColor: 13151AFF
 warmupMaintainTime: 150
 buildTime: 480
-
-
+reload:95
+velocityRnd:0.15
 drawer: {
   type: DrawTurret
   basePrefix: blehhhhious-
@@ -49,34 +49,141 @@ consumes: {
 }
 
 
-inaccuracy: 20
+inaccuracy:4
 shootCone: 50
 shoot: {
-    shots: 6
-    shotDelay: 6
-    firstShotDelay: 30
+  type: ShootMulti
+  source: {
+    type: ShootPattern
+    shots: 2
+    shotDelay: 2
+  }
+  dest: [
+  {
+    type: ShootPattern
+    shots: 4
+    shotDelay: 16
+  }
+  ]
 }
 ammoTypes: {
   efalluminum: {
+      shootPattern: {
+      type: ShootMulti
+      source: {
+        type: ShootPattern
+        shots: 6
+        shotDelay: 1
+      }
+      dest: [
+        {
+          type: ShootPattern
+          shots: 6
+          shotDelay: 12
+        }
+      ]
+      }
+      velocityScaleRandMin:0.9
+      velocityScaleRandMax:1.4
       type: BasicBulletType
-      speed: 10
-      lifetime: 28.8
-	  damage: 75
-      width: 10
-      height: 16
+      speed: 15
+      drag:0.012
+      ammoMultiplier: 1
+      reloadMultiplier: 0.3
+      lifetime: 19.2
+	  damage: 70
+      width: 7
+      height: 18
       smokeEffect: shootSmokeSquare
       trailColor: B4CCBEFF
-      trailWidth: 2
-      trailLength: 30
-      trailParam: 1.25
-      trailInterval: 0.5
-      trailEffect: missileTrail
+      trailWidth: 1.5
+      trailLength: 6
+      trailEffect: none
       backColor: B4CCBEFF
       hitColor: B4CCBEFF
       collidesTeam: false
       hitSound: none
-      homingPower: 0.04
 	  buldingDamageMultiplier: 0.1
+      hitEffect:[{
+      type: ParticleEffect
+      followParent:false
+      particles: 18
+      length: 37
+      lifetime: 23
+      interp: pow5Out
+      cone: 7
+      layer:100.2
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      sizeFrom: 1.6
+      sizeTo: 0
+      }
+      {
+      type: ParticleEffect
+      followParent:false
+      particles: 12
+      length: 43
+      lifetime: 16
+      interp: pow3Out
+      line:true
+      cone: 3
+      layer:100.3
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      lenFrom: 7
+      lenTo: 0
+      }
+      {
+      type: WaveEffect
+      sizeFrom:4
+      sizeTo: 1
+      strokeFrom: 2
+      strokeTo: 0
+      lifetime: 32
+      colorFrom: B4CCBE00
+      colorTo: B4CCBEFF
+      }
+      ]
+      despawnEffect:[{
+      type: ParticleEffect
+      followParent:false
+      particles: 18
+      length: 37
+      lifetime: 23
+      interp: pow5Out
+      cone: 7
+      layer:100.2
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      sizeFrom: 1.6
+      sizeTo: 0
+      }
+      {
+      type: ParticleEffect
+      followParent:false
+      particles: 12
+      length: 43
+      lifetime: 16
+      interp: pow3Out
+      line:true
+      cone: 3
+      layer:100.3
+      colorFrom: B4CCBEFF
+      colorTo: B4CCBEFF
+      lenFrom: 7
+      lenTo: 0
+      }
+      {
+      type: WaveEffect
+      sizeFrom:4
+      sizeTo: 1
+      strokeFrom: 2
+      strokeTo: 0
+      lifetime: 32
+      colorFrom: B4CCBE00
+      colorTo: B4CCBEFF
+      }
+      ]
   }
   efcupride: {
 	  rangeChange: 24
@@ -85,14 +192,15 @@ ammoTypes: {
       speed: 10
       lifetime: 28.8
       damage: 40
-	  splashDamage: 60
+      inaccuracy:23
+      splashDamage: 60
 	  splashDamageRadius: 40
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
       trailColor: BEE0ADFF
       trailWidth: 2
-      trailLength: 30
+      trailLength: 9
       trailParam: 1.25
       trailInterval: 0.5
       trailEffect: missileTrail
@@ -100,7 +208,8 @@ ammoTypes: {
       hitColor: BEE0ADFF
       collidesTeam: false
       hitSound: none
-      homingPower: 0.04
+      homingPower: 0.03
+      homingDelay:2
 	  buildingDamageMultiplier: 0.1
       despawnEffect: [
 	  {
