@@ -13,7 +13,7 @@ targetGround: true
 rotateSpeed: 3
 heatRequirement: 8
 maxHeatEfficiency: 1
-recoil: 2
+recoil: 0
 shootY: 4
 shootWarmupSpeed: 0.03
 minWarmup: 0.9
@@ -28,10 +28,15 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: -tanwen
-      under: true
-      heatProgress: recoil
+      suffix: -recoil
+	  progress: recoil
+	  heatProgress: recoil
+	  moveY: -2
     }
+	{
+	  type: RegionPart
+	  suffix: -static
+	} 
   ]
 }
 
