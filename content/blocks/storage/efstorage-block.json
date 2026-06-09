@@ -2,9 +2,9 @@ type: StorageBlock
 name: Storage Block
 size: 2
 solid: false
-scaledHealth: 40
+health: 300
 name: Storage Block
-description: dump items in here
+description: Stores a moderate amount of items. 
 itemCapacity: 150
 category: effect
 requirements: [
@@ -15,5 +15,5 @@ researchCost: [
   efscrap/1200
   efalluminum/400
 ]
-squareSprite: false
+squareSprite: true
 research: efcaspar
