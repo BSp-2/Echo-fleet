@@ -13,8 +13,7 @@ consumes: {
 	liquids: [
    	  efcrude-oil/0.25
   	  efneutralizer/0.15
-	]
-	power: 4.58333333333333333333333
+	] 
 }
 
 
