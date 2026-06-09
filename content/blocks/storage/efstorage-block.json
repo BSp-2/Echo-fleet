@@ -8,8 +8,12 @@ description: dump items in here
 itemCapacity: 150
 category: effect
 requirements: [
-  efeuropium/50
+  efscrap/240
   efalluminum/80
+]
+researchCost: [
+  efscrap/1200
+  efalluminum/400
 ]
 squareSprite: false
 research: efcaspar
