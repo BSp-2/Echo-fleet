@@ -22,7 +22,7 @@ consumes: {
 }
 
 
-powerProduction: 300
+powerProduction: 233.33333333333333333333333
 ambientSound: loopSmelter
 ambientSoundVolume: 0.03
 hasLiquids: true
