@@ -1,12 +1,17 @@
 type: DirectionalUnloader
 name: Mechanical Unloader
-description: load unload
+description: Unloads items from the structures behind itself. Cant unload from cores. 
 size: 1
 category: distribution
 requirements: [
   efcopper/40
   efalluminum/20
-  efeuropium/30
+  efcupride/30
+]
+researchCost: [
+  efcopper/200
+  efalluminum/100
+  efcupride/150
 ]
 speed: 3
 solid: false
