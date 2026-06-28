@@ -23,7 +23,7 @@ warmupMaintainTime: 180
 
 
 research: {
-   parent: cleanse
+   parent: efcleanse
    objectives: [
       efcrude-oil
    ]
