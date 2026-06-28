@@ -1,0 +1,11 @@
+type: item
+flammability: 0
+explosiveness: 0
+radioactivity: 0.6
+charge: 1.8
+color: ACC688FF
+
+
+research: efecho-shard
+
+shownPlanets: [aetheria]

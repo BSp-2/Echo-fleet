@@ -1,0 +1,7 @@
+type: Floor
+name: Aged Bauxite
+description: A floor that contains small alluminum traces due to being aged.
+variants: 3
+attributes: {
+  bauxite: 0.055555555555555555555555555555555555555
+}

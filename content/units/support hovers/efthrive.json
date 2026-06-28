@@ -1,0 +1,105 @@
+type: flying
+flying: true
+canDrown: false 
+name: Thrive
+description: Automaticaly repairs ally structures and units in range. Durable.
+research: efsupport-fabricator
+researchCost: [
+  efscrap/180
+  efcopper/160
+  efalluminum/140
+  efcupride/120
+] 
+researchCostMultiplier: 0.1
+controller: RepairAI
+commands: [move, repair]
+engineSize: 0
+faceTarget: true
+loopSoundVolume: 0.4
+loopSound: loopHover
+drag: 0.05
+outlineColor: 13151AFF
+speed: 2.66666666666666666666666666666666666666666666
+rotateSpeed: 4
+accel: 0.1
+lowAltitude: false
+health: 640
+armor: 3
+hitSize: 10
+itemCapacity: 40
+fogRadius: 12
+range: 75
+
+
+abilities: [
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: 3
+    y: -3
+    interval: 3
+    minVelocity: 0.6
+  }
+  {
+    type: MoveEffectAbility
+    teamColor: true
+    effect: missileTrailShort
+    x: -3
+    y: -3
+    interval: 3
+    minVelocity: 0.6
+  }
+  {
+    type: RepairFieldAbility
+    amount: 20
+    range: 30
+    reload: 120
+  }
+]
+
+
+engines: [
+  {
+    x: 3
+    y: -3
+    radius: 2.4
+    rotation: 270
+  } 
+  {
+    x: -3
+    y: -3
+    radius: 2.4
+    rotation: 270
+  }
+] 
+
+
+weapons: [
+  {
+  widthSinMag: 0.1
+    faceTarget: true
+    x: 0
+    y: 1
+    laserColor: 5B72D9FF
+    mirror: false
+    type: RepairBeamWeapon
+    rotate: true
+    rotationSpeed: 4
+    rotationLimit: 1
+    targetBuildings: true
+    targetUnits: false
+    autoTarget: false
+    controllable: true
+    reload: 20
+    shootY: 1
+    shootCone: 0
+    beamWidth: 0.6
+    repairSpeed: 1
+    fractionRepairSpeed: 0.05
+    bullet: {
+      type: BulletType
+      maxRange: 60
+      }
+    }
+]

@@ -1,0 +1,18 @@
+type: ParticleWeather
+name: Snow Blizzard
+color: e6feff
+noiseColor: e6feff
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 125
+sizeMin: 50
+minAlpha: 0.5
+maxAlpha: 1
+density: 1500
+baseSpeed: 12
+opacityMultiplier: 0.76
+force: 3
+sound: wind
+soundVol: 1.8
+duration: 1800

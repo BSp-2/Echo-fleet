@@ -1,0 +1,19 @@
+type: ParticleWeather
+name: Atlassic Foam
+color: 262F5CFF
+noiseColor: 217a5e
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 200
+sizeMin: 50
+minAlpha: 0
+maxAlpha: 0.5
+density: 2400
+baseSpeed: 0.2
+opacityMultiplier: 0.5
+force: 0
+sound: none
+soundVol: 0
+
+duration: 8400

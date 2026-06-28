@@ -1,0 +1,24 @@
+type: Wall
+name: Large Polycarbonate Wall
+description: A larger version of the polycarbonate wall.
+size: 2
+armor: 8
+health: 2600
+squareSprite: true
+category: defense
+insulated: true
+buildTime: 56
+chanceDeflect: 15
+
+
+requirements: [
+  efpolycarbonate/24
+  efalluminum/16
+]
+
+
+research: efpolycarbonate-wall
+researchCost: [
+  efalluminum/160
+  efpolycarbonate/240
+]

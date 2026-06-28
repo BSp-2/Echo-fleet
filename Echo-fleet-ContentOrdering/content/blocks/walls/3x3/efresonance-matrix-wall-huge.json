@@ -1,0 +1,32 @@
+type: ShieldWall
+name: Huge Resonance Matrix Wall
+description: An even larger version of the resonance matrix wall. The arcs released by this wall are even more powerful than the ones the smaller versions release.
+size: 3
+squareSprite: true
+category: defense
+health: 11250
+armor: 14
+buildTime: 198
+consumesPower: false
+lightningChance: 0.5
+lightningDamage: 60
+lightningLength: 24
+lightningColor: 5C72D9FF
+shieldHealth: 3150
+regenSpeed: 2.625
+breakCooldown: 540
+
+
+requirements: [
+	efresonance-matrix/36
+	efecho-shard/90
+	efeuropium/108
+]
+
+
+research: efresonance-matrix-wall-large
+researchCost: [
+	efeuropium/1080
+    efecho-shard/900
+    efresonance-matrix/360
+] 

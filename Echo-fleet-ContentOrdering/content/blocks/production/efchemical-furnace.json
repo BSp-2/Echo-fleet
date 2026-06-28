@@ -1,0 +1,124 @@
+type: GenericCrafter
+name: Chemical Furnace
+description: lets cook Walter
+size: 4
+
+
+hasLiquids: true
+squareSprite: true
+liquidCapacity: 60
+hasItems: true
+itemCapacity: 20
+craftTime: 60
+
+
+consumes: {
+  power: 9
+  liquids: [
+  	eflpg/0.05
+	efnitrogen/0.15
+	efneutralizer/0.3
+  ]
+  items: [
+	efsoft-coal/2
+  ]
+}
+
+
+outputItems: [
+  efpolycarbonate/4
+]
+
+
+category: crafting
+ambientSound: chemical-chamber
+ambientSoundVolume: 0.16
+
+
+requirements: [
+	efscrap/180
+	efalluminum/240
+	efeuropium/80
+	efecho-circuit/40
+]
+
+
+craftEffectRange: 0
+craftEffect: {
+  type: RadialEffect
+  rotationSpacing: 0
+  amount: 1
+  lengthOffset: 0
+  layer: 110
+  effect: {
+    type: ParticleEffect
+    particles: 8
+    lifetime: 75
+    sizeFrom: 2
+    useRotation: false
+    baseRotation: 90
+    sizeTo: 0
+    colorFrom: F7E6FFAA
+    colorTo: E1CFE6AA
+    length: 18
+    baseLength: 0
+    cone: 360
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 110
+  }
+}
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: eflpg
+      padding: 3
+      alpha: 1
+    }
+    {
+      type: DrawLiquidRegion
+      drawLiquid: efnitrogen
+      padding: 3
+      alpha: 1
+      suffix: -liquid2
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 8A8A99FF
+      suffix: -liquid1
+      spread: 2
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 5C5C66FF
+      spread: 10
+      suffix: -liquid1
+    }
+    {
+      type: DrawBubbles
+      fill: false
+      color: 737380FF
+      spread: 5
+      suffix: -liquid1
+    }
+    {
+      type: DrawPlasma
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+
+research: efchemical-chamber

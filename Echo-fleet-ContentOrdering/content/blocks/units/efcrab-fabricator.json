@@ -1,0 +1,47 @@
+type: UnitFactory
+size: 3
+health: 450
+configurable: false
+name: Crab Unit Fabricator
+description: Constructs tier 1 crab units.
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  efscrap/180
+  efcopper/100
+  efalluminum/140
+]
+category: units
+
+
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: efblaze
+    requirements: [
+      efscrap/45
+      efalluminum/30
+    ]
+    time: 2700
+  } 
+]
+
+
+consumes: {
+  power: 2
+  liquids: [
+	efdirty-water/0.15
+	efneutralizer/0.05
+  ] 
+}
+
+research: efmech-fabricator
+researchCost: [
+	efscrap/900
+    efcopper/500
+    efalluminum/700
+]

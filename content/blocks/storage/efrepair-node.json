@@ -1,0 +1,65 @@
+type: RegenProjector
+name: Repair Node
+description: Regenerates allied structures in a small area around itself. Requires soft coal to function. 
+size: 2
+health: 360
+effectChance: 0.05
+range: 16
+healPercent: 0.0083333333333333333333333333333333333333333334
+outputsPower: false
+hasPower: true
+consumePower: true
+buildTime: 360
+category: defense
+craftTime: 90
+category: effect
+
+
+requirements: [
+  efscrap/80
+  efcopper/60
+]
+
+
+consumes: {
+  power: 0.5
+  items: [
+    efsoft-coal/1
+  ]
+  liquids: [
+    efneutralizer/0.1
+  ] 
+}
+
+
+research: {
+  parent: efnest
+  objectives: [
+  efsoft-coal
+    {
+      type: OnSector
+      preset: mollum
+    }
+  ]
+}
+researchCost: [
+	efscrap/120
+    efcopper/90
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

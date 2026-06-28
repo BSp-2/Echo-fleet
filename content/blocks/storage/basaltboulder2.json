@@ -9,7 +9,7 @@ ambientSoundVolume: 0
 targetable: false
 
 requirements: [
-	01a-01-item-scrap/50
+	efscrap/50
   item/100
 ]
 buildTime: 180

@@ -1,0 +1,64 @@
+type: RepairTower
+name: Unit Mender
+description: Constantly repairs all units in its range.
+size: 2
+squareSprite: false
+category: units
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efcopper/120
+  efalluminum/40
+]
+
+
+range: 64
+healAmount: 1
+consumes: {
+  power: 1
+  liquids: [
+    efozone/0.0333333333333333333333
+  ] 
+}
+
+
+research: {
+  parent: efrepair-node
+  objectives: [
+    {
+    type: OnSector
+    preset: pirc
+    }
+  ]
+}
+researchCost: [
+  efcopper/600
+  efalluminum/200
+]
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: efozone
+      alpha: 0.7
+      padding: 2
+    }
+    {
+    type: DrawBubbles
+      fill: false
+      color: FF40BFFF
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

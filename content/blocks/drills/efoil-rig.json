@@ -1,0 +1,44 @@
+type: AttributeCrafter
+attribute: oil
+name: Oil Rig
+description: Crude Oil eater
+size: 3
+
+
+hasLiquids: true
+squareSprite: true
+hasPower: true
+
+
+outputLiquid: efcrude-oil/1
+
+
+consumes: {
+	power: 3
+	liquids: [
+  	 efslag/0.4
+	]
+}
+
+
+displayEfficiencyScale: 1
+baseEfficiency: 0
+minEfficiency: 9
+
+
+category: production
+
+
+requirements: [
+	efscrap/180
+	efcopper/120
+	efcupride/80
+	efeuropium/60
+]
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.04
+
+
+research: efwater-accumulator

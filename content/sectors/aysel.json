@@ -1,0 +1,13 @@
+captureWave: 7
+difficulty: 5
+planet: aetheria
+sector: 28
+research: {
+  parent: pirc
+  objectives: [
+    {
+      type: SectorComplete
+      preset: pirc
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+type: ParticleWeather
+name: Snow Storm
+color: e6feff
+noiseColor: e6feff
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 100
+sizeMin: 30
+minAlpha: 0.4
+maxAlpha: 1
+density: 2400
+baseSpeed: 7
+opacityMultiplier: 0.8
+force: 0.5
+sound: wind
+soundVol: 1
+duration: 3600

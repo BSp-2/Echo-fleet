@@ -1,0 +1,13 @@
+difficulty: 6
+planet: aetheria
+sector: 14
+research: {
+  parent: aysel
+  objectives: [
+    efcaspar,
+    {
+      type: SectorComplete
+      preset: aysel
+    }
+  ]
+}  

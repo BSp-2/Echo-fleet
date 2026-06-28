@@ -1,0 +1,12 @@
+difficulty: 3
+planet: aetheria
+sector: 11
+research: {
+  parent: haign
+  objectives: [
+    {
+      type: SectorComplete
+      preset: haign
+    }
+  ]
+} 

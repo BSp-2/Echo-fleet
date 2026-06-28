@@ -1,0 +1,13 @@
+type: Liquid
+color: FF8040FF
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 1
+viscosity: 0.4
+temperature: 1
+blockReactive: false
+
+
+research: efdirty-water
+shownPlanets: [aetheria]

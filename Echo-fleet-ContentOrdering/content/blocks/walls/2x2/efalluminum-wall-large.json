@@ -1,0 +1,20 @@
+type: Wall
+name: Large Alluminum Wall
+description: A larger version of the alluminum wall. Well armored.
+size: 2
+armor: 8
+health: 2000
+squareSprite: true
+category: defense
+buildTime: 40
+
+
+requirements: [
+  efalluminum/24
+]
+
+
+research: efalluminum-wall
+researchCost: [
+  efalluminum/240
+]

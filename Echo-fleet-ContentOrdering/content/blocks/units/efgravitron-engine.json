@@ -1,0 +1,16 @@
+type: Wall
+name: Gravitron Engine
+description: Used in very advanced hover unit production. 
+size: 3
+customShadow: true
+placeablePlayer: false
+
+
+requirements: [
+  efscrap/24
+  efalluminum/16
+  efecho-circuit/8
+]
+
+
+research: echo-fleet-efgravitron-module

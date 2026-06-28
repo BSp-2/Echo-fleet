@@ -1,0 +1,10 @@
+type: MessageBlock
+name: Message Chip
+description: Stores a message for communication between allies.
+size: 1
+requirements: [
+  efscrap/20
+  efalluminum/4
+]
+category: effect
+research: efrepair-node

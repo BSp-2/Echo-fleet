@@ -1,0 +1,18 @@
+type: ParticleWeather
+name: Snow Breeze
+color: e6feff
+noiseColor: e6feff
+drawNoise: false
+particleRegion: particle
+useWindVector: true
+sizeMax: 100
+sizeMin: 30
+minAlpha: 0.2
+maxAlpha: 1
+density: 3200
+baseSpeed: 5
+opacityMultiplier: 0.8
+force: 0.2
+sound: wind
+soundVol: 0.6
+duration: 4200

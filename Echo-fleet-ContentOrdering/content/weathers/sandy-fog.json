@@ -1,0 +1,19 @@
+type: ParticleWeather
+name: Sandy Fog
+color: FFC599FF
+noiseColor: BF6F4CFF
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+sizeMax: 200
+sizeMin: 50
+minAlpha: 0.1
+maxAlpha: 0.8
+density: 1800
+baseSpeed: 1
+opacityMultiplier: 0.75
+force: 0.02
+sound: none
+soundVol: 0
+
+duration: 8400

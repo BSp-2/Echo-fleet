@@ -1,0 +1,19 @@
+type: StorageBlock
+name: Storage Block
+size: 2
+solid: false
+health: 300
+name: Storage Block
+description: Stores a moderate amount of items. 
+itemCapacity: 150
+category: effect
+requirements: [
+  efscrap/240
+  efalluminum/80
+]
+researchCost: [
+  efscrap/1200
+  efalluminum/400
+]
+squareSprite: true
+research: efcaspar

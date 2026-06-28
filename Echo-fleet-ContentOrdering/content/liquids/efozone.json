@@ -1,0 +1,16 @@
+type: Liquid
+color: FF80D4DF
+
+explosiveness: 0.6
+flammability: 0.2
+heatCapacity: 0.8
+viscosity: 0
+temperature: 0.4
+boilPoint: -4
+gasColor: FF80D4DF
+gas: true
+blockReactive: false
+
+
+research: efalluminum
+shownPlanets: [aetheria]
