@@ -1,0 +1,13 @@
+captureWave: 14
+difficulty: 4
+planet: aetheria
+sector: 17
+research: {
+  parent: un
+  objectives: [
+    {
+      type: SectorComplete
+      preset: mollum
+    }
+  ]
+}

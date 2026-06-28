@@ -1,0 +1,14 @@
+type: item
+flammability: 1
+explosiveness: 0.2
+radioactivity: 0
+charge: 0
+color: 72574DFF
+
+research: {
+  parent: efscrap
+  objectives: [  
+    efsoft-coal
+  ]
+}
+shownPlanets: [aetheria]

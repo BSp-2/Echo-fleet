@@ -1,0 +1,26 @@
+type: PowerNode
+name: Power Transmitter
+description: power transmit
+fogRadius: 2.5
+laserRange: 40
+health: 250
+maxNodes: 1
+size: 2
+squareSprite: false
+category: power
+
+
+requirements: [
+  efcopper/120
+  efalluminum/80
+  efcupride/80
+  efecho-shard/40
+]
+
+
+laserScale: 1.5
+laserColor1: C692CEFF
+laserColor2: 735B94FF
+
+
+research: efeuropium-node

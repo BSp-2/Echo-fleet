@@ -1,0 +1,13 @@
+type: Liquid
+color: CCBE29FF
+
+explosiveness: 0
+flammability: 0.2
+heatCapacity: 1
+viscosity: 0.2
+temperature: 0.4
+blockReactive: false
+
+
+research: efsulphur
+shownPlanets: [aetheria]

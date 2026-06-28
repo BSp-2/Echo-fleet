@@ -1,0 +1,16 @@
+type: Liquid
+color: 2EE6D6FF
+
+explosiveness: 0.0
+flammability: 0
+heatCapacity: 0.2
+viscosity: 0
+temperature: 0
+boilPoint: -4
+gasColor: 12B2A5FF
+gas: true
+blockReactive: false
+
+
+research: efslag
+shownPlanets: [aetheria]

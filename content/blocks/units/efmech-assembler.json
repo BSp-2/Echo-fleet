@@ -1,0 +1,60 @@
+type: UnitAssembler
+name: Mech Unit Constructor
+description: Creates medium tier mech units from payloads.
+size: 3
+category: units
+droneType: echo-fleet-mech-drone
+hasPower: true
+hasLiquids: true
+
+
+requirements: [
+  efscrap/450
+  efalluminum/350
+  efeuropium/400
+  efpolycarbonate/200
+]
+
+
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: efhogleg
+    requirements: [
+    echo-fleet-efscrap-wall-large/3
+    echo-fleet-efreinforced-leggings/2
+    echo-fleet-efratchet/2
+    ]
+    time: 3600
+  }
+  {
+    type: AssemblerUnitPlan
+    unit: scepter
+    requirements: [
+    echo-fleet-efalluminum-wall-large/5
+    echo-fleet-efecho-shard-wall/2
+    echo-fleet-efreinforced-leggings/6
+    echo-fleet-efmagnum/5
+    ]
+    time: 9000
+   }
+]
+
+
+squareSprite: false
+consumes: {
+  liquids: [
+    efneutralizer/0.25
+  ]
+  power: 3
+}
+areaSize: 7
+
+
+
+research: efmech-refabricator
+
+
+
+
+

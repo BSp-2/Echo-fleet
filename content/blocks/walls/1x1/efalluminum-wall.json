@@ -1,0 +1,20 @@
+type: Wall
+name: Alluminum Wall
+description: A wall made of alluminum. Well armored.
+size: 1
+armor: 8
+health: 500
+squareSprite: true
+category: defense
+buildTime: 10
+
+
+requirements: [
+  efalluminum/6
+]
+
+
+research: efscrap-wall
+researchCost: [
+  efalluminum/60
+]

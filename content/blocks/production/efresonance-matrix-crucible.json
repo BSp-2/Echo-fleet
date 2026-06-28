@@ -1,0 +1,59 @@
+type: HeatCrafter
+heatRequirement: 36
+name: Resonance Matrix Crucible
+description: holy shit it's radioactive is this uranium but blue
+size: 6
+craftTime: 720
+minEfficiency: 1
+maxEfficiency: 1
+
+
+consumes: {
+	power: 15
+	liquids: [
+      efozone/0.5
+	  efpurified-water/0.3
+   	  efneutralizer/0.6
+	]
+	items: [
+		efeuropium/24
+		efecho-shard/48
+	]
+}
+
+
+hasLiquids: true
+hasItems: true
+hasPower: true
+
+
+ambientSound: loopExtract
+ambientSoundVolume: 0.09
+
+
+outputItems: [
+	efresonance-matrix/6
+]
+
+
+category: crafting
+
+
+requirements: [
+	efscrap/750
+	efcopper/650
+	efalluminum/650
+	efcupride/500
+	efeuropium/425
+	efpolycarbonate/375
+	efecho-shard/350
+	efecho-circuit/250
+	efalluminum-polycarbonate/150
+]
+
+
+liquidCapacity: 240
+itemCapacity: 100
+
+
+research: efecho-circuit-assembler

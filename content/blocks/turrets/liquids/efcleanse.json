@@ -1,0 +1,136 @@
+type: LiquidTurret
+name: Cleanse
+description: Rapidly fires bursts of liquids at enemies. Capable of extinguishing fires.
+loopSound: none
+shootSound: shootRetusa
+health: 600
+size: 2
+reload: 120
+inaccuracy: 12
+hasLiquids: true
+liquidCapacity: 10
+researchCostMultiplier: 0.5
+outlineColor: 13151AFF
+recoil: 2
+category: turret
+
+
+research: {
+   parent: asher
+   objectives: [
+      efsoft-coal
+   ]
+}
+researchCost: [
+  efscrap/800
+  efcopper/600
+]
+
+
+range: 200
+requirements: [
+  efscrap/160
+  efcopper/120
+]
+
+
+shoot: {
+  type: ShootMulti
+  source: {
+    type: ShootPattern
+    shots: 15
+    spread: 12
+  } 
+  dest: [
+  {
+    type: ShootPattern
+    shots: 2
+    shotDelay: 4
+  }
+  ] 
+}
+velocityRnd: 0.25
+ammoTypes: {
+  efdirty-water: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: efdirty-water
+    speed: 3
+    lifetime: 100
+    drag: 0.01
+    knockback: 1
+    status: wet
+    statusDuration: 120
+    damage: 0
+    layer: 100.3
+    despawnSound: splash
+    hitSound: splash
+    puddleSize: 8
+  }
+  efpurified-water: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2 
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: efpurified-water
+    speed: 3
+    lifetime: 100
+    drag: 0.01
+    knockback: 4
+    status: wet
+    statusDuration: 300
+    damage: 2
+    layer: 100.3
+    despawnSound: splash
+    hitSound: splash
+    puddleSize: 8
+  }
+  efslag: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: efslag
+    speed: 3
+    lifetime: 100
+    drag: 0.01
+    knockback: 2
+    status: burning
+    statusDuration: 120
+    damage: 6
+    layer: 100.1
+    despawnSound: splash
+    hitSound: splash
+    puddleSize: 8
+  }
+  efsulphuric-acid: {
+    lifeScaleRandMin: 0.8
+    lifeScaleRandMax: 1.2
+    despawnEffect: hitLiquid
+    hitEffect: hitLiquid
+    type: LiquidBulletType
+    liquid: efsulphuric-acid
+    speed: 3
+    lifetime: 100
+    drag: 0.01
+    knockback: 5
+    status: corroded
+    statusDuration: 480
+    damage: 10
+    layer: 100.1
+    despawnSound: splash
+    hitSound: splash
+    puddleSize: 8
+  }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: blehhhhious-
+}
+squareSprite: false

@@ -1,0 +1,389 @@
+type: ItemTurret
+name: Cygnus
+description: Shoots splintering piercing shells at medium distances. Great against swarms
+size: 4
+range: 320
+squareSprite: false
+health: 2400
+shootSound: shootDisperse
+hasItems: true
+hasPower: true
+hasLiquids: true
+targetAir: true
+targetGround: true
+rotateSpeed: 2
+recoil: 4
+shootY: -1.5
+shootWarmupSpeed: 0.03
+minWarmup: 0.9
+outlineColor: 13151AFF
+warmupMaintainTime: 150
+
+
+drawer: {
+  type: DrawTurret
+  basePrefix: blehhhhious-
+  heatProgress: warmup
+  parts: [
+    {
+      type: RegionPart
+      suffix: -armor-r
+      progress: warmup
+      moveX: 2
+    }
+    {
+      type: RegionPart
+      suffix: -armor-l
+      progress: warmup
+      moveX: -2
+    }
+    {
+      type: RegionPart
+      suffix: -blade-r
+      progress: warmup
+      moveX: 1
+    }
+    {
+      type: RegionPart
+      suffix: -blade-l
+      progress: warmup
+      moveX: -1
+    }
+  ]
+}
+
+
+requirements: [
+  efscrap/480
+  efcopper/320
+	efalluminum/400
+  efcupride/240
+  efeuropium/200
+]
+
+
+category: turret
+consumes: {
+  power: 2
+  liquid: efhydrogen-sulfide/0.033333333333333333333333333
+}
+
+
+reload: 60
+ammoPerShot: 2
+inaccuracy: 0
+shootCone: 20
+ammoTypes: {
+  efeuropium: {
+    type: BasicBulletType
+    speed: 7.5
+    lifetime: 120
+    drag: 0.04
+	  damage: 80
+    pierce: true
+    pierceBuilding: false
+	  width: 24
+  	sprite: circle-bullet
+    height: 24
+    smokeEffect: shootSmokeDisperse
+		status: efirradiation
+		statusDuration: 120
+		shrinkX: 0
+		shrinkY: 0
+    trailColor: 5C1B3EFF
+    trailWidth: 6
+    trailLength: 24
+    trailParam: 1
+    trailInterval: 0.5
+	  trailEffect: [
+    	{
+    	  type: ParticleEffect
+    	  particles: 3
+    	  lifetime: 50
+    	  layer: 100.1
+    	  cone: 360
+    	  length: 12
+    	  sizeFrom: 3
+    	  sizeTo: 0
+    	  colorFrom: ffffff
+    	  colorTo: C9645D
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 1
+    	  lifetime: 50
+    	  layer: 100.1
+    	  cone: 40
+    	  length: 12
+    	  sizeFrom: 4
+    	  sizeTo: 0
+    	  baseRotation:180
+    	  colorFrom: ffffff
+    	  colorTo: 5C1B3E
+      }
+	  ]
+    despawnEffect: [
+			{
+				type: ParticleEffect 
+				lifetime: 90
+				particles: 12
+				layer: 100.1
+				cone: 360
+				length: 32
+				interp: pow2Out
+				sizeFrom: 3
+				sizeTo: 0
+				sizeInterp: swingIn
+				colorFrom: ffffff
+				colorTo: C9645D
+			} 
+			{
+				type: ParticleEffect 
+				lifetime: 75
+				particles: 8
+				layer: 100.1
+				cone: 360
+				length: 24
+			  interp: pow2Out
+				sizeFrom: 2
+				sizeTo: 0
+				sizeInterp: swingIn
+				colorFrom: ffffff
+				colorTo: 5C1B3E
+			} 
+		] 
+    backColor: 5C1B3EFF
+    color: C9645DFF
+    collidesTeam: false
+    hitSound: none
+    despawnSound: explosionAfflict
+    homingPower: 0.05
+  	fragOnHit: false
+    fragOnAbsorb: true
+    fragBullets: 4
+    fragRandomSpread: 0
+    fragVelocityMin: 0.8
+    fragVelocityMax: 1.2
+    fragSpread: 24
+    fragAngle: 0
+    fragBullet: {
+      type: BasicBulletType
+      speed: 3
+      lifetime: 120
+      drag: 0.02
+	    damage: 20
+      pierce: true
+      pierceCap: 3
+      pierceBuilding: false
+	    width: 8
+    	sprite: circle-bullet
+      height: 8
+      smokeEffect: shootSmokeDisperse
+		  status: efirradiation 
+		  statusDuration: 40
+		  shrinkX: 0.5
+		  shrinkY: 0.5
+      trailColor: 5C1B3EFF
+      trailWidth: 2
+      trailLength: 24
+      trailParam: 1
+      trailInterval: 0.5
+			trailEffect: [
+        {
+    	    type: ParticleEffect
+    	    particles: 3
+    	    lifetime: 50
+    	    layer: 100.1
+    	    cone: 360
+    	    length: 12
+    	    sizeFrom: 3
+    	    sizeTo: 0
+    	    colorFrom: ffffff
+    	    colorTo: C9645D
+        }
+    	  {
+    	    type: ParticleEffect
+    	    particles: 1
+    	    lifetime: 50
+    	    layer: 100.1
+    	    cone: 40
+    	    length: 12
+    	    sizeFrom: 4
+    	    sizeTo: 0
+    	    baseRotation:180
+    	    colorFrom: ffffff
+    	    colorTo: 5C1B3E
+        }
+      ] 
+      backColor: 5C1B3EFF
+      color: C9645DFF
+      collidesTeam: false
+      hitSound: none
+      homingPower: 0.15
+    } 
+  }
+  efecho-shard: {
+		rangeChange: 40
+    type: BasicBulletType
+    speed: 7.5
+    lifetime: 120
+    drag: 0.04
+	  damage: 120
+    pierce: true
+    pierceBuilding: false
+	  width: 24
+  	sprite: circle-bullet
+    height: 24
+    smokeEffect:shootSmokeDisperse
+	  status: efinfestation 
+		statusDuration: 180
+		shrinkX: 0
+		shrinkY: 0
+    trailColor: 613D94FF
+    trailWidth: 6
+    trailLength: 40
+    trailParam: 1
+    trailInterval: 0.5
+    trailEffect: [
+    	{
+    	  type: ParticleEffect
+    	  particles: 2
+    	  lifetime: 50
+    	  layer: 100.1
+    	  cone: 360
+    	  length: 12
+    	  sizeFrom: 3
+    	  sizeTo: 0
+    	  colorFrom: ffffff
+    	  colorTo: C169CF
+      }
+    	{
+    	  type: ParticleEffect
+    	  particles: 1
+    	  lifetime: 50
+    	  layer: 100.1
+    	  cone: 40
+    	  length: 12
+    	  sizeFrom: 4
+    	  sizeTo: 0
+    	  baseRotation:180
+    	  colorFrom: ffffff
+    	  colorTo: 613D94
+      }
+	  ] 
+    despawnEffect: [
+			{
+				type: ParticleEffect 
+				lifetime: 90
+				particles: 12
+				layer: 100.1
+				cone: 360
+				length: 32
+				interp: pow2Out
+				sizeFrom: 3
+				sizeTo: 0
+				sizeInterp: swingIn
+				colorFrom: ffffff
+				colorTo: C169CF
+			} 
+			{
+				type: ParticleEffect 
+				lifetime: 75
+				particles: 8
+				layer: 100.1
+				cone: 360
+				length: 24
+			  interp: pow2Out
+				sizeFrom: 2
+				sizeTo: 0
+				sizeInterp: swingIn
+				colorFrom: ffffff
+				colorTo: 613D94
+			} 
+		]  
+    backColor: 613D94FF
+    color: C169CFFF
+    collidesTeam: false
+    hitSound: none
+    despawnSound: explosionAfflict
+    homingPower: 0.05
+  	fragOnHit: false
+    fragOnAbsorb: true
+    fragBullets: 6
+    fragRandomSpread: 0
+    fragVelocityMin: 0.8
+    fragVelocityMax: 1.2
+    fragSpread: 18
+    fragAngle: 0
+    fragBullet: {
+      type: BasicBulletType
+      speed: 4
+      lifetime: 120
+      drag: 0.02
+	    damage: 30
+      pierce: true
+      pierceCap: 3
+      pierceBuilding: false
+	    width: 8
+    	sprite: circle-bullet
+      height: 8
+      smokeEffect: shootSmokeDisperse
+		  status: efinfestation
+		  statusDuration: 60
+		  shrinkX: 0.5
+		  shrinkY: 0.5
+      trailColor: 613D94FF
+      trailWidth: 2
+      trailLength: 24
+      trailParam: 1
+      trailInterval: 0.5
+      trailEffect: [
+			  {
+    	    type: ParticleEffect
+    	    particles: 2
+      	  lifetime: 50
+      	  layer: 100.1
+      	  cone: 360
+      	  length: 12
+      	  sizeFrom: 3
+    	    sizeTo: 0
+      	  colorFrom: ffffff
+    	    colorTo: C169CF
+        }
+      	{
+      	  type: ParticleEffect
+      	  particles: 1
+      	  lifetime: 50
+      	  layer: 100.1
+      	  cone: 40
+      	  length: 12
+      	  sizeFrom: 4
+      	  sizeTo: 0
+      	  baseRotation:180
+      	  colorFrom: ffffff
+      	  colorTo: 613D94
+        }
+	    ]  
+      backColor: 613D94FF
+      color: C169CFFF
+      collidesTeam: false
+      hitSound: none
+      homingPower: 0.15
+    } 
+  }
+}  
+
+
+research: {
+  parent: eftanwen
+  objectives: [
+    efeuropium
+	]
+}
+researchCost: [
+	efscrap/2400
+	efcopper/1600
+  efalluminum/2000
+  efcupride/1200
+  efeuropium/1000
+]

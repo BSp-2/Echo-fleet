@@ -9,8 +9,8 @@ ambientSoundVolume: 0
 targetable: false
 
 requirements: [
-	01a-02-item-copper/15
-  01a-04-item-alluminum/5
+	efcopper/15
+  efalluminum/5
   item/100
 ]
 buildTime: 60 

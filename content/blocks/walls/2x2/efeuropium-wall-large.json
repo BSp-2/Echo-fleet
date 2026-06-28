@@ -1,0 +1,21 @@
+type: Wall
+name: Large Europium Wall
+description: A larger version of the europium wall.
+size: 2
+armor: 3
+health: 1800
+squareSprite: true
+category: defense
+absorbLasers: true
+buildTime: 48
+
+
+requirements: [
+  efeuropium/24
+]
+
+
+research: efeuropium-wall
+researchCost: [
+  efeuropium/240
+]

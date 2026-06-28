@@ -1,0 +1,15 @@
+type: Wall
+name: Reinforced Leggings
+description: Used in advanced legged unit production. 
+size: 2
+customShadow: true
+placeablePlayer: false
+
+
+requirements: [
+  efeuropium/8
+  efpolycarbonate/6
+]
+
+
+research: efunit-part-constructor

@@ -1,0 +1,49 @@
+type: UnitFactory
+size: 3
+health: 450
+configurable: false
+name: Hover Unit Fabricator
+description: Constructs tier 1 hover units.
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+
+
+requirements: [
+  efscrap/180
+  efcopper/60
+  efalluminum/120
+]
+category: units
+
+
+plans: [
+  {
+    type: FactoryUnitPlan
+    unit: efmabuz
+    requirements: [
+      efscrap/45
+      efalluminum/30
+    ]
+    time: 2700
+  }
+]
+
+
+consumes: {
+  power: 1.3333333333333333333333333333333
+  liquids: [
+	efdirty-water/0.1
+	efneutralizer/0.05
+  ] 
+}
+
+
+
+research: efmech-fabricator
+researchCost: [
+	efscrap/900
+    efcopper/300
+    efalluminum/600
+]

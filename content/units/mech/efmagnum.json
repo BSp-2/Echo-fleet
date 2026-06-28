@@ -1,0 +1,80 @@
+type: mech
+name: Magnum
+description: Fires several artillery shells at medium distances.
+speed: 0.8
+flying: false
+health: 1300
+armor: 5
+hitSize: 15
+outlineColor: 181425FF
+mechLegColor: 181425FF
+stepSound: mechStepSmall
+stepSoundPitch: 0.8
+stepSoundVolume: 0.7
+researchCostMultiplier: 0.5
+weapons: [
+  {
+  top: false
+  name: magnum-weapon
+  recoil: 2.5
+  shootCone: 30
+  inaccuracy: 8
+  velocityRnd: 0.2
+  x: 0
+  y: 0
+  shootY: 6
+  shootX: 9
+  layerOffset: -0.01
+  reload: 80
+  rotate: false
+  mirror: true
+  alternate: true
+  shoot: {
+  type: ShootMulti
+  source: {
+    type: ShootPattern
+    shots: 4
+  }
+  dest: [
+    {
+    type: ShootPattern
+    shots: 2
+    shotDelay: 12
+    }
+  ]
+  }
+  shootSound: shootArtillery
+  bullet: {
+    type: ArtilleryBulletType
+    despawnSound: shootArtillerySap
+    velocityScaleRandMax:1.4
+    lifeScaleRandMax:1.4
+    lifeScaleRandMin:0.7
+    collidesAir: false
+    scaleLife:true
+    speed: 3.5
+    drag:0.018
+    lifetime: 48
+    splashDamageRadius: 20
+    splashDamage: 20
+    width: 9
+    height: 9
+    homingDelay:16
+    homingPower:0.03
+    homingRange:15
+    shrinkY:0.3
+    weaveScale:5
+    weaveMag:1
+    sprite:large-orb
+    backColor: DC913AFF
+    hitColor: DC913AFF
+    trailColor: DC913AFF
+    trailWidth: 1.2
+    trailLength: 12
+    trailEffect: none
+    }
+  }
+]
+
+
+research: efmech-refabricator

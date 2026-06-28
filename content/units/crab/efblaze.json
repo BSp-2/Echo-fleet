@@ -1,0 +1,131 @@
+name: Blaze
+description: Has a single flamethrower. 
+stepSound: walkerStepTiny
+stepSoundVolume: 0.4
+type: legs
+legCount: 4
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 3
+legLength: 9
+legMaxLength: 1.1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+
+
+hovering: true
+groundLayer: 60
+health: 280
+armor: 2
+allowLegStep: true
+speed: 1.2
+rotateSpeed: 3
+hitSize: 10
+drag: 0.1
+itemCapacity: 0
+outlineColor: 13151AFF
+immunities: [
+  burning
+]
+
+
+research: efcrab-fabricator
+researchCost: [
+  efscrap/80
+  efalluminum/60
+] 
+researchCostMultiplier: 0.1
+controller: HugAI
+
+
+weapons: [
+  {
+    x: 0
+    y: 1
+    rotate: false
+    mirror: false
+    reload: 10
+    shootSound: shootFlame
+    shootCone: 10
+    inaccuracy: 0
+    bullet: {
+      damage: 15
+      shootEffect: none
+      speed: 2.5
+      pierce: true
+      pierceBuilding: true
+      status: burning
+      statusDuration: 60
+      incendAmount:3
+      incendChance:0.3
+      lifetime: 24
+      despawnEffect: none
+      hitEffect: none
+      height: 0
+      hittable: false
+      smokeEffect: [
+        {
+          type: ParticleEffect
+          particles: 2
+          length: 6
+          lifetime: 15
+          interp: pow5Out
+          cone: 360
+          layer:100.1
+          colorFrom: FCB96030
+          colorTo: C97E4700
+          sizeFrom: 1.2
+          sizeTo: 2
+        }
+        {
+          type: ParticleEffect
+          particles: 12
+          followParent:false
+          length: 112
+          lifetime: 135
+          interp: pow5Out
+          cone: 6
+          layer:100.1
+          colorFrom: FCB960FF
+          colorTo: C97E4700
+          sizeFrom: 1.2
+          sizeTo: 4
+        }
+        {
+          type: ParticleEffect
+          followParent:false
+          particles: 8
+          length: 94
+          lifetime: 75
+          interp: pow3Out
+          cone: 3
+          layer:100.2
+          colorFrom: FCB96070
+          colorTo: C97E4700
+          sizeFrom: 3
+          sizeTo: 1
+        }
+        {
+          type: ParticleEffect
+          followParent:false
+          particles: 4
+          length: 93
+          lifetime: 156
+          interp: pow10Out
+          cone: 3
+          layer:100.3
+          sizeChangeStart:110
+          colorFrom: FFCF9F
+          colorTo: C97E47
+          sizeFrom: 1.6
+          sizeTo: 0
+        }
+      ]
+    }
+  }
+]

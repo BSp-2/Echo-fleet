@@ -5,7 +5,7 @@ variants: 0
 status: wet
 statusDuration: 300
 drownTime: 480
-liquidDrop: 02a-02-liquid-dirty-water
+liquidDrop: efdirty-water
 liquidMultiplier: 2
 isLiquid: true
 cacheLayer: water

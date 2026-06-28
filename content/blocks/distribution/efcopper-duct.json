@@ -1,0 +1,26 @@
+type: Duct
+name: Copper Duct
+description: Moves items forward.
+category: distribution
+speed: 6
+health: 180
+bridgeReplacement: efcopper-bridge
+requirements: [
+  efcopper/1
+]
+junctionReplacement: efcopper-junction
+
+
+
+research: {
+  parent: efnest
+  objectives: [  
+     efpulse-drill
+  ]
+}
+researchCost: [
+  efcopper/10
+] 
+
+
+
