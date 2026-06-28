@@ -133,9 +133,9 @@ consumes: {
 
 
 research: {
-  parent: asher
+  parent: efasher
   objectives: [
-	efalluminum, 
+	efalluminum
     {
       type: SectorComplete
       preset: mollum
