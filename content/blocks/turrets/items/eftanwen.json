@@ -329,7 +329,7 @@ ammoTypes: {
 
 
 research: {
-	parent: asher
+	parent: efasher
     objectives: [
         efcupride
 	]
