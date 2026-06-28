@@ -1,6 +1,0 @@
-type: Floor
-name: Magmatic Basalt
-variants: 3
-attributes: {
-	carbon: 0.25
-}

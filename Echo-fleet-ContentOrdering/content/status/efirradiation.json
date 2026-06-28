@@ -1,6 +1,0 @@
-type: StatusEffect
-name: Irradiation
-description: Internal damages afflicted by radioactive materials.
-speedMultiplier: 0.8
-intervalDamage: 5
-intervalDamageTime: 15
