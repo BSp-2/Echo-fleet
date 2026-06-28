@@ -16,7 +16,7 @@ category: turret
 
 
 research: {
-   parent: asher
+   parent: efasher
    objectives: [
       efsoft-coal
    ]
