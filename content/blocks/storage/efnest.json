@@ -16,7 +16,7 @@ alwaysUnlocked: true
 unitType: macromyrmex
 health: 3600
 armor: 6
-itemCapacity: 2500
+itemCapacity: 3000
 unitCapModifier: 10
 solid: false
 category: effect
