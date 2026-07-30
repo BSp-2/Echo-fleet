@@ -23,7 +23,7 @@ category: effect
 
 
 research: {
-  parent: nest
+  parent: efnest
   objectives: [
     {
       type: SectorComplete
