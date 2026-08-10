@@ -1,16 +1,16 @@
 type: ArmoredConduit
 name: Reinforced Pipeline
-description: healthy water mover
+description: An armored liquid pipeline. Does not accept non pipeline side inputs.
 category: liquid
 
 
 requirements: [
-  efalluminum/3
-  efeuropium/2
+  efscrap/3
+  efalluminum/2
 ]
 
 
-health: 230
+health: 240
 leaks: false
 
 
