@@ -9,7 +9,7 @@ squareSprite: false
 liquidCapacity: 60
 hasItems: true
 itemCapacity: 10
-craftTime: 120
+craftTime: 100
 
 
 outputLiquid: efozone/0.15
