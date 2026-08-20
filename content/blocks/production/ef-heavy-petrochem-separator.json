@@ -1,0 +1,104 @@
+type: GenericCrafter
+name: Heavy Petrochem Separator
+description: Separates heavier materials out of oil at a small rate. Can share oil storage with other HPSs vertically. 
+size: 2
+craftTime: 60
+squareSprite: false
+
+
+consumes: {
+	liquids: [
+   	  efcrude-oil/0.4
+	] 
+}
+
+
+hasLiquids: true
+hasPower: true
+dumpExtraLiquid: true
+rotate: false
+
+
+ambientSound: loopExtract
+ambientSoundVolume: 0.09
+
+
+outputLiquids: [
+	eflpg/0.01333333333333333333
+	efcarbon-dioxide/0.05
+  efcrude-oil/0
+  efcrude-oil/0
+]
+
+
+category: crafting
+
+
+requirements: [
+	efscrap/120
+	efcopper/100
+	efalluminum/40
+	efcupride/40
+]
+
+
+liquidCapacity: 120
+liquidOutputDirections: [0,2,3,1]
+
+
+research: {
+ 	parent: efcrude-processor
+# 	objectives: [ 
+#	   {
+#	     type: OnSector
+#	     preset: apparition
+#	   }
+#	 ]
+}
+researchCost: [
+	efscrap/600
+	efcopper/500
+	efalluminum/200
+	efcupride/200
+] 
+
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+	    type: DrawLiquidRegion
+      suffix: -oil
+      drawLiquid: efcrude-oil
+      alpha: 1
+    }
+    {
+	    type: DrawCrucibleFlame
+   	  particleRad: 8
+   	  flameRad: 3
+   	  partcileSize: 3
+   	  rotateScl: 2
+   	  particles: 40
+   	  particleLife: 60
+   	}
+    {
+	    type: DrawLiquidRegion
+      suffix: -lpg
+      drawLiquid: eflpg
+      alpha: 1
+    }
+    {
+	    type: DrawLiquidRegion
+      suffix: -co2
+      drawLiquid: efcarbon-dioxide
+      alpha: 1
+    }
+    {
+   	  type: DrawDefault
+    } 
+  ]
+} 
