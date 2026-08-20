@@ -118,7 +118,7 @@ craftEffect: [
     length: 24
     baseLength: 0
     cone: 30
-    interp: swingIn
+    interp: swing
     sizeInterp: pow3In
     layer: 110
   }
@@ -136,7 +136,7 @@ craftEffect: [
     length: 24
     baseLength: 0
     cone: 30
-    interp: swingIn
+    interp: swing
     sizeInterp: pow3In
     layer: 110
   }
@@ -154,7 +154,7 @@ craftEffect: [
     length: 24
     baseLength: 0
     cone: 30
-    interp: swingIn
+    interp: swing
     sizeInterp: pow3In
     layer: 110
   }
@@ -172,7 +172,7 @@ craftEffect: [
     length: 24
     baseLength: 0
     cone: 30
-    interp: swingIn
+    interp: swing
     sizeInterp: pow3In
     layer: 110
   }
