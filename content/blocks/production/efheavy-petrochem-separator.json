@@ -111,7 +111,7 @@ craftEffect: [
     particles: 1
     lifetime: 300
     sizeFrom: 1
-    baseRotation: 40
+    baseRotation: 50
     sizeTo: 3
     colorFrom: FFFF99B0
     colorTo: FFFF9900
@@ -121,7 +121,7 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
-	useRotation: false
+	  useRotation: false
   }
   {
     type: ParticleEffect
@@ -130,7 +130,7 @@ craftEffect: [
     particles: 1
     lifetime: 300
     sizeFrom: 1
-    baseRotation: 55
+    baseRotation: 35
     sizeTo: 3
     colorFrom: FFFF99B0
     colorTo: FFFF9900
@@ -140,7 +140,7 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
-	useRotation: false
+	  useRotation: false
   }
   {
     type: ParticleEffect
@@ -149,7 +149,7 @@ craftEffect: [
     particles: 1
     lifetime: 300
     sizeFrom: 1
-    baseRotation: 10
+    baseRotation: 80
     sizeTo: 3
     colorFrom: FBE6FFB0
     colorTo: FBE6FF00
@@ -159,7 +159,7 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
-	useRotation: false
+  	useRotation: false
   }
   {
     type: ParticleEffect
@@ -168,7 +168,7 @@ craftEffect: [
     particles: 1
     lifetime: 300
     sizeFrom: 1
-    baseRotation: -10
+    baseRotation: 100
     sizeTo: 3
     colorFrom: FBE6FFB0
     colorTo: FBE6FF00
@@ -178,6 +178,6 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
-	useRotation: false
+	  useRotation: false
   }
 ]
