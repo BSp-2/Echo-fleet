@@ -2,7 +2,7 @@ type: GenericCrafter
 name: Heavy Petrochem Separator
 description: Separates heavier materials out of oil at a small rate. Can share oil storage with other HPSs vertically. 
 size: 2
-craftTime: 60
+craftTime: 20
 squareSprite: false
 
 
@@ -24,7 +24,7 @@ ambientSoundVolume: 0.09
 
 
 outputLiquids: [
-	eflpg/0.01333333333333333333
+	eflpg/0.01666666666666666666
 	efcarbon-dioxide/0.05
   efcrude-oil/0
   efcrude-oil/0
@@ -72,8 +72,8 @@ drawer: {
     }
     {
 	    type: DrawCrucibleFlame
-   	  particleRad: 8
-   	  flameRad: 3
+   	  particleRad: 6
+   	  flameRad: 0
    	  partcileSize: 3
    	  rotateScl: 2
    	  particles: 40
@@ -101,11 +101,11 @@ drawer: {
 craftEffect: [
   {
     type: ParticleEffect
-	x: 6.5
+	offsetX: 6.5
 	y: 4
-    particles: 4
-    lifetime: 90
-    sizeFrom: 1.6
+    particles: 1
+    lifetime: 300
+    sizeFrom: 1
     baseRotation: 40
     sizeTo: 6
     colorFrom: FFFF99FF
@@ -119,11 +119,11 @@ craftEffect: [
   }
   {
     type: ParticleEffect
-	x: 6.5
-	y: -4
-    particles: 4
-    lifetime: 90
-    sizeFrom: 1.6
+	offsetX: 6.5
+	offsetY: -4
+    particles: 1
+    lifetime: 300
+    sizeFrom: 1
     baseRotation: 55
     sizeTo: 6
     colorFrom: FFFF99FF
@@ -137,11 +137,11 @@ craftEffect: [
   }
   {
     type: ParticleEffect
-	x: -6.5
-	y: 4
-    particles: 4
-    lifetime: 90
-    sizeFrom: 1.6
+	offsetX: -6.5
+	offsetY: 4
+    particles: 1
+    lifetime: 300
+    sizeFrom: 1
     baseRotation: 10
     sizeTo: 6
     colorFrom: FBE6FFFF
@@ -155,11 +155,11 @@ craftEffect: [
   }
   {
     type: ParticleEffect
-	x: -6.5
-	y: -4
-    particles: 4
-    lifetime: 90
-    sizeFrom: 1.6
+	offsetX: -6.5
+	offsetY: -4
+    particles: 1
+    lifetime: 300
+    sizeFrom: 1
     baseRotation: -10
     sizeTo: 6
     colorFrom: FBE6FFFF
