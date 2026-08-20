@@ -96,3 +96,79 @@ drawer: {
     } 
   ]
 } 
+
+
+craftEffect: [
+  {
+    type: ParticleEffect
+	x: 6.5
+	y: 4
+    particles: 4
+    lifetime: 90
+    sizeFrom: 1.6
+    baseRotation: 40
+    sizeTo: 6
+    colorFrom: FFFF99FF
+    colorTo: FFFF9900
+    length: 24
+    baseLength: 0
+    cone: 30
+    interp: swingIn
+    sizeInterp: pow3In
+    layer: 110
+  }
+  {
+    type: ParticleEffect
+	x: 6.5
+	y: -4
+    particles: 4
+    lifetime: 90
+    sizeFrom: 1.6
+    baseRotation: 55
+    sizeTo: 6
+    colorFrom: FFFF99FF
+    colorTo: FFFF9900
+    length: 24
+    baseLength: 0
+    cone: 30
+    interp: swingIn
+    sizeInterp: pow3In
+    layer: 110
+  }
+  {
+    type: ParticleEffect
+	x: -6.5
+	y: 4
+    particles: 4
+    lifetime: 90
+    sizeFrom: 1.6
+    baseRotation: 10
+    sizeTo: 6
+    colorFrom: FBE6FFFF
+    colorTo:   FBE6FF00
+    length: 24
+    baseLength: 0
+    cone: 30
+    interp: swingIn
+    sizeInterp: pow3In
+    layer: 110
+  }
+  {
+    type: ParticleEffect
+	x: -6.5
+	y: -4
+    particles: 4
+    lifetime: 90
+    sizeFrom: 1.6
+    baseRotation: -10
+    sizeTo: 6
+    colorFrom: FBE6FFFF
+    colorTo: FBE6FF00
+    length: 24
+    baseLength: 0
+    cone: 30
+    interp: swingIn
+    sizeInterp: pow3In
+    layer: 110
+  }
+]
