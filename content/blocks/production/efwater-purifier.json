@@ -10,7 +10,7 @@ squareSprite: true
 liquidCapacity: 60
 hasItems: true
 itemCapacity: 20
-craftTime: 300
+craftTime: 240
 
 
 outputLiquid: efpurified-water/0.3
@@ -22,8 +22,7 @@ consumes: {
 	power: 2
 }
 outputItems: [
-	efsoft-coal/2
-	efalluminum/1
+	efalluminum/3
 ]
 
 
