@@ -121,6 +121,7 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
+	useRotation: false
   }
   {
     type: ParticleEffect
@@ -139,6 +140,7 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
+	useRotation: false
   }
   {
     type: ParticleEffect
@@ -157,6 +159,7 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
+	useRotation: false
   }
   {
     type: ParticleEffect
@@ -175,5 +178,6 @@ craftEffect: [
     interp: swing
     sizeInterp: pow3In
     layer: 110
+	useRotation: false
   }
 ]
