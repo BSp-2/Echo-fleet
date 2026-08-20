@@ -80,6 +80,10 @@ drawer: {
    	  particleLife: 60
    	}
     {
+			type: DrawRegion
+			suffix: -bottom2
+		} 
+    {
 	    type: DrawLiquidRegion
       suffix: -lpg
       drawLiquid: eflpg
@@ -101,14 +105,14 @@ drawer: {
 craftEffect: [
   {
     type: ParticleEffect
-	offsetX: 6.5
-	y: 4
+	  offsetX: 6.5
+	  offsetY: 4
     particles: 1
     lifetime: 300
     sizeFrom: 1
     baseRotation: 40
-    sizeTo: 6
-    colorFrom: FFFF99FF
+    sizeTo: 3
+    colorFrom: FFFF99B0
     colorTo: FFFF9900
     length: 24
     baseLength: 0
@@ -119,14 +123,14 @@ craftEffect: [
   }
   {
     type: ParticleEffect
-	offsetX: 6.5
-	offsetY: -4
+	  offsetX: 6.5
+	  offsetY: -4
     particles: 1
     lifetime: 300
     sizeFrom: 1
     baseRotation: 55
-    sizeTo: 6
-    colorFrom: FFFF99FF
+    sizeTo: 3
+    colorFrom: FFFF99B0
     colorTo: FFFF9900
     length: 24
     baseLength: 0
@@ -137,15 +141,15 @@ craftEffect: [
   }
   {
     type: ParticleEffect
-	offsetX: -6.5
-	offsetY: 4
+	  offsetX: -6.5
+	  offsetY: 4
     particles: 1
     lifetime: 300
     sizeFrom: 1
     baseRotation: 10
-    sizeTo: 6
-    colorFrom: FBE6FFFF
-    colorTo:   FBE6FF00
+    sizeTo: 3
+    colorFrom: FBE6FFB0
+    colorTo: FBE6FF00
     length: 24
     baseLength: 0
     cone: 30
@@ -155,14 +159,14 @@ craftEffect: [
   }
   {
     type: ParticleEffect
-	offsetX: -6.5
-	offsetY: -4
+	  offsetX: -6.5
+	  offsetY: -4
     particles: 1
     lifetime: 300
     sizeFrom: 1
     baseRotation: -10
-    sizeTo: 6
-    colorFrom: FBE6FFFF
+    sizeTo: 3
+    colorFrom: FBE6FFB0
     colorTo: FBE6FF00
     length: 24
     baseLength: 0
