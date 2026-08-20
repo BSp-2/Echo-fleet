@@ -10,6 +10,7 @@ consumes: {
 	liquids: [
     efcrude-oil/0.4
 	] 
+	power: 1.66666666666666666666666
 }
 
 
