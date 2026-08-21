@@ -105,79 +105,51 @@ drawer: {
 
 craftEffect: [
   {
-    type: ParticleEffect
-	  offsetX: 6.5
-	  offsetY: 4
-    particles: 1
-    lifetime: 300
-    sizeFrom: 1
-    baseRotation: 50
-    sizeTo: 3
-    colorFrom: FFFF99B0
-    colorTo: FFFF9900
-    length: 24
-    baseLength: 0
-    cone: 30
-    interp: swing
-    sizeInterp: pow3In
+    type: RadialEffect
+    rotationOffset: 31.6
+    rotationSpacing: -63.2
+    amount: 2
+    lengthOffset: 7.6321
     layer: 110
+    effect: {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 300
+      sizeFrom: 1
+      baseRotation: 0
+      sizeTo: 3
+      colorFrom: FBE6FFB0
+      colorTo: FBE6FF00
+      length: 24
+      baseLength: 0
+      cone: 30
+      interp: swing 
+	  sizeInterp: pow3In
 	  useRotation: false
+    } 
   }
   {
-    type: ParticleEffect
-	  offsetX: 6.5
-	  offsetY: -4
-    particles: 1
-    lifetime: 300
-    sizeFrom: 1
-    baseRotation: 35
-    sizeTo: 3
-    colorFrom: FFFF99B0
-    colorTo: FFFF9900
-    length: 24
-    baseLength: 0
-    cone: 30
-    interp: swing
-    sizeInterp: pow3In
+    type: RadialEffect
+    rotationOffset: 211.6
+    rotationSpacing: -63.2
+    amount: 2
+    lengthOffset: 7.6321
     layer: 110
+    effect: {
+      type: ParticleEffect
+      particles: 1
+      lifetime: 300
+      sizeFrom: 1
+      baseRotation: 180
+      sizeTo: 3
+      colorFrom: FBE6FFB0
+      colorTo: FBE6FF00
+      length: 24
+      baseLength: 0
+      cone: 30
+      interp: swing 
+	  sizeInterp: pow3In
 	  useRotation: false
-  }
-  {
-    type: ParticleEffect
-	  offsetX: -6.5
-	  offsetY: 4
-    particles: 1
-    lifetime: 300
-    sizeFrom: 1
-    baseRotation: 80
-    sizeTo: 3
-    colorFrom: FBE6FFB0
-    colorTo: FBE6FF00
-    length: 24
-    baseLength: 0
-    cone: 30
-    interp: swing
-    sizeInterp: pow3In
-    layer: 110
-  	useRotation: false
-  }
-  {
-    type: ParticleEffect
-	  offsetX: -6.5
-	  offsetY: -4
-    particles: 1
-    lifetime: 300
-    sizeFrom: 1
-    baseRotation: 100
-    sizeTo: 3
-    colorFrom: FBE6FFB0
-    colorTo: FBE6FF00
-    length: 24
-    baseLength: 0
-    cone: 30
-    interp: swing
-    sizeInterp: pow3In
-    layer: 110
-	  useRotation: false
+    } 
   }
 ]
