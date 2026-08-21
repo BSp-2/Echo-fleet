@@ -115,11 +115,11 @@ craftEffect: [
       type: ParticleEffect
       particles: 1
       lifetime: 300
-      sizeFrom: 1
+      sizeFrom: 0
       baseRotation: 0
       sizeTo: 3
-      colorFrom: FBE6FFB0
-      colorTo: FBE6FF00
+      colorFrom: FFFF9980
+      colorTo: FFFF9900
       length: 24
       baseLength: 0
       cone: 30
@@ -139,10 +139,10 @@ craftEffect: [
       type: ParticleEffect
       particles: 1
       lifetime: 300
-      sizeFrom: 1
+      sizeFrom: 0
       baseRotation: 180
       sizeTo: 3
-      colorFrom: FBE6FFB0
+      colorFrom: FBE6FF80
       colorTo: FBE6FF00
       length: 24
       baseLength: 0
