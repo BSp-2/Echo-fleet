@@ -43,8 +43,8 @@ requirements: [
 ]
 
 
-liquidCapacity: 120
-liquidOutputDirections: [0,2,3,1]
+liquidCapacity: 60
+liquidOutputDirections: [2,0,3,1]
 
 
 research: {
