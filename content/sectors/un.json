@@ -4,3 +4,4 @@ sector: 0
 research: efnest
 difficulty: 1
 alwaysUnlocked: true
+outlineIcon: false
