@@ -84,7 +84,7 @@ weapons: [
     laserColor: 5B72D9FF
     mirror: false
     type: RepairBeamWeapon
-    rotate: false
+    rotate: true
     rotationSpeed: 4
     rotationLimit: 1
     targetBuildings: true
