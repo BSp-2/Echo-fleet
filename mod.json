@@ -1,6 +1,6 @@
 name: "echo-fleet"
 displayName: "Echo Fleet" 
-author: "[#5aaabd]Plooey :3\n\n[gray]Contributors:[]\n- Cupcake: a lot of everything\n- Tinport: sprites\n- Leslie: sprites\n- Kennysetiawan: bundles\n- Kostolom: a huge amount of fx work and improvements to the units" 
+author: "[#5aaabd[]]Plooey :3\n\n[gray[]]Contributors:[[]]\n- [#b020b0[]]Cupcake: [[]]a lot of everything\n- Tinport: sprites\n- Leslie: sprites\n- Kennysetiawan: bundles\n- Kostolom: a huge amount of fx work and improvements to the units" 
 description: '''This mod adds 2 planets sharing a single campaign to the game.
 
 You [stat]WILL[] be forced to work with excruciatingly hideous structures that output 4 different liquids and require gigantic factory setups to just run. yes. 
@@ -8,7 +8,7 @@ You [stat]WILL[] be forced to work with excruciatingly hideous structures that o
 The mod is still wip. 
 Only 6 sectors have been made as of now.
 '''
-version: ploo is going insane
+version: ploo is going insane 1.01
 subtitle: "?ploo"
 minGameVersion: 158.1
 repo: BSp-2/Echo-fleet
