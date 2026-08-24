@@ -17,6 +17,7 @@ consumes: {
 	power: 3
 	liquids: [
   	 efslag/0.6
+	 efneutralizer/0.1
 	]
 }
 
