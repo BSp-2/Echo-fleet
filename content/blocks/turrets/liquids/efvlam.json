@@ -5,7 +5,7 @@ health: 1800
 shootSound: shootToxopidShotgun
 recoil: 4
 size: 3
-reload: 180
+reload: 300
 inaccuracy: 5
 hasLiquids: true
 hasPower: true
@@ -115,7 +115,7 @@ ammoTypes: {
 	incendChance: 1
 	incendSpread: 12
 	incendAmount: 8
-	fragBullets: 22
+	fragBullets: 16
     fragVelocityMin: 0.4
     fragVelocityMax: 1.4
 	fragLifeMin: 0.6
@@ -126,11 +126,11 @@ ammoTypes: {
     fragRandomSpread: 0
     fragBullet: {
       type: BasicBulletType
-	  damage: 40
+	  damage: 30
 	  splashDamage: 30
 	  splashDamageRadius: 4
 	  speed: 2.4
-	  lifetime: 120
+	  lifetime: 150
 	  drag: 0.02
 	  weaveScale: 6
 	  weaveMag:2
