@@ -10,4 +10,4 @@ research: {
     }
   ]
 } 
-outlineIcon: false
+outline: false

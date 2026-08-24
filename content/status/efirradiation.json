@@ -4,4 +4,4 @@ description: Internal damages afflicted by radioactive materials.
 speedMultiplier: 0.8
 intervalDamage: 5
 intervalDamageTime: 15
-outlineIcon: false
+outline: false

@@ -4,4 +4,4 @@ description: Nanomachine infestation
 speedMultiplier: 0.75
 healthMultiplier: 0.85
 reloadMultiplier: 0.6
-outlineIcon: false
+outline: false
