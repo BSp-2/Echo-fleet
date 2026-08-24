@@ -10,7 +10,7 @@ squareSprite: true
 hasPower: true
 
 
-outputLiquid: efcrude-oil/1
+outputLiquid: efcrude-oil/1.2
 
 
 consumes: {
