@@ -16,7 +16,7 @@ outputLiquid: efcrude-oil/1.2
 consumes: {
 	power: 3
 	liquids: [
-  	 efslag/0.4
+  	 efslag/0.6
 	]
 }
 
