@@ -1,13 +1,15 @@
 type: UnitCargoLoader
 name: Barrier Projector
 category: effect
-description: Generates a directional shield that dynamicaly rotates in the enemy direction.
+description: Generates 2 directional shields that dynamicaly rotate in the enemy direction.
 unitBuildTime: 1200
+itemCapacity: 10
+liquidCapacity: 30
 polyColor: 00000000
 polySides: 3
 polyRadius: 0
 size: 2
-teamPassAble: true
+teamPassable: true
 unitType: shield-unit
 configurable: false
 customShadow: false
