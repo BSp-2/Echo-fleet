@@ -8,13 +8,12 @@ flying: true
 drawSoftShadow: false
 moveSound: loopThruster
 health: 100
-range: 128
+range: 400
 outlineColor: 13151AFF
 
   
-rotateSpeed: 2
+rotateSpeed: 5
 engineSize: 3
-engineOffeset: 1
 
   
 targetable: false
@@ -30,7 +29,7 @@ weapons:[
     aiControllable: false
     shootOnDeath: true
     shootCone: 180
-    range: 128
+    range: 400
     x: 0
     y: 0
     mirror: false
@@ -59,7 +58,7 @@ abilities: [
     radius: 80
     angle: 120
     y: -11
-    width: 4
+    width: 8
     max: 500
     regen: 0.416666666666666666666
   }
@@ -69,10 +68,10 @@ abilities: [
     pushUnits: false
     cooldown: 600
     radius: 60
-    angle: 100
+    angle: 60
     y: -11
-    width: 4
-    max: 500
-    regen: 0.416666666666666666666
+    width: 8
+    max: 1000
+    regen: 0.833333333333333333333
   }
 ]
