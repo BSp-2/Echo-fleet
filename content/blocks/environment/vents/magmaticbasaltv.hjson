@@ -1,0 +1,43 @@
+name: Magmatic Basalt Vent
+type: SteamVent
+blendGroup: magmaticbasaltplates
+parent: magmaticbasaltplates
+attributes: {
+   steam: 1
+}
+
+
+effectSpacing: 15
+effect:{
+    type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            lifetime: 180
+            sizeInterp: slope
+            length: 45
+            baseLength: 4
+            sizeFrom: 4
+            sizeTo: 8
+            colorFrom: 231F2680
+            colorTo: 231F2600
+            layer: 61.8
+            cone: 45
+            baseRotation: 30
+        }
+        {
+            type: ParticleEffect
+            lifetime: 140
+            sizeInterp: slope
+            length: 45
+            baseLength: 4
+            sizeFrom: 4
+            sizeTo: 8
+            colorFrom: 231F2680
+            colorTo: 231F2600
+            layer: 61.9
+            cone: 35
+            baseRotation: 30
+        }
+    ]
+}
