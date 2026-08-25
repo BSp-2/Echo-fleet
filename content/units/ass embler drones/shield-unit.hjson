@@ -60,7 +60,8 @@ abilities: [
     angle: 120
     y: -11
     width: 4
-    health: 500
+    max: 500
+    regen: 25
   }
   {
     type: shieldArcAbility
@@ -71,6 +72,7 @@ abilities: [
     angle: 100
     y: -11
     width: 4
-    health: 500
+    max: 500
+    regen: 25
   }
 ]
