@@ -12,7 +12,7 @@ range: 128
 outlineColor: 13151AFF
 
   
-rotateSpeed: 4
+rotateSpeed: 2
 engineSize: 3
 engineOffeset: 1
 
@@ -57,8 +57,20 @@ abilities: [
     pushUnits: false
     cooldown: 600
     radius: 80
-    angle: 70
+    angle: 120
     y: -11
     width: 4
+    health: 500
+  }
+  {
+    type: shieldArcAbility
+    whenShooting: false
+    pushUnits: false
+    cooldown: 600
+    radius: 60
+    angle: 100
+    y: -11
+    width: 4
+    health: 500
   }
 ]
