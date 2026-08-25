@@ -1,0 +1,48 @@
+type: UnitCargoLoader
+name: Barrier Projector
+category: effect
+description: Generates a directional shield that dynamicaly rotates in the enemy direction.
+unitBuildTime: 1200
+polyColor: 00000000
+polySides: 3
+polyRadius: 0
+size: 2
+teamPassAble: true
+unitType: shield-unit
+configurable: false
+customShadow: false
+
+  
+consumes:{
+  power: 3
+  items: [
+    efsoft-coal/20
+  ] 
+  liquids: [
+    efneutralizer/0.1
+  ]
+}
+
+requirements:[
+  efscrap/120
+  efcopper/80
+  efalluminum/80
+  efcupride/40
+]
+
+  
+research: {
+  parent: efrepair-node
+  objectives: [
+    {
+      type: onSector
+      preset: wadi
+    }
+  ]
+}
+researchCost: [
+  efscrap/600
+  efcopper/400
+  efalluminum/400
+  efcupride/200
+]
