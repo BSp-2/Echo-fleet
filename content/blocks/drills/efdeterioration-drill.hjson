@@ -1,6 +1,6 @@
 type: beamDrill
 name: Deterioration Bore
-description: Mines wall ores by concentrating beams of corrosive sulphiric acid at walls. Placement requires being rotated towards a mineable ore without obstruction in the way. 
+description: Mines wall ores by concentrating beams of corrosive sulphiric acid at walls. 
 range: 6
 tier: 5
 size: 4
