@@ -1,6 +1,6 @@
 type: MassDriver
 name: Force Driver
-description: LOW TAPER FADEEEEEEE 
+description: Catapults a small stack of inputted items to another force driver across a short distance.
 size: 2
 squareSprite: false
 itemCapacity: 30
