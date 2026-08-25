@@ -215,6 +215,7 @@ contentOrder: [
       efrepair-node
       efbuild-nodule
       efbarrier-generator
+      efbarrier-projector
       efnest
       efcaspar
       efstorage-block
