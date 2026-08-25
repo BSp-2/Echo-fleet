@@ -1,0 +1,64 @@
+type: tether
+speed: 0
+name: Shield Unit
+description: ""
+shownPlanets: [aetheria, kaltos] 
+hitSize: 12
+flying: true
+drawSoftShadow: false
+moveSound: loopThruster
+health: 100
+range: 128
+outlineColor: 13151AFF
+
+  
+rotateSpeed: 4
+engineSize: 3
+engineOffeset: 1
+
+  
+targetable: false
+hittable: false
+physics: false
+commands: []
+requiresUnlock: false
+
+  
+weapons:[
+  {
+    controllable: false
+    aiControllable: false
+    shootOnDeath: true
+    shootCone: 180
+    range: 128
+    x: 0
+    y: 0
+    mirror: false
+    display: false
+    bullet:{
+      type: BombBulletType
+      speed: 4
+      drag: 0.0125
+      lifetime: 32
+      killShooter: true
+      keepVelocity: true
+      damage: 30
+      width: 14
+      height: 18
+    }
+  }
+]
+
+  
+abilities: [
+  {
+    type: shieldArcAbility
+    whenShooting: false
+    pushUnits: false
+    cooldown: 600
+    radius: 80
+    angle: 70
+    y: -11
+    width: 4
+  }
+]
