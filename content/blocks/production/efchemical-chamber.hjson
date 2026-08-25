@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Chemical Chamber
-description: lets cook Jesse
+description: Uses Nitrogen and flammable materials like soft coal and lpg to reduce them to smaller bonds and then molding them into Polycarbonate.
 size: 3
 
 
