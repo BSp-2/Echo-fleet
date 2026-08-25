@@ -3,7 +3,7 @@ name: Barrier Projector
 category: effect
 description: Generates 2 directional shields that dynamicaly rotate in the enemy direction.
 unitBuildTime: 1200
-itemCapacity: 10
+itemCapacity: 40
 liquidCapacity: 30
 polyColor: 00000000
 polySides: 3
@@ -18,7 +18,7 @@ customShadow: false
 consumes:{
   power: 3
   items: [
-    efsoft-coal/20
+    efsoft-coal/40
   ] 
   liquids: [
     efneutralizer/0.1
