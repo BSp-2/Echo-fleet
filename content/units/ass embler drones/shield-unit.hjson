@@ -61,7 +61,7 @@ abilities: [
     y: -11
     width: 4
     max: 500
-    regen: 25
+    regen: 0.416666666666666666666
   }
   {
     type: shieldArcAbility
@@ -73,6 +73,6 @@ abilities: [
     y: -11
     width: 4
     max: 500
-    regen: 25
+    regen: 0.416666666666666666666
   }
 ]
