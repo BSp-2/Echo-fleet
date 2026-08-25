@@ -3,7 +3,7 @@ name: Ratchet
 description: Fires molten flak at nearby targets. Pew pew. 
 speed: 1
 flying: false
-health: 450
+health: 500
 armor: 3
 hitSize: 10.25
 outlineColor: 181425FF

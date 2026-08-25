@@ -126,7 +126,7 @@ ammoTypes: {
     fragRandomSpread: 0
     fragBullet: {
       type: BasicBulletType
-	  damage: 30
+	  damage: 40
 	  splashDamage: 30
 	  splashDamageRadius: 4
 	  speed: 2.4

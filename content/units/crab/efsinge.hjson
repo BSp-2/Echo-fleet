@@ -18,7 +18,7 @@ legStraightness: 0.3
 
 hovering: true
 groundLayer: 61
-health: 580
+health: 1000
 armor: 4
 allowLegStep: true
 speed: 0.8
