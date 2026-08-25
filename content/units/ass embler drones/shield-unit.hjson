@@ -2,7 +2,7 @@ type: tether
 speed: 0
 name: Shield Unit
 description: ""
-shownPlanets: [aetheria, kaltos] 
+shownPlanets: [aetheria, 0kaltos] 
 hitSize: 12
 flying: true
 drawSoftShadow: false
