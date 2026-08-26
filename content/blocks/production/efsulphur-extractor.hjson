@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Sulphur Extractor
-description: Creates sulphur by seperating traces of sulphur from hydrogem sulfide and then binding them together. Additionally creates hydrogen gas during this process. 
+description: Creates sulphur by seperating traces of sulphur from hydrogen sulfide and then binding them together. Additionally creates hydrogen gas during this process. 
 size: 3
 
 
