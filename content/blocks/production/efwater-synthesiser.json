@@ -1,6 +1,6 @@
 type: HeatProducer
 name: Water Synthesiser
-description: water out of air no way
+description: Artificially creates pure water by bonding ozone and hydrogen gas. Creates additional heat in the process.
 size: 4
 
 
