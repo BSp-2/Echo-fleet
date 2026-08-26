@@ -1,7 +1,7 @@
 type: AttributeCrafter
 attribute: oil
 name: Oil Rig
-description: Crude Oil eater
+description: Extracts crude oil from atlassic vents.
 size: 3
 
 
