@@ -4,7 +4,7 @@ sector: 22
 research: {
   parent: wadi
   objectives: [
-    efoil,
+    efhydrogen-sulfide,
     {
       type: SectorComplete
       preset: wadi
