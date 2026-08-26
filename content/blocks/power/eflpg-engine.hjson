@@ -69,6 +69,10 @@ research: {
 	parent: efthermal-reactor
 	objectives: [
 		eflpg
+      {
+        type: OnSector
+        preset: apparition
+      }
 	]
 } 
 researchCost: [

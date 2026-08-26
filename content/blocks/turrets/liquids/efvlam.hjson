@@ -25,7 +25,11 @@ warmupMaintainTime: 180
 research: {
    parent: efcleanse
    objectives: [
-      efcrude-oil
+    efcrude-oil
+      {
+        type: OnSector
+        preset: apparition
+      }
    ]
 }
 researchCost: [

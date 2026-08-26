@@ -1,0 +1,14 @@
+difficulty: 7
+planet: aetheria
+sector: 22
+research: {
+  parent: wadi
+  objectives: [
+    efoil,
+    {
+      type: SectorComplete
+      preset: wadi
+    }
+  ]
+}  
+outline: false

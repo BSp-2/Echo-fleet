@@ -49,6 +49,12 @@ liquidOutputDirections: [2,0,3,1]
 
 research: {
  	parent: efcrude-processor
+  objectives: [
+    {
+      type: OnSector
+      preset: apparition
+    }
+  ]
 }
 researchCost: [
 	efscrap/600
