@@ -1,6 +1,6 @@
 type: PowerNode
 name: Power Transmitter
-description: power transmit
+description: Transfers power across a large distance. Only able to transmit power towards one building.
 fogRadius: 2.5
 laserRange: 40
 health: 250
