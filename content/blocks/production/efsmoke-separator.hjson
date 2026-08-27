@@ -45,11 +45,7 @@ requirements: [
 research: {
 	parent: efwater-purifier
     objectives: [
-      efcarbon-dioxide,
-	  {
-		type: OnSector
-		preset: apparition
-	  }
+      efcarbon-dioxide
 	]
 } 
 
