@@ -97,7 +97,7 @@ ammoTypes: {
       reloadMultiplier: 0.3
       lifetime: 16
       rangeChange: -48
-	    damage: 60
+	    damage: 50
       width: 7
       height: 18
       smokeEffect: shootSmokeSquare
@@ -197,9 +197,9 @@ ammoTypes: {
       type: BasicBulletType
       speed: 10
       lifetime: 28.8
-      damage: 30
+      damage: 20
       inaccuracy:23
-      splashDamage: 60
+      splashDamage: 40
 	    splashDamageRadius: 40
       width: 10
       height: 16
