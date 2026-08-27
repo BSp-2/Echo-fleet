@@ -97,7 +97,8 @@ ammoTypes: {
       reloadMultiplier: 0.3
       lifetime: 16
       rangeChange: -48
-	    damage: 50
+	    damage: 40
+      pierceArmor: true
       width: 7
       height: 18
       smokeEffect: shootSmokeSquare
