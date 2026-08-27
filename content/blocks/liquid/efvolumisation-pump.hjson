@@ -26,7 +26,11 @@ consumes: {
 research: {
   parent: efsiphon-pump
   objectives: [
-    efnitrogen
+    efnitrogen, 
+    {
+      type: OnSector
+      preset: apparition
+    } 
   ] 
 }
 researchCost: [
