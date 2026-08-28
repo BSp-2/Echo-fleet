@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Paraxosm Drill
-description: explod ore huge
+description: Mines ore deposits via high magnitude explosions.
 size: 5
 category: production
 hasLiquids: true
