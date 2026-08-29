@@ -18,7 +18,7 @@ consumes: {
 
 
 hasLiquids: true
-hasPower: true
+hasPower: false
 dumpExtraLiquid: true
 rotate: false
 
