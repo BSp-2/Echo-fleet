@@ -11,7 +11,7 @@ minAlpha: 0.1
 maxAlpha: 0.8
 density: 1800
 baseSpeed: 1
-opacityMultiplier: 0.75
+opacityMultiplier: 0.3
 force: 0.02
 sound: none
 soundVol: 0
