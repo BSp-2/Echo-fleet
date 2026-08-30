@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Vlam
-description: Rapidly fires volleys of burning crude oil in one direction. Due to complications with igniting machinery and high risk of combustion, the turret can only rotate extremely slowly. Handle with care. Capable of starting fires, recommended to use with fire extinguishing turrets.
+description: Launces a projectile that explodes into incendiary landmines. Great for crowd control as a support turret. Not meant to be used by its own.
 health: 1800
 shootSound: shootToxopidShotgun
 recoil: 4
