@@ -9,15 +9,24 @@ drawSoftShadow: false
 moveSound: loopThruster
 health: 100
 range: 400
-outlineColor: 13151AFF
 
   
 rotateSpeed: 5
 engineSize: 3
 
   
+payloadCapacity: 0
 targetable: false
 hittable: false
+bounded: false
+outlineColor: 13151AFF
+isEnemy: false
+hidden: true
+useUnitCap: false
+logicControllable: false
+playerControllable: false
+allowedInPayloads: false
+createWreck: false
 physics: false
 commands: []
 requiresUnlock: false
