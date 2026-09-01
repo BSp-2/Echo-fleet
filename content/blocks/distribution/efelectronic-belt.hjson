@@ -1,6 +1,6 @@
 type: StackConveyor
 name: Electronic Belt
-description: electricity??? 
+description: Distributes items forward in batches.
 speed: 0.0833333333333333
 itemCapacity: 20
 health: 240
