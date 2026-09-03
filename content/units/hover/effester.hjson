@@ -80,12 +80,6 @@ parts: [
     suffix: -main
 	mirror: false
 	under: true
-  } 
-  {
-    type: RegionPart
-    suffix: -cell
-    mirror: false
-    under: true
   }
 ]
 
