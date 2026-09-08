@@ -1,11 +1,11 @@
 name: "echo-fleet"
 displayName: "[orange[]]Echo [#5aaabd[]]Fleet" 
 author: "[#5aaabd[]]Plooey :3\n\n[gray[]]Contributors:\n[#b020b0[]]Cupcake[[gray]]: a lot of everything\n[#b02020[]]Tinport[gray[]]: sprites\n[#80b020[]]Lesley[gray[]]: sprites\n[#309090[]]Kennysetiawan[gray[]]: bundles\n[#b0b090[]]Kostolom[gray[]]: a huge amount of fx work and improvements to the units" 
-description: '''[#5aaabd[]]Adds 2 planets with a shared campaign. (only one of them has been finished) 
+description: '''[#5aaabd[]]Adds a planet with its own campaign. (another one is planned) 
 [#5aaabd[]]The campaign focuses on liquid processing and logistics a lot, with a heavy bias towards payload transportation.
 [#5aaabd[]]This is also amplified by the fact that the factories in this mod are quite hard to supply, which hopefuly does result in a rather neat experience.
 
-[gray[]]This is a small ted project of mine. 
+[gray[]]This is a small ted project of mine. It has been finished. 
 [gray[]]Im not aiming for anything big, and simply making something i enjoy and hope others will too.
 [gray[]]Have fun :3c
 '''
@@ -22,6 +22,7 @@ contentOrder: [
   #status effects
     efirradiation
     efinfestation
+    efconcussion
   #env
     magmaticbasalt
     magmaticbasaltplates
@@ -44,7 +45,6 @@ contentOrder: [
     agedbauxitev
     agedbauxiteb
     agedbauxitecluster
-    quicksand
     crudeoil
     ddwater
     dwater
@@ -54,25 +54,9 @@ contentOrder: [
     softsandv
     softsandb
     sandstone
-    smoothatlassium
-    smoothatlassiumw
-    smoothatlassiumv
-    smoothatlassiumb
-    sadwater
-    adwater
-    dadwater
-    atlassium
-    atlassiumw
-    atlassiumv
-    atlassiumb
-    atlassiumpatterns
-    atlassiumpatternsw
-    atlassiumpatternsv
-    atlassiumpatternsb
     orescrap
     orecopper
     oreeuropium
-    oreechoshard
   #blocks
     #turrets
       efasher
@@ -87,16 +71,12 @@ contentOrder: [
       efoil-rig
       efpulse-drill
       efblast-drill
-      efparaxosm-drill
-      efdeterioration-drill
       efalluminum-extractor
-      efalluminum-synthesiser
       efcarbonic-concentrator
     #distribution
       efcopper-duct
       efalluminum-duct
       efeuropium-duct
-      efelectronic-belt
       efcopper-junction
       efcopper-bridge
       efelectric-bridge
@@ -105,12 +85,9 @@ contentOrder: [
       efcopper-underflow-duct
       efmechanical-unloader
       efheat-distributor
-      efadvanced-heat-distributor
-      efforce-driver
     #liquid stuff
       efsiphon-pump
       efvolumisation-pump
-      eftoxic-pump
       efliquid-pipeline
       efreinforced-pipeline
       efliquid-junction
@@ -121,17 +98,11 @@ contentOrder: [
     #power
       efcopper-node
       efeuropium-node
-      efpower-transmitter
       efcapacitor
       efignition-plant
       efdecay-cell
       efthermal-reactor
       eflpg-engine
-      efcharge-conductor
-      efchemical-reactor
-      efradioactivity-cell
-      efcircuit-panel
-      efresonance-reactor
     #walls
       efscrap-wall
       efscrap-wall-large
@@ -146,64 +117,28 @@ contentOrder: [
       efeuropium-wall-large
       efautomatic-door
       efeuropium-wall-huge
-      efpolycarbonate-wall
-      efpolycarbonate-wall-large
-      efpolycarbonate-wall-huge
-      efecho-shard-wall
-      efecho-shard-wall-large
-      efecho-shard-wall-huge
-      efelectric-wall
-      efelectric-wall-large
-      efelectric-wall-huge
-      efalluminum-polycarbonate-wall
-      efalluminum-polycarbonate-wall-large
-      efalluminum-polycarbonate-wall-huge
-      efresonance-matrix-wall
-      efresonance-matrix-wall-large
-      efresonance-matrix-wall-huge
     #factories
       efneutralizer-infuser
-      efneutralizer-centrifuge
       efslag-refinery
       efcupride-chamber
       efwater-purifier
       efheavy-petrochem-separator
       efcrude-processor
-      efcrude-decompression-forge
       efsmoke-separator
       efchemical-chamber
-      efchemical-furnace
-      efsulphur-extractor
-      efsulphuric-acid-mixer
-      efacidic-concentrator
-      efwater-synthesiser
-      efecho-circuit-assembler
-      efalluminum-polycarbonate-smelter
-      efresonance-matrix-crucible
       efsoft-coal-heater
-      efsulphur-heater
-      efresonance-heater
       efincinerator
     #unit blocks
       efmech-fabricator
       efmech-refabricator
-      efmech-assembler
-      efadvenced-mech-assembler
       efcrab-fabricator
       efcrab-refabricator
       efcrab-assembler
-      efadvenced-crab-assembler
       efhover-fabricator
       efhover-refabricator
-      efhover-assembler
-      efadvanced-hover-assembler
       efsupport-fabricator
       efsupport-refabricator
-      efsupport-assembler
       efunit-part-constructor
-      efadvanced-unit-part-constructor
-      efassembler-module
-      efadvanced-assembler-module
       effreight-constructor
       effreight-deconstructor
       effreight-mass-driver
@@ -226,23 +161,16 @@ contentOrder: [
     efcupride
     efeuropium
     efpolycarbonate
-    efsulphur
-    efecho-shard
-    efecho-circuit
-    efalluminum-polycarbonate
-    efresonance-matrix
   #liquids
     efcrude-oil
     efdirty-water
     efpurified-water
     efslag
     eflpg
-    efsulphuric-acid
     efcarbon-dioxide
     efozone
     efnitrogen
     efhydrogen-sulfide
-    efhydrogen
     efneutralizer
   #sectors
     un
