@@ -37,26 +37,16 @@ researchCost: [
 
 
 filter: [
-  efliquid-tank,
-  efunit-mender,
-  efrepair-node,
-  efstorage-block,
-  efscrap-wall,
-  efscrap-wall-large,
-  efcopper-wall,
-  efcopper-wall-large,
-  efalluminum-wall,
-  efalluminum-wall-large,
-  efeuropium-wall,
-  efeuropium-wall-large,
-  efpolycarbonate-wall,
-  efpolycarbonate-wall-large,
-  efecho-shard-wall,
-  efecho-shard-wall-large,
-  efelectric-wall,
-  efelectric-wall-large,
-  efalluminum-polycarbonate-wall,
-  efalluminum-polycarbonate-wall-large,
-  efresonance-matrix-wall,
-  efresonance-matrix-wall-large
+  efliquid-tank
+  efunit-mender
+  efrepair-node
+  efstorage-block
+  efscrap-wall
+  efscrap-wall-large
+  efcopper-wall
+  efcopper-wall-large
+  efalluminum-wall
+  efalluminum-wall-large
+  efeuropium-wall
+  efeuropium-wall-large
 ]

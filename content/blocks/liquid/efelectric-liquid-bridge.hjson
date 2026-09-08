@@ -8,7 +8,7 @@ range: 5
 
 requirements: [
   efscrap/10
-  efecho-circuit/2
+  efpolycarbonate/2
 ]
 
 

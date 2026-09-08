@@ -108,20 +108,20 @@ ammoTypes: {
     hitSound: splash
     puddleSize: 8
   }
-  efsulphuric-acid: {
+  efcrude-oil: {
     lifeScaleRandMin: 0.8
     lifeScaleRandMax: 1.2
     despawnEffect: hitLiquid
     hitEffect: hitLiquid
     type: LiquidBulletType
-    liquid: efsulphuric-acid
+    liquid: efcrude-oil
     speed: 3
     lifetime: 100
     drag: 0.01
-    knockback: 5
-    status: corroded
-    statusDuration: 480
-    damage: 10
+    knockback: 6
+    status: tarred
+    statusDuration: 600
+    damage: 1
     layer: 100.1
     despawnSound: splash
     hitSound: splash
