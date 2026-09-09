@@ -20,9 +20,8 @@ contentOrder: [
     carbonattribute
     bauxiteattribute
   #status effects
-    efirradiation
-    efinfestation
     efconcussion
+    efirradiation
   #env
     magmaticbasalt
     magmaticbasaltplates
