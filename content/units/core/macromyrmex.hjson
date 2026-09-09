@@ -71,6 +71,7 @@ weapons: [
     }
     bullet: { 
       type: BasicBulletType
+      pierceArmor: true
       width: 8
       height: 12
       damage: 50
