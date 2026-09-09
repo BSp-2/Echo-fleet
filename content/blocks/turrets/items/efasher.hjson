@@ -38,7 +38,7 @@ ammoTypes: {
   efcopper: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    damage: 50
+    damage: 60
     width: 7
 	  sprite: large-orb
     height: 9.5
@@ -250,9 +250,9 @@ ammoTypes: {
   efalluminum: {
     type: BasicBulletType
     buildingDamageMultiplier: 0.25
-    damage: 50
+    damage: 60
     width: 7
-	reloadMultiplier: 1.6
+	reloadMultiplier: 1.5
 	sprite: large-orb
     height: 9.5
     shrinkX:0
