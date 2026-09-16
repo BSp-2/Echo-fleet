@@ -3,53 +3,81 @@ description: WIP
 alwaysUnlocked: true
 mesh: [
   {
+    //water
+    type: NoiseMesh
+    planet: kaltos
+    divisions: 5
+    radius: 1
+    seed: 94
+    color1: 379bcaff
+    color2: 187ea3ff
+    octaves: 6
+    persistence: 0.6
+  }
+  {
+    //breccia shores
+    type: NoiseMesh
+    planet: kaltos
+    divisions: 5
+    radius: 0.9915
+    seed: 94
+    color1: 60c0f3ff
+    color2: 44a0d6ff
+    octaves: 6
+    persistence: 0.6
+    mag: 0.6
+  }
+  {
+    //andesite
+    type: NoiseMesh
+    planet: kaltos
+    divisions: 5
+    radius: 0.9392
+    seed: 94
+    color1: 66c2ccff
+    color2: 57b2b2ff
+    octaves: 6
+    persistence: 0.6
+    mag: 1.2
+  }
+  {
+    //rare earth
+    type: NoiseMesh
+    planet: kaltos
+    divisions: 5
+    radius: 0.9212
+    seed: 94
+    color1: 87cc89ff
+    color2: 70b375ff
+    octaves: 6
+    persistence: 0.6
+    mag: 1.4
+  }
+  {
     //atlassium
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    radius: 0.975
+    radius: 0.8680
     seed: 94
-    color1: 3E8A70FF
-    color2: 4EC79EFF
-    octaves: 3.7
+    color1: 347d3eff
+    color2: 2a6f2fff
+    octaves: 6
     persistence: 0.6
+    mag: 2
   }
   {
-    //ruins
+    //brimstone
     type: NoiseMesh
     planet: kaltos
     divisions: 5
-    seed: 203
-    radius: 0.975
-    color1: 303030FF
-    color2: 271A33FF
-    octaves: 3
-    persistence: 0.8
-  }
-  {
-    //tundra
-    type: NoiseMesh
-    planet: kaltos
-    divisions: 6
-    seed: 101
-    radius: 0.985
-    color1: CAEDEBFF
-    color2: E1F5F5FF
-    octaves: 3
-    persistence: 1
-  }
-  {
-    //basalt
-    type: NoiseMesh
-    planet: kaltos
-    seed: 69
-    divisions: 5
-    color1: 36464CFF
-    color2: 525F66FF
-    radius: 0.975
-    octaves: 4
-    persistence: 1
-    scale: 0.75
+    radius: 0.8033
+    seed: 94
+    color1: 9aaf11ff
+    color2: 909c06ff
+    octaves: 6
+    persistence: 0.6
+    mag: 2.8
   }
 ]
 generator: {
@@ -72,7 +100,7 @@ sectorSize: 1
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
-allowSectorInvasion: false
+allowSectorInvasion: falsef
 orbitSpacing: 2
 radius: 1
 minZoom: 1
@@ -83,9 +111,9 @@ accessible: false
 updateLighting: true
 sectorSeed: 14513
 bloom: true
-visible: true
-atmosphereColor: CAEDEBFF
-iconColor: CAEDEBFF
+visible: false
+atmosphereColor: 012d2c20
+iconColor: 04d5cbff
 hasAtmosphere: true
 allowWaveSimulation: false
 clearSectorOnLose: true
