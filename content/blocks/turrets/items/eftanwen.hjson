@@ -193,15 +193,15 @@ ammoTypes: {
       ]
   }
   efcupride: {
-	  rangeChange: 24
+	  rangeChange: 48
 	  ammoMultiplier: 3
       type: BasicBulletType
       speed: 10
       lifetime: 28.8
-      damage: 20
-      inaccuracy:23
-      splashDamage: 40
-	    splashDamageRadius: 40
+      damage: 25
+      inaccuracy: 20
+      splashDamage: 50
+	  splashDamageRadius: 40
       width: 10
       height: 16
       smokeEffect: shootSmokeSquare
