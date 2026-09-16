@@ -111,11 +111,10 @@ accessible: false
 updateLighting: true
 sectorSeed: 14513
 bloom: true
-visible: false
+visible: true
 atmosphereColor: 012d2c20
 iconColor: 04d5cbff
 hasAtmosphere: true
-allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
