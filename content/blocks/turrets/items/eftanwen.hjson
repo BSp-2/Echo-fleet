@@ -197,7 +197,7 @@ ammoTypes: {
 	  ammoMultiplier: 3
       type: BasicBulletType
       speed: 10
-      lifetime: 28.8
+      lifetime: 33.6
       damage: 25
       inaccuracy: 20
       splashDamage: 50
