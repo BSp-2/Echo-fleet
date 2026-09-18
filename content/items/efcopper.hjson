@@ -12,4 +12,4 @@ research: {
     efcopper
   ]
 }
-shownPlanets: [aetheria]
+shownPlanets: [aetheria, 0kaltos]

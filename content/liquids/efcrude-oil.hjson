@@ -11,4 +11,4 @@ blockReactive: false
 
 
 research: efcupride
-shownPlanets: [aetheria]
+shownPlanets: [aetheria, 0kaltos]

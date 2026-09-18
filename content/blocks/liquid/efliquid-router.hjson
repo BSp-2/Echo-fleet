@@ -20,4 +20,5 @@ research: efliquid-junction
 researchCost: [
   efscrap/100
 ]
+shownPlanets: [aetheria, 0kaltos]
 

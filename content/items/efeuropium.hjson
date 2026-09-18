@@ -13,4 +13,4 @@ research: {
     efeuropium
   ]
 }
-shownPlanets: [aetheria]
+shownPlanets: [aetheria, 0kaltos]

@@ -17,3 +17,4 @@ squareSprite: true
 
 
 research: efliquid-bridge
+shownPlanets: [aetheria, 0kaltos]

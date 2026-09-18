@@ -36,10 +36,10 @@ research: {
     efcupride
   ]
 }
-ResearchCost: [
+researchCost: [
   efcopper/400
   efalluminum/200
 ]
-
+shownPlanets: [aetheria, 0kaltos]
 
 

@@ -13,4 +13,4 @@ blockReactive: false
 
 
 research: efalluminum
-shownPlanets: [aetheria]
+shownPlanets: [aetheria, 0kaltos]

@@ -23,5 +23,6 @@ research: efnest
 researchCost: [
   efscrap/20
 ]
+shownPlanets: [aetheria, 0kaltos]
 
 

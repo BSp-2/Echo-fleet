@@ -21,6 +21,6 @@ research: {
 researchCost: [
   efcopper/10
 ] 
-
+shownPlanets: [aetheria, 0kaltos]
 
 

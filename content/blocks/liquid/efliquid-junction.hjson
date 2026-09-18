@@ -17,4 +17,5 @@ research: efliquid-pipeline
 researchCost: [
   efscrap/50
 ]
+shownPlanets: [aetheria, 0kaltos]
 

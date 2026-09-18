@@ -5,7 +5,6 @@ mesh: [
   {
     //water
     type: NoiseMesh
-    planet: kaltos
     divisions: 5
     radius: 1
     seed: 94
@@ -17,7 +16,6 @@ mesh: [
   {
     //breccia shores
     type: NoiseMesh
-    planet: kaltos
     divisions: 5
     radius: 0.9915
     seed: 94
@@ -30,7 +28,6 @@ mesh: [
   {
     //andesite
     type: NoiseMesh
-    planet: kaltos
     divisions: 5
     radius: 0.9392
     seed: 94
@@ -43,7 +40,6 @@ mesh: [
   {
     //rare earth
     type: NoiseMesh
-    planet: kaltos
     divisions: 5
     radius: 0.9212
     seed: 94
@@ -56,7 +52,6 @@ mesh: [
   {
     //atlassium
     type: NoiseMesh
-    planet: kaltos
     divisions: 5
     radius: 0.8680
     seed: 94
@@ -69,7 +64,6 @@ mesh: [
   {
     //brimstone
     type: NoiseMesh
-    planet: kaltos
     divisions: 5
     radius: 0.8033
     seed: 94

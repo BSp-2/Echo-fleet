@@ -10,4 +10,4 @@ blockReactive: false
 
 
 research: efdirty-water
-shownPlanets: [aetheria]
+shownPlanets: [aetheria, 0kaltos]

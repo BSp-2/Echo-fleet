@@ -20,3 +20,4 @@ research: efcopper-duct
 researchCost: [
   efcopper/20
 ]
+shownPlanets: [aetheria, 0kaltos]

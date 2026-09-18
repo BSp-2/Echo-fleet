@@ -12,17 +12,16 @@ mesh: [
     mag: 1
     colorScale: 1.35
     colors: [
-	c6a75f,
+	  c6a75f,
     b7864c,
     a05f36,
-  	914027,
-  	7e1c1c
+    913f27,
+    7e1c1c
     ]
   }
   {
     //rock 1
     type: NoiseMesh
-    planet: xiliri
     divisions: 5
     radius: 0.55274
     seed: 11
@@ -30,25 +29,23 @@ mesh: [
     color2: 231f26
     octaves: 6
     persistence: 0.6
-	mag: 0.6
+	  mag: 0.6
   }
   {
     //rock 2
     type: NoiseMesh
-    planet: xiliri
     divisions: 5
     radius: 0.53128
     seed: 11
-    color1: 263040
-    color2: 263040
+    color1: 2a3040
+    color2: 2a3040
     octaves: 7
     persistence: 0.6
-	mag: 1
+	  mag: 1
   }
   {
     //desert
     type: NoiseMesh
-    planet: xiliri
     divisions: 5
     radius: 0.50518
     seed: 11
@@ -56,12 +53,11 @@ mesh: [
     color2: bf6f4c
     octaves: 7
     persistence: 0.6
-	mag: 1.5
+	  mag: 1.5
   }
   {
     //low mountain
     type: NoiseMesh
-    planet: xiliri
     divisions: 5
     radius: 0.36975
     seed: 11
@@ -69,12 +65,11 @@ mesh: [
     color2: a65142
     octaves: 4
     persistence: 0.7
-	mag: 5
+	  mag: 5
   }
   {
     //mountain
     type: NoiseMesh
-    planet: xiliri
     divisions: 5
     radius: 0.2987
     seed: 11
@@ -82,7 +77,7 @@ mesh: [
     color2: a6424c
     octaves: 4
     persistence: 0.7
-	mag: 8
+	  mag: 8
   }
 ]
 generator: {
@@ -121,7 +116,6 @@ visible: true
 atmosphereColor: 80200030
 iconColor: FFA600FF
 hasAtmosphere: true
-allowWaveSimulation: false
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false

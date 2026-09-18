@@ -6,7 +6,7 @@ speed: 3
 health: 240
 bridgeReplacement: efcopper-bridge
 requirements: [
-  efalluminum/1
+  efcopper/1
   efeuropium/1
 ]
 junctionReplacement: efcopper-junction
@@ -14,3 +14,4 @@ junctionReplacement: efcopper-junction
 
 
 research: efalluminum-duct
+shownPlanets: [aetheria, 0kaltos]

@@ -13,4 +13,4 @@ blockReactive: false
 
 
 research: efcrude-oil
-shownPlanets: [aetheria]
+shownPlanets: [aetheria, 0kaltos]

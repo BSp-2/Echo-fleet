@@ -22,4 +22,5 @@ researchCost: [
   efscrap/300
   efalluminum/200
 ]
+shownPlanets: [aetheria, 0kaltos]
 

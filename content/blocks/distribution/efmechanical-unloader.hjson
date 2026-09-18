@@ -21,3 +21,4 @@ allowCoreUnload: false
 
 
 research: efcopper-junction
+shownPlanets: [aetheria, 0kaltos]
