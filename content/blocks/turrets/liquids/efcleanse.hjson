@@ -13,6 +13,7 @@ researchCostMultiplier: 0.5
 outlineColor: 13151AFF
 recoil: 2
 category: turret
+shownPlanets: [aetheria, 0kaltos]
 
 
 research: {

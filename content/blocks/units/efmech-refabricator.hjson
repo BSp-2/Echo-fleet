@@ -8,6 +8,7 @@ squareSprite: false
 hasPower: true
 hasItems: true
 hasLiquids: true
+shownPlanets: [aetheria, 0kaltos]
 
 
 requirements: [

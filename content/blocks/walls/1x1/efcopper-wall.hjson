@@ -20,3 +20,4 @@ research: efscrap-wall
 researchCost: [
   efcopper/60
 ]
+shownPlanets: [aetheria, 0kaltos]

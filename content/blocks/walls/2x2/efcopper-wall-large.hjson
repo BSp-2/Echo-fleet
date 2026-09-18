@@ -20,3 +20,4 @@ research: efcopper-wall
 researchCost: [
   efcopper/240
 ]
+shownPlanets: [aetheria, 0kaltos]

@@ -5,6 +5,8 @@ size: 2
 category: turret
 health: 800
 liquidCapacity: 10
+shownPlanets: [aetheria, 0kaltos]
+
 
 requirements: [
   efscrap/140

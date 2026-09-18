@@ -6,6 +6,7 @@ category: units
 droneType: echo-fleet-crab-drone
 hasPower: true
 hasLiquids: true
+shownPlanets: [aetheria, 0kaltos]
 
 
 requirements: [

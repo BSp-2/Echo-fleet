@@ -37,3 +37,4 @@ researchCost: [
   efcopper/4000
   efalluminum/3000
 ]
+shownPlanets: [aetheria, 0kaltos]

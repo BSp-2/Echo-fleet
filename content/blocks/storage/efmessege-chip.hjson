@@ -8,3 +8,4 @@ requirements: [
 ]
 category: effect
 research: efrepair-node
+shownPlanets: [aetheria, 0kaltos]

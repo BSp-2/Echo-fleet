@@ -37,28 +37,4 @@ researchCost: [
   efcopper/600
   efalluminum/200
 ]
-
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: efozone
-      alpha: 0.7
-      padding: 2
-    }
-    {
-    type: DrawBubbles
-      fill: false
-      color: FF40BFFF
-    }
-    {
-      type: DrawDefault
-    }
-  ]
-}
+shownPlanets: [aetheria, 0kaltos]

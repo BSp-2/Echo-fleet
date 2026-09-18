@@ -8,6 +8,7 @@ shootSound: shoot-mashinegun
 hasItems: true
 hasPower: true
 hasLiquids: true
+shownPlanets: [aetheria, 0kaltos]
 
 
 requirements: [

@@ -24,3 +24,4 @@ researchCost: [
   efscrap/500
   efcopper/750
 ]
+shownPlanets: [aetheria, 0kaltos]

@@ -19,3 +19,4 @@ research: efeuropium-wall
 researchCost: [
   efeuropium/240
 ]
+shownPlanets: [aetheria, 0kaltos]

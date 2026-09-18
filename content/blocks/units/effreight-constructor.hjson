@@ -50,3 +50,4 @@ filter: [
   efeuropium-wall
   efeuropium-wall-large
 ]
+shownPlanets: [aetheria, 0kaltos]

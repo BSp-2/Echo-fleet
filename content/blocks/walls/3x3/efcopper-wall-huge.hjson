@@ -20,3 +20,4 @@ research: efcopper-wall-large
 researchCost: [
   efcopper/540
 ]
+shownPlanets: [aetheria, 0kaltos]

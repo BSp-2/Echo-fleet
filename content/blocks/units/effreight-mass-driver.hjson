@@ -24,3 +24,4 @@ chargeTime: 60
 range: 320
 maxPayloadSize: 3
 size: 3
+shownPlanets: [aetheria, 0kaltos]

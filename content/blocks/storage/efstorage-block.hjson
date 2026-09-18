@@ -16,3 +16,4 @@ researchCost: [
 ]
 squareSprite: true
 research: efcaspar
+shownPlanets: [aetheria, 0kaltos]

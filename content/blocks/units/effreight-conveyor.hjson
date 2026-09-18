@@ -21,3 +21,4 @@ requirements: [
 
 canOverdrive: false
 payloadLimit: 4
+shownPlanets: [aetheria, 0kaltos]

@@ -28,5 +28,5 @@ research: {
   name: Echo Fleet
   requiresUnlock: false
 }
-
+shownPlanets: [aetheria, 0kaltos]
 

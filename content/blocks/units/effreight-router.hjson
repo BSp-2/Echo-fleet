@@ -20,3 +20,4 @@ requirements: [
 
 
 canOverdrive: false
+shownPlanets: [aetheria, 0kaltos]

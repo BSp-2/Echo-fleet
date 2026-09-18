@@ -37,3 +37,4 @@ maxBlockSize: 3
 
 
 research: efmech-assembler
+shownPlanets: [aetheria, 0kaltos]

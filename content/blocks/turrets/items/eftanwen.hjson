@@ -39,6 +39,7 @@ drawer: {
 	} 
   ]
 }
+shownPlanets: [aetheria, 0kaltos]
 
 
 requirements: [
