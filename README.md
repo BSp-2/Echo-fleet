@@ -5,4 +5,4 @@ discord server: https://discord.gg/wrVcj585RH
 
 
 
-Goal: 31/50 stars
+Goal: 32/50 stars
