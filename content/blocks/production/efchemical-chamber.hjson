@@ -2,6 +2,7 @@ type: GenericCrafter
 name: Chemical Chamber
 description: lets cook Jesse
 size: 3
+shownPlanets: [aetheria, 0kaltos]
 
 
 hasLiquids: true
