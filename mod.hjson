@@ -1,6 +1,6 @@
 name: "echo-fleet"
 displayName: "[orange[]]Echo [#5aaabd[]]Fleet" 
-author: "[#5aaabd[]]Plooey :3\n\n[gray[]]Contributors:\n[#b020b0[]]Cupcake[[gray]]: a lot of everything\n[#b02020[]]Tinport[gray[]]: sprites\n[#80b020[]]Lesley[gray[]]: sprites\n[#309090[]]Kennysetiawan[gray[]]: bundles\n[#b0b090[]]Kostolom[gray[]]: a huge amount of fx work and improvements to the units" 
+author: "[#5aaabd[]]Plooey :3\n\n[gray[]]Contributors:\n[#b020b0[]]Cupcake[[gray]]: a lot of everything\n[#b02020[]]Tinport[gray[]]: sprites\n[#80b020[]]Lesley[gray[]]: sprites\n[#309090[]]Kennysetiawan[gray[]]: bundles\n[#b0b090[]]Kostolom[gray[]]: a huge amount of fx work and improvements to the units\n[orange[]]Sh1phenfire[gray[]]: the greedy ass critter that fit 8 alluminum extractors in pirc" 
 description: '''[#5aaabd[]]Adds a planet with its own campaign. (another one is planned) 
 [#5aaabd[]]The campaign focuses on liquid processing and logistics a lot, with a heavy bias towards payload transportation.
 [#5aaabd[]]This is also amplified by the fact that the factories in this mod are quite hard to supply, which hopefuly does result in a rather neat experience.
