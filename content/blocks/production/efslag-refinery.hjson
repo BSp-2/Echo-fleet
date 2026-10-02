@@ -71,24 +71,77 @@ drawer: {
   ]
 }
 
-
-craftEffect: {
+craftEffect: [
+    {
     type: ParticleEffect
-    particles: 48
-    lifetime: 120
-    sizeFrom: 1
+    startDelay:7
+    particles: 6
+    lifetime: 46
+    sizeFrom: 2
     useRotation: false
-    baseRotation: 90
+    baseRotation: 87
+    sizeTo: 0
+    colorFrom: E7822A30
+    colorTo: FFFFFFff
+    length: 36
+    baseLength: 0
+    cone: 8
+    interp: pow5Out
+    layer: 109
+    }
+    {
+    type: ParticleEffect
+    startDelay:3
+    particles: 12
+    lifetime: 52
+    sizeFrom: 2
+    useRotation: false
+    baseRotation: 87
+    sizeTo: 0
+    colorFrom: E7822A30
+    colorTo: FF9F5Fff
+    length: 42
+    baseLength: 0
+    cone: 8
+    interp: pow5Out
+    sizeInterp: pow3In
+    layer: 110
+    }
+    {
+    type: ParticleEffect
+    particles: 9
+    lifetime: 74
+    sizeFrom: 2
+    useRotation: false
+    baseRotation: 85
     sizeTo: 4
     colorFrom: E7822AFF
     colorTo: EB7A2A00
-    length: 48
+    length: 45
     baseLength: 0
-    cone: 15
+    cone: 7
+    interp: pow2Out
+    layer: 109
+    }
+    {
+    type: ParticleEffect
+    startDelay:6
+    particles: 32
+    lifetime: 95
+    sizeFrom: 3
+    useRotation: false
+    baseRotation: 84
+    sizeTo: 5
+    colorFrom: E7822A60
+    colorTo: EB7A2A00
+    length: 35
+    baseLength: 0
+    cone: 9
     interp: pow2Out
     sizeInterp: pow3In
-    layer: 110
-}
+    layer: 108
+    }
+  ]
 
 
 research: efneutralizer-infuser
