@@ -72,14 +72,7 @@ drawer: {
 }
 
 
-craftEffectRange: 0
 craftEffect: {
-  type: RadialEffect
-  rotationSpacing: 0
-  amount: 1
-  lengthOffset: 0
-  layer: 110
-  effect: {
     type: ParticleEffect
     particles: 48
     lifetime: 120
@@ -95,7 +88,6 @@ craftEffect: {
     interp: pow2Out
     sizeInterp: pow3In
     layer: 110
-  }
 }
 
 
